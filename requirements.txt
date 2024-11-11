@@ -61,7 +61,7 @@ matplotlib==3.9.2
 mdurl==0.1.2
 mkl-fft 
 mkl-random 
-mkl-service==2.4.0
+mkl-service
 ml_dtypes==0.5.0
 mpmath 
 multidict 
