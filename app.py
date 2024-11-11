@@ -205,5 +205,10 @@ def leaderboard():
     
     return render_template('leaderboard.html', projects=top_projects)
 
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))  # Render sets PORT; default to 5000 if not set
+    app.run(host="0.0.0.0", port=port)
