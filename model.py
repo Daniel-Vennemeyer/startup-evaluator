@@ -16,7 +16,7 @@ df = df[['text', 'label']]
 train_df, test_df = train_test_split(df, test_size=0.2, random_state=42)
 train_dataset = Dataset.from_pandas(train_df)
 test_dataset = Dataset.from_pandas(test_df)
-test_df.to_csv("augmented_test_dataset.csv", index=False)
+test_df.to_csv("data/test_data/augmented_test_dataset.csv", index=False)
 
 # Load RoBERTa tokenizer and model
 model_name = "roberta-base"

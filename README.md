@@ -4,91 +4,96 @@ This application ranks hackathon and startup project ideas by analyzing their de
 
 ## Motivation and Approach
 
-My objective in creating this app was to enable quick, insightful feedback on project ideas. Many hackathon participants and budding entrepreneurs lack immediate feedback on whether their idea is compelling and feasible. This app is designed to bridge that gap, drawing from real data on both successful and unsuccessful projects.
+The app was created to provide quick, insightful feedback on project ideas. Many hackathon participants and budding entrepreneurs lack immediate feedback on whether their ideas are compelling and feasible. This app bridges that gap, drawing from real data on both successful and unsuccessful projects.
 
-## Fine-tuning the Model
+## Fine-Tuning the Model
 
 ### Dataset
 
-I fine-tuned the model using two distinct datasets:
-	1.	Positive Examples: Startups from the last four years sourced from Y Combinator (YC) were used as positive examples. YC startups tend to demonstrate compelling pitches, well-defined problems, and clear value propositions—qualities I wanted my model to recognize as “good.”
-	2.	Negative Examples: I sourced unsuccessful projects from RevolutionUC, the oldest and largest in-person hackathon at the University of Cincinnati, over the last eight years. These examples represent projects that didn’t win or resonate as strongly with judges, helping the model learn what makes a project less effective.
+The model was fine-tuned using two distinct datasets:
 
-This blend of high-quality YC startups and less successful RevolutionUC projects gives the model a balanced understanding of what constitutes a “good” vs. “bad” project idea, based on real-world results.
+1. **Positive Examples**: Startups from the last four years sourced from Y Combinator (YC), representing successful projects with well-defined problems, clear value propositions, and compelling pitches.
+2. **Negative Examples**: Unsuccessful projects from RevolutionUC (the largest in-person hackathon at the University of Cincinnati), spanning the last eight years. These represent ideas that didn’t resonate as strongly with judges.
+
+By combining YC startups and less successful RevolutionUC projects, the model gained a balanced understanding of “good” versus “bad” project ideas based on real-world outcomes.
 
 ### Data Augmentation and Normalization
 
-To make the data more consistent and help the model focus on the content of ideas rather than stylistic differences, I experimented with data normalization and augmentation:
-	•	Normalization: I used GPT-4 to reformat and standardize project descriptions. The goal was to make each idea structurally similar, enabling the model to focus on content quality without being distracted by wording or formatting differences. This was very important, because otherwise the model severely overfit on the structure of the language of students quickly explaining their projects or founders who had spent weeks and months optimizing their short pitch and one-liners. By normalizing, in theory the model should become better at determining whether an idea is actually a good idea or whether they just wrote a pitch in the write style.
-	•	Augmentation: To further train the model, I experimented with generating synthetic data using GPT-4. While creating synthetic positive examples was challenging and often ineffective (and incredibly hard to determine whether they were actually positive examples, or just sounded good), I found that GPT-4 was particularly useful for generating high-quality negative examples. These negative examples included ideas that sounded promising due to buzzwords but were conceptually poor. This allowed the model to better distinguish between substance and superficial appeal in project descriptions.
+To make the data more consistent and help the model focus on the content of ideas rather than stylistic differences, I implemented the following:
 
-This process helped the model learn not only what makes a good idea but also what makes a bad idea, especially when it may appear compelling at first glance.
+- **Normalization**: GPT-4 was used to reformat and standardize project descriptions, making each idea structurally similar. This ensured that the model focused on content quality rather than language style, which prevented it from overfitting on pitch formats specific to either students or seasoned entrepreneurs.
+  
+- **Augmentation**: GPT-4 was also used to generate synthetic data, primarily for creating high-quality negative examples. While creating synthetic positive examples was challenging and often ineffective, GPT-4 generated negative examples that sounded promising but were conceptually flawed. This helped the model distinguish substance from superficial appeal.
+
+This approach enabled the model to learn not only what makes a good idea but also what makes a poor one, especially when it appears compelling at first glance.
 
 ### Scraping and Data Collection
 
 To compile the training data:
-	1.	YC Startup Scraper: I used a scraper to gather data on YC startups from the past four years, capturing project names and descriptions to create a dataset of compelling startup ideas.
-	2.	RevolutionUC Submissions from Devpost: As the current director of RevolutionUC, I have certain priviliges. And that means instead of having to scrape the hackathon projects off of Devpost, I have the unique ability to simply download the csvs of project submission data from all RevolutionUC's going back until 2015. Only using the publicly available information-- no personally identifying info-- to train on, of course. This dataset served as a source for less successful hackathon projects.
 
-Each submission was then categorized based on its success level, creating a labeled dataset of positive and negative examples.
+1. **YC Startup Scraper**: A scraper was used to gather data on YC startups from the past four years, capturing project names and descriptions for a dataset of compelling startup ideas.
+2. **RevolutionUC Submissions**: As the director of RevolutionUC, I had access to historical submission data from RevolutionUC hackathons going back to 2015. This provided an authentic set of negative examples without needing to scrape public Devpost data, focusing on project descriptions and omitting any personally identifiable information.
 
-### Application Features
+Each submission was then categorized based on its success level, forming a labeled dataset of positive and negative examples.
 
-	•	Project Ranking: Users can submit a project idea to receive a relative ranking score based on how it compares with other submissions in terms of quality and feasibility.
-	•	Leaderboard: A leaderboard displays the top-ranked project ideas based on the model’s scoring, allowing users to see what makes a project stand out.
-	•	Pitch Refinement: Users can refine their pitch with suggestions generated by a generative AI model. This feature allows users to receive feedback and reformat their idea into a more compelling description.
+## Application Features
+
+- **Project Ranking**: Users can submit a project idea to receive a relative ranking score based on quality and feasibility.
+- **Leaderboard**: Displays the top-ranked project ideas based on model scoring, showcasing what makes a project stand out.
+- **Pitch Refinement**: Users can refine their pitch with AI-generated suggestions, allowing them to reformat their idea into a more compelling description.
 
 ## Technical Details
 
 ### Machine Learning Model
 
-The model used is a fine-tuned version of RoBERTa for sequence classification, specifically trained to analyze project descriptions and assign relative quality scores. It was trained on a mix of positive (YC startups) and negative (RevolutionUC) examples, with data augmentation techniques applied for a more nuanced understanding.
+The model is a fine-tuned version of RoBERTa for sequence classification, trained to analyze project descriptions and assign relative quality scores. It was trained on a mix of positive (YC startups) and negative (RevolutionUC) examples, with data augmentation applied for enhanced understanding.
 
 ### API Endpoints
 
-	•	POST /rank: Receives a project idea, ranks it, and returns a relative ranking score.
-	•	POST /refine_pitch: Suggests improvements for a project description by generating a refined pitch.
-	•	GET /leaderboard: Displays the top-ranked project ideas.
+- `POST /rank`: Receives a project idea, ranks it, and returns a relative ranking score.
+- `POST /refine_pitch`: Suggests improvements for a project description by generating a refined pitch.
+- `GET /leaderboard`: Displays the top-ranked project ideas.
 
 ### Data Flow and Storage
 
-The ranking data is stored in ranked_projects.csv, which is dynamically updated as new submissions are scored. Only unique entries are kept, with the highest-scoring version of each project retained.
+Project scores are stored in `ranked_projects.csv`, which dynamically updates as new submissions are scored. Only unique entries are kept, with the highest-scoring version of each project retained.
 
 ## Installation
 
 ### Requirements
 
-	•	Python 3.8+
-	•	Google Gemini API access with an API key
-	•	Required Python packages (listed in requirements.txt)
+- Python 3.8+
+- Google Gemini API access with an API key
+- Required Python packages (listed in `requirements.txt`)
 
 ### Running the Model Fine-Tuning
 
-Before using the app, you need to run the model.py script to fine-tune the model on the YC startups and RevolutionUC hackathon projects. This script will prepare the model for ranking and evaluating new project ideas.
+Before using the app, you need to run the `model.py` script to fine-tune the model on YC startups and RevolutionUC hackathon projects. This prepares the model for ranking and evaluating new project ideas.
 
-To fine-tune the model:
-	1.	Run model.py in your project directory.
-	2.	After fine-tuning, the model will be saved in the specified directory for use by the app.
+#### Fine-Tuning Steps
 
-### Steps
+1. Run `model.py` in your project directory.
+2. After fine-tuning, the model will be saved in the specified directory for use by the app.
 
-	1.	Clone the repository.
-	2.	Set up a virtual environment.
-	3.	Install dependencies.
-	4.	Set up your environment variables, including GEMINI_API_KEY.
-    5.  Run model.py to fine tune RoBERTa. This should only take a few minutes.
-	5.	Run the Flask application and access it at http://127.0.0.1:5000/.
+### Setup Steps
+
+1. Clone the repository.
+2. Set up a virtual environment.
+3. Install dependencies.
+4. Set up your environment variables, including `GEMINI_API_KEY`.
+5. Run `model.py` to fine-tune RoBERTa, which should only take a few minutes.
+6. Run the Flask application and access it at `http://127.0.0.1:5000/`.
 
 ### Example Usage
 
-	1.	Submit a Project: Enter a project name and description to receive a ranking.
-	2.	Refine Your Pitch: Click “Refine My Pitch” to get suggestions on how to make the idea more compelling.
-	3.	View Leaderboard: Navigate to the leaderboard to view the top project ideas.
+1. **Submit a Project**: Enter a project name and description to receive a ranking.
+2. **Refine Your Pitch**: Click “Refine My Pitch” to receive suggestions on improving the idea.
+3. **View Leaderboard**: Navigate to the leaderboard to view the top project ideas.
 
 ## Conclusion
 
-This project serves as a tool to help hackathon participants, entrepreneurs, and innovators understand what makes a project idea stand out. By combining real-world successful examples with nuanced feedback, it helps users refine their concepts and presents a model for evaluating project quality in a practical, scalable way.
+This project provides a tool for hackathon participants, entrepreneurs, and innovators to understand what makes a project idea stand out. By combining real-world examples of success and failure with insightful feedback, it helps users refine their concepts and presents a model for evaluating project quality in a practical, scalable way.
 
-### License
+## License
 
 This project is licensed under the MIT License.
