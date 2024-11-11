@@ -1,0 +1,1259 @@
+Project Title,Submission Url,Project Status,Judging Status,Highest Step Completed,Project Created At,About The Project,"""Try it out"" Links",Video Demo Link,Opt-In Prizes,Built With,Notes,Team Colleges/Universities,Additional Team Member Count
+glmjfv,"",Draft,Pending,Project overview,02/26/2022 12:01:15,"","",,"","",,University of Cincinnati,0
+Meow-Piano,https://revuc-xi.devpost.com/submissions/310558-meow-piano,Submitted (Gallery/Visible),Pending,Submit,02/26/2022 12:13:26,"Inspiration
+
+Everyone loves cats, and everyone loves music. We hope to build an automated model to convert piano clips into cat singings, to produce very cute and intereting songs!
+
+What it does
+
+It reads in a clip of piano performance, identify the notes, and convert each note into cat sound.
+
+How we built it
+
+For the backend, we use a model ""piano_transcription"" from ByteDance to locate the notes in the performance. We manually collect several cat meows and caliberate their pitch. For each note, one meow is randomly picked and tuned to that note. Finally, all tuned meows are concatenated into a complete song.
+
+For the frontend, we use d3.js for the interface. We draw a piano keyboard which accepts a midi json from the backend and generates note animation. When each note is hit, the corresponding key turns to pink, and a little cat pops out from the keyboard, just like a fountain!
+
+Challenges we ran into
+
+The biggest challenge is tuning the cats' meows. Cat meows very similar and in a very narrow pitch. For very low or high notes, shifting the meow to that pitch led to very jarring sound. We used several tricks to control that loss of harmony.
+
+Another big challenge is the frontend-backend interaction. The song we generate is in .wav file, yet Chrome automatically converts it into small .mp3 file and the smooth cat sound becomes very rough. We spend a lot of time looking for ways to preserve the sound quality.
+
+Also, the piano transcription model is large and consumes a lot of computing resource, which makes it even more difficult to deploy online.
+
+Accomplishments that we're proud of
+
+We finish the entire project in 24 hours!!!
+
+This project is more complicated than we thought. On the backend, we have to find ways to shift the pitch of meows, and adjust their length without affecting the tone. We also have to deal with the wide range of piano note pitch. Sometimes there are several cats singing simaltaneously, and we had to design algorithms to make it sounds harmonic.
+
+What we learned
+
+We learned a lot about signal processing and frontend design.
+
+What's next for Meow-Piano
+
+
+Add more animal sounds, such as dog barks;
+Make the frontend piano interactive -- users can play the cat piano with their keyboard;
+Find a better and cheaper server to host the backend :(
+
+",https://meow-piano.tech/,https://youtu.be/vgveh-92Aog,"Best Design Hack, Best Domain Registered with Domain.com (MLH)","python, pytorch, html, jquery, d3.js, flask",,"Peking University, Tsinghua University",1
+OBLIVISCOR,https://revuc-xi.devpost.com/submissions/310606-obliviscor,Submitted (Gallery/Visible),Pending,Submit,02/26/2022 13:38:20,"Inspiration
+
+As much as I love coding, I love art too (as you can probably see by the featured pixel art). My biggest motivator in creation is the feeling that is invoked, whether it be for me or an outside viewer. That intrinsic motivation pushes me to take works that make me feel something, and create a piece that is even better. Something that I happened across during my brainstorming phase was this quote by David M. Romano:
+
+
+If tomorrow starts without me, and I'm not here to see, If the sun should rise you find your eyes all filled with tears for me; I wish so much you wouldn't cry the way you did today, While thinking of the many things we didn't get to say.
+
+
+This, along with me remembering the beauty that is the game Death and Taxes, made me want to create something that dealt with death. Thus, OBLIVISCOR was born. Here is the summary I have in my README on github as well:
+
+
+Obliviscor is Latin for ""I lose remembrance of""â€”I forgot. This game is the beginning of the journey of a soul who forgot who they once were, and tries to understand where they are supposed to go. It's very much a demo, but it has the foundations to scale it up. This is the first time I've ever used pygame, and I enjoyed doing pixel art for the first time as well.
+
+
+I also took heavy inspiration from Greek/Roman/Egyptian mythos, with the ferryman being the only way to rebirth but with a monetary cost.
+
+What it does
+
+This hackathon I valued my own learning over the capabilities of the hack itself, so the impact is lower this semester. OBLIVISCOR runs from the first awareness of the main character, to the inevitable end. It has two different choices, and two different endings depending on the decisions you make. It is an application, so there are visuals as well.
+
+How we built it
+
+I coded everything in VSCode, utilizing the pygame library. I also made my own assets (pixel art) in Pixelable on my iPad. I wasnâ€™t very knowledgeable in python so I just kept all the functions in the same file, but I tried to break the code up as much as possible to be more readable. I also commented on the uses for everything in the main.py file as well. The game is rather linear, with a quit mechanic and text render being continuously called upon to advance the game. The space bar is used to advance the game when there is no decision, and the left/right arrow keys are used when there is a decision. ESC can be used to exit the game at any time. I also changed the font depending on who was talking.
+
+Challenges we ran into
+
+I am not familiar with pygame at all, so a lot of my trouble came from not knowing what was available to me in that library. I also didnâ€™t know what I was going to do nor did I have a team, so there was a lot of brainstorming just in my head. If I improve on this game, I will take input from other people. A small challenge but one that lasted hoursâ€”I couldnâ€™t figure out why bool decision wouldnâ€™t return from a function, even though taking it one line at a time it seemed to work. Lo and behold, I forgot that I had nested functions, and that decision only made it through the one loop. Luckily I figured it out after testing a few things, but it was a problem I was pondering for hours while finishing the rest of the code.
+
+Accomplishments that we're proud of
+
+I am very proud of myself for doing multiple completely new things. I have never done pixel art, and I have not ever used pygame (Iâ€™ve only used python in the engineering class ENED, as well, so itâ€™s not my best). This is also only my second hackathon and my first by myself, so I think I did a good job going out of my comfort zone while still making something that works.
+
+What we learned
+
+I learned pygame, more python, pixel art, some of the 2-D Unity engine (in the brainstorm phase, I spent maybe 2 hours thinking about making a game in Unity), how to make my (first!) solo application, and more.
+
+What's next for OBLIVISCOR
+
+I definitely want to expand the game: add more characters, more streamlined dialogue code, maybe an inventory, the like. I really think this game has potential. While writing this up, I realized that this could be like a text-based Hades as well, if I wanted to go that direction in the future. Also, this kind of mirrors The Sixth Sense if it was in the underworld, so thatâ€™s cool.
+",https://github.com/faithrider/OBLIVISCOR,https://youtu.be/GdOx_mk0tY8,"Best Design Hack, Most Useless Hack","python, pygame, vscode, pixelable",,University of Cincinnati,0
+Barter Books,https://revuc-xi.devpost.com/submissions/310610-barter-books,Submitted (Gallery/Visible),Pending,Submit,02/26/2022 13:41:30,"Inspiration
+
+I was part of a book club in which I could contribute just one book, but I would get a new book from someone each month. It was a book rotation thing and as new members joined, existing members would get new books. This app does the same thing but a little differently. 
+
+What it does
+
+This app does the same thing but a little differently. You can contribute as many books as you want and get as many as you want and choose them yourself in a given location. You can meet up, socialize and collect the books within your own locality/school.
+
+This app aims to reduce the cost of buying books and also aims to connect people who want to read and create a community.
+
+How we built it
+
+This app is built as a mobile app using expo-CLI, react native, and typescript. 
+
+Challenges we ran into
+
+Accomplishments that we're proud of
+
+What we learned
+
+What's next for Barter Books
+
+This app could further go to have forums to discuss your books and what you felt after reading them. It can also have a trail to show who has read the book and what they think about it.
+",https://github.com/NithyasriBabu/BarterBooks,https://www.youtube.com/shorts/yMUYgcDx10Y,"Best Educational Hack, Best Social Impact Hack, Best Use of Google Cloud (MLH)","expo.io, react-native, google-books-api",,University of Cincinnati,0
+Otaku Outages,https://revuc-xi.devpost.com/submissions/310620-otaku-outages,Submitted (Gallery/Visible),Pending,Submit,02/26/2022 14:20:37,"Inspiration
+
+Our inspiration was our love for Anime and the frustration we feel when the top streaming services are down.
+
+What it does
+
+It monitors the top Anime Streaming sites and displays easy to digest information on the current status of their site. 
+
+How we built it
+
+We are using a Flask based web server hosted on AWS EC2, utilize Google Cloud for Database, and domain.com for an amazing domain name!
+
+Challenges we ran into
+
+The biggest challenge we ran into was communicating between two separate Cloud Platforms
+
+Accomplishments that we're proud of
+
+Our easy to read and enjoy website, that has clear and concise information on the current status of your favorite streaming services! We are also very proud of connecting the two cloud platforms to communicate flawlessly with each other. 
+
+What we learned
+
+We have learned a lot when it comes to Web Development, learned an insane amount about Flask, as well as communicating between cloud platforms. All of this comes perfectly together and helped us create our project.
+
+What's next for Otaku Outages
+
+New sites, and potentially customization to choose which sites you want to monitor!
+","http://otakuoutages.tech, https://github.com/noUsernamesLef7/otaku-outages",https://www.youtube.com/watch?v=au5GiN6S9CY,"Best Educational Hack, Best Design Hack, Best Social Impact Hack, Most Useless Hack, Best Domain Registered with Domain.com (MLH), Best Use of Google Cloud (MLH)","python, amazon-ec2, amazon-web-services, google-cloud, flask, github, domain.com",,Western Governors University,2
+Untitled,"",Draft,Pending,Manage team,02/26/2022 14:39:06,"","",,"","",,Central University of Rajasthan,0
+Homey Carnival,https://revuc-xi.devpost.com/submissions/310634-homey-carnival,Submitted (Hidden),Pending,Submit,02/26/2022 14:54:22,"Inspiration
+
+Everyone is excited when they hear the word ""Carnival"". It is the event for people to celebrate and enjoy themselves. For homeless people, they don't have that luxury. We want to help homeless people feel happy and welcome. Thus, we want to organize homey carnival events with free food for homeless people. In order to do so, we need to have donors who donate food and volunteers who help us organize the events. We also want to reduce food waste by getting redundant food from donors and give to the poor.
+
+Thus, we built a site called ""Homey Carnival"". Our site helps to recruit volunteers and get donate or redundant food. Further, we want to organize carnival events with free food for homeless people.
+
+What it does
+
+
+Our site allows people to sign up to become our volunteer organizers and work for the carnival to serve food for homeless people
+Our site allows people to donate food
+Our site has a scanning barcode models for donors to scan the bar of their food and classify the food based on that.
+Our site organizes free Food Carnival for Homelessness and bring smiles to them.
+Our site reduces food waste by collecting redundant food from donators and give them to the poor
+
+
+How we built it
+
+
+We have a Twilio chatbot that collects customers contact info for customer representatives to contact for further assistance.
+We built our site with HTML, CSS, and Javascript
+We built our scanning AI machine learning model with OpenCV and Python to spit out the code
+We stored our code in Github and we used Github to deploy our site.
+
+
+Challenges we ran into
+
+We had challenges to finish everything in a limited amount of time. We also had to build the machine learning model and tested to bug to make it work and scan the bar codes.
+
+Accomplishments that we're proud of
+
+
+We were able to build the Twilio chatbot
+We were able to design and set up our Homey Carnival site
+We were able to build a machine learning model to scan the food bar code and spit out the code.
+
+
+What we learned
+
+
+We learnt to develop Twilio bot
+We were able to build a reactive site
+We learnt to use OpenCV and machine learning to scan bar code and spit out the result
+
+
+What's next for Homey Carnival
+
+We want to provide more services to help the site Homey Carnival up and running.
+
+Domain
+
+http://homeycarnival.space/
+
+Twilio
+
+We were able to build the Twilio chatbot to chat with customers and gather contact information of the customers
+","http://homeycarnival.space, https://github.com/Viclinh/Homey-Carnival",https://youtu.be/AhcvY0yfEZs,"Best Educational Hack, Best Design Hack, Best Social Impact Hack, Most Useless Hack, Digital Futures Innovation Award (for excellence in technical demonstration), Best Domain Registered with Domain.com (MLH), Most Creative Use of Twilio (MLH)","ai, css, github, html, javascript, machine-learning, netlify, opencv, python, twilio",,Wilmington University,0
+CyberCat,https://revuc-xi.devpost.com/submissions/310641-cybercat,Submitted (Gallery/Visible),Pending,Submit,02/26/2022 15:06:50,"Inspiration
+
+Recently, there have been a lot of news regarding cybercrime and cyber attacks, so I decided to see what kind of encryption techniques are used by companies in this day and age.
+
+What it does
+
+CyberCat is a very simple app which has six different pages for six of the most common encryption techniques, with pictures and a short description for each of them. All of these pages are neatly arranged and easily accessible through the home menu.
+
+How I built it
+
+The project was built entirely using Flutter and Android Studio, using the Dart programming language. The main menu and home screen were built first, after which it branches off into the six individual pages for each technique.
+
+Challenges I ran into
+
+I started learning Flutter only during the hackathon. It took a significant amount of time to get the basics down and learning a few of the intricacies of Dart and Android Studio.
+
+Accomplishments that I'm proud of
+
+The app is completely stable and the project is complete and coherent, despite me learning Flutter only during the hackathon. I am also proud of the logo I created for the app, which is simple and easily identifiable.
+
+What I learned
+
+I learned the basics of Flutter and gained a basic understanding of the scope of Android App Development. 
+
+What's next for CyberCat
+
+Since I just started learning Flutter, I could not get into much of the advanced techniques, which leaves a lot of room for improvement. There could be more encryption techniques added to the app, which would make it a collection of data for anything related to cybersecurity techniques.
+",https://github.com/SrthkS/CyberCat,https://youtu.be/EkQfIp6qR04,"Best Educational Hack, Best Design Hack","flutter, dart, photoshop, android-studio",,University of Cincinnati,0
+Watch Party,https://revuc-xi.devpost.com/submissions/310671-watch-party,Submitted (Gallery/Visible),Pending,Submit,02/26/2022 16:53:15,"Inspiration
+
+Who doesn't love a good movie? Most streaming sites can recommend you good movies based off of similar users, but what about being able to connect with those other users?
+
+What it does
+
+Watch Party is a website where users can log in, write movie recommendations, and then see movies recommended to them based on similar user's tastes. Subsequently, you can connect with other users by looking at their data points in fun, interactive graphs.
+
+How we built it
+
+I used TigerGraph and Graphistry for the data and streamlit to build the website.
+
+Challenges we ran into
+
+I ran into a challenge where the graphs would not load based off the user's ID, and still haven't been able to fix it.
+
+Accomplishments that we're proud of
+
+I am proud that I was at least able to get so much of this project done in 24 hours!
+
+What we learned
+
+This was my first time using TigerGraph, JSON files, and Graphistry!
+
+What's next for Watch Party
+
+Fix the bug, and then make the user interface easier to use.
+",https://github.com/Tabaxi3000/WatchParty,https://youtu.be/7GewHc_HbJA,"Best Design Hack, Best Social Impact Hack, Most Useless Hack","python, pandas, tigergraph, graphistry, streamlit",,Friends Seminary,0
+UkraineAlert,https://revuc-xi.devpost.com/submissions/310682-ukrainealert,Submitted (Gallery/Visible),Pending,Submit,02/26/2022 17:07:52,"Inspiration
+
+We found a tweet from a Ukrainian thanking a news page for their updates during this wartime (https://twitter.com/MVG_Charting/status/1497513162391887877). We wanted to expand on that and create a service from which Ukrainians could receive SMS news updates. 
+
+What it does
+
+Allows users to sign up for an SMS service that gathers updates from tweets surrounding the Ukrainian crisis. 
+
+How we built it
+
+HTML/CSS for front end, node.js for backend. Used Twilio API for SMS notifications and Twitter API for getting live tweets. 
+
+Challenges we ran into
+
+Twilio API trial would only allow us to send to one phone number.
+
+Accomplishments that we're proud of
+
+Applied a lot of skills from a lot of different areas to make a functional system. 
+
+What we learned
+
+Teamwork and communication
+
+What's next for UkraineAlert
+
+Twilio sponsorship to leverage this to more users. 
+",https://github.com/JoshAnness/Ukranian-Live-Updates,https://youtu.be/XMSd3OvfuB0,"Best Social Impact Hack, Most Creative Use of Twilio (MLH)","javascript, html, css, node.js, api",,"University of Cincinnati, Ohio State University",2
+Untitled,"",Draft,Pending,Manage team,02/26/2022 20:59:56,"","",,"","",,"University of Cincinnati, Georgia Institute of Technology - Main Campus",2
+Making Bank,https://revuc-xi.devpost.com/submissions/310841-making-bank,Submitted (Gallery/Visible),Pending,Submit,02/26/2022 21:49:24,"Inspiration
+
+We were curious on how a bank system works and what is the algorithm behind every transaction. This project is result of our research of a basic bank system work.
+
+What it does
+
+Allows a user to create an account, log in, deposit, withdrawal, and transfer money.
+
+How we built it
+
+Username and password are created off of the Signup JFrame and saved as a POJO during the sign-in process. That user object is then passed to the Login JFrame and checked against log-in inputs to ensure confidentiality. Then the user object is passed into the Bank JFrame. A combination of the user class and the Bank class allow you to deposit, withdrawal, and transfer money from one account to another.
+
+Challenges we ran into
+
+Working online is difficult.
+
+Accomplishments that we're proud of
+
+We were a team of 3 people, 2 out of 3 were our first hackathon, and we actually got out something and it actually worked.
+
+What we learned
+
+Comprehensive GitHub knowledge is necessary if working online.
+
+What's next for Making Bank
+
+Apply the algorithm to make the Gui using Android-Studio version of it, and actually publish on the Google Play Store
+",http://Github.com/Elliott03/Hackathon,https://www.youtube.com/watch?v=QF9nAJiQ-ZA,Fifth Third - deFINe: Development and Education for Financial Independence,"java, jframe, github, git",,University of Cincinnati,2
+Recycling Co & Co,https://revuc-xi.devpost.com/submissions/310865-recycling-co-co,Submitted (Gallery/Visible),Pending,Submit,02/26/2022 22:07:20,"Inspiration
+
+Statistics from epa.gov,  the recycling rate (including composting) was 32.1 percent in 2018, down from 34.7 percent in 2015 --> We want to foster the recycling rate by enabling people to connect and share how they help re-use sustainable material. 
+
+What it does
+
+Recycling Co & Co is an app recycling material in your neighborhood, it helps connect people who have unused sustainable material and who need recycled material so that we can foster the recycling rate and help the Earth.
+
+How we built it
+
+We build this app using React Native with Google Cloud API such as Directions or Google Maps so that we can interact with the maps and find the correct location. Our presentation is created by Figma. 
+
+Challenges we ran into
+
+This is the first time ever we use the Google Cloud product which is not firebase so this makes us hard time to understand and integrate it with React Native to have the full product.
+
+Accomplishments that we're proud of
+
+We are proud that the app is able to search anywhere in the world and use it as the original location to help us finds the recyclers nearby
+
+What we learned
+
+We learn how to use the Google Cloud API and the use of the credential key in Google Cloud
+
+What's next for Recycling Co & Co
+
+We will try to integrate the UI/UX with the backend first, and then make the database of authentication for users to logging in and signing up to start recycling
+",https://github.com/tiennguyentony/RevolutionUC,https://www.youtube.com/watch?v=8rOrdW05o5A,"Best Design Hack, Best Social Impact Hack, Most Useless Hack, Best Use of Google Cloud (MLH)","google-directions, cloud, react-native, node.js, figma",,University of Nevada - Las Vegas,1
+Dino,https://revuc-xi.devpost.com/submissions/310962-dino,Submitted (Gallery/Visible),Pending,Submit,02/26/2022 23:17:11,"Inspiration
+
+We quite simply wanted to make a platformer.
+
+What it does
+
+It is a simple platformer with cute little dinos.
+
+How we built it
+
+We wrote it is PyGame, and used assets we found from itch.io
+
+Assets
+
+
+Dino Characters
+Pixel Platformer
+
+
+Challenges we ran into
+
+
+Proper collision detection -- 
+Camera scrolling -- introduced weird bugs
+Level design -- we settled on a text file method, but it is a hack for moving blocks
+Character animation -- proper frame rate is an art
+Information dependency hell -- The player object contrarians the level object, contains the player, blocks, etc. It's recursive and strange.
+
+
+Accomplishments that we're proud of
+
+
+Moving platforms
+Animated movement, idling, and death
+Enemies don't fall off of ledges
+Everything has an asset!
+
+
+What we learned
+
+
+How to use sprite sheets
+How to use PyGame to *actually * make a game. We usually use it as a GUI for stranger projects.
+
+
+What's next for Dino
+
+
+Menus
+Boss level
+
+",https://github.com/I-question-this/dino_game,https://youtu.be/5_PYsmJAG3w,"",pygame,,University of Cincinnati,1
+Candy Shop,https://revuc-xi.devpost.com/submissions/311112-candy-shop,Submitted (Hidden),Pending,Submit,02/27/2022 01:44:24,"Inspiration
+
+As someone with a massive sweet tooth, I have always loved candy and would shove candy down my throat at any moment. So, I decided why not try my hand at making a website, so everyone can know what I love!
+
+What it does
+
+It is a static website showing off my hypothetical candy museum that I will own in the future.
+
+How we built it
+
+Using CSS3, HTML, and Bootstrap.
+
+Challenges we ran into
+
+Design was a huge challenge since I couldnâ€™t find the right colors or picture or even formatting. 
+
+Accomplishments that we're proud of
+
+While bootstrap may seems to make things easier, it is definitely more finnicky than I thought.
+
+What we learned
+
+Bootstrap is great and formatting just takes time and patience for a website!
+
+What's next for Candy Shop
+
+I will build another page for candy shop!
+","",https://vimeo.com/682531078,"Best Design Hack, Most Useless Hack","css, html5, bootstrap",,University of Cincinnati,0
+Retro Study,https://revuc-xi.devpost.com/submissions/311122-retro-study,Submitted (Gallery/Visible),Pending,Submit,02/27/2022 01:56:28,"Inspiration
+
+Retro Study is a website aimed to assisting students and lecturers in online classes. The COVID-19 has caused schools all across the world to close. Over 1.2 billion youngsters are out of school worldwide. In the survey, 54-58 percent of students said they had severe physical strain, vision problems, backache and headaches from posture problems, lethargy, exhaustion, irritation, and obesity. Even in all-remote contexts, teachers reported higher student absenteeism and less interaction among student than in face-to-face classes.
+
+What it does
+
+Retro Study has various features which target and provide a solution for the different problems faced during online for both teachers and students.
+
+â€¢ Emotion camera : It's tough for lecturers to assess students' understanding after lectures in an online class. This tool assists the teacher in determining whether the students are glad, unhappy, confused, or distracted. As a result, they may tailor classes to the needs of the students.
+
+â€¢ Posture Detector : The use of computers can lead to them having an unhealthy posture which, being kids, they may not be able to correct as they are not aware of it. This tool helps the children to sit in better position.
+
+â€¢ Speech to text notes: Most of us find it challenging to take notes and learn in an online session. You can speak up your notes and save them here. You'll be able to retrieve it later, and you'll be able to hear the note once more. It also helps children who have difficulty writing. Increased efficiency and less paperwork which helps to save time.
+
+â€¢ AR Learning: AR in education enables the visual depiction of the learning material and enables teachers to impart interactive learning in lessons while it allows learners to view information visually (layered on the top of their real-world surroundings). AR can greatly help students become more involved in their classes. 
+
+â€¢ Doubt Chat: Here students can ask doubt to teachers regarding the subjects. Reason that students don't speak up in class could be that they don't understand the material and might feel afraid that their questions will make them appear unintelligent to their peers. So, by using doubt chat student can clarify their doubts with their teacher.
+
+How we built it
+
+For frontend, I used the templating language EJS in combination with CSS. When I was using EJS, I made sure to use stuff like partials. I also used NodeJS to put up a small web server, and everything was constructed using Repl.it, an in-browser IDE that was great for collaborating and giving feedback in real time. Then I used tensorflow.js and machine learning to train the model for the emotion camera and posture detector, and then I put it to our website using JavaScript! I also used google cloud for speech to text feature.
+
+Challenges we ran into
+
+While training machine learning models, I found it difficult. This is my first time utilizing machine learning. I'm proud of what I've accomplished in just a few hours. Managing my time while working on this project was a struggle for me. Furthermore, determining which features to include was a difficult task. I had so many various ideas, but I realized I wouldn't be able to apply them all, so I had to pick a few.
+
+Accomplishments that we're proud of
+
+I was proud that in just a few hours, I was able to create a code a fully functional website, build a slide deck, and record & edit my pitch video. I was also able to learn a lot from this hackathon, using technologies that I had barely touched previously, which I'm proud that I was able to do!
+
+What we learned
+
+Doing research for this website definitely opened my eyes to how widespread the impact of online classes is--and how important it is to work towards a solution to the problem. On the more technical side, this was my first real project that Iâ€™ve used machine learning. I learned a lot about how to use format elements on the webpage. Overall though, since Iâ€™m still fairly new to web development, with every project I create, I learn something new; whether it be creating a certain element or just designing the overall page.
+
+What's next for Retro Study
+
+In the future, I would like to fully implement some of the features that I didn't have time to do today, such as user authentication for teachers and students, so that each student has their own unique platform to work and learn on. Graph the data of student emotions , so that they can adjust their lessons and materials accordingly.
+","http://retro-study.cutefoxy.repl.co, https://github.com/shs-coder23/Retro-Study",https://youtu.be/mW4MnG2iIJw,"Best Educational Hack, Best Design Hack, Best Social Impact Hack","machine-learning, css3, html5, javascript, ejs, node.js, echo-3d, google-cloud",,mvm,0
+BlitzOn!,https://revuc-xi.devpost.com/submissions/311157-blitzon,Submitted (Gallery/Visible),Pending,Submit,02/27/2022 02:46:28,"Inspiration
+
+We took inspiration from the card game Dutch Blitz. Everyone in our group enjoys playing this game so we wanted to make a digital version of it that we could enjoy.
+
+What it does
+
+This is a fully functional single player PC version of Dutch Blitz. Instead of playing against other people, you play against 3 other AIs. 
+
+How we built it
+
+Our game was created using the _ PyGame _ module in _ Python _ . We all worked together on the platform relp.it, a collaborative browser based IDE
+
+Challenges we ran into
+
+We faced the most difficulty with developing the AI. Currently, the AI will instantly play if it has a potential move, which leave the user no time to try to ""beat"" the AI. This leads to the game being more luck based rather than skill based. This is something that we can work on in the future.
+Another difficulty that we faced was with the movement of cards. The mechanics behind picking up a card and setting it down were more difficult to implement that what we initially thought.
+
+Accomplishments that we're proud of
+
+Our group is proud of developing a fully functional game within 24 hours. This was every member in our group's first or second hackathon, and the first large scale python project we have all worked on.
+We are also very proud of our user interface. Tyler was our dedicated graphic designer, and did a tremendous job creating the UI/UX.
+
+What we learned
+
+Our group learned a lot about how to use the PyGame module. None of us knew how to use the module before the project. We also learned how to implement game logic (input, processing, output) in new environment. Finally, we also continued to develop our teamwork and collaboration skills.
+
+What's next for BlitzOn!
+
+There are many possibilities for the future of BlitzOn! Some of our current plans are to implement a multiplayer functionality on a local network and the internet, create a tutorial for new players, create different levels for the AI, and add some background music.
+We're excited for what's in store for the future of BlitzOn!
+
+We hope that you all will try the game out! Link to the GitHub is on this Devpost.
+",https://github.com/natruffles/blitzOn,https://youtu.be/aAwkTiVBNnI,"Best Educational Hack, Best Design Hack, Most Useless Hack","python, pygame",,"University of Cincinnati, Lakeland Community College, university of cincinati",3
+Student Solution,https://revuc-xi.devpost.com/submissions/311205-student-solution,Submitted (Gallery/Visible),Pending,Submit,02/27/2022 04:04:50,"Inspiration
+
+During this pandemic situation, we are attending online classes. To access class material we need to visit different location on our phone or laptop which is very irritating thing. When we need to access the syllabus, class link, reference book then we go here and there. So, we decided to place them on one page to make the student's life better.
+
+What it does
+
+It provides a platform to organize all of the study material, class links, syllabus, timing, teacher's name, etc. in one place. so, students didn't have to worry of arranging things. We will provide them this features.
+
+How we built it
+
+We have used HTML and CSS only to build this project. So basically, we have used front-end languages. 
+
+Challenges we ran into
+
+
+It wasn't that easy to work in a team on the first go. There were conflicts of ideas and how to do it.
+In the beginning, we took much time to put our ideas into code because this was our first practical 
+ project. It wasn't that easy to work in a team on the first go. Even after writing the code, we were not 
+ satisfied and try to add new things.
+
+
+Accomplishments that we're proud of
+
+We are proud of what we have done using HTML and CSS. It was a great practical experience and knowledge for all of us. This is what we were looking for. Practical experiences matter more than theoretical knowledge. We are actually proud of what we have done.
+
+What we learned
+
+We learned how to design multiple things using HTML and CSS. During this project, we experienced teamwork, the feelings of working with different people with different skills in a team. We learned how to work in a group, how to share ideas, how to apply all theories to practical use. It was a great experience while working with my friends. We teach each other and we learn too. We learn the use of HTML and CSS in a better way.
+
+What's next for Student Solution
+
+We can add JavaScript and the back-end to make a more useful project. Besides that, we can add ""notes"" of senior students and previous year's questions papers, etc.
+",https://github.com/Prakash4-8/UC_Hackathon_22_StudentSolution,https://youtu.be/UPwQRk7khxY,"","html5, css3",,"",2
+RealTimeTranslation,https://revuc-xi.devpost.com/submissions/311215-realtimetranslation,Submitted (Gallery/Visible),Pending,Submit,02/27/2022 04:13:22,"Inspiration
+
+By far my biggest inspiration comes from my friends. I have so many friends friends that speak other languages and it makes me incredibly jealous. Because of this, I'm always trying to learn one myself. After years of studying Chinese, Japanese, and Spanish, I've learned one thing. Languages are really hard to learn. So lets cheat. How can I speak a language without knowing it. Ask google apparently!
+
+What it does
+
+In its most basic form my project takes an audio input, i.e a microphone, and it translates that audio into any language you want. The translated audio is then piped into discord for someone else to hear!
+
+How we built it
+
+It wouldn't have been possible without google. I used 3 of their APIs to build it (Speech to text, Text to Speech, Text to Text Language Translation).  These APIs with the help of some custom audio recognition python code allowed for seamless and quick audio translation.
+
+Challenges we ran into
+
+The biggest challenge I faced was creating the audio detection code. I had never worked with anything like it before so it was very new to me. I found out that I could take the chunks of audio data being streamed in from my microphone and group the data. If it had a lot of 0's in the chunk, there wasn't a lot of volume i.e (No one was speaking). I used this fact to write an algorithm to detect speech and then start recording the messages. After that I just had to let google take care of the rest.
+
+Accomplishments that we're proud of
+
+I'm genuinely proud that it worked in the first place, but for me I've wanted to do this for years, however, the technology hasn't quite been there yet. Even with my improvements there is a 1-2 second delay in the audio, which is fine for a voice chat, but not for in person yet which is the true goal. I would love to pick up this project again with some more powerful  hardware if its ever possible.
+
+What we learned
+
+I learned so much during this project. First and foremost, I've never used Googles' APIs before so that was a learning curve. On top of that, I've never done audio manipulation with python so that was really cool to work on.
+
+What's next for RealTimeTranslation
+
+Since the project has the ability to use any language that google can translate, I would love to set it up to auto-detect the language instead of manually selecting it. I opted out of the practice as it would introduce more latency into the program than I wanted, however, with some improvements, It would definitely be possible.
+","",https://www.youtube.com/watch?v=auFxL8LEzuk,"Best Educational Hack, Digital Futures Innovation Award (for excellence in technical demonstration), Best Use of Google Cloud (MLH)","google, api, google-web-speech-api, translation-cloud, google-translate, audiodetection",,University of Cincinnati,0
+rAI,https://revuc-xi.devpost.com/submissions/311219-rai,Submitted (Gallery/Visible),Pending,Submit,02/27/2022 04:16:02,"Inspiration
+
+I've attended hackathons before, but I have always utilized my web development skills instead of doing anything data-science related. Being a bit of an ML enthusiast, this pains me. At RevUC, I finally had the chance to work solo and dictate my own project, so I took it upon myself to make something data science related that is educational for everyone who wants to get into the field.
+
+What it does
+
+My personal philosophy is I don't build things I don't use. The app visualize and dynamically build ML architectures on the spot by changing parameters on the sidebar. It will also train the model against the MNIST dataset, and allow the user to enter their own input in after the training is complete. So basically, it helps people interface with and better understand neural networks. As a person who is coming back to ML like me, it is very helpful to see the subtle inner workings of activation functions or how hidden layers change the game.
+
+How I built it
+
+I mainly rely on streamlit for the front-end handling, since working solo give me a tough time budget, but also because I enjoy using the library. The backend is handled by tensorflow and other libraries to support building a machine learning app, like opencv.
+
+Challenges I ran into
+
+Aside from the limited time budget, working solo essentially means that I cannot rely on other people to cover technical areas that I'm not competent enough in. ML was the core of the project, yet my ML skills are quite rusty from a long time of not really using them. I was originally using pytorch, but had to make the switch to tensorflow midway due to the pytorch library not being as flexible as I'd hoped.
+
+Accomplishments that I'm proud of
+
+I pretty much have to familiarize myself with the concept of ML and ML libraries again. Needless to say that took some deal of time, but I managed to finished the project ahead of time (at 4:30AM though, so that barely counts). This would also be my first hackathon solo, and my second hackathon in my freshmen year, so I'm quite proud of that too.
+
+What we learned
+
+A lot of streamlit. I originally only scratched the surface of streamlit while doing hobby projects before, now I even host the webapp on their cloud. I also re-learnt tensorflow and the vast amount of supporting libraries for it.
+
+I have also learnt the importance of teamwork and how to balance it between personal interests and drives in this solo experience, as it helps me see the pros and cons of both approaches.
+
+What's next for rAI
+
+What's next for rAI? Introducing Convolutional Layers into the mix, since it would be easy to integrate it into the already existing Sequential model-based dynamic construction. Allowing for usage of a different dataset, or importing a custom dataset would be nice too.
+
+What's next for Rai? Probably another hackathon, if I can afford another weekend.
+","https://share.streamlit.io/menamerai/revuc-nn-edu/main/main.py, https://github.com/menamerai/revuc-nn-edu",https://youtu.be/GgDN9SXOv7I,"Best Educational Hack, Best Social Impact Hack, Digital Futures Innovation Award (for excellence in technical demonstration)","python, streamlit, tensorflow, opencv, pandas",,University of Cincinnati,0
+"Money Learn, Money Earn",https://revuc-xi.devpost.com/submissions/311231-money-learn-money-earn,Submitted (Gallery/Visible),Pending,Submit,02/27/2022 04:35:19,"Inspiration
+
+Money Learn, Money Earn is an interactive money app for kids! We've all been there when you make your first bank account and don't know how to spend your money wisely, but with Money Learn, Money Earn kids will learn good money spending habits to prepare themselves for the future! 
+
+What it does
+
+Our app's main purpose is to help teach children the basics of money management. A child is able to mark off chores that a parent sets and gain in-app money to then spend for rewards. Some reward might be 15 minutes of TV time or some dessert! They will also have a chance to put their money into a savings account that teaches them the importance of saving money. By getting a child used to this when their young, they will have less stress trying to navigate their money habits. 
+
+How we built it
+
+Starting with a basic educational mobile app idea, we used Flutter, Android Studio, and Firebase to create an interactive app that educates children on money habits.
+
+Challenges we ran into
+
+Some of the biggest challenges we ran into were finding an initial mobile app developing software and integrating user authentication into the app. Most of our team members were relatively new to hackathons and were unfamiliar with this software so there was a big learning curve we all had to face.  By using unfamiliar software, we were able to expand our knowledge and strengthen our problem-solving skills and we were able to make an app that we are proud of. 
+
+Accomplishments that we're proud of
+
+Some of the things we are most proud of with our project are being able to create a global variable to keep track of all the money earned, spent, and saved and creating an integrated user authentication.
+
+What we learned
+
+By working with software we were all unfamiliar with, we were able to expand our problem-solving skills while learning the basics of a new language at the same time. We worked together and powered through difficult problems and found solutions to the best of our ability. 
+
+What's next for Money Learn, Money Earn
+
+We plan on integrating more interactive activities for both the parent and child to teach more about good ways to spend more.
+",https://github.com/mansourem/rev_uc_2022,https://youtu.be/aiMjqnGopTs,"Best Educational Hack, Fifth Third - deFINe: Development and Education for Financial Independence, Best Use of Google Cloud (MLH)","firebase, android-studio, flutter, dart, google-client-authentication",,University of Cincinnati,2
+EasyRefer,https://revuc-xi.devpost.com/submissions/311318-easyrefer,Submitted (Hidden),Pending,Submit,02/27/2022 06:13:43,"Note: Due to the time constraint for the demo video, I have just briefly laid out the functionality of the project. There is a lot more than that. So, do go through the documentation to know the project's full functionalities.
+
+Inspiration
+
+Getting a proper health facility is a dream for all. Not all government/private hospitals have good facilities, equipment, or experienced staff to take care of the people of that city. The issue can be resolved if all the hospitals work collaboratively and ensure good facilities are provided to all. 
+
+For eg: Consider in a small town, a government hospital does not have the equipment to treat the patient, so, the hospital referred that patient to a more equipped hospital near the city. Now the patient feels helpless to go to the referred hospital and explain his/her illness, as they know must follow the same procedures as followed before in the small-town hospital. Like going through the same test, same checkups, etc.
+
+What it does
+
+The project has the following features:
+
+
+Patients' records are maintained on the platform, sharing while referring to other hospitals.
+Referring patients to other hospitals will be seamless.
+The hospitals have a way to connect.
+The patient will be intimated on two occasions (through Twilio API). One, when the patient is registered by a hospital, and another one, when the patient's referral request is accepted by the other hospital.
+When the hospital will make a referral request, then all the related test reports of that patient will be forwarded as an attachment along with the email. So, every hospital will be receiving the referral requests in the form of an email. 
+Every hospital will be having a statistics page that will be having every referral log. The referral log can have three states which are as follows:
+
+
+a. Accepted (A): If the referred patient has been accepted
+
+b. Rejected (R): If the referred patient has been rejected
+
+c. Pending (P): If the referral is still pending i.e. the referred-to hospital has not responded to the request
+
+How I built it
+
+I thought web application will be an important part of making the project accessible to every hospital because in this manner more and more hospitals can collaborate on this platform. So I used PHP, bootstrap, HTML for making a site that can prove to be an efficient solution for the above-stated problem. I have routed various actions of the user such that the hospital can have a seamless experience in using the application.
+
+For hosting the website, I used the Hostinger service. Referral request templates have been coded from scratch and the inclusion of reports as attachments with email has elevated the project level a lot. To use the messaging service, I used the Twilio REST API and configured it using the Integromat scenarios (webhooks) so the patient will also be intimated about what is going behind the scenes. Initially, I thought of making it a hospital-only-oriented website but in the end, I included the patient in the workflow which sort of added new dimensions to the project. 
+
+Challenges I ran into
+
+When I thought of integrating Twilio with the project, I was facing many problems like The message request was failing again and again because I was not considering spaces in the parameters for the REST API. Then I solved that by encoding %20 for spaces. The webhooks for Twilio was also a bit frustrating because I wasn't able to properly extract the URL parameters from the request and then form a message body for the  SMS
+
+Initially, there was no plan of including the statistics page for hospitals. But as I proceed further I changed a lot of routing in the app and thus used PHP to its fullest and then made three states for the request (which are looking beautiful) and pleasing to the eyes.
+
+According to the actions, the app should have 10 separate pages because there are a lot of functionalities running. To limit the number of pages, I used the concept of routing along with parameterized GET requests so that I can use a single page for 3-4 actions. (For eg: I have used the Profiles page for adding a new patient, changing the hospital stats, adding patient reports, etc.) This thing not only helped me to enhance the UI/UX but also got involved in brainstorming and plating around sorting information along with the different route requests.
+
+Accomplishments that I'm proud of
+
+1ï¸âƒ£Developing an app in 2 days and also the use case of this project is very high, as it is related to the healthcare industry. 
+
+2ï¸âƒ£I am sure the hospitals will be having a seamless experience while referring and managing patients.
+
+3ï¸âƒ£With bare PHP and a few front-end languages I have developed an app that ensures that the users/hospitals will be having the best User Experience. There are plenty of things to play around and thus the end-user will neither be confused nor be bored after using this platform. 
+
+4ï¸âƒ£From uploading reports of the patients to updating them I am proud of every bit in making this project and it rightly fulfills the purpose of why I made this.
+
+What I learned
+
+
+Handling REST API requests
+Making and customizing email templates from scratch & integrating them with PHP.
+Sending attachments with emails through PHP.
+Configuring Twilio API and using it with webhooks made through the Integromat platform (now known as Make).
+5, Making a completely responsive web app that looks great on every screen size
+
+
+What's next for EasyRefer
+
+I will be deploying some search filter functionalities for the hospitals so that a hospital can have a look at available options for referring a patient.
+
+The best project (like this one) can slightly be enhanced over time. ðŸ¤©ðŸ˜
+","https://github.com/VersatileVats/ReferMedi, https://wheels4water.me/refermedi",https://youtu.be/QASkcnTExMg,"Best Design Hack, Best Social Impact Hack, Most Creative Use of Twilio (MLH)","php, bootstrap, html5, twilio, integromat, mysql",,JC BOSE UNIVERSITY OF SCIENCE & TECHNOLOGY,0
+Bad-Tempered Bee,https://revuc-xi.devpost.com/submissions/311321-bad-tempered-bee,Submitted (Gallery/Visible),Pending,Submit,02/27/2022 06:16:31,"Inspiration
+
+I was given an Adafruit Trinket 5V a few years ago and wanted to finally use it to create a project that was small and wireless. When I remembered I had a buzzer, I decided to create an angry bee.
+
+What it does
+
+A light sensor inside the cardboard housing allows the bee to detect for very bright light or not. When there is not enough light, the bee becomes angry and this is indicated by the glowing red eye and the sound it produces. The buzzer is very quiet so there is a red indicator LED for when it is on.
+
+How we built it
+
+A breadboard sits inside the cardboard housing with the Trinket, an RGB LED, a light sensor, a passive buzzer, and a 9v battery. The code was made using Arduino.
+
+Challenges we ran into
+
+The Trinket has long been replaced by new technology so finding any new advice boiled down to ""do not use this."" 
+The small footprint means there are not many pins to work with and some have shared functions which can make them awkward to use. Also, the numbering of pins is different depending on whether they are referenced as digital or analog.
+
+Accomplishments that we're proud of
+
+Light inputs and outputs were very important to this project and this was done through subtle holes covered by thinner material.
+
+What we learned
+
+I learned about active and passive buzzers and how they work. Especially passive buzzers and how the sound is affected using PWM.
+
+What's next for Bad-Tempered Bee
+
+To create a better Bad-Tempered Bee, a new microcontroller would be a must. In a better version, the light sensor could be better mounted on the inside for maximum light detection, and a second eye light could be added.
+",https://github.com/heyl5/Bee,https://youtu.be/Sg_fW3kJCo0,"Most Useless Hack, Best Hardware Hack Sponsored by Digi-Key (MLH)",arduino,,"",0
+Hack-io Party,https://revuc-xi.devpost.com/submissions/311380-hack-io-party,Submitted (Gallery/Visible),Pending,Submit,02/27/2022 07:47:21,"Inspiration
+
+Hack-io Party is a minigame collection inspired by Mario Party and Wario Ware, where you try and beat as many minigames as possible, and try to reach a high score! 
+
+As a team with both Electrical Engineering and Computer Engineering / Science majors, we wanted to make a project that allowed all of us to fully participate and learn new skills relevant to our majors. By both creating a Unity game, and creating a breadboard controller for it, we were able to learn about how our disciplines can be combined to make an awesome project!
+
+What it does
+
+The Hack-io Party Game is a series of mini-games in which you try to beat as many games in a row as possible. 
+
+The Hack-io'd Controller is an Arduino device which sends user input (inputted via button or motion sensor) over a serial connection. This signal is detected in Hack-io Party, and used to trigger game events.
+
+How we built it
+
+Software
+
+We created our game using Unity 2020.3.30f1, and created our Arduino binaries using the Arduino IDE. 
+
+Hardware
+
+We created our controller using an Arduino Uno, a Breadboard, Buttons, and a Motion Sensor. 
+
+We also prepared a and tested Water Temperature sensor and Humidity, however these were not included in the final device implementation.
+
+Challenges we ran into
+
+Hardware
+
+We were very ambitious with our controller. Going into this project, we wanted to have a bunch of weird sensors and create a game which has the user perform absurd tasks with their controller, such as place a water temperature sensor into a glass of ice-cold water. However, we ran into issues, since we had a lot of work to do, and not a lot of time.
+
+We even bought water temperature sensors, however we couldn't get those sensors to fit correctly into our breadboard. The wires ends weren't compatible with the breadboard, as they were tinned copper wire. So, Zak decided to solder headers onto the end of the sensors' wires allowing them to connect to the breadboard, but we were unable to successfully implement those sensors before the time we needed to start submitting the project.
+
+We also prepared a humidity sensor, with the intent that the player would have to blow humid air onto the sensor to, for example, make a balloon start flying, but the sensor didn't work the way we wanted it to, so we didn't included it in the final project.
+
+Software
+
+On the Software side, only one of our members had any Unity experience before we started this project, that being Sam (me). I spent a lot of time during this project teaching Unity to Nathan and Tylor so that we could all contribute significantly to the project. Using what they learned during the Hackathon, Nathan was able to make a level and also 90% of the main menu, and Tylor was able to make 2 (and almost 3) levels!
+
+Accomplishments that we're proud of
+
+Learning Unity
+
+Nathan and Tylor hadn't used Unity before this hackathon, and were able to contribute very significantly to the Unity project.
+
+Learning Arduino
+
+Zak, the primary Hardware / Arduino developer, had never used Arduino and had never used things like motion / humidity sensors before this Hackathon, and he was able to create a well-working controller within 24 hours!
+
+Controller Implementation
+
+Learning how we wanted to have our controller interact with our game was something we didn't start researching until during the hackathon. Originally, we considered detecting inputs via a separate / third-party script and converting those to keyboard keypresses. However, we realized early on into our hack that it'd be much easier detect the Arduino signal directly within our game via a serial port connection with C#.
+
+At that point, we needed to decide what we wanted to send over our signal; Since all of the buttons and sensors we implemented only outputted 0 or 1, we decided to send a single integer, using bitwise operations to set one bit's value for each sensor. This worked well and is fast, and we're very proud of it.
+
+What we learned
+
+Arduino
+
+Zak learned Arduino for this project, and took the lead in hardware + embedded software development.
+
+Unity
+
+Tylor and Nathan learned Unity for this project, and were able to create their own polished mini-games within 24 hours!
+
+Signals
+
+Sam and Zak, the developers for the Arduino and the C# signal handling, hadn't had any experience in signal handling between microcontrollers and PCs before, and we were able to successfully trigger game events in Unity using our controller!
+
+What's next for Hack-io Party
+
+We'll be disassembling the Hack-io'd Controller for parts, and fondly remembering our sick game we made in 24 hoursðŸ˜Š
+",https://github.com/swiimii/senior-design,https://youtu.be/viJ4yTMw_Fk,"Best Design Hack, Most Useless Hack, Best Hardware Hack Sponsored by Digi-Key (MLH)","c#, unity, c++, arduino",,University of Cincinnati,3
+Calorymita,https://revuc-xi.devpost.com/submissions/311391-calorymita,Submitted (Gallery/Visible),Pending,Submit,02/27/2022 08:07:06,"Inspiration
+The inspiration is just my desire to learn new things
+
+What it does
+It does nothing. it was intended to be able to perform CRUD operations using cockroach DB.
+
+How we built it
+it was built using nodejs, express, cockroach Db and hosted on Linode Cloud. Code is available on GITHUB.
+
+Challenges we ran into
+The challenges are quite numerous for me. I am totally new to cockroach DB and Linode. I did alot of googling to overcome some of the problems. by the way, Cockroach DB has an awesome documentation, it was really helpful
+
+Accomplishments that we're proud of
+I am proud of the fact I was able to use some of my previous skills to create a table in cockroach DB in an automated way using child_process and bash shell script, contrary to what I saw in the documentation.
+
+What we learned
+I learned about cockroach DB and Linode cloud. I was able to work with both technologies to some extent
+
+What's next for Calorymita
+
+Nothing for now
+",https://github.com/salisbuk7897/calorymita,https://www.youtube.com/watch?v=RDaGzFt9l8Y,Most Useless Hack,"javascript, node.js, express.js, cockroachdb, linode, github",,Bayero University Kano,0
+UMonitor,"",Draft,Pending,Project overview,02/27/2022 10:07:01,"Inspiration
+
+One of our teammates has a close friend who lives very far away from him. She loves to draw, her favorite dish is crab salad made by her mother, and she has an adorable pet dog named Oreo. She also strives to become an artist. She is just a normal girl with a dream, but since she lives in Ukraine, her dreams can't come true. She works extremely hard towards her goals, but is suffering from the current events in Ukraine. We cannot image the pain and suffering Ukrainians are doing through right now. Many have lost their homes, businesses, and everything they hold dear. With this web application, we hope to shed some light on this dilemma and pray that we can provide support towards Ukraine.
+
+What it does
+
+Our project has information collected from multiple news source and have a filter function by city to see if that city is currently safe or not in hope that the people of Ukraine can flee to a safe place. We hope that this app can be a tool to spread awareness of the evolving situation Ukraine and perhaps be used by overseas Ukrainians to get the latest news updates from different cities. We have web scraping scripts that run every hour to feed latest news data onto our MongoDB database. When navigating to the endpoints, the backend will query the database and populate the frontend. With this, we are able to provide reverse chronological, latest news to our news feed.
+
+How we built it
+
+We built the application using Flask python to support our back-end and React to support out front-end. Our database is hosted in the cloud on MongoDB Atlas. In order to obtain news data for our news site, we built two different web scraping scripts with Selenium and BeautifulSoup to scrape data from Google News search and the CNN live updates page on the conflict. 
+
+Challenges we ran into
+
+In Backend 
+
+
+There were a few links that did not have a class attribute for the p tag and image tag. This made it more difficult to scrape the proper article content and image from the website. We originally wanted to display the first paragraph of the article, but some of the p tags were used to display the author of the news article. For the images, we wanted to display an image related to the article, but some links scraped images of the author or images of the source.
+We had implemented two different summarizing functions. One function was faster, but the number of sentences was not bounded. If the news article was longer than normal, then the function would output an extremely long summary. The other function was a lot slower, but it was possible to provide it any number of sentences, and it would summarize it to a specified number of sentences
+There were issues with MongoDB with retrieving data from the database. The data did not jsonify properly which caused issues with the API call, and structuring queries was challenging.
+
+
+In Frontend 
+
+
+The UI is not responsive as expected, since this problem is overlooked until there is not enough time to fix it
+We had a lot of difficulty in setting up the connect from Flask server to React, so we had to reduce all the functionality intended for our project (Blog, messaging function, ...)
+The frontend took too long to create the overlay and finding an image for the background
+
+
+Accomplishments that we're proud of
+
+We're proud to overcome the challenges of connecting the frontend with the backend, which was plagued with issues throughout the process. We are really proud of our database schema, which was scalable and how we populated our database with data scraped from both Google news and from the CNN live updates site. Because of this, querying the database was fairly easy and efficient. 
+
+What we learned
+
+We learned how to use different python packages effectively scrape the websites. We learned how to properly link Python to React. Overall, this was a great learning experience in full stack development for all of us!
+
+What's next for UMonitor
+
+With more time and funding, we will be able to add functionality like a map that show unsafe zone. We also wish to add a blog for people to express their concern and know that they are not alone. 
+",https://github.com/ryanmle2001/HackNYU-UkraineRussiaNews,https://youtu.be/pegw0nZ4nUU,"","python, mongodb, flask, react",,"University of Cincinnati, Georgia Institute of Technology - Main Campus, City College of New York of the City University of New York, The",3
+SavePecunia,https://revuc-xi.devpost.com/submissions/311506-savepecunia,Submitted (Gallery/Visible),Pending,Submit,02/27/2022 10:09:15,"About Our Project â€“ SavePecunia is an interactive game aimed to teach financial responsibility. Pecunia, which means money in Latin, is attacked by the Demon King Prodigal and his Army. It is up to you, Parcos, to save Pecunia by defeating the Demon King.
+
+SavePecunia is a board game, simple to understand and easy to play. Real concepts, such as Money, Experience and Happiness have been inculcated into the project to teach the player on how to make responsible and sensible financial decisions. As the player, Parcus, goes along the path of the game, he faces many challenges, which are opportunities alike, to gain experience, Aureus coins (money) and happiness points. Of course, there are also activities that when indulged in, Parcus experiences loss in points of either experience, Aureus and/or happiness. Parcus can decide whether he wants to indulge in these activities or not.
+The objective of the game is to take the right decisions with the situation at hand, and have a plan for future turmoil. Parcus wins the game if he has sufficient experience, Aureus and happiness, and loses if either one of the parameters are not satisfied.
+
+Inspiration
+
+We built our project based on the problem statement provided by Fifth Third Bank. Our goal is to teach financial responsibility, one that awards good money habits to all age groups
+
+What it does
+
+We have built an interactive board game, providing the player with an exciting path along which they must make decisions best suited to their situation
+
+How we built it
+
+We used HTML, CSS and JS to build the board game and the website.
+
+Challenges we ran into
+
+The development of the idea behind the board game and path taken by the player, along with developing the logic and appropriate values of tokens at each grid square was definitely a challenge. We also brainstormed on how to make the player think responsibly and sensibly while playing the game. Moreover, we pushed all boundaries and took learning to a new level while creating the game and the website.
+
+Accomplishments that we're proud of
+
+Our game teaches strong ideals of responsibility, stability and planning for the future. The whole idea of using an interactive game to inculcate such ideals is something we definitely brag about. Finally, we are proud of the amount of effort and time we have put into SavePecunia.
+
+What we learned
+
+Through the course of the hackathon, we developed and ideated a board game from scratch. We learned how powerful and endless languages such as HTML, CSS and JS can be with appropriate use of them. Teamwork, time management and creativity are some non-technical skills that we learned.
+
+What's next for SavePecunia
+
+1) Multiplayer mode in which multiple players can compete against one another to see who comes out with the highest score.
+2) More, larger and longer game modes with higher stakes in each mode; tougher and more complicated situations where one has to do the absolute right thing to win!
+",https://github.com/shreya-markhedkar/SavePecunia,https://www.youtube.com/watch?v=voRHtUcsBL4,"Best Educational Hack, Best Design Hack, Best Social Impact Hack, Fifth Third - deFINe: Development and Education for Financial Independence","html, css, javascript",,Vellore Institute of Technology Vellore,1
+two plus two equals you win,https://revuc-xi.devpost.com/submissions/311511-two-plus-two-equals-you-win,Submitted (Gallery/Visible),Pending,Submit,02/27/2022 10:14:14,"Inspiration
+
+As hackers that sometimes get exhausted with our work overload, we need a break. So we got inspired to make a ""useless"" hack this time that is a connect 4 game.
+
+What it does
+
+This app allows you to play connect 4.
+
+How we built it
+
+We built this in repl.it using pygame/python and with matlab coding to it too.
+
+Challenges we ran into
+
+We had too many time limitations and so we had trouble coming up with an idea and then finishing it.
+
+Accomplishments that we're proud of
+
+We are proud that we were able to code a game together because we usually make websites.
+
+What we learned
+
+We learnt how to use matlab and create a game with it.
+","",https://youtu.be/S4A_3U3VmwE,"Most Useless Hack, Best Use of Google Cloud (MLH), Most Creative Use of Twilio (MLH), Best Use of MATLAB (MLH)","pygame, python, matlab, twilio",,"Ohio State University, Apeejay School , NMIMS",2
+Untitled,"",Draft,Pending,Manage team,02/27/2022 10:18:19,"","",,"","",,"",0
+Virtual Office Space,https://revuc-xi.devpost.com/submissions/311516-virtual-office-space,Submitted (Gallery/Visible),Pending,Submit,02/27/2022 10:21:51,"Inspiration
+
+We were inspired by data presentation software, like Jupyter notebooks, as well as virtual spaces like VR Chat and Rec Room. 
+
+What it does
+
+We successfully demonstrated that there is a synergy between virtual spaces and presenting information. This application specifically allows users to explore the web through multiple virtual displays and offers catered learning experiences. To demonstrate how a researcher may use this framework to display their work, we created a few custom experiences. The user can choose to play some educational finance games or to go to a research room that displays several google scholar sites from Digital Futures.
+
+How we built it
+
+We built this application using Unity and C#. We used art assets from BrokenVector to demonstrate how simple it is to change the environment to custom or premade scenes. We also utilized the ZFBrowser package to allow us to project web pages as game textures.
+
+Challenges we ran into
+
+Getting the web pages to load correctly was immensely difficult. We tried many plugins and tutorials before landing on something that we could modify to work. Introducing VR support was another hurdle that we were not expecting. 
+
+Accomplishments that we're proud of
+
+We are very proud of the spawn web browser feature. We think it is hugely beneficial that the user can choose to place a screen anywhere in the environment. Doing so places control in the user's hands to create an effective and efficient environment. 
+
+What we learned
+
+We all have limited Unity experience, so this was a great exercise in application development in Unity. We learned about plugins, prefabrication, VR support, and embedded browsers. 
+
+What's next for Virtual Office Space
+
+Virtual Office Space, being a hackathon project, is limited in nature. With more time and a budget, we would introduce more quality-of-life improvements and perhaps a multiplayer feature. We think that allowing multiple users to work together in this space would dramatically increase its utility. Imagine working with and laying out documents in a virtual space with someone across the world!
+","https://drive.google.com/file/d/17lB0HHht2rCqEPFjq_3ZS0_DsoXPqwUd/view?usp=sharing, https://github.com/Kartavya904/Hackathon_Project_Files/tree/main",https://www.youtube.com/watch?v=oU7lyxzS4Bo,"Best Educational Hack, Best Social Impact Hack, Fifth Third - deFINe: Development and Education for Financial Independence, Digital Futures Storytelling Prize, Digital Futures Innovation Award (for excellence in technical demonstration)","unity, c#, oculus, zfbrowser",,University of Cincinnati,3
+Autonomous Minecraft,https://revuc-xi.devpost.com/submissions/311518-autonomous-minecraft,Submitted (Gallery/Visible),Pending,Submit,02/27/2022 10:27:45,"Inspiration
+
+Iâ€™ve always enjoyed Minecraft, but college has limited the amount of time I have to play games. This robot seeks to remove the grind so I can get straight to the â€˜meatâ€™ of Minecraft.
+
+What it does
+
+So far, the bot can connect to a Minecraft server, read the chat, and autonomously navigate the word either by moving to the player or by moving to a specified coordinate
+
+How we built it
+
+The bot uses the mineflayer API to handle server communications and the A* pathfinding algorithm. The bot is written entirely in python and communications are handled by talking to the bot on the server.
+
+Challenges we ran into
+
+Pythonâ€™s lack of type checking and my own carelessness caused several annoying and hard to find bugs which cost a lot of time. Additionally, some of the methods provided in the API were broken or produced unexpected results
+
+Accomplishments that we're proud of
+
+The botâ€™s movement is fluid and quick and has produced a solid base for continued development
+
+What we learned
+
+How to use python event listeners and most importantly that slow and steady wins the race. Being in a rush meant much of my code left a little to be desired and pythonâ€™s hands-free attitude when it comes to types caused me quite a few headaches, in the future I either wonâ€™t use python or will be much more careful.
+
+What's next for Autonomous Minecraft
+
+With a solid base for pathfinding, Iâ€™d like to work on the other main components to automate the grind out of Minecraft, mainly autonomous resource gathering. Movement was half the battle, now Iâ€™ll need to find resources, navigate the bot to the resource, and gather it â€“ easier said than done. Beyond that Iâ€™d like to setup some kind of schematic system to allow the bot to build its own home and even some kind of web-based command and control center to control my army of robots when Iâ€™m away.
+",https://github.com/UltraVaporizer/AutonomousMinecraft,https://youtu.be/fSzZjZ5lgdQ,"Best Design Hack, Most Useless Hack, Northrop Grumman - Top Capture The Flag Individual, Cyber@UC - Top Capture The Flag Team",python,,University of Cincinnati,0
+Tic-Tac-Toe-Game,https://revuc-xi.devpost.com/submissions/311523-tic-tac-toe-game,Submitted (Gallery/Visible),Pending,Submit,02/27/2022 10:32:44,"Inspiration
+
+This is the first time that I have participated in a hackathon. I was not sure what to make, which project I should work on, then I saw that there is a lot of fun activity going on in the discord channel, so I thought why not To make a fun game, that's why I made a tic-tac-toe game.
+
+What it does
+
+so basically it is a Tic tac toe game created using HTML, CSS and JavaScript. Tic-tac-toe, noughts and crosses, or X and O, is a paper and-pencil game for two players, X and O, who take turns marking the spaces in a 3Ã—3 grid. The player who succeeds in placing three of their marks in a diagonal, horizontal, or vertical row is the winner. It takes input as in the form of X or O and then check if the three of their marks are placed in a diagonal, horizontal, or vertical row.If the above condition will be true then the person will be the winner.
+
+How I built it
+
+So as I mentioned that this game is created using HTML, CSS, JavaScript. 
+The first step to start building a game is to build the markup.
+so in the first step I worked on the Html part.
+** second step
+the very important step is styling which makes your game good looking.
+**Hard step
+now finally JavaScript comes into pictures.
+first I create a Tic Tac Toe board and fill it with dashes then I create a function that draws the board like a square.Keeping track of the playerâ€™s turn and what symbol they are using and was very important so I worked on that as well. The another important thing was to Set the right position on the board to the proper symbol and finally I create a function that checks if either player has won.
+last but not least I used a function to keep the game going.
+
+Challenges we ran into
+
+So this is not the first JavaScript project that I have created before I have worked on  many web pages using HTML and CSS and a little JavaScript but when it comes to fully functional JavaScript this is my first project. I am new to JavaScript as I recently started learning JavaScript. I learned most of JavaScript while creating this project it tooks more than a 18 hours to create this project because it is a little hard for beginner point of view.
+to be honest every part of the project was hard for me
+making board and then keeping track of the playerâ€™s turn and what symbol they are using and to checking the winner.
+
+Accomplishments that we're proud of
+
+It is always  a good feeling to complete a hard project and it was fun to I learned a lot
+
+What we learned
+
+So the  things which I learned through out the project are listed below
+1.functions
+2.Variables
+3.DOM
+ 4.Object
+5.Primitives
+6.Events
+7.Control flow and a lot more.
+
+What's next for Tic-Tac-Toe-Game
+
+so the next I want to make this game online multiplayer game so people can play this game from all anywhere with their friends online.
+",https://kamalsinghkhanna.github.io/Tic-tac-toe/,https://www.youtube.com/shorts/kX-7Q169cWM,Most Useless Hack,"html, css3, javascript",,D.S.B. Campus Nainital,0
+Voctract,https://revuc-xi.devpost.com/submissions/311526-voctract,Submitted (Gallery/Visible),Pending,Submit,02/27/2022 10:38:17,"Inspiration
+
+Once I was mislead into buying a credit-card by a sales professional. When  received the bill I realized that he lied to me, and since it was a verbal conversation there isn't a record to address the issue. What if we could leverage Speech-To-Text AI capabilities which are commonplace now to turn audio interactions into written contracts. And can a blockchain benefit such applications ? People rely on verbal  conversations for a variety of careers avenues like journalist, lawyers, phsychotherapists and translators.  
+
+What it does
+
+The goal is to have an app where two people can agree to record and sign a verbal contract. 
+A Speech-to-Text API converts the audio to a legal document with digital signatures. 
+The idea is to have this as a handy tool like POS devices.
+
+How we built it
+
+Google Cloud Platforms' Firebase provides handy and affordable ecosystem to have web apps deployed quickly with a scalable cloud infrastructure ready. This app at this prototyical stage is essentially a Firebase web project.
+Google login is suppported. The ""contracts"" are stored in each users Firestore collection. The audio is saved similarly in the default Firebase Storage bucket. Upload on the bucket triggers API call to speech-to-text API and stores written contract document with the transcription in the same bucket. 
+
+Challenges we ran into
+
+First time using Firebase and node.js based application. Developing front-end is something I have never done too. 
+
+Accomplishments that we're proud of
+
+can do better.
+
+What we learned
+
+First time using Firebase and node.js based application. Developing front-end is something I have never done too.
+
+What's next for Voctract
+
+In future you could integrate features to have SMS and email notifications for all ""parties"" in a voctract"" . Currently the implementation and integration with AssemblyAI doesn't work needs major overhaul. How can Blockchains help ?
+","https://voctract-48922.web.app, https://github.com/sparshpriyadarshi/voctract-web",https://www.youtube.com/watch?v=63Ygsq6cZog,"Best Social Impact Hack, Most Useless Hack, Best Use of Google Cloud (MLH), Most Creative Use of Twilio (MLH), Best use of Assembly AI","firebase, node.js, speech, webpack, firestore, java, auth, serverless, cloud, javascript",,University of Cincinnati,0
+Alphabets for all ,"",Draft,Pending,Project overview,02/27/2022 10:38:20,"","",,"","",,"BIT,Mesra",0
+Bearcat Coin,https://revuc-xi.devpost.com/submissions/311528-bearcat-coin,Submitted (Gallery/Visible),Pending,Submit,02/27/2022 10:39:44,"Inspiration
+
+Bearcat Coin was inspired by other crypto tokens like DAI and USDT. Bearcat Coin would be the UC native currency.
+
+What it does
+
+Bearcat Coin is a currency just like USD except it is secured by the Ethereum blockchain. Students will be able to send and receive Bearcat Coin around campus and to other students.
+
+How we built it
+
+We built Bearcat Coin on top of the Ethereum blockchain on the Rinkeby Testnet. We also built a website for easy signup and onboarding. We also made a server to authenticate if a potential user is a UC student.
+
+Challenges we ran into
+
+We initially wanted to use the Hedera Network but we found it difficult to use their blockchain and APIs.
+
+Accomplishments that we're proud of
+
+Successfully deploying a token to the Ethereum Blockchain.
+
+What we learned
+
+We learned about smart contracts, frontend development, and web3 technologies
+
+What's next for Bearcat Coin
+
+We hope that the university adopts bearcat coin and we can then deploy Bearcat Coin to a network like Ethereum Mainnet or the Polygon network.
+",http://bearcatcoin.cash,https://www.youtube.com/watch?v=VmG4bry1kXI,"","html5, css3, solidity, javascript, typescript",,University of Cincinnati,3
+The Wage Worker of Wall Street,https://revuc-xi.devpost.com/submissions/311533-the-wage-worker-of-wall-street,Submitted (Gallery/Visible),Pending,Submit,02/27/2022 10:46:21,"Inspiration
+
+Although a financial literacy class is offered at our school, we were aware that there was not a mandatory FinLit class at every school, or even one offered as an elective. We strived to create a quick game and simulation that could teach students about the stock market while it wouldnâ€™t take an obscene amount of time out of the teacherâ€™s day to do something slightly off-curriculum - maybe just 15 minutes coupled with a worksheet.
+
+What it does
+
+The Wage-Worker of Wall Street is essentially a stock trader simplified. 8 stocks are available for buying and selling. The stocks follow historical market data for their sectors, and some stocks (like PEAR) are datapoint clones of companies from 2005 (PEAR is AAPL to clarify). The simulation runs for 2 years, split into 8 financial quarters. In each quarter, the game displays news that pertains to possible market trends, and the player can read these headlines and make decisions whether to buy, sell, or hold their stocks in a certain company. After each quarter, the player receives more news, and the game loop continues until September 1, 2007, whereupon the game ends, giving an ending screen and a summary of what you did with your available funds. Some stocks plummet, some are merely inflation hedges, and some are great investments.
+
+How we built it
+
+We used React, coupled with Bootstrap to create this application. It was interesting challenge to build our game using state-based architecture, meaning that our application was directly tied to all values related to the player. By updating stocks owned, or money, changes would be directly reflected in the application. We also used Github Pages to host the website.
+
+Challenges we ran into
+
+For Inesh, this was one of his first experiences using Git for collaborative version control. This led us to interesting moments of merging, pushing to the wrong branch, and just general fun with Git. More challenges we ran into was that we had a large scope for our project, and realized that actually achieving things would be much harder. Aidan was mostly focused on realizing the games core mechanics, and giving the developers a reality check when they were trying too hard. More challenges emerged from using React in ways it probably shouldnâ€™t be, and monitoring the state of our application.
+
+Accomplishments that we're proud of
+
+We really like the news feature, as well as the stock trading screen (reminiscent of the deep rock galactic mineral trading screen). Tying everything together with React has also been satisfying, and it was great being to able to restart the game so easily by resetting the state.
+
+What we learned
+
+Donâ€™t plan too much for a 24-hour hackathon! No, seriously. Donâ€™t. We also learned how to better code within React, as it was a relatively new language for us. 
+
+What's next for The Wage Worker of Wall Street
+
+We believe that this project has potential, and with some work, we can incorporate graphs, dividends, P/E ratios, and other important aspects of the market that we simply didnâ€™t have time for, as well as expanding the scope of the game to include short-term spending, investing in retirement funds, and incorporating various random events.
+",https://ucstocks.github.io/,https://www.youtube.com/watch?v=ZVgXIXYbca8,"Best Educational Hack, Fifth Third - deFINe: Development and Education for Financial Independence","react, bootstrap, github, figma, notion",,"",2
+CollegeFinder,https://revuc-xi.devpost.com/submissions/311536-collegefinder,Submitted (Gallery/Visible),Pending,Submit,02/27/2022 10:50:49,"Inspiration
+
+One of our teammates had transferred schools and while looking for his new transfer school, he had a lot of problems finding what was available.
+
+What it does
+
+This prototype allows a student or someone interested in college to find colleges in any state and within their budget (with more search criteria to come)
+
+How we built it
+
+Initially in Python, we switched to JavaScript and HTML around halfway through the hackathon.
+
+Challenges we ran into
+
+None of us knew JavaScript or HTML, so we spent a lot of time getting the basics in the time we had allocated. Also, figuring out how APIs work!
+
+Accomplishments that we're proud of
+
+Able to successfully learn how to use APIs and do so in both JS and Python. We were able to make a webpage with no prior knowledge in HTML or CSS and we have our site hosted so that it is actually usable for those who need help finding colleges.
+
+What we learned
+
+JavaScript is very similar to Python, but definitely not the same. Also, JQuery is the best ever.
+
+What's next for CollegeFinder
+
+Adding more search criteria. Since we're near the end of the hackathon, we don't have enough time to make this as deep as we wanted, but implementing new search criteria is something we can definitely do with our learned skills.
+",https://randalhucker.github.io/CollegeFinder/,https://youtu.be/BM35qvVEtHQ,"","apis, html5, css, javascript, python",,University of Cincinnati,3
+Guitar Synthesizer,https://revuc-xi.devpost.com/submissions/311540-guitar-synthesizer,Submitted (Gallery/Visible),Pending,Submit,02/27/2022 10:57:02,"Inspiration
+
+I have been playing guitar for several months now, and wanted to see if I could convert my guitar playing directly into music for others to play.
+
+What it does
+
+This project uses the default device microphone to listen for frequencies (from guitar), and then maps them into notes, and then onto guitar sheet music.
+
+How I built it
+
+I used Java as well as the jMusic API to convert the frequencies, and QuiFFT to perform Fast Fourier Transformations on the audio waves, allowing me to look at individual frequencies and their respective amplitudes.
+
+Challenges we ran into
+
+One challenge that annoyed me quite a bit was the noise gate. Due to background noise where I live, it was very difficult to find a location with low background noise and minimal headphone feedback, allowing me to isolate only the musical notes.
+
+Accomplishments that I'm proud of
+
+I am very proud of having learned much of how to use the Java Sound API, as well as performing algorithmic computations on the data I received, within the last 24 hours.
+
+What we learned
+
+I learned a lot about static methods and array initializers, as well as how to perform a FFT, convert frequencies, and capture and store audio from the microphone.
+
+What's next for Guitar Synthesizer
+
+I still plan to continue working on this, as I need to add support for chords and possibly automatic noise gating.
+",https://github.com/atauln/RevUC-XI,https://youtu.be/yoXtuNetr4M,Most Useless Hack,"java, quifft, jmusic, junit",,Boone County High School,0
+Crypto View,https://revuc-xi.devpost.com/submissions/311545-crypto-view,Submitted (Hidden),Pending,Submit,02/27/2022 11:09:11,"CryptoView
+
+ðŸ’¡ Inspiration
+
+Start your crypto store or run your own crypto market today with Crypto View - a secure and reliable way to create NFTs of digital content, collectibles, or any item you wish to sell online. From ceramics, jewelry, paintings to even a tweet - no matter what kind of content you wish to create, Crypto View platform enables anyone to easily design and publish their virtual products, so they can be purchased by other users all over the world!
+
+ðŸ’» What it does
+
+CryptoView is a web application that allows users to create and publish their own digital content, collectibles, or any item they wish to sell online. From ceramics, jewelry, paintings to even a tweet - no matter what kind of content you wish to create, Crypto View platform enables anyone to easily publish their virtual products, so they can be purchased by other users all over the world!
+
+âš™ï¸ How we built it
+
+
+Django: For backend
+Python: For backend
+HTML and CSS: For frontend
+Hederaâ€™s testnet: For smart contract and chatroom
+MATLAB: For making model to check plagiarism.
+
+
+ðŸ” Best Blockchain Project Using Hedera (MLH)
+
+We are using Hederaâ€™s testnet to make a decentralized chatroom. Hedera is a decentralized public network that utilizes the Hashgraph consensus algorithm to overcome the traditional limitations of blockchain and allow one to create the next era of fast, fair, and secure applications.
+
+ðŸ‘©â€ðŸ’» Best Use of MATLAB (MLH)
+
+We are using MATLAB in our project to checkout out the plagiarism. MATLAB is a powerful programming language that is used for data analysis and machine learning. We are using it for data analysis and machine learning.
+
+ðŸŒ Best Domain Registered with Domain.com (MLH)
+
+
+cryptoview.tech
+
+
+ðŸ§  Challenges we ran into
+
+
+We have some challenges with the backend, but we managed to get the project done.
+Completing the project in the given time frame.
+
+
+ðŸ… Accomplishments that we're proud of
+
+
+Completing the project within the given time frame.
+Creating a fully functional application.
+
+
+ðŸ“– What we learned
+
+
+How to work with NFTs.
+Learned about blockchain.
+
+
+ðŸš€ What's next for CryptoView
+
+
+Improving the UI.
+Adding more features.
+
+",https://github.com/Harshal0902/CryptoView,https://www.youtube.com/watch?v=ivH26SLXld8,"Best Educational Hack, Best Design Hack, Best Social Impact Hack, Most Useless Hack, Fifth Third - deFINe: Development and Education for Financial Independence, Digital Futures Storytelling Prize, Digital Futures Innovation Award (for excellence in technical demonstration), Most Creative Use of Twilio (MLH), Best Use of MATLAB (MLH), Best Blockchain Project Using Hedera (MLH), Best use of Assembly AI, Cyber@UC - Top Capture The Flag Team","python, django, hedera, hedera-testnet, matlab",,"Graphic era university, SRMIST, the LNM institute of information and technology",2
+Python Battleship,"",Draft,Pending,Additional info,02/27/2022 11:09:39,"","",,"","",,University of Cincinnati,1
+Rick the Discord Bot,https://revuc-xi.devpost.com/submissions/311549-rick-the-discord-bot,Submitted (Gallery/Visible),Pending,Submit,02/27/2022 11:14:29,"Inspiration
+
+Our inspiration for this project was Groovy the discord bot (RIP) and the hole left in our hearts from his departure.
+
+What it does
+
+It is supposed to be able to take in inputs from discord text channels, join active calls, and stream Spotify within the call. What it can do is take in commands that control a person's personal Spotify account, join discord voice calls, and stream https://www.youtube.com/watch?v=dQw4w9WgXcQ
+
+How we built it
+
+Rick was built using Python, JavaScript, Discord API, and Spotify API
+
+Challenges we ran into
+
+The biggest challenge we ran into was with the Spotify API. At the end of the day, we realized we needed Spotify to see the bot as a device to play through. After a solid 10 hours of trying to do only that, we came to the unfortunate conclusion that Spotify's API does not currently have that capability :(
+
+Accomplishments that we're proud of
+
+Going into this project, neither of us had any experience with APIs or Javascript so at the end of the day we feel very good that we were so close to our intended result and we truly put all of our energies into finding a way to put all of our smaller pieces together.
+
+What we learned
+
+How to use different APIs, JavaScript, and a little bit of React from one of our possible problem solutions that didn't work out.
+
+What's next for Rick the Discord Bot
+
+In the future, we plan to come back to Rick and see if there is any updates with the Spotify API or if our future knowlage will show us a solution we missed
+",https://github.com/bolt-lyd/RevUC-2022,https://youtu.be/vkmEou7SI98,"Best Design Hack, Most Useless Hack","python, javascript, api, spotify, discord, github",,University of Cincinnati,1
+Bee,https://revuc-xi.devpost.com/submissions/311553-bee,Submitted (Gallery/Visible),Pending,Submit,02/27/2022 11:29:57,"Inspiration
+
+Always wanted yo use blender and this was the perfect opportunity
+
+What it does
+
+It says ""Always bee yourself"" with jazz music
+
+How we built it
+
+We blender and react. 
+
+Challenges we ran into
+
+It was my first time using blender.
+
+Accomplishments that we're proud of and what we learned
+
+I learn how to design with simple materials, how to create lighting,
+a background, how to use hair, and how does it works because it is so
+confusing, although I got the hand of it.
+It was  my first time creating a domain at domain.com, I got the domain, it is ""ihiveadream.tech"".
+
+What's next for Bee
+
+Being actually on a web page to be useful
+",https://github.com/dorado5115/bee,https://youtu.be/PYu1VKHchtM,"Most Useless Hack, Best Domain Registered with Domain.com (MLH)","blender, react",,Tecmilenio,0

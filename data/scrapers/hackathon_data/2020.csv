@@ -1,0 +1,1202 @@
+Project Title,Submission Url,Project Status,Judging Status,Highest Step Completed,Project Created At,About The Project,"""Try it out"" Links",Video Demo Link,Opt-In Prizes,Built With,Notes,Team Colleges/Universities,Additional Team Member Count,Table Number,Mlh Points,If You Submitted For The Domain.Com Prize What Was The Domain You Chose?,Mlh Hardware Lab,Mlh Software Lab
+Canada Eh! | A Site for Information and Entertainment,https://revuc-ix.devpost.com/submissions/142828-canada-eh-a-site-for-information-and-entertainment,Submitted (Gallery/Visible),Pending,,02/23/2020 04:13:03,"Inspiration: My trips to Niagara Falls that lasted throughout throughout my childhood inspired me to make an app focused on Canada. The stereotypical term, ""eh"", is fun to use and from time to time, it is also enjoyable to have the Canadian maple syrup. In Canada, the metric system is standard. I wanted to make something that utilized functions with JavaScript and provided useful information which I can use next time I visit Canada.
+
+What it does: It features a home/index page and switches between pages for Memes, a Unit Converter, and a Sources page.
+
+How I built it: I built Canada Eh! through the use of Visual Studio Code and HTML.
+
+Challenges I ran into: I experienced difficulty with setting up the HTML tags at first but over a period of a few hours, I began to get the hang of it. After that, I decided to implement JavaScript functions for performing unit conversions. In programming these, I learned how to make useful functions with JavaScript.
+
+Accomplishments that I'm proud of: I am proud creating a website based on Canada with HTML and JavaScript, which I have never used before.
+
+What I learned: I learned that HTML is a markup language with tags and JavaScript is used as a way of performing functions on HTML websites.
+
+What's next for Canada Eh! | A Site for Information and Entertainment: In the future, I hope to share Canada Eh! with my grandparents, who travel to Niagara Falls a few times a year; share it with friends of my family who live in Canada; and add more to Canada Eh! to make it an even better experience.
+",https://canadaeh.online,,Make the Customerâ€™s Life Easier (84.51),"html, javascript",,Ohio University - Main Campus,0,801M-9,"","","",""
+PABLA,https://revuc-ix.devpost.com/submissions/142935-pabla,Submitted (Gallery/Visible),Pending,,02/23/2020 09:48:25,"Inspiration
+
+We wanted to leverage both the physical device as well as Blockchain to create a hybrid digital-physical authentication tool. 
+
+What it does
+
+It looks for an authenticated user and sees if the user has made a transaction on the blockchain. It then looks for physical authentication. Once these two are met they gave and access granted. Thus being able to create a traceable physical authentication without having to worry about a personâ€™s identity and have a public record.
+
+How I built it
+
+We leverage python to run the API calls to the Blockstack blockchain application. We then also you see ads C++ to create command to the adrenal. Python was used to link between the adrenal add the API calls.
+
+Challenges I ran into
+
+There are multiple challenges that we ran into when developing this application. The first challenge that we ran into was the process of authenticating users with blockchain. We found out that trying to authenticate users with the API was significantly harder to do than expected. Thus we switched up from the authentication portion of block stack to the street API calls.
+We also had a significant amount of technical difficulties with developing this application. We decided to first run the application in Google App Engine and use Flask to develop a web API. However, Flask did not play well with React and Blockstack application. So then we switched up to Node.js I tried running a Google app engine, however, the application has significant difficulties trying to start up as well. We were able to pivot multiple times and be able to rely on Python code to run the application.
+
+Accomplishments that I'm proud of
+
+We are happy that we were able to get the application working and to be able to handle the difficulties of working with mix technologies to get the application running. Weâ€™re also happy that we were able to collaborate regardless of our ages to get a team to cohesively get a project out. Our team consists of a graduate student, undergraduate student, at a high school student which made leveraging our youth with our experience integral to making the application work. Weâ€™re also happy that we were able to learn to adapt to the difficulties that were common in this application. Instead of being stuck to one project, we learned to be adaptable and flexible which will be needed in the industry.
+
+What I learned
+
+We learned a lot about how Blockstackl operates and what are the requirements to be able to track blockchain transactions for users. We also learned about how to run applications on Google App Engine. We learned more about how to leverage Audrino for physical device development.  Finally, we learned about ourselves and how to create a team that is agile to adapt to various obstacles and needs. 
+
+What's next for PABLA
+
+The next step for our application is twofold. One is to install the physical hardware on different devices so it canâ€™t unlock devices for people using blockchain and physical access. We also want to have this application more integrated into Blockstack so we could be able to create a robust application that leverages blockchain. 
+
+We hope to make it more integral to Blockchain 
+","https://github.com/aadejare/physblkchn, http://chainzandplainz.tech",,"Best Design Hack, Best High School Hack, Most Innovative Hack by UC Students (EECS GSA), Best Domain Registered with Domain.com (MLH),  Best use of Blockstack (MLH), Best Use of Immersive Technologies to Enable Consumer Financial Health (Fifth Third), Make the Customerâ€™s Life Easier (84.51), Best Data Collection Hack (CincyTech)","python, c, c++",,University of Cincinnati,1,755-3,University of Cincinnati,chainzandplainz.tech,"",Blockstack
+Alster,https://revuc-ix.devpost.com/submissions/142949-alster,Submitted (Gallery/Visible),Pending,,02/23/2020 09:55:14,"Alster
+
+AR Hamster ball game.
+Fight against the hamster ball on a real surface with AR and tip the opponent off the surface!
+
+Flow:
+
+
+Scene1: 
+
+
+Instructions
+Simple Play button
+Change play time (dropdown/carousel)
+
+Scene2:
+
+
+Start Mapping surface
+Press ok or wait 2 seconds until mapped place doesn't change.
+Start 3 second timer
+Drop balls
+Start game timer
+Auto spawn 2 seconds on losing.
+End game after 30 seconds.
+
+Scene 3:
+
+
+Show scores
+Replay button
+
+
+",https://github.com/Akhilez/Alster,,Best Use of Immersive Technologies to Enable Consumer Financial Health (Fifth Third),"c#, ar, unity",,University of Cincinnati,0,801M-7,University of Cincinnati,thealster.space,"",Domain.com
+Prescription Tracker,https://revuc-ix.devpost.com/submissions/142979-prescription-tracker,Submitted (Gallery/Visible),Pending,,02/23/2020 10:05:28,"Inspiration Prescription Tracker:
+
+In a lot of places around the world, doctors use paper to write prescriptions for patients. We thought about what we can do to make this easier so we decided to build software we would make open source. 
+
+What it does Prescription Tracker?
+
+It creates an interface for the doctor and another interface for the user. Both login using the same application with an option for the doctor to log in as a doctor and the patient as a patient on the startup page. 
+
+How we built it Prescription Tracker:
+
+We built this app using android studio. We created sample API data to be displayed when a user searches. We wanted to create a search functionality from the API data but we didnâ€™t have enough time so we focused on other parts of the project.
+
+Challenges we ran into Prescription Tracker
+
+We were working on different branches so when it came time to merge we had to look through our codes again and debug. That took us the most time.
+We also wanted to add more functionality to our app but we realized that we couldnâ€™t finish in time if we added those. 
+The other challenge was going from one activity to another in android app. It took a long time to figure out how to navigate from the second activity to the third activity.
+
+Accomplishments that we're proud of Prescription Tracker
+
+We are proud of our idea and how much we were able to understand and implement in a short time give. We are also proud of starting this project because we intend to finish it when we get back to campus. 
+
+What we learned Prescription Tracker
+
+We learned how to use the android studio. We learned how to build an app. We learned how to use an API in our code. We learned more about the android studio debugging tools.
+
+What's next for Prescription Tracker
+
+We want to add a Barcode scanner, search functionality from an FDA API data (), and dispense our software open-source for doctors and patients to download and use it as they like. We would also like to add a functionality where patients press on medicine and can see the side effects and uses.
+",https://github.com/belainehi/UC_Hackaton_Prescription_tracker,https://youtu.be/GpBkNdpf0To,"","java, android-studio, visual-studio, json, apa",,Berea College,3,755-8,Berea College,"","",Blockstack
+Drowsiness detection,https://revuc-ix.devpost.com/submissions/142982-drowsiness-detection,Submitted (Gallery/Visible),Pending,,02/23/2020 10:08:47,"Inspiration
+
+Occurrences of many road accidents because of minor issues like sleepiness and fatigue. There were many cases of accidents that took place in remote areas and the person was not able to get help sooner. We want to address this problem with our model.
+
+What it does
+
+Our model detects the face of the driver and alerts the person if he/she closes eyes for more than 3 seconds. In addition, we designed an alert system that sends a notification along with their current location to emergency contacts if the person doesn't wake up for more than 10 seconds.
+
+How we built it
+
+We used OpenCV and dlib libraries to detect the facial features of the driver from the video stream. We took every frame of the video as an input image. We used 'Eye Aspect Ratio(EAR)' to determine the condition of the driver i.e, whether he is awake or sleepy. If the person closes eyes for more than 3 seconds we trigger a thread that starts an alarming sound. If the person doesn't wake for more than 10 seconds we used Twilio client to send a personal message along with location to his emergency contacts.
+
+Challenges we ran into
+
+We are new to image processing and we had to do research and learn how each library works and then implement it. We tried to develop an ios app for sending realtime location to contacts in case the person doesn't wake up for a long time.
+
+Accomplishments that we're proud of
+
+We are proud to be able to finish most of our application which we didn't expect to do so.
+
+What we learned
+
+We learned new concepts like video processing and face detection and also ios app development.
+
+What's next for Drowsiness detection
+
+In the event of failure to wake the driver, we thought we can at least save others traveling near this vehicle by alerting them. We can integrate this model with the vehicle and make all light flicker as an indicator of danger.
+Currently, we are able to send location through IP which is not accurate. Using an app, we can send a precise location and users can set their own alarm tone and configure emergency contacts.
+
+We added a demo video in this link
+https://github.com/sravanthireddyaleti/Drowsiness-detection---Hackathon/blob/master/IMG_6931.MOV
+",https://github.com/sravanthireddyaleti/Drowsiness-detection---Hackathon,,"Best Education Hack, Most Innovative Hack by UC Students (EECS GSA), Best Use of Immersive Technologies to Enable Consumer Financial Health (Fifth Third), Make the Customerâ€™s Life Easier (84.51), Best Data Collection Hack (CincyTech)","python, opencv, dlib, twilio, swift",,University of Cincinnati,2,801C-2,University of Cincinnati,"","",""
+MoneyMan,https://revuc-ix.devpost.com/submissions/143023-moneyman,Submitted (Gallery/Visible),Pending,,02/23/2020 10:30:58,"Inspiration
+
+The HTC-Vive and the 5/3 challenge with AR/VR
+
+What it does
+
+It is a game were the player navigates a maze collecting money tokens and running from financial irresponsibility.
+
+How we built it
+
+We made it by using the Unity IDE and and Visual Studio. 
+
+Challenges we ran into
+
+computer hardware issues, challenges with programming logic.
+
+Accomplishments that we're proud of
+
+getting the random map generation somewhat working, teamwork, and learning a new programming language in a short amount of time.
+
+What we learned
+
+We learned how to use the Unity IDE to help set up games for future projects.
+
+What's next for MoneyMan
+
+optimization and multi-platform support for other VR systems.
+","",,Best Use of Immersive Technologies to Enable Consumer Financial Health (Fifth Third),"unity, vr, htc-vive, c#, mspaint, musescore, github",,"University of Cincinnati, University of Cincinnati Clermont College, Ohio Northern University",3,801M-1,"University of Cincinnati, Ohio Northern University","","",""
+SeedSearcher,https://revuc-ix.devpost.com/submissions/143029-seedsearcher,Submitted (Gallery/Visible),Pending,,02/23/2020 10:33:19,"Inspiration
+
+We know a lot of people who garden as a hobby, so we decided to make a project that could help people out while learning a few development tools along the way.
+
+What it does
+
+SeedSearcher takes the user's location or zip code along with an optional paramater of rainfall and contacts the openweather API to gather climate data about that location. It then uses this data to parse our database of plants to return a list of plants that would grow well in that climate.
+
+How we built it
+
+We built SeedSearcher as a full-stack application. We used React for the front-end and mongodb for the back-end. The back-end is hosted on Heroku and the front-end is hosted using Github pages with a domain we purchased from Domains.com.
+
+Challenges we ran into
+
+Most of the challenges along the way had to do with the fact that we were learning as we went. There were a lot of simple syntax mistakes and other little bugs, but the more we messed up, the more we researched and ended up learning. We really dug into the documentation for the tools we used to learn the ins-and-outs of how they work.
+
+Accomplishments that we're proud of
+
+We are most proud of writing a full-stack application and understanding the framework and interactions between the front-end and the back-end.
+
+What we learned
+
+We learned how to use React, mongodb, and node.js to effectively create a web app.
+
+What's next for SeedSearcher
+
+The next step for SeedSearcher would be integration with some sort of shopping API to provide users links to seeds for the plants that showed up in their query.
+",http://seedsearcher.online,,"Best Design Hack, Most Innovative Hack by UC Students (EECS GSA), Best Domain Registered with Domain.com (MLH), Make the Customerâ€™s Life Easier (84.51)","javascript, react, node.js, mongodb, openweathermap, heroku, github, git, postman",,University of Cincinnati,1,801-18,University of Cincinnati,seedsorter.online,"",MongoDB
+ai-donald,https://revuc-ix.devpost.com/submissions/143048-ai-donald,Submitted (Hidden),Pending,,02/23/2020 10:50:45,"     ___        ______     ____ _                 _  ___  
+    / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
+   / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
+  / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
+ /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
+
+
+
+https://github.com/JrodManU/ai-donald
+
+Introduction: 
+    This a text generator that tries to generate Donald's new Twitter based on his previous speech material.
+
+Author:
+    This project is done by Jared Robbins, Tanner Marshall and Taoqi Yang.
+
+Description:
+    We first collected big set of data of the Donald's past speeches and then built a machine learning model in tensorflow which is trained by 
+the data set. Based on the model, we predict the next words using current and previous words. 
+    In practice, we need to the user to feed a heading to start the model. After the execution of model, the generated text will be post to
+twitter with id ""Ai Donald"" 
+
+Possible improvement:
+    Modify the algorithm and logic in the model to let it has a better prediction of the next word.
+
+reference:
+    The process in model building refers techniques shown on this website: https://www.tensorflow.org/tutorials/text/text_generation
+    The picture of background refers to picture: https://assets.donaldjtrump.com/2017/web/hero_images/hero_marine_one.jpg
+",http://jrodman.us/,,Best Data Collection Hack (CincyTech),"python, html, css, javascript",,"Ohio State University, The Ohio State University",2,"801E,-1",The Ohio State University,"","",""
+Kids Eat,https://revuc-ix.devpost.com/submissions/143053-kids-eat,Submitted (Gallery/Visible),Pending,,02/23/2020 10:56:11,"Inspiration
+
+John -  As a beginner in programming I was motivated by the team work and intense critical thinking that the team went used throughout the process.
+Audrey - I was motivated to participate in this project because I'm from Appalachia and I know a lot about the food insecurity crisis that is present here. 
+Shageldi - I was motivated by the initiative named Berea Kids Eat led by Grow Appalachia, a non-profit within Berea College. The initiative faces the problem of delivering kids free meals during the summertime because schools are their main outreach channels.
+
+What it does
+
+Our app notifies families that live below poverty line (30% in Berea community) of the free meal events for their kids in the town.
+
+how we built it
+
+John- I played a part in the front end development of the app. i.e from brainstorm the UI to programming it.
+using built in tools like buttons, background color , Mapview , Textview etc.
+Audrey - I helped with UI design and mapping out the features of the app
+
+Challenges I ran into
+
+John- as a beginner, One of the challenges I faced during the process  was working with Java as I do not  have in depth knowledge of java programming language.
+Audrey - I definitely had issues with figuring out what information to include when mapping out, and what order to put information.
+
+Accomplishments that I'm proud of
+
+John-I am proud of the fact that we were able to build something, although we went through so many challenges.
+
+What I learned
+
+John- A broader experience of android Development using Java, and other technologies like working with google cloud specifically google maps APi, UI best practice for android development Firebase  for data base etc.
+Audrey - I learned how to work quickly under a time limit, and also had my first main experience with UI design. 
+
+What's next for Kids Eat
+
+We are hoping to develop this further and polishing it to make it more usable in the coming months. We are hoping for it to work with the Facebook page that exists right now, or possibly replace it.
+",https://github.com/ovezovs/Kids-Eat,," Best use of Google Cloud (MLH), Best Domain Registered with Domain.com (MLH)","java, firestore, firebase, android-studio",,Berea College,3,755-10,Berea College,https://rubberduckcodedebugger.tech/,"",Google Cloud
+The Brave Little Toaster,https://revuc-ix.devpost.com/submissions/143055-the-brave-little-toaster,Submitted (Gallery/Visible),Pending,,02/23/2020 10:57:47,"Inspiration
+
+Our previous hackathon, we built software, so we wanted to do something hardware based this time. Re-purposing something old seemed fun, so our mind landed on re-purposing an old VCR player and a toaster. 
+
+What it does
+
+It allows the user to enter their toast into the VHS slot of the player. They can then select the level of toasting they want on their bread, and then it will toast inside the player until ready, after which it will be dispensed back out the tape slot. 
+
+How I built it
+
+We gutted both the toaster and the VHS player, and salvaged the heating units from the toaster. The shell of the VHS was used to attach the heating elements over where the VHS tape would have been (taking appropriate precautions for the large increase in heat inside the unit). We used our raspberry pi to program the buttons and control when the heating elements would be on and off, and the dispense the toast after toasting for the appropriate amount of time. 
+
+Challenges I ran into
+
+The heat in and of itself was a challenge, so we had to make sure we took all precautions to avoid injury to ourselves or the risk of starting an electrical fire, and we had no issues emerge, so we mitigated this risk to our project. 
+Another challenge was unfamiliarity with the devices we were tearing apart, both the toaster and the VCR had more complex internal mechanics than expected, but we were able to understand those and salvage what we needed and remove what we did not. 
+
+Accomplishments that I'm proud of
+
+Actually getting it to work! When we got our first piece of (only slightly crisp) toast, we felt like we actually had been successful in the endeavor. Having the raspberry pi controlling the elements inside of the VCR was an accomplishment as well, since it gave us much more control over the process flow. 
+
+What I learned
+
+Lots of things - python programming for the raspberry pi, electrical connections, and some inner mechanics of common (or formerly common) household devices. 
+
+What's next for The Brave Little Toaster
+
+Making us a well earned breakfast after we sleep this hackathon off, and then continuing as a memento to what our team was able to accomplish here today. 
+","",,Best Design Hack,"python, raspberry-pi, vcr, servo, heating",,University of Louisville,0,801-13,"University of Louisville, University of Cincinnati","",Digi-Key Components,""
+VR Based Customer Mortgage App,https://revuc-ix.devpost.com/submissions/143057-vr-based-customer-mortgage-app,Submitted (Gallery/Visible),Pending,,02/23/2020 10:58:26,"Inspiration
+
+We wanted mortgage applicants to be more confident about buying homes. Buying a home is a one-time decision and a very big investment for many.
+
+What it does
+
+Buying a home is a very big decision in life. When people like us go to a bank for mortgage applications, we want to be sure that the house we are buying will be safe to live, will increase in value over the years. Our app uses ML to predict the prices for 5 years and scrapes the database for past crimes that happened in the vicinity. Then, it provides the user with the best mortgage buying option. To aid the user, our app sends SMS to the user's phone, through which the user can see their prospective home in Google Street View.
+
+How We built it
+
+We built it, with a team of 3 people, Abiral, Ashish and Abubakr. We used ML, SQL and database scraping.
+
+Challenges We ran into
+
+We, as usual, since we are not pro with Python, had problems with Python data types. Making Python coexist with maps API was really painful. 
+
+Accomplishments that We're proud of
+
+We are proud of the ideas that we generated by brainstorming. We revised ML algorithms since it had been a lot since we had last used it.
+
+What We learned
+
+I learned about google maps API, integrating python to google cloud, how to use APIs, and in hackathon workshops, I learned about vision and AR.
+
+What's next for VR Based Customer Mortgage App
+
+Using much more features to predict, rather than just a few we used in hackathon due to time limitation.
+",https://github.com/abiralacharya/hackathonuc,," Best use of Google Cloud (MLH), Best Domain Registered with Domain.com (MLH), Best Use of Immersive Technologies to Enable Consumer Financial Health (Fifth Third)","python, sql, machine-learning, ai, html, scraping, web, api, google-cloud",,University of Toledo,2,760-1,University of Toledo,abiral.online,"",Google Cloud
+DPA SCA on AES on Arduino Nano using ChipWhisperer,https://revuc-ix.devpost.com/submissions/143059-dpa-sca-on-aes-on-arduino-nano-using-chipwhisperer,Submitted (Gallery/Visible),Pending,,02/23/2020 10:58:52,"Inspiration
+
+This project was inspired by our participation in a embedded CTF competition.  This is a two-part semester long competition.  During the first part, we are required to design a mp3 player with secure digital rights management.  After we hand-off our design to the coordinators, we then enter the second phase.
+During the second phase, we are given other teams designs and must try to break their security.  One method that we were interested in trying was a differential power analysis side channel attack on an AES implementation.  As our focus has been on completing our own design, we have not worked on attack strategies beyond brainstorming.  So, we decided to make DPA SCA our RevUC project.
+
+What it does
+
+DPA is a type of SCA that analyzes power consumption to determine a secret key.  This works because more power is used when transitioning from 0->1 than maintaining 1, transitioning from 1->0, or maintaining 0.
+
+How we built it
+
+First, we installed the softwares necessary to use a ChipWhisperer we recently obtained from UC.  The ChipWhisperer is a device that was specifically designed to support DPA SCAs.  Once the enviornment was set up, we lifted a power pin from the Nano and soldered a shunt resistor to it so we can measure the Nano's power consumption.  Then we implemented tinyAES on the Nano.  Then we connected a MEASURE pin to the power tap, and read data.  Finally, we adjusted aspects of the ChipWhisperer code analyze the power trace more accurately. 
+
+Challenges we ran into
+
+Installing the appropriate softwares onto some computers.
+Have never done a DPA.
+Have never used the ChipWhisperer.
+Issues writing to serial console.
+Issues with Nano AES accepting 16-bit keys, but ChipWhisperer sending 32-bit keys.
+Determining which of the three MEASURE ports was the correct pin to connect the power trace to.
+
+Accomplishments that we're proud of
+
+Lifting a pin from the ATmega chip, and soldering it to the shut resistor without breaking the pin or soldering to multiple pins.
+Determining the appropriate MEASURE pin to connect the power trace to correctly with no helpful documentation.
+
+What we learned
+
+We learned the basics of how to use the ChipWhisperer and are beginning to understand how to debug it.
+
+What's next for DPA SCA on AES on Arduino Nano
+
+Using it in our competition to retrieve secret keys from competitor's designs.
+","",,"","arduino, c, python",,University of Cincinnati,2,801-16,University of Cincinnati,"","",""
+Get High Don't Die,https://revuc-ix.devpost.com/submissions/143063-get-high-don-t-die,Submitted (Gallery/Visible),Pending,,02/23/2020 11:04:48,"Inspiration
+
+Medication is tricky. Sometimes it can cure your illnesses and lift your spirits, other times it can cause more problems than it fixes. 
+
+...But why is that? 
+Why didn't your doctor tell you about the negative side effects of the pills given to you? How are you supposed to properly weigh your risks? What about medicines your doctor would never mention? Alternate medicines? Illegal drugs? Can you discuss those with your doctor?
+
+Can you even afford a doctor? This is America, after all. 
+
+What it does
+
+In the Information Age, wouldn't it be nice if you could use your own data for more than just Netflix movie recommendations?
+
+Get High Don't Die is a service that allows users to track their adherence and frequency of drug usage, as well as keep track of any negative side effects they've experienced. By cross referencing the data from the other users and your own records, we can discover new drug interactions and provide increasingly personalized drug recommendations. In addition, our integration with the FDA's adverse drug event reporting system allows us a source of original truth when making recommendations to users.
+
+How I built it
+
+Lots of work in Jupyter notebook scraping, cleaning, scraping, cleaning, scraping, cleaning 
+
+Neo4j for modeling drug interactions in a dynamic and ever-expanding graph!
+
+Vue for the front end. Python Flask for the backend.
+
+Challenges I ran into
+
+Rate limits are hell. APIs that you're consuming rarely hold to the promises they make in their documentation 
+
+Accomplishments that I'm proud of
+
+Pagination! I made a wrapper that circumvents illogical restrictions on api access. Turns out the FDA doesn't want you to use more than 25k of their Adverse Drug Events to analyze, despite having ~11 million of them...
+
+What I learned
+
+I learned how to navigate the FDA's open drug data and a great way to represent drug interactions in a graph database.
+
+What's next for Get High Don't Die
+
+Smoothing up the frontend, making a mobile app, pushing it all to the cloud!
+","",,"Best Education Hack, Best Design Hack, Best Data Collection Hack (CincyTech)","python, neo4j",,University of Kentucky,0,801C-1,University of Kentucky,"","",""
+AR in Banking,https://revuc-ix.devpost.com/submissions/143067-ar-in-banking,Submitted (Gallery/Visible),Pending,,02/23/2020 11:08:12,"Inspiration
+
+Working in the banking sector has always been exciting. The integration of technology and banking always leads to something cool. Integrating new immersive technologies like AR into banking was a fun challenge. It opens up endless possibilities of things to create in AR than improve customers' banking experience.
+
+What it does
+
+The mobile application integrated with AR technology changes the way how a customer interacts with a banking application.
+
+How we built it
+
+We used IONIC framework for the hybrid mobile application and used AR.js for all the AR stuff. As both IONIIC and AR.js are web-based tools, they go well with each other. All the data that is displayed on the frontend is fetched from the backend built on Node.
+
+Challenges we ran into
+
+
+Figuring out a way to integrate AR.js with IONIC framework was the first challenge we faced.
+Fetching the data dynamically from the backend for displaying the AR elements. We used a kind of hack to load the data on page load using the onLoad function. There can be a better way to do it but we were not able to figure it out.
+AR.js is primarily a marker-based AR library. We were not able to implement custom markers.
+
+
+Accomplishments that we're proud of
+
+
+We hopped on the Augmented Reality technology. We have never done anything related to AR before.
+
+
+What we learned
+
+There is no limit that technology can accomplish. You just need to have that curiosity to keep exploring.
+
+What's next for AR in Banking
+
+The possibilities are endless. Few ideas which we had but couldn't implement:
+
+
+Show the improvement in credit score, when the customer pays the remaining due amount.
+Two cards can be placed side by side to seamlessly initiate a fund transfer.
+
+",https://github.com/VarunRaj7/RevUC,https://youtu.be/n5_pcO8osNY,"Most Innovative Hack by UC Students (EECS GSA), Best Use of Immersive Technologies to Enable Consumer Financial Health (Fifth Third)","node.js, ionic",,University of Cincinnati,1,860D-3,University of Cincinnati,"","",""
+Super-Marka-Metrics,https://revuc-ix.devpost.com/submissions/143069-super-marka-metrics,Submitted (Gallery/Visible),Pending,,02/23/2020 11:11:23,"Inspiration
+
+Our inspiration came from us all being college students and not budgeting well or not having the money. It also came from the 84.51 Challenge with Kroger's data.
+
+What it does
+
+This application shows the customer their weekly spending at Kroger, what commodities they spend the most in. Users will have the ability to easily toggle through the weeks! Their information will then be mapped to both a bar & line chart. This will help users get a better budget break down thanks to their customer information provided by 8451 & Kroger! In addition to that, our application also incorporates Machine Learning to predict and estimate cost on how much you will spend given a certain number of commodities. More information on this is in the machine learning section. Our app brings a lot of value to those on a budget, looking to spend smarter!
+
+How we built it
+
+We built this application using React.js, Machine-Learning, Google-Cloud, Firebase, and more. We divide the work into two main parts. We had two people on front-end and two people on the machine learning aspect. The people on the machine-learning portion were responsible for deciding what data was real and usable for what we wanted to accomplish. The people on the front-end development portion were in charge of designing and creating the Web Application you see in the screenshots. We all collaborated and helped each other throughout the project.
+
+More on Machine Learning
+
+Our Machine Learning algorithm was generated & trained using Google Cloud Platform's AI Service Tables. The dataset we used was a derivative of the complete journey sample which we downloaded from 8451's area 51 website. The dataset consists of all the commodities that a single household would purchase in the given two-year span. This would total to around 400 rows of data (400 unique households). I'll make sure to put up the dataset. Now! As far as the Machine learning algorithm goes, the GCP platform trained a linearly regressive model. Some of the statistics go as follows:
+
+
+R^2 = 0.844
+MAE = 1,4720.91
+RMSE = 2,062.377
+MAPE = 35.54%
+
+
+Googles Services also gave the importance of commodity features. The top 5 goes as follows:
+
+
+Grocery_Staple
+Dairy
+Household
+Produce
+Alcohol
+
+
+Once our model was trained, totaling to a size of around 340MB & 1.5 Hrs of training time, we deploy the model. This entails generating a REST API to query the model which will reside in GCP's cloud services.
+
+Challenges we ran into
+
+The challenges we ran into were our original idea having to be scrapped and familiarizing everyone with all portions of the project. Our original idea was going to be a budgeting and nutritional app based off of Kroger Customers' spending. Sadly, the UPC Codes provided were not valid and made us have to rethink our idea.
+
+Accomplishments that we are proud of
+
+We were proud of that fact that we were able to learn more about google cloud and apply it to our application. It was amazing to see how courses at our university benefited us or allowed us to go above our basic knowledge, strive for higher goals, and achieve them. One person on our team was really excited to learn more about excel and how much you can really do with it. We are really proud of how our front-end turned out! It looked much better than we expected since the two people working on it have not really worked on React.js, if at all. Lastly, we were really proud of how much we learned about React.js and how we were able to implement it to do the functionality to make this application the best it can be in 24 hours.
+
+What we learned
+
+We all learned more about Machine-Learning and React as a whole. We learned how to be more efficient to be able to complete the project on time and accomplish all of our goals.
+
+What's next for Super-Marka-Metrics
+
+The goal is to move it into the nutritional market, using UPC codes, that helps users budget and stay healthy throughout their Kroger Journey!
+",https://github.com/RobertPenrod/healthystudentUC,,"Best Design Hack,  Best use of Google Cloud (MLH), Best Domain Registered with Domain.com (MLH), Make the Customerâ€™s Life Easier (84.51), Best Data Collection Hack (CincyTech)","javascript, html, css, react, google-cloud, excel, domain, machine-learning, firebase",,University of Toledo,3,760-1,University of Toledo,Super-Marka-Metrics.online,"",""
+OhmSee,https://revuc-ix.devpost.com/submissions/143071-ohmsee,Submitted (Gallery/Visible),Pending,,02/23/2020 11:12:10,"Inspiration
+
+The inspiration for this project was based off wasting time in labs looking for resistors. We decided that it was important to be efficient and speed up our process in labs. 
+
+What it does
+
+Detects the resistance of the resistor using a convolutional neural network. 
+
+How I built it
+
+We used Machine Learning.
+
+Challenges I ran into
+
+We did not have enough data. More data would have increased the accuracy of the CNN. 
+
+Accomplishments that I'm proud of
+
+We implemented a CNN.
+
+What I learned
+
+Machine Learning, Web design, Data Augmentation. 
+
+What's next for OhmSee
+
+Obtain more data and make it work for more use cases. 
+","",,"Best Education Hack, Most Innovative Hack by UC Students (EECS GSA)","",,University of Cincinnati,1,801-4,University of Cincinnati,"","",""
+CollectURL,https://revuc-ix.devpost.com/submissions/143081-collecturl,Submitted (Gallery/Visible),Pending,,02/23/2020 11:22:23,"CollectURL
+
+CollectURL is a kiosk application that is triggered when you approach a computer running our software. Our system will display your face, estimated age range, estimated emotional sentiment, and more. 
+
+The raspberry pi which powers the Kiosk leverages OpenCV to do preliminary face detection, and avoid sending AWS erroneous requests.
+
+Once our pi has verified that there is indeed a face on camera, the face image is cropped and sent to AWS's Facial Recognition API. The kiosk dashboard then displays various traits Amazon's API was able to detect. This includes ""subject is wearing sunglasses"", ""subject has a beard"", ""subject's age range"", ""subject's emotional state"", and more.
+",http://collecturl.com/,,"Most Innovative Hack by UC Students (EECS GSA), Make the Customerâ€™s Life Easier (84.51), Best Data Collection Hack (CincyTech)","python, laravel, amazon-web-services",,University of Cincinnati,2,801-8,University of Cincinnati,"","",""
+Battleship AI,https://revuc-ix.devpost.com/submissions/143083-battleship-ai,Submitted (Gallery/Visible),Pending,,02/23/2020 11:24:34,"Get ready to sink some freakin ships, my friend.
+
+Inspiration
+As first-year engineers and first-time hackathoners, we don't have much experience with taking on coding projects larger than a calculator (Thanks ENED.) However, we wanted to push our limits with what we can learn, like classes and very basic AI, and implement those new techniques into a game that's fun to play!
+
+What it does
+The user is playing against an automated opponent. The opponent AI was developed to have a very chronological guessing pattern so that if it hits a ship, it will set the next x amount of guesses in a radius around that origin point based on how many previous hits it has and the shot's location in reference to the origin.
+
+How we built it
+We established our game board by a 10x10 zero matrix. Numbers 1 through 5 are designated ships, 6 is a hit, and 7 is a miss. When each shot is generated, the matrix is updated with the corresponding value so that it can be determined when an entire ship is sunk and when the game ends.
+
+Challenges we ran into
+Our initial code was a hot mess. It was confusing, repetitive, and although it was compiling, it was not following the logic we intended it to. We then, in the wee hours of the night, broke the process down into very specific portions and introduced functions and classes to create an easy-to-follow program.
+
+What's next in Battleship
+GUI! We really wanted to create an awesome user interface but the baseline code took too much time, but we are definitely planning on getting a GUI up an running in the near future :)
+","",,"",python,,University of Cincinnati,0,801-1,University of Cincinnati,"","",""
+WeLearn,https://revuc-ix.devpost.com/submissions/143084-welearn,Submitted (Gallery/Visible),Pending,,02/23/2020 11:24:42,"Inspiration
+
+We wanted to make an app that we could see ourselves using in the educational environment. After a long time of deliberation, the final consensus was a game-like quiz app for students of any age. 
+
+What it does
+
+The user can either log into an existing account, or they can sign up for an account and then log into their new account. The student then can look over notes in the study section, start taking quizzes, or check their scores on the quizzes. To make this app more game-like, the quizzes unlock similarly to a skill tree, where you have to finish quiz one to open quiz two and three, and finish quizzes one, two, and three to have access to the final exam. Once a quiz is finish, their score is recorded in the grades tab. The user login information as well as the scores to the quizzes and exams are stored in Google Firebase. Our application has three test subjects that are Physics, Chemistry, and Biology. 
+
+How I built it
+
+This project was built in Android studio. Even though the group did not have a lot, if any, knowledge of Android Studio prior to this event, the upperclassmen really encouraged us to go for it. First, we each had our own project, such as developing the sign in page or the main menu, and we worked and expanded until we finally merged everything into one file and have been making final touches and additional aspects. 
+
+Challenges I ran into
+
+All three group members had little to no knowledge of programming, especially a project. Two of the three group members have never used Android Studio, but now we are all pretty confident in our skills in what we built. Our biggest challenges were trying to incorporate the Google Firebase as well as figure out how to read data from one activity to another. 
+
+Accomplishments that I'm proud of
+
+Building a functioning Android app in 24 hours with no prior knowledge of the programming software before the event. 
+
+What I learned
+
+We all learned how to use Android Studio and develop a neat, clean looking application that is appealing to the student demographic. None of us were really confident in the beginning of this event, but now we are so proud of everything we have learned and how we did what we once though was impossible. 
+
+What's next for WeLearn
+
+Potential to have a teacher portal for uploading content for the student or maybe having a student discussion board for students who share the same class.
+",https://github.com/lamsal9677/RevolutionUC.git,,"Best Education Hack, Best Design Hack","java, android-studio, firebase",,University of Toledo,2,760-1,University of Toledo,"","",""
+The Labyrinth Sprinter,https://revuc-ix.devpost.com/submissions/143088-the-labyrinth-sprinter,Submitted (Gallery/Visible),Pending,,02/23/2020 11:27:51,"We were inspired to develop this game because we all have interests in combining 3D modeling with programming logic. We also believed there was a lot of room for growth beyond our original minimum viable product, so we would never get bored with a game like this. Random maze generation is a huge focal point in computer science, so we thought it might be interesting to explore it ourselves and experiment with the different algorithms for implementing one We also wanted to learn a new programming language, and we figured C# was similar enough to C++ that we could pick it up in 24 hours.
+",https://github.com/wpritschau/TheLabyrinthSprinter.git,,"","unity, c#, blender",,University of Cincinnati,2,801-15,University of Cincinnati,"","",""
+GLOBE CHAT APPLICATION ,https://revuc-ix.devpost.com/submissions/143091-globe-chat-application,Submitted (Gallery/Visible),Pending,,02/23/2020 11:29:16,"Inspiration
+
+Being an immigrant, I have a lot of Indian friends who often text me in my native Indian language. I get tired of translating them by copying-pasting them from my Apple messaging application to google translator. That's how I got an idea that what if there is an one stop chatting application which can translate any text back and forth between multiple people instantly. I realized that it is just not me who is dealing with this issue, there are many others who also deal with these kinds of similar problems. Quick Fact: Do you know that out of the worldâ€™s 7.5 billion habitants, only 1.5 billion speak English â€“ thatâ€™s less than 20% of the Earth population. There is so much diversity out in the world and I believe everyone should know at least one foreign language. Think about a scenario when you want to talk to someone who does not understand or speak your language. Think about a scenario when big businesses pay to translators to help them do business with foreign companies. There are many problems like these. Therefore, I created 'GLOBE CHAT' application to help solve these problems. 
+
+What it does
+
+You can instantly translate messages and send it to anyone on this planet as long as they are on a same channel as you are. Itâ€™s UI is very easy to understand. You enter your name, select one of your favorite channels and send a message in any language you want. Then Voila! You donâ€™t have to go to Google translate to translate the text and copy-paste it into your chat box. You can just type message in your language and send it to any language you want. 
+
+How I built it
+
+I created a Node.js and Angular.js application. All the UI is following Angular framework. I set up the http server using Node.js to route the traffic on my application to main page. I made a simple UI form which collects username, channel, and message. Through this data, I managed to create Join, leave, and Send functionality in my app. Every time user logs into specific channel or leaves the channel, it creates a log on a backend which notify me if something goes wrong. Then, I created a socket.io protocol to establish client-server messaging service. Once client and server can pass text and information through websocket, I then implemented Google-translate-API into project to deal with instant translations. I created a logic in such way that I send the retrieved messaging data to API from what user messaged in a channel. Google translate API function translates text into specific language using language code (for example: 'English':'en', 'Spanish':'es'). I created a logic function which takes user's preferred language and fills in the Google translate function parameter with the desire language code. This whole process takes less than a second. Throughout the process, I was testing my application from all perspectives and I was constantly trying to break my code so that I can find loopholes and fix them right away. 
+
+Challenges I ran into
+
+
+It was very hard to set up a messaging protocol for client-server application using socket.io because initially I didnâ€™t knew anything about protocols. 
+Setting up a Google Translate API was a challenging task because I wasnâ€™t sure how to use API key (Json) in project. 
+It was not a easy task to host angular.js and node.js application oh Herokuapp (hosting service) because both angular and node run on their individual server. 
+I never used Typescript.js before this hackathon so learning how to work with Typescript.js was challenging for me. 
+
+
+Accomplishments that I'm proud of
+
+
+Build a working chat application which can connect multiple people from all around the world and remove all the language barriers between them. 
+I am proud that my application can handle hundreds of the user at a time which can easily scale up by inserting more dynos (linux servers) in my Herokuapp project.
+I went beyond my comfort zone and build an application with very minimum experience with Google API, socket.io, and Typescript. 
+I am proud that I didn't gave up at any point because there were many points during project where I thought that this is not possible and wouldn't work, but I kept dealing with issues long enough that I was able to pull this off. 
+
+
+What I learned
+
+
+I learned how to establish messaging protocol between client and server over http server. 
+I learned how to extract or insert string into cache memory for the website which completely get rid of the need of database. 
+I learned how to deploy angular and nodejs servers together on hosting application.
+
+
+What's next for GLOBE CHAT APPLICATION
+
+
+I will create a ios and android version for my chat application and publish it on Playstore and Appstore.
+I will add more functionalities in my project (For example: user can create their own custom channels and invite others onto application)
+
+","https://globechat.herokuapp.com, https://github.com/sukhbirsekhon/RealTimeTranslatorChatApplication.git",https://www.youtube.com/watch?v=vWyPZsW5w6c,"","node.js, angular.js, typescript, bootstrap, socket.io, google-translate, github, herokuapp",,University of Cincinnati,0,801G-3,University of Cincinnati,"","",""
+Mission Im-pastable,https://revuc-ix.devpost.com/submissions/143096-mission-im-pastable,Submitted (Gallery/Visible),Pending,,02/23/2020 11:32:39,"Inspiration
+
+In making when Mission Impastable, we were inspired by phone-controlled party games like Jackbox Party pack, and rogue-like games like Enter the Gungeon. We were hoping to bring together some of the best parts of those games/genres.
+
+What it does
+
+Mission Impastable is a working game, in which one user plays as the Pasta-mancer in a dungeon-crawling adventure. Audience users can connect to the game and interact with it by voting on how to help/hinder Player 1. The base game is built in Unity, and it interacts with ReactJS, Firebase, and a REST API in order to enable audience participation.
+
+How we built it
+
+We built a Python/Flask Rest API and a Unity game, wrapping them together with C# hooks. We used Firebase for API storage. 
+
+Challenges we ran into
+
+None of us have ever made a Rest API like this! We made a huge project, with a lot of interlocking parts, and this led to a lot of problems. Not to mention, this was one of our team members' first Hackathon!
+
+Accomplishments that we're proud of
+
+We were able to make a fully functioning game, which decently resembles what we were planning to make! All of our interlocking parts have been functioning, and we've made a really cool project!
+
+What we learned
+
+We've learned a lot about how to create and use Rest APIs, and also learned a ton about networking in Unity! Most of us also learned about React and Javascript for the first time!
+
+What's next for Mission Im-pastable
+
+The jump to 3D with a similar game would be an awesome next step!
+","",,"Best Design Hack, Most Innovative Hack by UC Students (EECS GSA),  Best use of Google Cloud (MLH), Best Domain Registered with Domain.com (MLH)","unity, firebase, react, flask, rest, csharp, javascript, css, github, google-cloud, piskel, inkscape, modbox, beepbox, domain.com",,University of Cincinnati,3,801-3,University of Cincinnati,pastabox.online,"",Domain.com
+Bryn-5/3,https://revuc-ix.devpost.com/submissions/143101-bryn-5-3,Submitted (Gallery/Visible),Pending,,02/23/2020 11:40:29,"Inspiration
+
+Helping others to visualize their spending habits through some real-world interaction (spending/location monitoring)
+
+What it does
+
+Displays spending data (% of amount spent in a month at a location, monetary amount spent per month, locations of spending) on a mobile-accessible website. The locations are displayed on an embedded map and data has graphical elements to aid in understanding.
+
+How we built it
+
+Initially, the program was intended to be built using Angular, but the idea shifted after discovering the ease of deploying apps using NativeScript. NativeScript was used to build a standalone mobile app, but was scrapped and redesigned using HTML, and jQuery due to challenges with implementing a map API.
+
+Challenges we ran into
+
+Being complete novices to using typescript, we could not initially get dev tools to work when deploying our app and could not access the console log for debugging for several hours. After this was sorted, we ran into significant trouble formatting a Google map API from Google Cloud. Whenever the map and the user interface we had designed were attempted to be used together, the program crashed. After several hours of this, we resorted to using HTML instead of XML, as our team had more experience using Bootstrap for page design.
+
+Accomplishments that we're proud of
+
+Despite having never used typescript and never developing a mobile app before, we were able to successfully deploy several debugging and prototyping apps to both iOS and Android devices. Additionally, considering we totally redesigned our implementation of our idea with only 6 hours of hacking time remaining, we're proud of what we were able to improve upon in that time.
+
+What we learned
+
+We learned a great deal about typescript and web app development, and were able to implement some of the most advanced UI features we had ever attempted in this endeavor. We also learned quite a lot about using chartJS and enjoyed being able to think about ways into implement reality with banking software.
+
+What's next for Bryn-5/3 (Location-oriented spending tracker)
+
+In the future, we would like to implement an automated reporting of spending at various locations through a sort of API with a bank.
+",https://www.glassestocsharp.com/hack/ucrevolution20/bryn/index.html,,"Best Education Hack, Best Design Hack, Best Use of Immersive Technologies to Enable Consumer Financial Health (Fifth Third)","jquery, nativescript, javascript, html, xml, typescript",,Ohio State University,1,801-2,Ohio State University,"","",Google Cloud
+OutreachSheet,https://revuc-ix.devpost.com/submissions/143105-outreachsheet,Submitted (Gallery/Visible),Pending,,02/23/2020 11:43:40,"Inspiration
+
+As a leading Co-Convenor of Earlham Hackers Club, Joseph used Facebook as an outreach platform to communicate with his club members. However, he didn't like the idea of having to open multiple tabs to send messages to all his members. Since he likes to add a personalized touch to his messages, he wanted a web-based application that allows him to send personalized messages more quickly and conveniently. After coming to RevolutionUC, he came up with an idea to make his convenor life more convenient. Dipesh decided to help Joseph in his journey. After 24 hours of awesomeness, they come up with an OutreachSheet. 
+
+What it does
+
+It sends outreach messages to Facebook chat from Google Sheets and vice-versa.
+
+How we built it
+
+In 3 phases, we integrated messenger and sheets. We first finished a Pandas enabled program with no function content at all. All we had was a bare-bones structure. From there, we learned and applied the fb chat module in a 2 fold custom data structure to connect Facebook to our program's data housing. We chose to develop the connection that carries data between Google first because that seemed very intricate and we were scared of the Google Sheets API. We finished the connection between Google Sheets and Facebook, and then we learned the Google Sheets API, developed a 3 fold custom data structure to connect our program's data housing with Google Sheets. 
+We learned and applied the fbchat module to interface with messages from facebook, scaffolded our program plugged it.
+
+Challenges We ran into
+
+Google Sheets API integration took lot of our time. Thanks to Mentors for helping us out.
+The front end was hard to do.
+ Google sheets have a maximum write limit that we were not aware of.
+We used many modules which made us do more debugging.
+
+Accomplishments that We're proud of
+
+Just getting through the bulk of the program was an accomplishment. The working code was like 400+ lines. In like 20 hours that's not bad at all. We also finally learned FB chat API, and the google sheets API, which is both super good and useful tools. We learned a lot during this 24-hours, and we are happy with the outcome.
+
+What I learned
+
+API integration, OOP, Pandas
+
+What's next for OutreachSheet
+
+We plan to add more functionalities, address all the small bugs, and work on the design. Also, Joseph plans to use OutreachSheet to communicate with his club members. Yayy.
+",https://github.com/IS1-4MJ/Fb_sheets_chat_app,,"Most Innovative Hack by UC Students (EECS GSA),  Best use of Google Cloud (MLH), Best Data Collection Hack (CincyTech)","google-sheets-api, python, pandas, fbchat, google-sheets, gspread",,Earlham College,1,860D-2,Earlham College,"","",""
+BeeBeeMath,https://revuc-ix.devpost.com/submissions/143106-beebeemath,Submitted (Gallery/Visible),Pending,,02/23/2020 11:43:40,"Inspiration
+
+We are passionate about children's education.
+
+What it does
+
+BeeBeeMath is an online math education platform designed to assist kindergarten teachers in educating kindergarteners basic math concepts. It serves as an in-class tool for the teachers to help kids learn and fully grasp the fundamentals of math.
+
+How we built it
+
+We used the React framework and Material-UI Kit to build this product.
+
+Challenges we ran into
+
+We ran into some design problems and some minor technical problems during development. 
+
+Accomplishments that we're proud of
+
+We have a pretty neat design and product. It works well for its target audience.
+
+What we learned
+
+We've strengthened our understanding of React and grasped a pretty good comprehension of the Material UI Kit for React.
+
+What's next for BeeBeeMath
+
+We will continue to add more fun math topics and interactive lessons. We could possibly expand to more subjects such as reading, history, geography, etc.
+",https://beebeemath.firebaseapp.com/?,,"Best Education Hack, Best Design Hack","react, material-ui",,Earlham College,1,860D-2,Earlham College,"","",""
+travelingShopper,https://revuc-ix.devpost.com/submissions/143110-travelingshopper,Submitted (Gallery/Visible),Pending,,02/23/2020 11:48:29,"We as consumers often do not realize some of the inconveniences that we face while shopping because we have become so accustomed to them. Attending this hackathon and getting to know different challenges inspired us to think outside of the box; we brainstormed on our past experiences shopping at Kroger or any other retail markets and the ways we would be able to make them better for the future of us and others. 
+Although all of our group members have past experience with some software development, we wanted to branch out and try to incorporate libraries and practices that we had no experience with to create our application. We have experience with Python, JavaScript, HTML, CSS, and SQL but we tried working with Vue.js, Vuetify.js, and API calls to create our travelingShopper application. Close to the end of the process, we decided to try and incorporate AdobeXD to showcase a prototype of our design process. We used this software because we were not able to finish as much as the project as we would have liked, but we still wanted to have something to showcase for the purposes of this Hackathon challenge. 
+We started this process by looking into the Kroger's APIs to see if we could actually use the available public data for our application. Once we were sure the APIs would work in our favor, we split into two pair programming teams with one team taking on the backend with the API calls, and the other team taking on the UI creation with Vue.js. We used Vue.js to develop a prototype of an app that allows customers to input their items into their virtual cart. Our app gives them an eagle eye view showing them where their items are, and what item to get next to ensure the quickest shopping experience.
+Challenges:Throughout the hackathon experience, we learned a lot about restful APIs, working in an MVC environment, and collaborating better as a team. I think we can take a lot of these concepts and apply them in our next hackathon, or a future business venture.
+We think the biggest challenges was the fact that there was a steep learning curve with our entire process. Since we were trying to use new technologies, we were trying to learn the best practices and the documentations on the fly which made it challenging for our team. For the front end, we wanted to use a datatable to populate data dynamically using the JSON data we got back from our API calls. We were able to create a datatable and populate it with hard coded data, but we were not able to bridge the gap and find a way to populate it dynamically. On the backend, we needed to generate a new token key every fifteen minutes because it would time out. We were not able to create a dynamic call to make a new token key every time, so we hardcoded the token key and changed it every fifteen minutes. 
+","https://github.com/grrdsoto/travelingshopper, https://xd.adobe.com/view/fa36a1a7-d850-4247-7e59-9d51d428216f-8c07/?fullscreen",,"Best Design Hack, Make the Customerâ€™s Life Easier (84.51)","vue, html, javascript",,Berea College,3,"801E,-2",Berea college,"","",""
+Geographical quiz ,https://revuc-ix.devpost.com/submissions/143111-geographical-quiz,Submitted (Gallery/Visible),Pending,,02/23/2020 11:49:11,"Inspiration
+
+I like geography
+
+What it does
+
+It generate geographical quiz automatically and save your scores based on achievement
+
+How I built it
+
+I used Flask and Python for backend, HTML and CSS for front end. I also used SQLite for database
+
+Challenges I ran into
+
+KeyError
+
+Accomplishments that I'm proud of
+
+Be able to wake up all night to work
+
+What I learned
+
+GitHub is hard
+
+What's next for Geographical quiz
+
+We will try to fix all errors
+",https://github.com/gianghta/RevUC-Quiz-App,,"","python, html, css, flask, jinja",,University of Cincinnati,2,860D-4,University of CIncinnati,"",Google Home,""
+Minecraft Discord Bot,https://revuc-ix.devpost.com/submissions/143113-minecraft-discord-bot,Submitted (Gallery/Visible),Pending,,02/23/2020 11:49:20,"Inspiration
+
+We spend a lot of time playing Minecraft and the old bot that we used just wasn't cutting it. When players got off the server, the EC2 instance shut down. This was fine, but players weren't held accountable for the time they spent on the server, and we wanted this to change.
+
+What it does
+
+When a player joins the server, they have their own personal collection of tokens (currency) that is deducted from as the user is on the server. It is deducted at a rate of 1 credit per minute. If the user runs out of tokens, they are bombarded with TNT in order to keep them from playing until they pay to be on the server. They can use the discord bot in order to check how many credits they have. If the bot joins another discord server, they credits are persisted between servers because of our usage of Cloud SQL.
+
+How I built it
+
+The server is built upon the Google Kubernetes Engine in order to make deploying as simple as possible. Things like our discord bot and our API server are running on Kubernetes. But, our minecraft servers themselves are also running up in the cluster! In order to persist data, we use Google Cloud Sql to persist data about our users and credits. We also wanted to play around with big data, so we implemented Google's BigQuery to store every time a block is broken.
+
+Challenges I ran into
+
+We did not know how to create a Bukkit plugin, and we did not know much about google cloud. One of the team members was familiar with AWS, so we had that as a starting point. We had to work with load balancers, kubernetes, Google's hosted nodes and BigQuery. We had a lot of issues in the beginning in getting our applications posted and deployed on the servers. After a while, we got some scripts running to get our application hosted. Creating an HTTP POST request in Java was an enormous hurdle as well. None of us knew Java so we had to do a lot of research in order to figure out what to do. We all learned a ton in the process.
+
+Accomplishments that I'm proud of
+
+The moment that we got our Java plugin to communicate with our NodeJS backend, we were extremely proud. We had issues getting the proper information to POST to the server because of the way Java handles the input. The issue was that we had to include the ""Content-Type"": ""application/json"" header.
+
+What I learned
+
+We learned how to make a plugin for Minecraft servers. None of us knew how to code in Java, let alone work on a plugin for a pre-existing server. We have learned so much and are extremely excited to use this knowledge to create plugins in the future.
+
+What's next for Minecraft Discord Bot
+
+We are extremely excited to actually implement this bot, so we want to continue working on it to make it fully polished and able to be used. We all enjoy playing with each other, and removing the need to manage server payments will be a huge help!
+",https://github.com/OhioUniversityRevUC2020,, Best use of Google Cloud (MLH),"typescript, discord, google-bigquery, google-kubernetes-engine, google-cloud-sql, java, spigot",,Ohio University - Main Campus,4,801M-3,Ohio University,"","",Google Cloud
+Hearthclone,https://revuc-ix.devpost.com/submissions/143114-hearthclone,Submitted (Gallery/Visible),Pending,,02/23/2020 11:49:38,"Inspiration
+
+Wanted to get some experience in making a project that was our own.
+
+What it does
+
+Plays a card game
+
+How I built it
+
+Challenges I ran into
+
+Accomplishments that I'm proud of
+
+What I learned
+
+What's next for Hearthclone
+","",,"",python,,University of Cincinnati,0,801A-2,University of Cincinnati,"","",""
+Buyers Guide Simplified,https://revuc-ix.devpost.com/submissions/143115-buyers-guide-simplified,Submitted (Gallery/Visible),Pending,,02/23/2020 11:50:31,"Inspiration
+
+A few months ago, I was shopping for a used car and I noticed that the buyers guides had a specific formatting to them. 
+It can be tedious to research a car manually, plus one should want to be discreet and into show to much interest in the car they want. 
+
+What it does
+
+I had the idea to make an app where you take a picture of the buyers guide and it pulls up the cars history report.
+Alternatively, you can manually input the vin number to pull up the report.
+
+How I built it
+
+OpenCV to detect the edges of the buyers guide and transform the picture into a scan of the document.
+TesseractOCR to extract text from the scan.
+Flask to make the program web accessible.
+
+Challenges I ran into
+
+OCR is pretty garbage. Characters can be confused when scanning a document especially with there is glare and noise in the image. 
+Finding a free and open source car history report lookup. In the end, I just made an example page. 
+
+What I learned
+
+Learning more about image transforms in OpenCV.
+Winning Presentation Karaoke and a round of CTF.
+
+What's next for Buyers Guide Simplified
+
+Implementing an actual VIN Number Lookup
+Ad revenue.
+Prettier interface.
+",http://opencvplusocrcanputthevinnumberfromthebuyersguideinforyouandsearchesfortheitshistoryreport.online,,"Best Domain Registered with Domain.com (MLH), Make the Customerâ€™s Life Easier (84.51)","opencv, ocr, python, flask, love",,"",0,801C-1,"Berea College, University of Kentucky",opencvplusocrputsthevinnumberfromthebuyersguideinforyouandsearchesfortheitshistoryreport.online,"",Domain.com
+Nutrition on a Budget,https://revuc-ix.devpost.com/submissions/143117-nutrition-on-a-budget,Submitted (Gallery/Visible),Pending,,02/23/2020 11:50:34,"Inspiration
+
+As a college student, I find myself constantly trying to maximize all of my resources. This semester I am taking my first economics class which has really shifted my attention toward analyzing the marginal utility of my decisions. I wanted to see if there was correlation between cost of food and its calorie content, two variables that I try to keep low. The goal was to create a product that would make finding cheaper, healthier food more accessible for college kids like me and all shoppers at Kroger. 
+
+What it does
+
+What the app does and what it was supposed to do are slightly different. I wanted to create a visual representation of the ratio between cost and calorie content of different foods, however I quickly realized that I was trying to compare apples and oranges. I wanted to provide a series of charts on a simple, user friendly mobile app to show shoppers the percent cost of one item in terms of dollars and calories. 
+
+How I built it
+
+I used Android studio to build a simple form where a user can input their calorie goal and their budget goal. I user a GitHub library called Hellocharts-Android to create pie charts to represent the data. I also used a SQLite database to organize a sample of food items that the average customer would purchase. This included the name of the item, its calorie content on the margin, and its cost on the margin. 
+
+Challenges I ran into
+
+I have never done android development before, so I was introduced to a litany of new experiences last night, including Gradle build errors, Android dependency errors, and having to learn about everything from XML attributes to Activities to ViewModels. I was very overwhelmed at first and this seemingly simple project took me far more work that I care to admit. I also didn't completely end up with all of the functionalities or as clean of an interface as I was hoping for.
+
+Accomplishments that I'm proud of
+
+I have something to submit. I learned a whole lot, and I really got the chance to dive into a subject that could be useful to me in the future. I also took my other interests into consideration when ideating and was interested in the outcome of my project as a whole, and not just the technical aspects. 
+
+What I learned
+
+I learned how to navigate Android studio. I learned about Android build files, Android file hierarchy and structure, SQLite databases within Android Studio, embedding graphics in an app, creating emulators and other virtual devices, as well as how to better use my mistakes to my advantage.
+
+What's next for Nutrition on a Budget
+
+In a perfect world, there app would have options for organizing data based on different calorie goals and budgets, where I would be able to do more than display a pie chart. I also want to show more nutrition information and take into account sale prices or deals that shoppers at Kroger would use.
+
+The GitHub link is not up to date because my teammate who quit owns the repo and has not merged my branch
+",https://github.com/Suebi/NutritionOnABudget,,Make the Customerâ€™s Life Easier (84.51),"android-studio, sqlite",,"",0,801G-1,University of Cincinnati,"","",""
+Money Moves,https://revuc-ix.devpost.com/submissions/143120-money-moves,Submitted (Gallery/Visible),Pending,,02/23/2020 11:51:52,"Inspiration
+
+One of our key weakness as a people is our inability to quantify how much saving money can change our lives. In order to help people better comprehend how much saving a few dollars per month can affect their lives we set out to create an application that would let them see how much further their dollar can take them.
+
+What it does
+
+Our app allows people to visualize their savings by allowing them to input their individual deposits or income flow and showing how saving that amount will grow in a set amount of years. Once the user submits their deposit, how often it is transferred, and how many years in the future they would like to visualize we display their total savings as a trail of money on the ground which they can then follow to see how far their money will take them.
+
+How we built it
+
+Our group used a variety of technologies specifically ARCore as our framework to developed an AR enabled android application. Unlike most Drag and Drop solutions ARCore is fairly low level, to the points where we were manually calculating projection matrices to display what would be 3 dimensional objects on our 2d screens. It was through this use of math and some user provided info we can display an Augmented View of someones income/savings.
+
+Challenges we ran into
+
+Unfortunately due to the restriction of the Android OS we needed to use fairly low level frameworks to develop an Augmented view. It was because of this constraint our group exceeded even our own expectations in knowledge gained and obstacles overcame.
+
+Accomplishments that we're proud of
+
+In under 24 hours we were able to build an augmented view. None of the members of our group had any experience in this topic and to look back at what we've accomplished over the past day is an achievement in itself.
+
+What we learned
+
+As previously stated, none of the members of our group had any real experience with augmented reality tool-kits and frameworks. We've learned a lot over the past 24 hours and we will most definitely use this experience for the better in the future.
+
+What's next for Money Moves
+
+Obviously a 24 hour time constraint isn't enough for everyone to accomplish every single one of the ideas they had at the beginning. With that being said there is room for expansion in asset selection and visualization of what your money means when quantified as everyday items. For example hamburgers, milkshakes, or even candy...
+",https://github.com/westceno/MoneyMakesTheWorldGoRound,,Best Use of Immersive Technologies to Enable Consumer Financial Health (Fifth Third),"c#, unity, arcore, opengl",,Northern Kentucky University,2,801C-3,Northern Kentucky University,"","",""
+Vibe Check,https://revuc-ix.devpost.com/submissions/143122-vibe-check,Submitted (Gallery/Visible),Pending,,02/23/2020 11:51:58,"Vibe Check is a wearable device that allows us to perceive other people's hidden emotions wirelessly.
+
+What can humans not observe but wish to perceive?
+
+Our goal was to augment human senses and demonstrate symbiosis with wearable technology.
+
+The phone is an example of technology that expands the potential of the human mind, enabling instant communication, better memory, and instant access to information. When people forget their phones, they feel uncomfortable, like a part of them is missing. Another example is writing. Writing allows us to express auditory perception in the form of visual perception. 
+
+Inspiration
+
+Our primary inspiration for Vibe Check was North Sense and EQRadio. Both of these companies work on expanding human perception through hardware. You can read more about them here and here.
+
+What it does
+
+Vibe Check utilizes a pulsed coherent radar module to measure chest movements that derive respiratory rate and heart rate. This is then attached to a wearable that is able to measure changes in distance to perceive someone else's values and displays them to a graph. The device relays haptic feedback to the wearer. 
+
+How I built it
+
+Vibe Check utilizes a Teensy 4.0 to handle all computing in real-time. We have an Xm112 radar module that can measure relative distance with micrometer resolution. At 10 Ghz this is sufficient to detect both heartbeat and respiratory. 
+
+Challenges we ran into
+
+It was really challenging to package all our hardware in a small wearable package. We had to integrate and wire a 2000 Mah rechargeable battery, battery charge circuit, LED strip, Bluetooth module, radar module, IMU, and main microcontroller, and haptic motors. We designed and 3D printed the enclosure during the event. 
+
+Accomplishments that we are proud of
+
+We were able to get visual output from a complex radar sensor that we had no prior experience working with. We were able to design and build a compact, respectable design within 24 hours. We were able to experiment with haptic feedback and other unique human-machine interfaces and explore the potential long term effects of such technology. We didn't give up and worked together throughout the 24 hours. 
+
+What I learned:
+
+We learned several ways to improve embedded computing performance and the challenges of prototyping a wearable device in 24 hours. We learned how to implement Fast Fourier Transforms on an ARM-based processor.
+
+What's next for Vibe Check:
+
+We plan to eliminate other sources of interference and isolate the wearer's movements from our sensor readings with an IMU. 
+","",https://www.youtube.com/watch?v=Uw8kfZxFYrs,Best Design Hack,"c++, python, teensy, radar, 3dprinting, armm7, arduino, bluetooth, neopixel, haptics",,University of Cincinnati,3,801-6,University of Cincinnati,"","",""
+Small Steps Personal Fitness Calculator,https://revuc-ix.devpost.com/submissions/143125-small-steps-personal-fitness-calculator,Submitted (Gallery/Visible),Pending,,02/23/2020 11:53:56,"Inspiration
+
+I personally just began taking working out seriously, and I studied a lot about the proper way to go about eating and exercising. I wish I had a tool like this at the beginning to help me out.
+
+What it does
+
+The app uses height, weight, and body fat percentage to calculate BMI and a recommended amount of protein intake per day.
+
+How I built it
+
+I'm very to to using Android Studio but have had some experience coding in Java (that was a while ago). I had to follow some tutorials online to get to my current state, but luckily my background in Java did help along the way.
+
+Challenges I ran into
+
+Most of the tutorials that I saw used mostly integers in their calculations. I encountered many errors where I had conflicting variable types that yielded a breaking point in the code or the wrong calculation from rounding.
+
+Very small mistakes also cost me a good amount of time, such as missing a semicolon at the end of a statement or forgetting to specify size relative to standard pixels when mapping out the real-estate that a text box was using.
+
+Accomplishments that I'm proud of
+
+I'm proud of the fact that I was able to create a simple app with a completely new software. The experience opened my eyes again to coding and I had a spark of inspiration to continue working on this project.
+
+What I learned
+
+I re-learned the basics of Java through the medium of Android Studio, and got acquainted with the user interface for designing a functioning app.
+
+What's next for Personal Fitness Calculator
+
+More calculations will be added. My vision with the app was not only to provide a very quick way to find certain health numbers, but also to give succinct explanations as to why these numbers are important and how to use them to map out fitness goals. 
+","",,Best Education Hack,android-studio,,University of Cincinnati,0,801-16,University of Cincinnati,"","",""
+Be A Pro,https://revuc-ix.devpost.com/submissions/143127-be-a-pro,Submitted (Hidden),Pending,,02/23/2020 11:55:55,"Inspiration
+
+Our team has been founding members of the largest esport organization at Ohio University. The club is incredibly active with over 100 members and our team has looked for ways to engage with this student population. Fantasy leagues are extremely popular in traditional sports, so we decided to bring that love for the game to esports.
+
+What it does
+
+This web application is intended for leaders from different universities to create a fun and engaging point system that ranks players' recent ranked games. This can be adapted for different skill levels to make it fair for novice and expert players alike. All preferences are stored in the mongodb as well as the points of each of the players for each week.
+
+How we built it
+
+We began by utilizing asp.net as an infrastructure for our web application. We also had one member interact with the API that is provided by Riot Games (Creator of League of Legends). This API allows us to capture game data that can be used to convert to points depending on certain objectives met. The web application stores information that is sent to our database and also triggers Google Cloud Functions that runs our main API script.
+
+Challenges we ran into
+
+We ran into several challenges along the way due to the large scope of this passion project. We felt that we constantly had to out fun features on the side burner because of the need for necessary back work. We also never have utilized asp.net or any functionality with mongodb, so research was a large aspect of this hackathon.
+
+Accomplishments that we're proud of
+
+We are extremely proud of how much we developed on this project in such a short time. We had a large undertaking with the tools we used to make it possible, and are happy with the way it has come for a beta version.
+
+What we learned
+
+We learned an incredible amount in this hackathon period because we took a lot of risks when it came to designing the entire project. We learned that many challenges can be overcome with proper teamwork and commitment to certain technologies. We also were not scared to start some things over if we found a technology that was better suited for our vision.
+
+What's next for Be A Pro
+
+We have some extremely exciting features that we have attached with priority for each of these objectives.
+",https://be-a-pro.azurewebsites.net/,,"","python, asp.net, c#, mongodb, javascript, html5, css",,Ohio University - Main Campus,3,801-8,Ohio University,"","",MongoDB
+Hangry Ana,https://revuc-ix.devpost.com/submissions/143132-hangry-ana,Submitted (Gallery/Visible),Pending,,02/23/2020 11:58:34,"How to play: the player character is represented by the green circle, while the red circles are randomly roaming friend and enemies. The user is able to control the player using arrows or WSAD keys. The goal is to avoid all the enemies and find the friend.
+
+For the future: The game will have multiple levels with an increasing number of friends and enemies, in order to make each level more and more challenging.
+","",,"","",,Earlham College,0,860B-7,Earlham College,"","",""
+Internet Museum,https://revuc-ix.devpost.com/submissions/143133-internet-museum,Submitted (Gallery/Visible),Pending,,02/23/2020 11:59:03,"Inspiration WE weer inspired by our passion for the internet
+
+What it does
+
+How I built it
+
+Challenges I ran into
+
+Accomplishments that I'm proud of
+
+What I learned
+
+What's next for Internet Museum
+","",,"","python, sql, html, css, javascript",,"",0,801M-5,Ohio university,"","",""
+Therapy Hack,https://revuc-ix.devpost.com/submissions/143134-therapy-hack,Submitted (Gallery/Visible),Pending,,02/23/2020 11:59:14,"Inspiration
+
+The need for mental health services is increasing, however the availability of these services is unable to meet the demand. We do understand that at the moment it is complex to completely automate the expertise needed to replicate an effective therapist, which is why our project ""Therapy Hack"" acts a supplement to aid mental health service by using sophisticated algorithms in Computer Vision and Deep Learning
+
+What it does
+
+
+The user enters their information like name, gender, address etc in a form which will be added to the patient database
+The Questionnaire will ask the user a series of questions to know more about what they're going through
+Then, the user uploads a video elaborating on themselves, which is then analyzed using Convolutional Neural Networks (CNN) and Vision API to detect the user's visual and vocal emotions
+The user's audio is converted to text and the CNN performs sentiment analysis which outputs the likelihood of their emotions
+The user's visual is analyzed by the Vision API to detect key facial landmarks to detect emotions like Happy, Sad, Surprised, Angry
+A scheduling algorithm in Python sorts the doctors and patients depending on the user's address provided and gives the user a list of available doctors
+
+
+How we built it
+
+
+We developed a web application framework ""R Shiny"" as a prototype of user interface which uses R as back-end and Shiny as front-end with Google cloud storage API
+The text analysis is done using Convolutional Neural Networks (CNN) by exploring various models offered by pytorch. The decision is made by converting words to vectors. These mappings are then used to label with the sentiments based on the training data labels.
+We also used Python to input the user data obtained from the Questionnaire, Text analysis and Facial Recognition. This data is then used to schedule doctors for an appointment on suitable date preferred by the user by giving weightage to the scores obtained from Questionnaire, Text analysis and Facial Recognition. This algorithm uses Geocoding API and Distance Matrix API from Google cloud platform
+Used Vision API to detect key facial landmarks
+
+
+Challenges we ran into
+
+
+I (Ponaravind) used APIs for the first time so it took a while to get familiar with it and incorporate in the algorithm. It was challenging to work on the scheduling algorithm to schedule patients corresponding to the location, availability of doctors and score obtained from the Questionnaire, Text analysis and Facial Recognition
+I (Harshitha) worked with text sentiment analysis. The challenging part was to be able to get the right model and dataset to train and to handle the complexity within the given time-frame, keeping the accuracy in mind
+
+
+Accomplishments that we're proud of
+
+
+Planning and delegating work appropriately to each team member right from the beginning and sticking to the deadlines. 
+Integrating various modules into a single customer experience
+
+
+What we learned
+
+
+We learnt how to use R Shiny, how to integrate different programming languages 
+Training different kinds of models and understanding relation between different processes
+Using APIs to communicate between different models
+
+
+What's next for Therapy Hack
+
+The next step is to increase the accuracy and reliability of the model. This could be done by using a research based questionnaire. The decisions made by the text and video analysis modules could be optimized by research results that tell us about a person's behavior based on their mental health. This could then be used as a more approachable solution for people seeking help
+","https://github.com/AdithyaVenkateshMohan/TherapyHack.git, https://github.com/challava/sentiment-analysis-cnn, https://github.com/pon-aravind/Scheduling-algorithm.git, https://github.com/tarunkartik/TherapyHack-Shiny",,"Most Innovative Hack by UC Students (EECS GSA),  Best use of Google Cloud (MLH), Best Use of Immersive Technologies to Enable Consumer Financial Health (Fifth Third), Best Data Collection Hack (CincyTech)","python, google-cloud, maps-apis, distance-matrix-api, geocoding-api, numpy, requests, datetime, keras, tensorflow, cuda, r, convolutional-neural-network, vision-api, pytorch, r-shiny",,University of Cincinnati,3,801A-1,University of Cincinnati,"","",Google Cloud
+Algorithm Minesweeper,https://revuc-ix.devpost.com/submissions/143135-algorithm-minesweeper,Submitted (Gallery/Visible),Pending,,02/23/2020 11:59:39,"Inspiration
+I was struggling with my initial idea, so I took a break to play minesweeper and decided to try to write a program to beat the game.
+
+What it does
+Attempts to logically find mines and clear a minesweeper level
+
+How I built it
+Python
+
+Challenges I ran into
+Lack of knowledge writing python lists
+
+Accomplishments that I'm proud of
+
+What I learned
+
+What's next for Algorithm Minesweeper
+
+Beat the level
+","",,"",python,,University of Cincinnati,0,801-16,University of Cincinnati,"","",""
+website,https://revuc-ix.devpost.com/submissions/143138-website,Submitted (Gallery/Visible),Pending,,02/23/2020 12:02:03,"Inspiration
+
+What it does it p
+
+How I built it
+
+Challenges I ran into
+
+Accomplishments that I'm proud of
+
+What I learned
+
+What's next for website
+","",,"",html5,,Ohio University - Main Campus,0,801M-10,ohio university,"","",""
+The statistical relation of four kinds of food,https://revuc-ix.devpost.com/submissions/143139-the-statistical-relation-of-four-kinds-of-food,Submitted (Gallery/Visible),Pending,,02/23/2020 12:02:06,"Inspiration
+
+when we go to a market if the owner can know what we want to buy, and what kind of combination of grocery, we are more convenient without even considering what we should buy
+
+What it does
+
+We used the data sets for the prediction of customer behavior
+
+How We built it
+
+With python
+
+Challenges we ran into
+
+looking for the references
+
+Accomplishments that we're proud of
+
+We actually come out the results that will show the customer behavior is related to the commodities data set
+
+What we learned
+
+coding
+
+What's next for The statistical relation of four kinds of food
+
+building a real app
+","",,"","python, database",,University of Cincinnati,0,801-7,University of cincinnati,"","",""
+DIY autonomous land mower,https://revuc-ix.devpost.com/submissions/143140-diy-autonomous-land-mower,Submitted (Gallery/Visible),Pending,,02/23/2020 12:02:08,"Inspiraation
+
+What it does
+
+How I built it
+
+Challenges I ran into
+
+Accomplishments that I'm proud of
+
+What I learned
+
+What's next for DIY autonomous land mower
+","",,"","",,Northern Kentucky University,0,860D-5,northern Kentucky university,"","",""
+NerdScholar,https://revuc-ix.devpost.com/submissions/143142-nerdscholar,Submitted (Gallery/Visible),Pending,,02/23/2020 12:05:06,"Inspiration
+
+As students, we considered our project to be something that we ourselves would love to use. The tools made available at this event seemed perfect for this choice.
+
+What it does
+
+It creates a better and more effective study environment for students. The web app aids students in engaging in study groups IRL through geofencing and provides a new dimension for learning with others.
+
+How we built it
+
+We created a bootstrap frontend for our app that integrated directly with Firebase and NodeJS to provide a dashboard for easy setup and connection. We used domain.com to register a domain for our app.
+
+Challenges we ran into
+
+We experienced issues from the design of the frontend in a modular way, to setting up the server side with Firebase for authentication. Additionally, the sheer amount of boilerplate we needed to implement caused timeline problems for deploying our app on schedule.
+
+Accomplishments that we're proud of
+
+We felt positive about the robustness of our idea and learned a lot about the products we were using along the way. 
+
+What we learned
+
+We learned a lot about the individual tools we used, workflows in a team, and making decisions to pivot in response to time and technical demands.
+
+What's next for NerdScholar
+
+We are still hoping to continue working on this web app since we are still excited about its potential.
+","https://github.com/gscheid5210/NerdScholar, https://nerdscholar-58c0a.firebaseapp.com/",,"1st Place Capture the Flag, Best Education Hack, Best Domain Registered with Domain.com (MLH)","bootstrap, html5, css3, javascript, node.js, firebase, domain.com",,"Berea College, Ohio Wesleyan University, Ohio University - Main Campus",3,860D-6,"Berea College, Ohio Wesleyan, Ohio University",nerdscholar.space,"",""
+PlayFair cipher,https://revuc-ix.devpost.com/submissions/143144-playfair-cipher,Submitted (Gallery/Visible),Pending,,02/23/2020 12:06:33,"Inspiration
+
+We are interested in cyber security aspect of computer science 
+
+What it does
+
+encrypts a secret message or it reveals it
+
+How we built it
+
+using python
+
+Challenges we ran into
+
+object reference, arrays and logic
+
+Accomplishments that we're proud of
+
+the project is efficient and it works
+
+What we learned
+
+more confident on python and how encryption works
+
+What's next for PlayFair cipher
+
+use it as our own encryption method were we can change how the message is encrypted
+","",,"Best Education Hack, Best Use of Immersive Technologies to Enable Consumer Financial Health (Fifth Third)",python,,University of Cincinnati,2,860D-1,University of Cincinnati,"","",""
+Looking For Moms Online,https://revuc-ix.devpost.com/submissions/143157-looking-for-moms-online,Submitted (Hidden),Pending,,02/23/2020 12:25:05,"Inspiration
+
+I wanted to go back to a simpler time.
+
+What it does
+
+Provides joy to the world.
+
+How I built it
+
+Poorly.
+",http://moms-online.herokuapp.com/,,Best Domain Registered with Domain.com (MLH),"flask, python, asinglestringofhtml, asplatteringofopensourcejavascriptlibraries, css, css-animation, consolecssstyling",,The University of Alabama,0,801A-4,The Overnight Mentors,lookingformoms.online,"",""

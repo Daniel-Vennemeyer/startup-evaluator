@@ -1,0 +1,152 @@
+text,score
+"Sanvivo - Sanvivo is a digital platform for European pharmacies, providing software for managing online medication orders, pharmaceutical advice, and health service bookings, akin to Shopify for pharmacies.",0.9997771382331848
+"Hey Revia - Hey Revia is a voice AI service for healthcare providers, automating complex phone tasks like provider verification and insurance updates, offered through web, mobile, and API options.",0.9997748732566832
+"OpenInt - OpenInt offers low-code or no-code product integration solutions, allowing teams to read, write, and sync data efficiently with unified APIs or directly to databases.",0.9997746348381042
+"Terminal - Provides a universal API for accessing telematics data in commercial trucking, supporting companies building insurance, financial services, and fleet software.",0.9997742772102356
+"Soff - Soff is a supply chain operating system for manufacturing companies, unifying supply chain data and automating workflows like data entry, quote requests, quote comparisons, and purchase orders. It saves customers dozens of hours weekly on repetitive tasks.",0.9997734427452089
+"Orchid - Orchid is an AI-powered EHR platform for independent mental health professionals, streamlining administrative and clinical processes.",0.9997733235359192
+"VaultPay - Digital banking platform for the DRC, providing accessible financial services for smartphone users and supporting small business banking needs.",0.9997729659080504
+"Risotto - Risotto applies AI to streamline IT helpdesk tasks, such as software access provisioning and support requests, using natural language within chat (ChatOps) for faster resolution and improved security.",0.9997729659080504
+"Peeba - Peeba is a B2B wholesale marketplace for Southeast Asia, streamlining the inventory purchasing process for independent retailers and offering a risk-free way to discover unique products.",0.999772846698761
+"Odigos - Odigos utilizes eBPF technology to provide an open-source solution for automatically generating distributed traces for any application, reducing engineering overhead in monitoring data extraction.",0.999772012233734
+"Decohere - Decohere provides real-time generative AI infrastructure, enabling users to iterate toward creative goals without waiting for long-running GPU tasks.",0.999772012233734
+"Bluebirds - Bluebirds automates outbound targeting for GTM teams by creating custom intent signals, saving sales reps time and enhancing prospecting efficiency by delivering ready-to-prospect leads to CRMs.",0.9997716546058656
+"SmartCampus - A campus management platform that leverages IoT to optimize energy use, security, and resource allocation across university campuses.",0.999771535396576
+"Plume - Plume assists real estate agents and contractors with energy audits and renovation planning, using thermodynamic models, housing data, satellite imagery, and AI for remote energy assessments.",0.9997714161872864
+"Agro AI - An AI platform that uses predictive analytics to assist farmers in optimizing crop yields, monitoring soil health, and sustainably managing resources based on climate and market trends.",0.9997711777687072
+"Tile - Tile enables users to create production-grade data automations and applications without the need to write SQL or code, offering an AI-first notebook for building operational data apps.",0.9997711777687072
+"CarbonShield - A carbon insurance platform for businesses, offering protection against environmental risks and incentivizing carbon reduction practices through financial rewards.",0.9997710585594176
+"Scritch - AI operating system tailored for veterinary care, providing agents that support scheduling and clinical workflows.",0.9997707009315492
+"Diligent - Diligent provides GenAI assistants for fintechs, automating AML and compliance workflows, improving risk detection, and freeing up resources for complex investigations.",0.99977046251297
+"Offstream - Offstream simplifies carbon compliance for infrastructure projects by using AI to parse regulations and manage extensive project data, cutting compliance time by 90%.",0.9997701048851012
+"Dioxus Labs - Dioxus enables developers to build, test, deploy, and manage apps across web, desktop, mobile, and AR/VR platforms with a single Rust-based codebase.",0.9997699856758118
+"GrainChain - A blockchain solution for the agriculture industry that tracks crop production, quality, and distribution, enabling traceability from farm to table.",0.9997697472572328
+"Hatchet - Hatchet is a task orchestration platform for background tasks, providing infrastructure for managing task queues, retries, and workflow chaining with comprehensive visibility.",0.9997697472572328
+"NeuronNet - A cloud-based machine learning platform that enables developers to quickly prototype, train, and deploy neural networks without extensive computing resources.",0.9997696280479432
+"Galini - Galini provides compliance guardrails for AI applications, making it easy to deploy policies and reduce costs related to in-house build compliance.",0.9997695088386536
+"CraftOS - CraftOS provides inventory management and POS solutions tailored for small batch wineries, supporting 83% of U.S. wine production.",0.9997695088386536
+"Tracecat - Tracecat is an open-source alternative to Tines/Splunk SOAR, enabling security engineers to build AI-assisted workflows that automate investigations and incident response.",0.999769389629364
+"Homeflow - Homeflow is a centralized insurance management platform for large real estate investors, allowing easy policy viewing, coverage adjustments, and acquisition quotes.",0.9997692704200744
+"Codes Health - Codes Health automates the collection and organization of patient records, preparing comprehensive histories for healthcare providers before appointments.",0.9997691512107848
+"Zaymo - Zaymo enables Shopify brands to create interactive, website-like emails that reduce friction and boost conversion rates by embedding fully interactive content directly in email.",0.9997690320014954
+"OpenMeter - OpenMeter provides an open-source platform for real-time usage metering, supporting AI and API monetization.",0.9997690320014954
+"HYBRD - HYBRD is a comprehensive tracking app for elite hybrid athletes, integrating data from wearables to provide insights across both cardio and strength training.",0.9997690320014954
+"XTraffic - XTraffic delivers affordable, intelligent traffic light systems for cities by leveraging advancements in sensor technology, currently operational in multiple pilot locations to reduce traffic and improve safety.",0.9997689127922058
+"Kairo Health - Kairo Health builds AI agents to support healthcare providers by automating tasks such as patient follow-up calls, emergency scheduling, and filling late appointment slots, reducing labor costs and addressing staff shortages.",0.9997687935829164
+"Srcbook - Srcbook is an open-source TypeScript notebook designed for rapid prototyping, learning, and internal tooling. It bridges the gap in prototyping environments for JS/TS, allowing teams to explore libraries, share ideas, and deploy mini-apps with ease.",0.9997687935829164
+"WaterWise - An AI-driven water conservation platform that monitors household and industrial water usage, identifying leaks and recommending efficient water practices.",0.9997685551643372
+"FiddleCube - FiddleCube provides AI-driven adversarial testing for Gen AI systems, ensuring enterprise safety and compliance with legal standards across global regions.",0.9997684359550476
+"Veles - Veles is a sales calculator for pricing, deal definition, and performance analytics, integrating with CPQs and CRMs to maximize deal size and align sales strategies.",0.999768316745758
+"Conveo - Conveo is an AI-powered platform for conducting and analyzing qualitative research through video and voice interviews, enabling marketing, insights, product, and design teams to gather customer insights 100x faster at a fraction of the cost.",0.9997678399086
+"Zigma - by NextUI - Zigma is a frontend-as-a-service platform that helps teams connect design files to production code quickly, building on NextUI’s React library for accessible interfaces.",0.9997678399086
+"Silimate - An AI-powered co-pilot for chip designers, identifying bugs, predicting issues, and providing real-time recommendations to optimize power, performance, and area (PPA).",0.9997677206993104
+"issen - issen is an AI conversational language tutor that adapts lessons to users' interests, helping them achieve fluency through personalized, on-demand voice interaction.",0.9997676014900208
+"CareNet - A digital health network that connects patients with a comprehensive care team, ensuring continuity and quality of care through centralized health records, telemedicine, and on-demand support.",0.9997673630714417
+"Pair AI - Pair AI enables creators to launch mobile-first video courses with AI-driven coaching, reimagining education with engaging, short-form content.",0.9997673630714417
+"Nuanced - Nuanced provides advanced detection technology to identify AI-generated fraud, deepfakes, and misinformation. The technology is continuously updated to adapt to emerging generative AI models.",0.9997671246528624
+"Precip - Precip utilizes AI to deliver hyperlocal weather insights, focusing on precise rain and snow measurements. The app aids industries by providing real-time weather data.",0.999766767024994
+"Comfy Deploy - Comfy Deploy is a unified platform for building and deploying workflows with models like Stable Diffusion, offering managed GPU infrastructure and customizable configurations.",0.9997666478157043
+"Kart AI - Kart AI offers an AI-powered shopping assistant for e-commerce retailers, similar to Amazon's Rufus, enabling personalized, conversational shopping experiences across online stores.",0.9997662901878356
+"Outset - Provides AI-powered user interviews, enabling researchers to conduct qualitative research 100 times faster than traditional live interviews.",0.9997662901878356
+"Infobot - Infobot leverages large language models to generate news content at scale, covering hyper-niche topics by reducing the costs of content creation.",0.999766170978546
+"Docflow - Docflow offers automated scheduling software tailored for hospital administrators, simplifying compliance and reducing manual scheduling work.",0.999765932559967
+"Outerbase - Outerbase is a user-friendly database interface, enabling companies to view, edit, and visualize data without SQL coding.",0.999765932559967
+"Aftercare - Aftercare provides AI-powered, conversational post-purchase surveys for e-commerce, helping capture detailed customer feedback and improve marketing attribution.",0.9997648596763612
+Tiptap - Open-source content editing and real-time collaboration tools designed for developers building apps with features like Notion or Google Docs.,0.999764621257782
+"AquaSense - An IoT-enabled water quality monitoring device for homes and businesses, allowing users to track water purity and reduce contaminants.",0.999764621257782
+"MICSI - MICSI’s AI software doubles MRI resolution and halves scan times, increasing imaging center capacity and patient throughput, with potential revenue gains per MRI scanner.",0.9997640252113342
+"Affinity - Affinity is a compliance training platform built for regulated industries. Leveraging prior experience in fintech, it addresses the specific learning management needs of regulated tech enterprises.",0.9997639060020448
+"Renew - An energy efficiency marketplace that leverages IoT data to suggest retrofitting solutions, from smart thermostats to insulation upgrades, for homes and buildings to lower emissions.",0.9997637867927552
+"ParadeDB - A search and analytics platform built on Postgres, providing an Elasticsearch alternative with real-time search capabilities.",0.9997633099555968
+"Trellis - Trellis transforms unstructured data into SQL-compliant tables with customizable schemas, allowing users to run SQL queries on complex data sources like contracts and financial documents.",0.9997629523277284
+"Inari - AI-powered insights platform that analyzes customer data to highlight feedback, identify feature requests, and prioritize product opportunities.",0.99976247549057
+"Pivot Robotics - Pivot Robotics creates AI software for robotic arms, automating tasks like metal grinding in factories and enhancing productivity in labor-intensive environments.",0.9997615218162536
+"Fabius - Fabius uses AI to analyze customer calls, helping sales leaders improve performance by identifying qualification gaps and enhancing the business case for deals.",0.9997602105140686
+Usul - Usul supports companies in winning defense contracts by providing AI-based collaboration tools for US companies and allies to develop and market next-generation military technology.,0.9997598528862
+"Twine - Twine uses conversational AI to engage small business customers via text, ensuring no missed opportunities due to unanswered calls. It helps identify customer needs and schedule services efficiently.",0.9997588992118835
+"Clearly AI - Clearly AI automates security and privacy reviews, reducing the time spent on reviews from days to minutes for companies like electric automakers.",0.9997586607933044
+"Fix AI - Fix AI automates frontend QA testing by simulating user interactions, identifying bugs with natural language prompts.",0.9997573494911194
+"Freestyle - Freestyle builds infrastructure using JavaScript, inspired by the founders' experiences as senior engineers at Apple, aimed at simplifying technical complexities.",0.9997565150260924
+"RecipeUI - An open-source alternative to Postman, allowing teams to debug APIs without backend reliance, widely adopted across engineering teams.",0.999755561351776
+David AI - David AI provides structured data and insights tailored for audio-based artificial intelligence applications.,0.9997542500495912
+"MedRelay - A telehealth coordination platform for patients requiring complex care, connecting them to multiple specialists in a single, integrated appointment.",0.9997534155845642
+"CultureLab - A cross-cultural collaboration platform for businesses, providing insights, tools, and strategies to improve international partnerships and teamwork.",0.999749481678009
+"AI Tutor - An adaptive learning platform that uses AI to provide personalized education for students, adapting in real-time to each learner’s pace and style.",0.9997476935386658
+"EcoLab - An open-source platform for environmental research, allowing scientists and citizens to collaboratively share data on biodiversity, pollution, and climate change.",0.9997466206550598
+"FreshBox - A subscription service that delivers locally-sourced, organic produce with zero packaging waste, creating a seamless farm-to-door experience while reducing food miles.",0.999745547771454
+"RenewGen - A renewable energy company that harnesses geothermal and hydroelectric power in remote areas, creating clean energy for isolated communities.",0.9997325539588928
+"ParcelBio - ParcelBio develops nanoparticle-free technology for targeted mRNA delivery to diverse cell types, enabling customizable mRNA medicines.",0.999729335308075
+"Martin - Martin is a personal AI assistant that interacts through app, text, or email. It integrates with your calendar and inbox to proactively help you with scheduling, meeting summaries, news updates, and more.",0.9997102618217468
+CareOasis - CareOasis helps family caregivers receive compensation through government programs.,0.9996821880340576
+CropCare - A farm management system that uses satellite imagery to monitor crop health and detect issues like disease or water stress early.,0.9996174573898317
+"clearspace - Clearspace offers an internet layer that aligns users' time with their best intentions, helping reduce compulsive phone usage.",0.999455749988556
+"Pico - Pico organizes iPhone screenshots, linking related information like plane tickets and hotel listings, and makes actionable recommendations from saved screenshots.",0.9994363188743592
+NeuroFit - A wearable brain training device that uses biofeedback to help athletes and high performers optimize their mental state during competitions.,0.9991206526756288
+"Can of Soup - Can of Soup allows users to create and share AI-generated photos of themselves and friends in imaginative scenarios, from moon volleyball to concerts with celebrities.",0.9928760528564452
+"ElderEase - A wearable device that assists seniors in daily tasks, with fall detection, medication reminders, and 24/7 monitoring for caregivers.",0.911950945854187
+SafeTalk - An encrypted communication app that makes it easy for people in high-risk professions to chat securely.,0.0010139375226572
+"FoodPrint - An app that calculates the environmental impact of grocery purchases, educating consumers on how to reduce their carbon footprint through food choices.",0.0007759258151054
+"CompliBot - An AI that sends you generic compliments once a day, like 'You’re probably doing great.'",0.0004106169217266
+"QuickQuote - An app that provides quotes for auto, home, and health insurance from multiple providers, making comparison easy and fast.",0.0003948525700252
+"GreenGuide - A directory of local eco-friendly businesses and sustainable products, encouraging users to shop green.",0.0003866232873406
+BrightSide - A positivity-focused news aggregator that curates feel-good stories from around the world to brighten your day.,0.0003823872248176
+"PlantChat - A social network for plant owners to 'chat' with their plants. No actual responses from the plants, though.",0.000375160598196
+"InvisiblePet - A virtual pet app where your pet is invisible, making the whole game about caring for something you can’t see.",0.0003692615719046
+GreenThumb - A platform that connects beginner gardeners with local gardening experts for advice on cultivating plants specific to their climate.,0.0003623315715231
+"PetRockFeed - A pet app exclusively for virtual pet rocks, where users can 'feed' rocks with virtual minerals. Not very interactive.",0.0003607968392316
+PetPerch - A virtual perch for your pets that encourages them to 'sit' on it. Only works if your pets actually use it.,0.0003598407201934
+"EchoEar - An app that plays faint echo sounds to make you feel like you're speaking in a large, empty room.",0.0003399049746803
+"MicroMed - A platform for booking short virtual medical consultations for minor health questions, avoiding full doctor visits.",0.0003373954677954
+"ApologyApp - An app that automatically generates apologies to send to people, even if you’re not sure why you’re apologizing.",0.0003364516014698
+"BreakAlarm - An app that reminds you to take breaks, but only when you’re already on break.",0.00033361162059
+LateNightMuse - An idea journal that only lets you write down thoughts after midnight. Encourages 'inspired' but often unusable ideas.,0.0003322582051623
+"MirrorMe - An app that shows random photos of mirrors to 'reflect' on, offering no real benefit other than confusion.",0.0003315655339974
+"InstaBlur - A photo-sharing app that only allows you to post blurred photos, making it a challenge for followers to guess the subject.",0.0003311810432933
+"MemoryMap - A map of places you've visited that only remembers random spots, creating a mysterious and inaccurate travel history.",0.0003307049628347
+"SkillBoost - A platform with micro-courses that teach a new skill or concept in 5-10 minutes, perfect for busy schedules.",0.0003306258295197
+"GroceryGoal - A meal-planning app that generates shopping lists based on recipes, optimizing ingredients for minimal waste.",0.0003284320700913
+FriendFleet - An app that assigns you random group activities with strangers to simulate having more friends.,0.0003275517956353
+"EnergyWatch - An app that helps you track and reduce household energy usage, offering tips for lowering utility bills.",0.0003273826441727
+"UrbanHike - An app that curates local walking routes in urban areas with scenic views, hidden gems, and historical landmarks.",0.000325830100337
+"OverIt - A goal-tracking app that only lets you abandon goals, celebrating 'moving on' instead of 'accomplishing.'",0.0003256872296333
+InspoBurst - A motivation app that sends users daily inspirational quotes or success stories to encourage positivity.,0.0003250371082685
+Checkmate - A chess-inspired calendar app that lets you mark appointments as 'check' or 'checkmate' to signify their importance.,0.0003229776921216
+"BrewScout - A coffee and tea discovery app that introduces users to local cafes, specialty drinks, and unique brews nearby.",0.0003227022243663
+BuddyBook - An app that matches users with potential friends based on shared interests and mutual activities.,0.0003224291140213
+"QuietCue - A social app that encourages users to take a quiet break, sharing their peaceful moments with others.",0.0003221771912649
+RoomRomance - An app that encourages you to 'fall in love' with your room by sending positive affirmations about your decor choices.,0.0003216514305677
+"SingSync - An app that only lets you play one song over and over, creating the perfect 'song obsession' experience.",0.0003211427829228
+"ShoutOut - An app that allows users to send voice messages at maximum volume, designed for loud public declarations.",0.0003183562948834
+"SnapGloat - A social media app specifically for bragging, but only about trivial things, like folding laundry or finding parking.",0.0003157898900099
+ShushSpace - An app that sends you a daily notification to 'just be quiet' at a random time of the day.,0.0003155854938086
+"SnailMailLive - An app that tracks real-time delivery of your snail mail, with alerts every time it moves a few feet.",0.0003148107789456
+NapZone - An app that maps nearby 'nap-friendly' places but only lists park benches and public library chairs.,0.000314695877023
+"StareTime - An app that tracks how long you stare into space, providing stats on your best 'zoning out' achievements.",0.0003144014044664
+PillowTalk - An alarm clock app that plays motivational speeches as lullabies to 'inspire you while you sleep.',0.0003143354551866
+"BlurQuest - A photo-sharing app that adds a blur filter to every photo, leaving followers guessing the photo's subject.",0.0003142551577184
+"PreCycle - An app that predicts items you’ll probably recycle soon, providing suggestions even for items you just bought.",0.0003140329499728
+"DayDecay - A photo-sharing app that automatically applies a 'decay filter,' making your photos look progressively older with each view.",0.0003137824533041
+"Glitchly - An app that randomly glitches your screen for a 'cyber aesthetic' experience, though it mostly just annoys you.",0.0003137019812129
+NoteBlurt - A note-taking app that randomly 'blurts' out your notes as text messages to friends at inopportune times.,0.0003136176383122
+"PetitionPals - An app that helps you start petitions for tiny inconveniences, like bad coffee or squeaky chairs.",0.0003131184494122
+FlowFocus - A productivity app that blocks distractions on your device based on a customizable focus schedule.,0.0003127449308522
+"MicroMoment - An app that suggests small, mindful activities throughout the day to help users decompress and stay present.",0.0003127034578938
+EchoChef - A recipe app that only gives you recipes based on what your neighbors are cooking. The smell is the only preview.,0.0003124975482933
+ComfyCalc - A calculator that encourages you to 'take it easy' and only returns approximate answers to avoid 'overthinking.',0.0003122890775557
+"TripSplit - An app that calculates travel costs and lets you split expenses with friends on group trips, tracking who owes what.",0.0003122765629086
+EchoChamber - A podcast app that replays random snippets of your previous podcasts to create a sense of 'personal nostalgia.',0.0003110295219812
+"MoveMe - A reminder app that encourages light activity breaks during the day, especially for those with sedentary jobs.",0.0003105101350229
+BreakBox - An app that gives you a gentle reminder to take a break by locking your phone screen randomly during the day.,0.0003104595525655
+"MindBrew - A mental stimulation app that sends daily riddles, puzzles, or brain teasers for a quick cognitive boost.",0.0003087987715844
+BalanceBoard - A mental wellness app that tracks different areas of life and suggests activities to maintain a balanced lifestyle.,0.000308459799271
+"Rewatch - A streaming app that only lets you watch movies you've already seen, for a comfortable but predictable experience.",0.0003084421914536
+"Refreshr - An app that prompts you to take micro-breaks to stretch and refresh, tracking your activity levels to avoid screen fatigue.",0.0003080853784922
+"OpenTab - A tab-tracking app that reminds you of all the browser tabs you have open, making you feel increasingly overwhelmed.",0.0003080800815951
+"QuietQuest - An app that challenges you to find quiet places, but only tells you where the loudest locations are instead.",0.0003076090360991
+TaskCycle - An app that randomly selects a task from your to-do list to help break decision paralysis and get started.,0.0003071785031352
+"RunRelay - A fitness app where users virtually 'pass the baton' for a relay race, encouraging team-based running goals with friends.",0.0003069334779866
+"CalmCycle - A cycling app that maps out quiet, scenic bike routes for stress-free rides through peaceful areas.",0.0003068331279791
+"NapMap - An app that shows you the best nap spots in your area, though it mostly lists benches, couches, and random quiet corners.",0.0003067322249989
+WorkWander - A remote work app that suggests scenic spots nearby to change up your workspace and get fresh inspiration.,0.0003061651659663
+"LastMinuteLists - An app that automatically generates to-do lists just before deadlines, keeping you in a constant state of mild panic.",0.0003061488096136
+"YawnAlert - An app that sends you an alert every time you yawn, reminding you to get some rest, no matter the time of day.",0.0003060443268623

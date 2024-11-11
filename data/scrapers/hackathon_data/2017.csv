@@ -1,0 +1,1219 @@
+Project Title,Submission Url,Project Status,Judging Status,Highest Step Completed,Project Created At,About The Project,"""Try it out"" Links",Video Demo Link,Opt-In Prizes,Built With,Notes,Team Colleges/Universities,Additional Team Member Count,Mlh Points,Mlh Hardware Lab
+Reddit digest bot,https://revuc-vi.devpost.com/submissions/71551-reddit-digest-bot,Submitted (Gallery/Visible),Pending,,04/09/2017 11:16:36,"Inspiration
+
+I just wanted to try something new with python
+
+What it does
+
+It just emails the users the top posts from the subreddits
+The user has to PM the email and the subreddits to a reddit account (badolaay) with semicolon ';' as delimiter
+For example: abc@mail.com;programming;askreddit
+
+How I built it
+
+I used reddit api for getting the reddit data and mailgun for sending emails
+
+Challenges I ran into
+
+First I thought of making subreddit and read the uses email from there.
+But this would expose the emails so I opted for PM
+
+Accomplishments that I'm proud of
+
+I created something in less than 24 hours
+
+What I learned
+
+Using python, reddit api and sending emails
+
+What's next for Reddit digest bot
+
+Deploy on AWS, avoid manual authorization for each user email at mailgun
+Sort the posts/comments as per user preference
+",https://github.com/badolaay/redditbot,,"","python, mailgun",,University of Cincinnati,0,University of Cincinnati,""
+Watrr,https://revuc-vi.devpost.com/submissions/71564-watrr,Submitted (Gallery/Visible),Pending,,04/09/2017 11:42:33,"Table: 860D1
+
+Inspiration
+
+While standing in the shower one day, thinking about what we could do at a hackathon, we noticed that there is a lot of water that is lost in the warming up of the shower. So we started thinking about the project in a basic sense of getting the feel for where this could go! Then it exploded and now we are here.
+
+What it does
+
+It lets the water flow from the wall ( pump and hose), it runs the water to the point of the desired temperature. Then the water would be shut off with a mechanical solenoid( represented with a relay shield), then when the user that is taking a shower steps onto the mat in the shower it would allow the water to flow again from the wall. 
+
+How we built it
+
+This application runs on a Raspberry Pi Zero W, running an ssh tunnel into an EC2 using Amazon Web Services. Then we went from the EC2 being ssh'd into from our computers and then programming the pi that way, using the hardware that we pre planned to have access too made the construction of our idea a reality.  
+
+Challenges we ran into
+
+Having a way for peer to peer communication was one of the main challenges. This was due to the network that we were given access too. Another challenge that we ran into was being conscious of the power consumption on the raspberry pi.  
+
+Accomplishments that we're proud of
+
+We finished, we honestly did not believe that we would finish when at 2-3am when we ripped it apart and then threw it back together again in a really short time.
+
+What we learned
+
+That raspberry pi zero w's cannot have more than 2 things on a 5v rail. Silicone and cornstarch makes a great putty for water proofing. Cross platform applications.
+
+What's next for Watrr
+
+Profiles is one main thing that we wanted to get into the application towards the end. 
+Just open Source it maybe, have not decided yet.
+",https://github.com/wkomer/Watrr,," 84.51Â° Make the Customerâ€™s Life Easier, TCS Best Hardware Hack, Kinetic Vision Best Overall Helium IoT Hack First Place, Amazon Web Services - Best use of AWS","python, basic, amazon-web-services, raspberry-pi, hardware, android",,Kent State University,2,Kent State University,""
+VRtionary,https://revuc-vi.devpost.com/submissions/71578-vrtionary,Submitted (Gallery/Visible),Pending,,04/09/2017 12:00:40,"Team-Name: T.H.E
+Table-Number: 860D4
+
+Inspiration
+
+Ever wanted to make your wildest dreams come true? Ride the stallion of tomorrow? VRtionary fills you with the vigor of youth and the wisdom of age.
+
+What it does
+
+Its pictionary in vr! Runs on any modern phone, using the powers of webVR! Just load it up in your browser and you're good to go! Multiplayer VR in the browser! Have up to 4 teams participate in a fun-filled pictionary game that takes advantage of the virtual environment. Watch as your drawings come to life!
+",https://vrtionary.surge.sh,,"Best UI, Scripps Best Media Hack","javascript, aframe, jquery, html5, css3, chrome, android, google-cardboard",,Ohio State University,3,The Ohio State University,""
+Printer Pal (860B3),https://revuc-vi.devpost.com/submissions/71580-printer-pal-860b3,Submitted (Gallery/Visible),Pending,,04/09/2017 12:05:11,"Inspiration
+
+A member of our team is doing a research project for Hughes High School. Many of the teachers at Hughes High School have bemoaned the fact that when they try to print classwork to the printers, they arrive at the printer to find that the printer is jammed, out of ink, or our of paper. The teacher must then walk all the way to the secretary's office to notify the secretary that there is something wrong with the printer.
+
+What it does
+
+Our project makes teachers' lives easier by removing the need for teachers to walk all the way to the secretary's office whenever the printer is down. This allows teachers to be more productive by spending that time focusing on their students and their lesson plans. There are 5 printers in Hughes High School and each printer would have it's own Dash button.  When the button is pressed a special message denoting which button was pressed and how it was pressed would be sent to the recipient. In this case, the recipient is the secretary at Hughes High School, but in other cases it may be the building's services manager or inventory manager.
+
+Short = Printer is jammed
+
+Long = Printer is out of ink
+
+Double = Printer is out of paper
+
+How we built it
+
+We configured the Amazon Dash buttons using an adhoc network. We then used Amazon's Lambda function to write a program that would send customized messages to the recipient depending on how one of the Dash buttons was pressed (short, long, double).
+
+8603B
+
+Challenges we ran into
+
+A major challenge we ran into was in the initial set up and configuration of the Dash buttons. The IoT buttons aren't designed for WPA2 Enterprise Network and need a 2.4Ghz network. The Securewireless network is a WPA2 Enterprise Network and the UC Guest network makes a random username and password for each client, but that username and password is not accessible to the client. In order to get around this, we had tried to use various routers to get around the problem. However, those routers didn't work. We ended up setting up an adhoc network on one of our computers, but even that cuts-out a couple times an hour for reasons we have yet to identify.
+
+Accomplishments that we're proud of
+
+We're proud that we were able to experience all of the pillars of this hackathon: Build. Learn. Grow. We built a product  that can be easily implemented at Hughes High School. We learned about Amazon's Web Services, JavaScript, and working with a team. We grew in our understanding of hackathons, the world of computer science, and consumer-based design. We're proud that we pushed through the initial configuration issues that we thought should've taken 30 minutes but ended up taking 5+ hours. We're proud to have participated in RevolutionUC 2017!
+
+What we learned
+
+We learned that AWS's instructions on the dash button could be more comprehensive. We learned about AWS's SNS, Lambda, IoT, Dynamo, and Javascript.
+
+What's next for Printer Pal
+
+We hope to add a feature that allows the recipient of the messages to respond saying they received the message and either the Dash button flashes a different LED color. We also hope to connect Printer Pal to an cloud print service so that this eliminates the need for someone to press the button entirely. Not only can this be implemented at all schools around the world, it can also be used in retail. For example, if an item is low or out of stock, customers can push the button to notify store employees that the product is low on inventory.
+","",," 84.51Â° Make the Customerâ€™s Life Easier, Amazon Web Services - Best use of AWS","amazon-web-services, javascript, json",,University of Cincinnati,1,"University of Cincinnati, Mars Hill Academy",""
+Barking Up The Pong Tree,https://revuc-vi.devpost.com/submissions/71582-barking-up-the-pong-tree,Submitted (Gallery/Visible),Pending,,04/09/2017 12:12:21,"Table LC1
+
+Our pun-tastic domain: BarkingUpThePongTree.com
+
+And since we love puns so much, have another one: LivePongAndProsper.com
+
+Inspiration
+
+We've always been very intrigued with AR technology, and what better way to dip our toes in than turning one of our childhood favorite games into an AR game?
+
+What it does
+
+A real life Pong platform is projected onto a surface of your choice, and you can control the paddle by moving your phone. Aim the ball at the power-ups to get cool stuff.
+
+How we built it
+
+Unity with Vuforia.
+
+Challenges we ran into
+
+We're not very experienced C# programmers, and it's out first time using Vuforia. It was a steep learning curve.
+
+Accomplishments that we're proud of
+
+We made a thing!
+
+What we learned
+
+Vuforia library, C# programming, some graphics design. Lots!
+
+What's next for IRL Pong
+
+We would like the control of the paddle to be a bit more sophisticated and potentially allowing you to control the paddle with your hand? We could incorporate the Leap Motion. Build better power-ups?
+",https://github.com/mdvu15/ARgame,,"Best UI, Best Domain Name from Domain.com","unity, c#, vuforia",,Earlham College,3,Earlham College,""
+V-Arrrgh,https://revuc-vi.devpost.com/submissions/71583-v-arrrgh,Submitted (Gallery/Visible),Pending,,04/09/2017 12:12:27,"(Table Number: LC6)
+
+Here's the whole story:
+
+The Motivation
+
+One of our team members was born with amblyopia, a disorder similar to lazy-eye in which vision in one eye can be lost forever if not corrected at an early age. However, without the motivation or realization of risk, many young kids neglect treatment, not wanting to wear an eye patch to train their other eye. But many modern methods for education and working with children are based on the principle of gameifying a task-- making something into a game makes it more appealing and easier to enjoy by kids. That's why we decided to help kids with amblyopia overcome their condition by leveraging Oculus Rift virtual reality gaming technology.
+
+The Execution
+
+When our group of four walked into the Hackerspace, one of us had been using Unity for merely a week and the other three had minimal to no experience. By the time we finished our project, we had all mastered an area of the Unity workflow, from Design to Programming to Gameplay. Our execution was meticulously organized and planned from the beginning: From our time planned to the minute to our roles divided among expertise, we created a strong collaborative sense of team synergy that bolstered our productivity and made for effective performance.
+
+The Future
+
+Despite the amount of work that we've put in, our creation is a prototype. It's by no means a finished product, but rather a proof-of-concept. However, we seriously plan on continuing development on this project in the near future-- replacing simple geometric bodies with actual art assets, adding more mini-games and levels, improving functionality, and continuing to tune and balance gameplay. We feel confident that this product will provide an easy but extremely effective way to solve a serious problem in today's children in a way that is enjoyable and immensely beneficial.
+","",,"High School Hack, Best UI,  84.51Â° Make the Customerâ€™s Life Easier","unity, oculus, c#",,Duke University,1,Loveland High School,"Alienware Laptop, Oculus Rift, and Leap Motion"
+Polynous,https://revuc-vi.devpost.com/submissions/71591-polynous,Submitted (Gallery/Visible),Pending,,04/09/2017 12:25:46,"Group C3
+
+Inspiration
+
+While there already exists services that provide live code collaboration, most are either software as a service (paid) or only allow you to edit one file through copy pasting
+
+What it does
+
+It allows you to specify a git-repository to clone and then creates a workspace from cloning the git-repo.
+At the moment it allows you view the project directory as well as open files.
+
+Planned for it is the ability to edit the files as well as commit files to the cloned git-repo. 
+
+How we built it
+
+We used NodeJS coupled with ExpressJS to handle the back-end and routing.  We then used Webpack to bundle the web clients.  Client-Server communication and content loading is all handled using Socket.io (web sockets).
+
+Challenges we ran into
+
+Syncing up edits is a hard problem to tackle.
+Recreating text editors from near scratch is also hard to do.
+
+Accomplishments that we're proud of
+
+Getting the file structure to load as well as the ability to show files.
+
+What we learned
+
+This is a large project, especially in the back-end.  Furthermore it requires custom technology on the front end the current editable text elements in HTML do not support.  As such it took a good amount of infrastructure on the backend as well as some research and prototyping on the front-end.
+
+What's next for Polynous
+
+Finishing up the editing capabilities and refining it is at the forefront.  Furthermore, users were shelved during the hackathon due to them being non-essential.  Having users for editing will be needed to track git changes as well as identify edits.
+
+Finally, additional improvements to the editor such as syntax highlighting and multiple loaded tabs will be needed.
+",https://github.com/Migsect/Polynous,,"","node.js, html5, css3, javascript, express.js, socket.io, handlebars.js, webpack",,University of Cincinnati,2,University of Cincinnati,""
+Stock Extension,https://revuc-vi.devpost.com/submissions/71599-stock-extension,Submitted (Gallery/Visible),Pending,,04/09/2017 12:32:34,"D1
+
+Inspiration
+
+A desire to relate news articles to current financial markets.
+
+What it does
+
+At this time, it takes a user-inputted stock ticker and then returns current stock information in a popup Google Chrome extension.
+
+How I built it
+
+This is a Google Chrome extension written in JavaScript primarily, along with relevant a HTML document. The 
+
+Challenges we ran into
+
+Lack of knowledge about web development. Inability to search for stock tickers by company name.
+
+What we learned
+
+Web development is a lot harder than it looks.
+
+What's next for Stock Extension
+
+Adding functionality to crawl a webpage for tickers and automatically load them up.
+",https://github.com/matpclay/RevolutionSS17,,Scripps Best Media Hack,"javascript, java, html, ajax, xml",,University of Cincinnati,2,"University of Cincinnati (x2), Purdue University",""
+Joys of Coding (aka Wild Compile),https://revuc-vi.devpost.com/submissions/71601-joys-of-coding-aka-wild-compile,Submitted (Gallery/Visible),Pending,,04/09/2017 12:33:41,"Table: LC5
+JoysOfCoding.com
+
+What it does
+
+We made a C# Web IDE such that a user can submit code via a web page to the server. The server will execute the code, provide the output, as well as ask for input where necessary.
+
+How we built it
+
+The backend that powers the website is and ASP.NET Core application running on a Windows Server. The client sends the code to be compiled to the server, the server compiles it, then over HTMLt Web Sockets, sends back the output of the program in real time.
+
+Challenges we ran into
+
+Getting the client side text editor to have decent functionality was quite difficult. Almost every step of between sending the code to the server to recieving the output gave us trouble.
+
+Accomplishments that we're proud of
+
+None of us had worked with websockets before. Being able to execute a program on a server and route the output of the program over a web socket as well as ask for input where necessary turned out to be a much larger task than we anticipated.
+
+What we learned
+
+We all learned about websockets, between implementing the server and client side, none of us had worked with them before.
+
+What's next for Wild Compile
+
+Adding protection such as a sandboxed environment so that the users program can not effect the server would be a very neccesary step.
+","https://github.com/Evan-Akers/WildCompile/, http://ec2-54-234-53-50.compute-1.amazonaws.com",,"Best UI, Amazon Web Services - Best use of AWS, Best Domain Name from Domain.com",".net-core, jquery",,"",1,University of Cincinnati,""
+Hot Wheels ,https://revuc-vi.devpost.com/submissions/71603-hot-wheels,Submitted (Gallery/Visible),Pending,,04/09/2017 12:36:19,"Table - LC13
+
+Inspiration
+
+Children riding their bikes at night are in danger of getting hit by drivers that don't see them.  Up until now all ways to be visible to drivers are seen as uncool by children.  I saw the need for a product that children wouldn't have a problem using while also keeping them safe at night.  Hot Wheels keeps kids safe by lighting up their bikes while looking cool at the same time.
+
+What it does / How it works
+
+It flashes patterns on the wheels of a bike.  This allows a child to feel cool while remaining safe while riding their bikes at night
+
+How I built it
+
+I mounted an Arduino and battery pack on the wheel of a bike.  I then built a small circuit that lights the LEDs up off the Arduino's pins.  Then I mounted the LEDs onto the wheel of the bike.
+
+Challenges I ran into
+
+Mostly finding the correct hardware.  I had to find a micro-controller that was small enough to fit between the spokes of a bike.  Also I had to find an LED strip that was able to be powered off of a micro-controller.  I didn't have enough time to order one so I ended up having to build my own.
+
+Accomplishments that I'm proud of
+
+I am most proud of building a hardware hack in 24 hours.  I don't have any experience nuilding hardware so being able to build a circuit and attach hardware to a device was a new experience that I am glad to have.
+
+What I learned
+
+I learned that I should spend more time seeing if something exists before trying to build it myself.  I didn't spend long looking for a working LED strip and instead spent a bunch of time building one.  If I had spent a little more time researching and finding a proper LED strip I could have had more time to building the rest of the project.  Also a prebuilt LED strip would probably work much better than mine.
+
+What's next for Hot Wheels
+
+2 things are next for Hot Wheels.  First, I want to find an LED strip that is able to be powered off of my Arduino. It needs to be brighter than the current LEDS I have also.  Second, I need to make the LEDs shine at different brightnessess  so I can print out different patterns while the wheels are spinning. 
+",https://github.com/Tyler-Hilbert/BikeLEDs,https://vimeo.com/212473663,TCS Best Hardware Hack,"arduino, c++",,University of Cincinnati,0,University of Cincinnati,Arduino 101
+Don't Fall,https://revuc-vi.devpost.com/submissions/71616-don-t-fall,Submitted (Gallery/Visible),Pending,,04/09/2017 12:45:21,"Inspiration
+
+We wanted to laugh at people falling over in VR.
+
+What it does
+
+How I built it
+
+Challenges I ran into
+
+Accomplishments that I'm proud of
+
+What I learned
+
+What's next for Don't Fall
+","",,"","",,Miami University,3,Miami University / University of Cincinnati,""
+Tweeter,https://revuc-vi.devpost.com/submissions/71622-tweeter,Submitted (Gallery/Visible),Pending,,04/09/2017 12:52:01,"Inspiration
+
+A coworker of mine was really into following the NBA Draft. He'd been on Twitter all day following the live news updates. The time came when we were done working and we had to go home. He lives pretty far away from our job so he was pretty bummed out he wouldn't be able to follow Twitter as he drove. So I came up with the idea for an app that grabs a users feed, and allows the user to specify certain hashtags they're intered in. Once they specify hashtags the app will read any tweet with that hashtag out loud to them via headphones or speakers. Thus, Tweeter was born.
+
+What it does
+
+Allows a user to specify a list of Twitter hashtags. Any tweet with a specified hashtag will then be read aloud via speech synthesis software.
+
+How we built it
+
+We used ASP.NET to create a web app that couples with TweetInvi to grab a users tweets and allow sus to read them.
+
+Challenges we ran into
+
+It took us a long time to figure out how to even get tweets from our own account's timeline, which we already have authorization for. We spent a lot of time trying to figure out how to authenticate other users to no avail. Another big challenge of ours was trying to get Tweeter to update live as tweets were posted.
+
+Accomplishments that we're proud of
+
+In general we're just proud of the idea. We're also proud of how much we got done in a short amount of time. This project was actually our plan b, and we started working on it after spending a good amount of time on another project we later found out wasn't feasible.
+
+What we learned
+
+We learned how to use speech synthesis in .NET. We also learned a lot about the Twitter API.
+
+What's next for Tweeter
+
+Tweeter might be on the bench for some time, but the end goal is to turn it into a phone app to make it more portable. We also plan to perfect all aspects of it like authenticating other users, live updating, and not repeating tweets.
+",https://github.com/navett52/Tweeter,,Best UI,"c#, asp.net, css",,Northern Kentucky University,0,University of Cincinnati Clermont,""
+AISee,https://revuc-vi.devpost.com/submissions/71626-aisee,Submitted (Gallery/Visible),Pending,,04/09/2017 12:55:14,"Located at table B1
+
+Inspiration
+
+The inspiration behind AISee was to combine the skills of all the team members on the team, while also learning platforms we have never developed on before.  
+
+What it does
+
+We think data security is very important now more than ever, so we wanted to create an alternative to a very popular platform (Google Photos) that you can self host and self manage that way YOU manage your personal data. We also wanted to focus on the features of the popular platforms and make sure that those didn't get left out when you used AISee. We used both Alexa and IBM Watson Vision Recognition to voice search through your photos hands free, but also tag your photos with relevant data so the next time you go looking for those dog pictures you can say ""Alexa show me my dog pictures"" and they will be on your screen before you know it.
+
+How we built it
+
+As mentioned in the inspiration we built this using IBM Watson and Amazon Alexa, but as for the Web and Mobile apps we used HTML5, PHP, Swift, Java, and JSON. We used a Raspberry Pi for our web server which hosts all the pictures and tagged data that we use to make searching effortless. 
+
+Challenges we ran into
+
+IBM Watson has a broken SDK for Java, so I spent about 3 hours making an app that just didn't work because of a HTTP 500 error from the Watson servers, but I didn't let that stop me there. We continued looking into other platforms, and we found the Watson iOS SDK which is written in swift and was much more up to date than the Java SDK. Unfortunately we still ran into issues with Watson as the returned image classifier data was NOT in a json format and just in a big block, so this made it very difficult to work with parsing the data that we needed to pass along with the picture.
+
+Amazon Alexa SDK, while on UC's network has been very temperamental during the time at Revolution UC, we can have it working one minute, yet the next minute it won't work. We are trying to iron out the stability of the Alexa API, so we can provide a consistently great experience.   
+
+We also struggled with the styling aspect of the web platform as the css files were basically doing the opposite of what we needed them to do. Through the help of mentors we were able to straighten out all the bugs we were encountering with the website! 
+
+Accomplishments that we're proud of
+
+Despite all the setbacks with the platforms we were working with, we managed to get everything up and working as expected. The best thing and I think the thing that we are the most proud of is the fact that we all learned new platforms during this event.
+
+What we learned
+
+I (Skyler Martin) learned how to work with the IBM Watson SDK, and got to further develop my skills with Swift. Aidan Hembree got allot more experience with PHP scripting and HTML5 coding. Henry Griffiths set up the web server we all worked off of during the event, and got our raspberry pi to talk to the Amazon Alexa servers for voice searches within the AISee application. Eli Garcia focused on the database creation and management part of our project where we aim to store all our pictures and contextual data.
+
+What's next for AISee
+
+Better User Interface, Ability to edit tags on photos, search by geo location.
+","",,"Best UI, TCS Best Hardware Hack, IBM Best Use of Watson IoT Platform on Bluemix First Place","ibm-watson, alexa, php, html5, swift, java",,"Unversity Of Cincinnati, University of Cincinnati",3,University of Cincinnati,""
+Technical Interviewer,https://revuc-vi.devpost.com/submissions/71633-technical-interviewer,Submitted (Gallery/Visible),Pending,,04/09/2017 12:56:47,"Inspiration
+
+Currently, we are struggling our way through interview process. We can understand the pain, recruiters go through in order to select perfect candidates for the specified role. We don't think that the current process is wrong, but we think it is flawed. 
+
+What it does
+
+We are using Alexa skills to ask the technical questions, which will be hard coded using Node.js. For example, we have 100 applicants selected through ATS. The first level of interview will be conducted through Alexa. This saves the time for both Technical as well as HR recruiter. We are using Dynamo DB to store the results from Alexa and IBM Watson will be used to process the results which can filter the top students accordingly. 
+
+How we built it
+
+We used Lambda function to define our logic for question and answers. Then we linked the Lambda function with our Alexa skills. 
+
+Challenges we ran into
+
+We are having some hard time in storing data from Alexa to Dynamo DB and process it accordingly. However, we are also facing some accent issues with Alexa. 
+
+Accomplishments that we're proud of
+
+Creating successful Lambda functions, which interacts with the candidate. It effectively captures the input from the candidate and stores the value. 
+
+What we learned
+
+We had zero knowledge on Lambda function and its usage. We achieved and learned a lot about Alexa skills, Lambda functions and Integrating AWS services. 
+
+What's next for Technical Interviewer
+
+Due to the lengthiness of the process , we are not able to compare and compute the results in IBM Watson. We would like to continue our project and make a successful prototype of our product. We think this concept not only mitigates the issues of a recruiter, but also for candidates. 
+",https://github.com/anuj4994/ravolutionUC2017.git,https://www.youtube.com/watch?v=joNW9uPGjMc,"TCS Best Hardware Hack, Kinetic Vision Best Overall Helium IoT Hack First Place, IBM Best Use of Watson IoT Platform on Bluemix First Place, #HackHarassment, Amazon Web Services - Best use of AWS","amazon-web-services, lambda-functions, node.js, ibm-watson, alexa, dynamo-db",,University of Cincinnati,2,University of Cincinnati,Amazon Echo
+Unboxel VR,https://revuc-vi.devpost.com/submissions/71635-unboxel-vr,Submitted (Gallery/Visible),Pending,,04/09/2017 12:57:41,"Table: J1
+
+Inspiration
+
+WebVR is brand new, but it has the advantage of making VR accessible to a much wider audience. No need for massive downloads. Users just need a browser! WebVR also makes multi-layer experiences a convenient possibility. We are excited about these new VR opportunities and chose to spend the weekend investigating what could be built with the currently available WebVR options.
+
+What it does
+
+We built an interactive VR game. Players are placed into a VR space containing a 3D object hidden under a grid of boxes. The boxes randomly disappear. The goal is to guess what the object is with as many blocks left as possible. Players guess by simply talking out loud!
+
+How we built it
+
+We used A-frame as our WebVR framework. A-frame runs in many desktop and mobile browsers. We can then use, Javascript to manipulate the WebVR elements. To handle the speech-to-text and text-to-speech functionalities, we relied on IBM's Watson API.
+
+Challenges we ran into
+
+We found a collection of free, 3D models to use as our objects to guess. However, each of these objects were wildly different in terms of size, rotation, and origins. This made it difficult to wrangle them. We had to develop an algorithm that scales and centers the objects into our viewing area. The algorithm then had to draw the minimum grid of blocks sufficient to cover the object.
+
+IBM's Watson presented challenges with recognizing strange object names. We solved this by providing a list of utterances that would match a given object.
+
+Accomplishments that we're proud of
+
+We are excited to have produced an interactive VR experience. We were able to get our game to play within an Oculus, and it is quite an immersive experience.
+
+What we learned
+
+We had never used A-frame for this complex of a task before. We also have never used Watson's speech-to-text or text-to-speech functionalities. We had a great time learning these tools!
+
+What's next for Unboxel
+
+We'd like to continue to polish the experience on multiple platforms.
+",https://34.205.85.39:3001,,"IBM Best Use of Watson IoT Platform on Bluemix First Place, Amazon Web Services - Best use of AWS","a-frame, javascript, amazon-web-services, node.js, ibm-watson, oculus",,"University of Cincinnati, Univesity of Cincinnati",2,University of Cincinnati,"Alienware X51 Desktop, Dell XPS Laptop, and Oculus Rift"
+VCare,https://revuc-vi.devpost.com/submissions/71639-vcare,Submitted (Gallery/Visible),Pending,,04/09/2017 12:58:10,"Table : LC1
+
+Inspiration
+
+Data-powered tools change the way that clinicians and health care facilities respond to patient need and provide care â€“ for the better. It is observed that significant number of patients are impacted due to lack of proper monitoring. We intended to provide a life saving application that can be accessed from the fingertips of physicians.
+
+What it does
+
+VCare solution aids to constantly monitor a patients health condition and performs the following actions during an emergency:
+1) alerts the hospital staff using a voice assistant
+2) sends an SMS alert to the physician
+
+The solution also provide a real-time data monitoring using smart charts and graphs.
+
+How we built it
+
+We used IBM Bluemix, NodeRed and Watson IoT to simulate a virtual hospital environment. As we don't have expensive medical sensors, we simulated the sensor data using CSV files. Once we have a periodic data, it can be monitored and we used NodeRed's flow to simulate the necessary IoT. 
+
+Challenges we ran into
+
+1) Authorization error while creating an end-point api to feed the CSV data with the help of Datazar's api.
+2) It's quite hard to find any public datasets that has data for continuous monitoring of a patient.
+
+Accomplishments that we're proud of
+
+What we learned
+
+We are really amazed by the level at which IBM Bluemix and Watson IoT simplifies hustles in integrating different technologies like text-to-speech, IoT, storage service, Twilio etc. It's a great platform to create and integrate IoT at a fast pace.
+
+What's next for VCare
+
+currently, the threshold level of a monitored parameter at which an emergency is created has to be set by the Physician. In future, even this can be completely automated by training our solution with patients medical history. This will help to be more precise in the kind of medication patient receives.
+","https://github.com/moki298/VCare, https://v2care.mybluemix.net/red",https://www.youtube.com/watch?v=4sUXDivfa4g,"Best UI, TCS Best Hardware Hack, IBM Best Use of Watson IoT Platform on Bluemix First Place","bluemix, ibm-watson, nodered, twilio, websockets, iot, highcharts, json",,University of Cincinnati,3,University of Cincinnati,""
+RevSearch,https://revuc-vi.devpost.com/submissions/71642-revsearch,Submitted (Gallery/Visible),Pending,,04/09/2017 12:58:43,"LC9
+
+Inspiration
+
+Finder is awful, so we wanted to fix it.
+
+What it does
+
+Access, create, delete, etc with files on your computer.
+
+How we built it
+
+We made it with Python and the built in terminal commands on MacOS.
+
+Challenges we ran into
+
+The commands weren't working as we wanted them to, and folders with spaces were hard to identify.
+
+Accomplishments that we're proud of
+
+We made the project in under 320 lines and that the project could end up replacing Finder on Mac.
+
+What we learned
+
+We learned the commands on the terminal and we learned a lot about the Popen object on Python.
+
+What's next for RevSearch
+
+Teach others how to make similar apps.
+",https://github.com/coderhelpfromtwitter/RevSearch,,"High School Hack, Best UI",python,,"",1,"Perrysburg High School, Purcell Marian High School",""
+Rank It!,https://revuc-vi.devpost.com/submissions/71643-rank-it,Submitted (Gallery/Visible),Pending,,04/09/2017 12:58:47,"Inspiration
+
+We've all checked the Amazon reviews of a product before buying, its an essential to internet shopping. Sites like Yelp are well known for their restaurant and landmark reviews. 
+
+But, is anyone reviewing the review sites, or the websites without any reliable information on the internet? It's no longer safe just to assume websites are legitimate because of their domain name, or professional design. The internet media industry has spent a fortune protecting the consumer from ""fake news"" and phishing scams, and we believe our team has developed a solution where the average user can protect themselves, with no cost to the any of the companies we represent.
+
+What it does
+
+""Rank It"" is a chrome extension for rating websites, with a voting system borrowed from the social media giant Reddit. ""Up Votes"" and ""Down Votes"" serve to voice a singular user's likes or dislikes about a sub domain, and the most popular websites of the (week, month, year, or all time..) are ranked by their total score set by the internet's consumers. Thus implementing a social media aspect, and encourages websites to develop a better user experience to gain more popularity.
+
+How we built it
+
+Our team developed a mysql database to store website urls, their ""rating"", and wrote php scripts to interface with our javascript front-end. Then developed a Browser Action through Google Chrome's extensions api, which showed a pop-up allowing a user to vote on a website, and view a site's score. Soon after we created an interface between the database and the extension's badge (the little number on the icon),relaying the url and score back and forth. The finishing touches included UI improvements and a (temporarily) local-hosted website displaying the websites ranked in order of popularity. 
+
+Challenges we ran into
+
+-None of us had developed a chrome extension before, and two developers on our team had never even touched Javascript! 
+-Chrome Extensions lacked a lot of support, and nearly every question we searched didn't have an answer.
+-Interfacing PHP and Javascript, although not uncommon, gave us a lot of trouble.
+-Badges on the icon seemed to be the biggest challenge, but that only made us want to solve it more!
+
+Accomplishments that we're proud of
+
+-It Works! 
+-We created our first chrome extension, with a working interface with a server we set up, and implemented badges on the icon!
+
+What we learned
+
+-We all learned a ton about Javascript, especially the two team members who had never approached it before. 
+-We became extremely familiar with the Google Extensions API.
+-How to properly manage time.
+-How to hack!
+-How to have fun, and still perform under stress.
+
+What's next for Rank It!
+
+-Advanced website functionality.
+-Scaleable Database Support
+-Browser Fingerprinting and Identification
+-Marketing
+",https://github.com/jib9001/RankIt,,"Best UI,  84.51Â° Make the Customerâ€™s Life Easier, Scripps Best Media Hack","html, css, php, javascript, mysql, apache",,"University of Cincinnati Clermont College, Northern Kentucky University",3,University of Cincinnati,""
+Automatic Pet Feeder,https://revuc-vi.devpost.com/submissions/71644-automatic-pet-feeder,Submitted (Gallery/Visible),Pending,,04/09/2017 12:58:50,"Inspiratio
+
+Most of the people has a pet at their home, if not then they for sure knows someone who is. Pet owners sometimes stay out late maybe because they have work to do or an emergency to take care of. If that happened it would be nice to easily have a machine that takes care of the food part for the pet to make sure it stays healthy.
+
+What it does
+
+It is set to dispense food every certain interval of time pre set or through using a Web Page to override the machine to dispense food. It also was planned that the web page shows how many times the food was dispensed in the last 24 hours but because of the time limit, that might be an add on feature to add later on.
+
+How we built it
+
+We are one time. Built by: Moaz Abougabal, Deion Booher, Paul Jacobs, Curtis Mimes.
+
+Challenges we ran into
+
+You can't really not run into challenges. First, running the stepper motor for arduino on a raspberry pi. The wiring part was not in the right order and took a whole a lot of time to get it together. Sec, setting up a web page to send data to the raspberry python file.
+
+Accomplishments that we're proud of
+
+Making our idea work!
+
+What we learned
+
+Setting up hardware for raspberry pi and how the GPIO pins work.
+
+What's next for Automatic Pet Feeder
+
+Control it using an app on the phone and making it decent priced for everyone to be able to use.
+
+Code Used: named AutoCatFeeder.py
+
+import RPi.GPIO as GPIO
+import time
+
+GPIO.setmode(GPIO.BCM)
+GPIO.setwarnings(False)
+coil_A_1_pin = 4 
+coil_A_2_pin = 17 
+coil_B_1_pin = 23 
+coil_B_2_pin = 24 
+
+adjust if different
+
+StepCount = 8
+Seq = range(0, StepCount)
+Seq[0] = [0,1,0,0]
+Seq[1] = [0,1,0,1]
+Seq[2] = [0,0,0,1]
+Seq[3] = [1,0,0,1]
+Seq[4] = [1,0,0,0]
+Seq[5] = [1,0,1,0]
+Seq[6] = [0,0,1,0]
+Seq[7] = [0,1,1,0]
+
+GPIO.setup(enable_pin, GPIO.OUT)
+
+GPIO.setup(coil_A_1_pin, GPIO.OUT)
+GPIO.setup(coil_A_2_pin, GPIO.OUT)
+GPIO.setup(coil_B_1_pin, GPIO.OUT)
+GPIO.setup(coil_B_2_pin, GPIO.OUT)
+
+def setStep(w1, w2, w3, w4):
+    GPIO.output(coil_A_1_pin, w1)
+    GPIO.output(coil_A_2_pin, w2)
+    GPIO.output(coil_B_1_pin, w3)
+    GPIO.output(coil_B_2_pin, w4)
+
+def forward(delay, steps):
+    for i in range(steps):
+        for j in range(StepCount):
+            setStep(Seq[j][0], Seq[j][1], Seq[j][2], Seq[j][3])
+            time.sleep(delay)
+
+if name == 'main':
+    while True:
+        delay = 1
+        steps = raw_input(""How many quarter rotations do you want the blades to rotate?"")
+        Dstime = raw_input(""How long do you want the dispanse period to be? (in hours)?"")
+        daytime = 24+1
+        while daytime > 0:
+            forward(int(delay) / 1000.0, int(steps)*125)
+            time.sleep(3*int(Dstime))
+            daytime -= int(Dstime)
+","",,"","python, html, javascript, css",,"",1,Univesity of Cincinnati,""
+HallOfShame,https://revuc-vi.devpost.com/submissions/71646-hallofshame,Submitted (Gallery/Visible),Pending,,04/09/2017 12:59:14,"Inspiration (LC2)
+
+More than half of women and 70% percent of young adults have experienced online harassment. It's time for us to take action against this. We are motivated to provide a web app that in some way can reduce this evil practice.
+
+What it does
+
+Hall of Shame is a web application prototype which takes any familiar social networking website data as an input (We used YouTube URL for this prototype) and displays user profiles who use most number of abusive words online.
+
+BWS- For every video a score namely Bad Words Score(BWS) is calculated and corresponding ranking is provided for them.
+
+How we built it
+
+We used YouTube commentThreads.list API for accessing user comments. Calculated BWS using python flask framework in the backend.
+
+Challenges we ran into
+
+1)Scrapping of the YouTube webpage limited the amount of data (comments).
+2)Faced security issues in google chrome while implementing chrome extension through web injection.
+
+Accomplishments that we're proud of
+
+1)We used open source API to access comments instead of webpage scrapping.
+2)Calculating the BWS(Bad Word Score) for every video and comparing it with all other videos score already present in our database.
+3)Implemented a dashboard which provides most abusive users on YouTube.
+
+What we learned
+
+We realized that online harassment is not a trivial issue and needs to be addressed right now.
+
+What's next for HallOfShame
+
+1)Since we have data of most abusive persons we can create use that data to create a chrome extension which when installed in any system can hide the comments of those abusive users automatically.
+2)We can implement a chrome extension using web injection so that it prevents any user to use abusive words in their comments.
+
+Please Note our website http://halloffshame.com will be loading slow for the intial attempts.
+","http://ec2-52-89-34-25.us-west-2.compute.amazonaws.com/, https://github.com/Sreekhar/shame-shame, http://halloffshame.com/, https://github.com/Sreekhar/shame-shame",https://youtu.be/nWsp5_lL2iA,"Best UI, #HackHarassment, Best Domain Name from Domain.com","python, flask, mysql, javascript, css3, html5, jquery, node.js",,University of Cincinnati,4,University of Cincinnati,""
+VRythm,https://revuc-vi.devpost.com/submissions/71649-vrythm,Submitted (Gallery/Visible),Pending,,04/09/2017 13:02:54,"TABLE: M5
+
+Inspiration
+
+We were inspired by osu! and Elite Beat Agents!
+
+What it does
+
+A traditional rhythm game but reimagined in a 3D space, the user must grab the spheres that appear on the beats.
+
+How we built it
+
+We used Unity to design the space and add scripts, insert custom music, and an HTC Vive to dive in and enter the rhythm.
+
+Challenges we ran into
+
+Figuring out how to match the animation with the beat of the music, determining an appropriate level design, and getting git to work right.
+
+Accomplishments that we're proud of
+
+A visually striking product with catchy custom music!
+
+What we learned
+
+We learned unity, programming for the Vive, user interaction with a VR scene and objects, and music/beat integration.
+
+What's next for VRythm
+
+Maybe adding more songs, designing new levels and layouts, and adding extended notes.
+",http://thebestdomain.name,https://youtu.be/jPq49UcRqcY,"Best UI, Best Domain Name from Domain.com","unity, vive",,University of Cincinnati,3,University of Cincinnati,""
+Alexa twister game,https://revuc-vi.devpost.com/submissions/71651-alexa-twister-game,Submitted (Gallery/Visible),Pending,,04/09/2017 13:05:11,"Inspiration
+
+Most popular multiplayer and role playing games requires at least one of the players to moderate the game. This motivated us to build an interactive system that would allow all players to get involved with game ,using Amazon Echo and Alexa as the platform. They act as the moderator/host for our Twister proof-of-concept game.
+
+What it does
+
+Alexa generates the basic instructions required for the popular multiplayer game Twister. This skill set can be opened using the prompt Ask Twister Game, and should be followed by the total number of players playing. Sample prompt: ""Alexa, Ask Twister Game 5"". The code then generates a random instruction; ""Player 1 place your left hand on blue color"", where the player number, direction, body part, and color are randomized by the software. As a bonus we have also added special sound effects to simulate a real spinning board.
+
+How I built it
+
+The game's SDK  was built on AWS's Lambda and using Node.JS.
+
+Challenges I ran into
+
+Since this was the team's first time working with Alexa, we did run to multiple difficulties in understanding the platform and its functionality. Most of the time at the hackathon was spent in understanding the language, and debugging. Only benefit working with Alexa was its compatibility with Node.JS. 
+
+Accomplishments that I'm proud of
+
+Learning the basics of building Alexa Skill sets using AWS.
+
+What I learned
+
+Coding for Alexa using AWS services and Node.JS
+
+What's next for Alexa twister game
+
+The interactivity with the real world is something we could not implement in this project. This was intended to be used as a party host, that would be able to start a games and control the lights and the music around the house. The implementation of this idea would be the next step for the game.
+As mentioned the same principles can be applied to multiple games and platforms that requires another player to sit out and miss the game. Using IBM's Bluemix platform and Alexa's UI this game can be displayed on various platforms like mobile phones, websites etc. 
+","",,"","alexa, node.js, amazon-web-services, json",,University of Cincinnati,1,University of Cincinnati,Amazon Echo
+Hangry Prevention - K1,https://revuc-vi.devpost.com/submissions/71660-hangry-prevention-k1,Submitted (Gallery/Visible),Pending,,04/09/2017 13:18:52,"Inspiration
+
+We wanted to learn machine learning.
+
+What it does
+
+It makes a list of groceries based on previous user buying tendencies and patterns.
+
+How we built it
+
+Hard work and determination. React/Redux, Python.
+
+Challenges we ran into
+
+No one knew how to do machine learning.
+
+Accomplishments that we're proud of
+
+We have a website.
+
+What we learned
+
+Machine learning is hard.
+Stacy learned image editing and react.
+
+What's next for Hangry Prevention
+
+Likely nothing. Let's be honest this was a hackathon project.
+",https://github.com/TeamEatGood/shopping-list-ui,,"Best UI,  84.51Â° Make the Customerâ€™s Life Easier","react, python, redux",,Kent State University,3,Kent State University,""
+Impulse,https://revuc-vi.devpost.com/submissions/71662-impulse,Submitted (Gallery/Visible),Pending,,04/09/2017 13:21:00,"Inspiration
+
+Impulse is a social networking website that we see as a small step toward a society in which a person's value or influence is not at all influenced by race, religion, gender, or sexual orientation and is instead determined entirely by a simple community rating system over which we have complete and unregulated control.
+
+How I built it
+
+MEAN Stack
+
+Challenges I ran into
+
+MEAN Stack
+
+Accomplishments that I'm proud of
+
+Interface
+
+What I learned
+
+MEAN Stack
+
+What's next for Impulse
+
+Facial recognition
+Facebook/Twitter integration
+Native support for Blackberry AND Windows phones
+",https://github.com/KyTrol/impulse.git,,Best UI,"angular.js, node.js, express.js, mongodb",,University of Cincinnati,1,University of Cincinnati,""
+ReBay,https://revuc-vi.devpost.com/submissions/71664-rebay,Submitted (Gallery/Visible),Pending,,04/09/2017 13:21:19,"Inspiration
+
+As consumers, we always seek to find great deals, especially for awesome clothing trends that could make a huge dent in your pocket. ReBay provides a unique method of online shopping that not only guarantees lower prices for customers but also quicker response times and transactions.
+
+What it does
+
+ReBay, just like the name suggests, is a revamped, reverse eBay. Instead of searching online for hours at a time trying to get a good price, customers send out their business instead. Sellers then respond to the customer's postings with their own items to sell at a set price. Bidding then goes downwards and makes shopping faster because people are more likely to want to make money than spend it (like eBay forces you to do).
+
+How We built it
+
+We built this using Javascript, CSS, and HTML, but added a spin on things by integrating Firebase which we used for storage and databases. This website consisted of many apps and lots of language unique to Firebase.
+
+Challenges we ran into
+
+It was very challenging to grasp the concept of NOSQL and to integrate Firebase when none of us had any experience doing things like that. Furthermore, 3/4 people on our team had no prior experience with HTML, CSS, or Javascript, and they learned very quickly while working. Lots of bugs occurred and due to the large mass of scripting, it was very hard to pinpoint specific errors (like semicolons, parentheses, etc.). Reading and writing to the storage and databases were incredibly difficult but ultimately very rewarding as our website came to life.
+
+Accomplishments that we're proud of
+
+We successfully used Firebase, reading and writing to it like we had no care in the world. We also learned a lot about web services and domains. Something awesome was multiple people being able to use the website and see live updates because that was something completely new to us.
+
+What we learned
+
+We learned so much about Javascript, CSS, HTML, and Firebase. This also taught us a lot about servers (even though we didn't have to host one ourselves). We got familiar with the general reading/writing practices to storage/databases. Also, through our research at the very beginning, we learned a lot about web services and domains.
+
+What's next for ReBay
+
+Improve user interface, clean up code, add search function, add login page/accounts, make a final purchase button
+
+table K2
+","",,"High School Hack, Best UI,  84.51Â° Make the Customerâ€™s Life Easier","javascript, html5, css3, firebase, php, github, cloud9, webstorm",,"",1,Mason High School,""
+Engineering solutions using IoT device,https://revuc-vi.devpost.com/submissions/71666-engineering-solutions-using-iot-device,Submitted (Gallery/Visible),Pending,,04/09/2017 13:23:33,"Inspiration
+
+We started from sensors we had (temperature and light sensor) and brainstormed possible scenarios of their application. 
+
+What it does
+
+Light sensors measure ambient lighing condition and send signal to turn on street lights when the readings are lower than a certain value.
+Temperature sensors obtain temperature data and keep delicate control during pasteurization and ensure eggs are not cooked.
+
+How we built it
+
+We set up our sensors and IoT device according to online instructions. Then we develop Node Red Application online and simulated with randomly generated data. Finally we integrate collected data into our web apps.
+
+Challenges we ran into
+
+Setting up hardware and getting reliable readings are the biggest challenges. We collaborated with Lane, the engineer from Helium, over the issue and finally resolve the issue.
+
+Accomplishments that we're proud of
+
+The learning process for hardware and IoT concept from 0 to 1 within 24 hours.
+
+What we learned
+
+Ask questions and lok for help when things does not work out.
+
+What's next for Engineering solutions using IoT device
+
+Indoor light sensing of proper reading environment for vision protection.
+",https://dashboard.helium.com/sensors/f218c4f0-10b7-4c52-a718-a9bec72651c8,,Kinetic Vision Best Overall Helium IoT Hack First Place,"node-red, helium",,University of Cincinnati,0,University of Cincinnati,""
+Bob,https://revuc-vi.devpost.com/submissions/71684-bob,Submitted (Gallery/Visible),Pending,,04/09/2017 13:52:08,"Inspiration
+
+Reminder apps suck and I thought that a chatbot that makes the experience interactive will change how people could use reminder app.
+
+What it does
+
+You could strike a conversation with the bot and while at it, you could set up reminder and when the time come Bob gonna remind you about it along with the locations, attachment you have for it.
+
+How I built it
+
+We use IBM Bluemix so that Bob could talk more natural and allow flexibility in the conversation. We also allow add-on so that the reminder is more that just an alarm, but more like a real person helping you with your productivity.
+
+Challenges I ran into
+
+Using so many APIs, we were having problems with the callbacks hell. Designing the chatbot so that it is user-friendly was also a big challenge for us.
+
+What I learned
+
+Designing product is really difficult.
+
+What's next for Bob
+
+Making Bob more human-like. Let the user customize their experience with Bob, allowing user to decide what kind of sentences structure corresponding to what commands by using IBM Bluemix.
+
+Table number
+
+860D2
+","",,"Best UI,  84.51Â° Make the Customerâ€™s Life Easier, IBM Best Use of Watson IoT Platform on Bluemix First Place","node.js, facebook-messenger, google, mongodb, bluemix, ibm-watson",,Miami University,3,Miami University,""
+uPin,https://revuc-vi.devpost.com/submissions/71688-upin,Submitted (Pending),Pending,,04/09/2017 13:54:05,"LC12
+
+Inspiration
+
+Imagine being able to geographically represent your social network. The possibilities are endless from all the different social api's you can have access to.
+
+What it does
+
+You can post a pin to your geographical location anonymously or with a nickname. Anyone else in the world can respond to your pin with a thought and talk about it. You can favorite nicknames of other users and see what they're up to.
+
+How we built it
+
+We built the backend in php using laravel. The iOS app is in swift and uses google and facebook sdk's
+
+Challenges we ran into
+
+Parsing graph responses from facebook and finding a team
+
+Accomplishments that we're proud of
+
+Server is up and running on aws and the app is fully hooked up!
+
+What we learned
+
+Plan ahead. Don't start at 2am
+
+What's next for uPin
+
+Photo uploading!
+",https://github.com/bibyzan/uPin-iOS,,"Best UI, Amazon Web Services - Best use of AWS","swift, php, laravel, amazon-web-services, mysql, google-maps, facebook-graph, facebook-login-api, google-places",,University of Cincinnati,0,UC,""
+UCyber Hotspot Sniper,https://revuc-vi.devpost.com/submissions/71691-ucyber-hotspot-sniper,Submitted (Gallery/Visible),Pending,,04/09/2017 13:55:06,"Inspiration
+
+It can be difficult to pinpoint the strengths of a signal across different outdoor locations, so we decided to build a WiFi router locating system that would direct us to the closest and strongest router. 
+
+What it does
+
+Using a directional antenna and custom software to analyze signal strength, we were able to develop an algorithm that would use gathered, real-time data to search a 3D Space for routers.
+
+How I built it
+
+Hardware:
+Equipment: Coax Cable, Pringles can, RF connectors, Raspberry pi, WiFi Dongles.
+A high gain antenna was built using an empty Pringles can to directionalize a small custom WiFi antenna. This was then connected to the WiFi Dongle using the Coaxial Cable.
+
+Software:
+Used: Python, Terminal
+Developed software to collect and analyze signal strength of WiFi in order to give lines of bearing toward the strongest signal source. 
+
+Challenges I ran into
+
+The length of the copper wire required an exact length to properly collect the WiFi signal, which transmitted at 2.4 GHz. This was calculated, cut and soldered to the RF connector. Different lengths were tested to ensure optimal collection. 
+
+The Raspberry Pi was set up to function as a WiFi access point. This required extensive terminal commands and changes to existing functions already in place using the Linux based OS. 
+
+The algorithm used to interpret the data required data to be heavily cleaned and exported into a format that could be interpreted autonomously by the executing program. The challenge presented was that the data needed to be averaged and manipulated to determine an optimal search direction.
+
+Accomplishments that I'm proud of
+
+All of it!!
+
+Being able to overcome the obstacles that we faced, using only research that we gathered overnight and past knowledge. 
+
+What I learned
+
+Data Manipulation, Terminal Command line, TCP/IP Network Authentication, Port Forwarding, Direction Finding, and Python.
+
+What's next for UCyber WiFi Direction Finding
+
+Incorporating Wireshark in Kali Linux to intercept packets while direction finding.
+Applying more pruned algorithms and statistics to search more quickly and effectively.
+","",,"","raspberry-pi, pringles-can, wires",,University of Cincinnati,0,University of Cincinnati,""
+Book My Music,https://revuc-vi.devpost.com/submissions/71692-book-my-music,Submitted (Gallery/Visible),Pending,,04/09/2017 13:55:43,"Inspiration
+
+We always wanted to build an ecommerce website which caters to the music lovers. We wanted to create a platform where people can get all the stuff they need to create, consume and enjoy their music.  
+
+What it does
+
+Our website allows you to purchase items under three categories - 
+Create Music -  Instruments
+Cherish Music - Record labels
+Experience Music - Accessories
+
+How we built it
+
+We used java for the server side coding and jsp for the front end. I know jsp is old but we had good grasp of it. We wanted to learn angularJs so we used some angular in the application. We used spring to follow the mvc architecture
+
+Challenges we ran into
+
+Relationship constraints was a huge challenge. It was very difficult to alter the tables once created with our model class. We used h2 as we did not want to have the overhead of a database. we had to drop tables every time we made a change to the model. 
+Resizing of the carousel images was a challenge too. We put more time than we anticipated in coming up with the easiest webpage for our application - A static homepage!!! 
+
+Accomplishments that we're proud of
+
+Have our own ecommerce webstore
+
+What we learned
+
+Java based web-applications are quite verbose and not very helpful when you need to build a website quickly
+
+What's next for Book My Music
+
+Order history, https, oAuth, payments gateway
+","",https://youtu.be/gLW7WlAw2yI,"","java, h2, angular.js, jsp, spring, hibernate",,University of Cincinnati,1,University of Cincinnati,""
+Timer Extension for Google Chrome,https://revuc-vi.devpost.com/submissions/71710-timer-extension-for-google-chrome,Submitted (Gallery/Visible),Pending,,04/09/2017 14:01:33,"Inspiration
+
+A lot of people I know and I myself think that we waste too much time surfing the internet. Let's say we are studying but decide to have a short break to watch Youtube, check Twitter or Facebook, etc. It usually turns out that you already wasted hours for your break without realizing it. So we decided to built a small tool to help you manage your time for surfing the web.
+
+What it does
+
+The extension allows you to set timer for your new browsing session. It will automatically close the tabs you opened during the time you set. Or you can choose to close all your tabs in the current windows or all tabs in all windows when the time is up. When the time is coming to the end, a notification will popup to inform you that the time is over and you need to wrap up what you're doing.
+
+How I built it
+
+We use Chrome Extension Framework and API for this tool. It typically includes JavaScript, HTML and CSS
+
+Challenges I ran into
+
+This is our first every extension for Chrome so that we need to spend a lot of time trying to understand the architecture of Chrome Extension and learn the Chrome Extension API
+
+Accomplishments that I'm proud of
+
+The app is basically working!
+
+What I learned
+
+We learned a lot about Chrome Extension and Chrome API. Also, a little practice with JavaScript, HTML and CSS
+
+What's next for Timer Extension for Google Chrome
+
+There are a lot of room for improvement. We can improve the notifications to allow users to add like 5 more minutes to their time or make the browser block certain entertainment website after the time is over.
+",https://github.com/doanmh/TimerExtension,,"","javascript, html, css, chrome",,University of Cincinnati,0,University of Cincinnati,""
+AlwaysProf,https://revuc-vi.devpost.com/submissions/71711-alwaysprof,Submitted (Gallery/Visible),Pending,,04/09/2017 14:05:51,"Inspiration
+
+University counseling centers, motivational videos online 
+
+What it does
+
+Guide students with emotional problems and help them academically by providing an in-house set of professors in Amazon Alexa.
+
+How we built it
+
+Use Amazon Alexa Skills Kit to build the skills interaction platform. Use Node.js to connect responses to the Amazon Alexa Skills server
+
+Accomplishments that we're proud of
+
+Create something useful for students and people undergoing tough times, both personally, and professionally.
+
+What we learned
+
+How to use Alexa! 
+
+What's next for AlwaysProf
+
+Include a wide variety of influencers like Robert Langdon (Da Vinci Code), Maya Angelou, and John Keating (Dead Poet's Society) to inspire millions of students worldwide.
+Connect to quotes API and recognize speech patterns of students to send back perfect response in form of motivational paragraphs or quotes
+Interface for professors in academic settings to record lectures to help children while they are studying. For eg -  a student can ask Alexa, ""Alexa, ask Professor John the definition of Fermentation""
+",https://github.com/Rishabhravindra/revuc2017,,Amazon Web Services - Best use of AWS,"alexa, node.js, amazon-web-services",,University of Cincinnati,2,University of Cincinnati,""
+ByteSearch,https://revuc-vi.devpost.com/submissions/71712-bytesearch,Submitted (Pending),Pending,,04/09/2017 14:11:58,"Inspiration
+
+We want to make optimized and efficient search for customer analytics. We solved it with a Byte. Saving TONS of storage space and many times faster than conventional approach.
+
+What it does
+
+Our hack simplifies database search reducing the time complexity and space complexity. We leveraged the flexibility of NoSQL databases and created a cutting edge Byte based database where values are just one BYTE and are specific to each document in the collection.
+
+How we built it
+
+We classified every possible column value into one BYTE sized value taking the advantage of flexibility of NoSQL. Reducing the space complexity to greater than 50%.
+
+Challenges we ran into
+
+We had problems with parsing data from MongoLab. One of us had issues starting MongoDB on Command Line which took up a good amount of time.
+
+Accomplishments that we're proud of
+
+We designed an efficient search algorithm a reverse engineering approch of machine learning classification problem.
+
+What we learned
+
+The hack had us learn how to use mlab and highcharts. 
+Kaushik, an aerospace engineering major and beginner programmer used the time to learn the basics of MongoDB from absolute scratch. 
+
+What's next for ByteSearch
+
+We are looking into furthuer optimize the problem to a bit level, and improve upon our current progress and implement a proper visualization. For testing purposes, the main focus is generating random information for each of the twelve data categories as opposed to manually inserting data for testing. With a fully functional project, we hope to have ByteSearch working with small to mid-range data driven organizations and potentially expand ByteSearch, possibly into Air Traffic Control and replace Flight Progress Strips.   
+","",,"Best UI,  84.51Â° Make the Customerâ€™s Life Easier, IBM Best Use of Watson IoT Platform on Bluemix First Place, Amazon Web Services - Best use of AWS, Scripps Best Media Hack","mongodb, mongolab, jquery, node.js, webapp, finance, analytics, nosql, machine-learning, reverse-engineering",,Kent State University,1,kent state,""
+Obelix Search,https://revuc-vi.devpost.com/submissions/71714-obelix-search,Submitted (Gallery/Visible),Pending,,04/09/2017 14:18:35,"Inspiration
+
+Obelix Search was inspired by a joke about creating a ""What's Hipster"" app that would check the popularity of search terms and see how popular they were. So in a moment of laughter we decided it would actually be cool (or hipster) to make a search engine that would display data trends and information. Obelix Search was born.
+
+What it does
+
+Obelix Search takes a user input 'term' and searches through multiple websites to display data and information found on the 'term'.
+
+How we built it
+
+Obelix Search is built using a python script that converts the data collected into a JSON file. The raw JSON file is stored and then transformed into displayable data using JavaScript.
+
+Challenges we ran into
+
+Many issues occurred while creating Obelix Search. The python script has issues with other websites APIs and only works great with Wikipedia's API. Our server for Obelix Search has had many issues and has required more than five calls with the hosting company. Load times are another issue the project is having and we still have not figured out how to parse through the data faster.
+
+Accomplishments that we're proud of
+
+We are proud of our python script and how much fun it actually is to see which articles the program pulled back that it searched through. Also I am proud of the progress we have made in very little time.
+
+What we learned
+
+We learned that a lot of issues can stall progress and it's okay not to finish everything right away. Also using technologies we are not used to and working with data has been a joy and a huge learning opportunity. 
+
+What's next for Obelix Search
+
+We will continue to work on Obelix Search and get it up to full functionality within the month hopefully. 
+",http://www.obelixstudios.com/search,,"Best UI, Best Domain Name from Domain.com","python, javascript, html5",,University of Cincinnati,1,University of Cincinnati,""
+ Intelligent Andro Blue Public Safety,https://revuc-vi.devpost.com/submissions/71715-intelligent-andro-blue-public-safety,Submitted (Gallery/Visible),Pending,,04/09/2017 14:23:59,"Inspiration
+
+After seeing unstable internet connectivity issues during emergencies 
+
+What it does
+
+In Emergency a PC Server with bluetooth connecitivity will send alerts to all the nearby bluetooth devices with app 
+ Intelligent Andro Blue Public Safety.All those devices will act as both server and client.They receive those alerts and will send once again to all the devices near to them.Thus alerts will be sent on stable network.
+
+How we built it
+
+We built PC Server using J2ME and developed  Intelligent Andro Blue Public Safety using Android.
+
+Challenges we ran into
+
+Faced socket connectivity issues from client to server and in broadcasting those messages to all near by clients
+
+Accomplishments that we're proud of
+
+Learnt about bluetooth and bluetooth connectivity programtically thoroughly.Also learnt on team working
+
+What we learned
+
+Learnt about bluetooth programming using android and Java.learntClient server programming bluetooth
+
+What's next for  Intelligent Andro Blue Public Safety
+
+We are facing some exception in some cases and are working to resolve them
+","",,"","java, j2me, android-studio, eclipse",,University of Cincinnati,2,University of Cincinnatti,Arduino 101
+Unity Game,https://revuc-vi.devpost.com/submissions/71716-unity-game,Submitted (Gallery/Visible),Pending,,04/09/2017 14:25:32,"Inspiration
+
+Final Fantasy II
+
+What it does
+
+You fight a slime in this
+
+How we built it
+
+Unity, blood, sweat, tears, and C#
+
+Challenges we ran into
+
+Pretty much everything such as this, this (it was 4 AM, gimme a break) and many others
+
+Accomplishments that we're proud of
+
+FINISHING! And mostly the enemy AI
+
+What we learned
+
+How to Unity
+
+What's next for Unity Game
+
+We are all going to continue to develop the game on github and make regular updates on itch.io
+
+Table Number
+
+860D3
+",http://www.mediafire.com/file/xscgexg67d1yh87/UnityProject.exe,,High School Hack,"c#, unity, javascript",,"",1,"Purcell Marian High School, Lakota East High School",""
+Gexture,https://revuc-vi.devpost.com/submissions/71717-gexture,Submitted (Gallery/Visible),Pending,,04/09/2017 14:25:51,"Gexture
+
+Web app that detects ASL gestures through Leap Motion and outputs corresponding Letters.
+
+Inspiration
+
+According to a 2005 study by Gallaudet University, two to four people out of every 1,000 in the United States are functionally deaf. Many deaf people use sign language because spoken languages can be difficult to understand and use. We decided to develop a project that will help deaf people lives more easier and more interactive.
+
+How we built it
+
+
+IBM BLUEMIX (Node red, Text to Speech, IBM IoT Watson)
+LEAP MOTION
+TWILIO API 
+GITHUB (Team Work Collaboration)
+
+
+Challenges we ran into
+
+
+Connecting third-party service to IBM Watson Internet of Things 
+Classifying similar gestures using Leap API
+
+","https://github.com/senalkularatne/Gexture, https://github.com/ZEUSOFCS/GestureToText",https://www.youtube.com/watch?v=5RxpF41by34,"Best UI, IBM Best Use of Watson IoT Platform on Bluemix First Place","javascript, html, css, bluemix, ibm-watson, leap-motion, iot",,"University of Cincinnati, University of Indianapolis, Ohio University",3,"University of Cincinnati, University of Indianapolis, Ohio University",Leap Motion
+ProactoThermo 3002,https://revuc-vi.devpost.com/submissions/71718-proactothermo-3002,Submitted (Gallery/Visible),Pending,,04/09/2017 14:26:00,"Room 806 Electronics Lab
+
+Our inspiration for this project is that current reactive heating and air conditioning in homes lead to both wasted energy and fluctuations of home temperature.  We thought this wasteful process could be eliminated by automatically adjusting temperatures indoors based on the outside temperature.  Also, Elon Musk.
+
+There is both a sensor inside and outside of your home.  It will always heat/cool the inside of the house to reach the desired temperature.  Once this occurs it will account for the outside temperature to proactively predict the fluctuations that will occur within your home.  This will occur by temperature comparisons using linear regression between the inside of the house and the outside temperature within Excel to predict future temperatures.
+
+It was built using the Helium Atom Development Board and an external thermometer connected through the Helium Analog Extension Board.
+
+Our problems were everything... jk.  The setup time to be able to collect data from the sensor was very difficult for us.  Getting the proper software from all of the repositories and making the correct commands to install all of the required packages to get Helium... Don't get me started lol.
+
+I'm proud that we were able to collect data from the sensor and begin to apply it.
+
+We learned how to use Helium and and touched a bit on API calls.  We also learned about the basic configurations of the Helium hardware modules we were provided.
+
+What's next for ProactoThermo 3002 you ask?  The future of comfortable cheap living of course!
+","",,"TCS Best Hardware Hack, Kinetic Vision Best Overall Helium IoT Hack First Place","ubuntu, helium, excel, timeseries, temperature-sensor",,University of Cincinnati,2,University of Cincinnati,""
+Rainbow Run,https://revuc-vi.devpost.com/submissions/71719-rainbow-run,Submitted (Gallery/Visible),Pending,,04/09/2017 14:26:16,"Table G1
+
+Inspiration
+
+We wanted to build a hardware hack with materials we had on hand.  Our goal was to build a arcade style game that is easy to learn but hard to master.  This resulted in a RGB LED color strip race game assembled and coded entirely at the hackathon.
+
+What it does
+
+The goal is to clear the run as fast as possible.  To advance the run, press the button that matches the first LED on the rainbow strip.  Be careful!  An incorrect color will set you back in the run!  When you reach the end of the run, check your time, if the clock is blinking you have set a new High Score.  Try all 4 levels to set your best times!
+
+How We built it
+
+Internally the game runs on an Arduino Mega, coded in ArduinoC.  We control the clock display and LED strip via digital buses on the Arduino.  The buttons are interfaced directly with digital logic so that we can use hardware interrupts for accurate game play.
+
+Our enclosure is a prototype we built out of foam core board for the hackathon.  We have plans to take it apart and laser cut each piece out of acrylic for a finished product.
+
+Challenges we ran into
+
+We encountered issues with buttons registering twice during the game.  We thought it was a debouncing issue with our interrupts but an oscilloscope proved that the issue was more complex.  We spent several hours diagnosing this issue and determined that the hardware interrupt configuration was to blame.
+
+Accomplishments that we are proud of
+
+For our team of 2, this is a first for:
+Joe - His first hardware hack
+Lucas - His first submitted hack ever
+
+What we learned
+
+Projects can take longer than expected, but watching them come to life is worth the effort.
+","",,"Best UI, TCS Best Hardware Hack","arduino, hardware",,University of Cincinnati,1,University of Cincinnati,""
+Speed control with rotary sensor,https://revuc-vi.devpost.com/submissions/71720-speed-control-with-rotary-sensor,Submitted (Gallery/Visible),Pending,,04/09/2017 14:38:56,"Inspiration In order to
+
+Reduce accidents when driver falls asleep when driving a four wheelers.
+
+What it does
+
+It takes the angle of the motor from the current position(say standard operation angle of the car with the road) from the rotary sensor and when the car tilts more than the specified angle, the speed of the motor is reduced until interrupt is ocured or the speed reaches zero.
+
+How we built it
+
+We used arduino 101 with base sheild. Rotary sensors, LCD dispaly to know the current angle, stepper motor, stepper motor driver.
+
+Challenges we ran into
+
+Interfacing Arduino with the computer. making LCD display work. what not ..... Everything was new for us. 
+
+Accomplishments that we're proud of
+
+We have learnt something new apart from Software Programming
+
+What we learned
+
+Hardware interaction using IDE. 
+
+What's next for Speed control with rotary sensor
+
+It reduces the speed if the user looses control. This is done untill an interrupt received from the user or the speed reaches 0.
+","",,"",arduino,,University of Cincinnati,0,c,""
+Prooksie,https://revuc-vi.devpost.com/submissions/71722-prooksie,Submitted (Gallery/Visible),Pending,,04/09/2017 15:27:35,"CookieProxyExtension
+
+Project developed by Rohan Mathur and Drew Ripberger for the 2017 Spring Revolution UC Hackathon.
+",https://github.com/nullifies/CookieProxyExtension,,High School Hack,"javascript, html, css, chrome",,"",1,Sycamore High School,""

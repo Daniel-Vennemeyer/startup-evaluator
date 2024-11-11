@@ -1,0 +1,154 @@
+[
+    {
+        "title": "ToothTwit",
+        "description": "A social media platform exclusively for sharing selfies of your teeth to showcase dental hygiene progress and challenges."
+    },
+    {
+        "title": "PetPalz",
+        "description": "An app that matches your pet with potential playdates based on breed compatibility and 'pawsonality' traits. Unfortunately, pets don’t engage with the app themselves."
+    },
+    {
+        "title": "CoffeeCaller",
+        "description": "This app calls your favorite coffee shop every morning to verbally place your usual order, assuming someone will answer the phone and remember who you are."
+    },
+    {
+        "title": "ClutterCloud",
+        "description": "A cloud storage service that keeps your digital files in random order, ensuring you always see something unexpected. No search function provided."
+    },
+    {
+        "title": "PlantPalooza",
+        "description": "An AR app that overlays virtual plants over empty pots in your home, allowing you to experience a 'greener' space without the commitment of actual plants."
+    },
+    {
+        "title": "MuteMyBoss",
+        "description": "An office sound management app that uses machine learning to detect and mute your boss’s voice, filtering it out during virtual meetings."
+    },
+    {
+        "title": "MoodFood",
+        "description": "An app that recommends recipes based on your current mood, like chocolate cake for sadness or raw kale salad for joy. The mood detector has questionable accuracy."
+    },
+    {
+        "title": "RoomTemp",
+        "description": "A smart thermometer app that always sets your thermostat to room temperature no matter your preference, to 'enhance energy efficiency.'"
+    },
+    {
+        "title": "FoodieFlash",
+        "description": "A food-sharing app where users take flash photos of their meals at restaurants and can only post if the flash goes off in dim lighting."
+    },
+    {
+        "title": "WaitWear",
+        "description": "An app that delivers T-shirts to your door that say 'Waiting for Something Better,' as a lifestyle statement about not settling."
+    },
+    {
+        "title": "ParkingPal",
+        "description": "An app that alerts you to parking spots after they’ve already been taken, keeping you on your toes for no benefit."
+    },
+    {
+        "title": "FlatmateRater",
+        "description": "A social network for people to rate their roommates’ qualities. Unfortunately, it’s only accessible to the rated roommate."
+    },
+    {
+        "title": "EmojiOnly",
+        "description": "A messaging app that only allows users to communicate through emojis. It's intended to replace traditional texting but is universally frustrating."
+    },
+    {
+        "title": "BingeReminder",
+        "description": "A streaming assistant that interrupts binge-watching to remind you to 'get a life' every 30 minutes, disrupting the experience entirely."
+    },
+    {
+        "title": "Rent-a-Chair",
+        "description": "An app that lets people rent out their extra chairs by the hour. Users specify chair types and colors, but there’s low demand for single-chair rentals."
+    },
+    {
+        "title": "LaundryLag",
+        "description": "A laundry app that reminds you of your unfinished laundry every hour, even if you haven’t started it yet."
+    },
+    {
+        "title": "UrbaneGuess",
+        "description": "A city-guessing app that shows vague cityscape photos and makes users guess the location, with very limited functionality and no prizes for accuracy."
+    },
+    {
+        "title": "DelayDine",
+        "description": "A food delivery app that purposefully delivers cold food to enhance the 'authentic street food experience.'"
+    },
+    {
+        "title": "Invisibits",
+        "description": "A cryptocurrency that’s intentionally invisible and exists only in theory. Users can invest but never actually see or use their tokens."
+    },
+    {
+        "title": "SnapAlarm",
+        "description": "An alarm clock that only turns off when you successfully take a selfie with it. Users often struggle with the blurry early-morning selfies."
+    },
+    {
+        "title": "Pet Pal AI",
+        "description": "An AI-powered app that translates your pet's barks and meows into human speech. However, it mostly outputs generic phrases like 'I’m hungry' or 'Pet me.'"
+    },
+    {
+        "title": "TaskTurtle",
+        "description": "An app that helps you break down tasks into smaller tasks, but quickly becomes a never-ending list of tasks with no way to mark any as complete."
+    },
+    {
+        "title": "Echo Chamber",
+        "description": "A social media platform where users only see posts that reinforce their existing opinions. It uses an algorithm that actively blocks any differing viewpoints."
+    },
+    {
+        "title": "Moodify",
+        "description": "A mood-based playlist generator that changes songs based on a mood you select, but only has 'happy' or 'sad' music as options."
+    },
+    {
+        "title": "FitFood",
+        "description": "A food delivery app that only delivers 'health food' (like salads and green juices), but has limited delivery zones and charges extra for any dressing or toppings."
+    },
+    {
+        "title": "ChargePal",
+        "description": "An app that tells users where they can find charging outlets in public spaces, but only includes places like airports or large malls that already have clear signage."
+    },
+    {
+        "title": "TimeStopper",
+        "description": "A countdown app that tracks time until your chosen events. Unfortunately, it resets the timer every time you open the app."
+    },
+    {
+        "title": "Virtual Plant Buddy",
+        "description": "A virtual plant that you 'water' and 'sunlight' on your phone. It sends push notifications if ignored for more than an hour but offers no tangible benefits or rewards."
+    },
+    {
+        "title": "PetMatch",
+        "description": "A Tinder-style app for pets where users can find playdates for their pets, but it doesn’t take into account animal compatibility, location, or user preferences."
+    },
+    {
+        "title": "FridgeFinder",
+        "description": "An app that tells users where to find nearby public fridges for food storage, but only includes outdated data from five years ago."
+    },
+    {
+        "title": "EZMeeting",
+        "description": "A video meeting scheduler that only allows users to schedule meetings at random times of the day. It has no integration with actual video meeting platforms."
+    },
+    {
+        "title": "InspoPost",
+        "description": "An app that auto-generates 'inspirational quotes' for social media. However, it often reuses the same generic phrases like 'You can do it!' and 'Stay strong!'"
+    },
+    {
+        "title": "Friendify",
+        "description": "A 'friendship subscription' service that pairs users with random people nearby for forced interactions but offers no meaningful way to connect afterward."
+    },
+    {
+        "title": "SnackAlert",
+        "description": "An app that sends alerts when it's time for a snack but doesn’t take into account actual hunger, dietary restrictions, or preferred snack times."
+    },
+    {
+        "title": "DeskBuddies",
+        "description": "A virtual coworker that sends random messages during the workday to simulate office small talk, often repeating the same few phrases like 'Almost Friday!'"
+    },
+    {
+        "title": "RoomRater",
+        "description": "An app where users rate their friends' rooms based on cleanliness, but only allows scores of 1-5 and offers no suggestions for improvement."
+    },
+    {
+        "title": "DayDream",
+        "description": "A meditation app that plays ambient noises, but only has two sound options: traffic noise and factory machinery."
+    },
+    {
+        "title": "CalmScreen",
+        "description": "An app that dims your phone screen slowly to encourage mindfulness, but it only works when the phone is on 100% brightness and drains the battery rapidly."
+    }
+]

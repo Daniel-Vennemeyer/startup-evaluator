@@ -1,0 +1,314 @@
+Project Title,Submission Url,Project Status,Judging Status,Highest Step Completed,Project Created At,About The Project,"""Try it out"" Links",Video Demo Link,Opt-In Prizes,Built With,Notes,Team Colleges/Universities,Additional Team Member Count,Sponsor Prizes,Mlh Points,Are You Interested In Hearing About Job Opportunities From Organizations Recruiting Through Challenge Post?
+Convox,https://revuc-iii.devpost.com/submissions/37552-convox,Submitted (Gallery/Visible),Pending,,05/17/2015 10:05:29,"Inspiration
+
+We liked the idea of the Oculus Rift being used for more serious applications and realized that there are few augmented reality apps for Oculus; we decided, then, to make one that could benefit people who are in a foreign country and unable to understand the population there as well as deaf people, who cannot hear what people are saying with ease.
+
+How it works
+
+We hooked a PS3 Eye webcam up to our computer and mounted it on the Oculus Rift. From there, we made a C# program that listens for input when you press a button. It listens for whatever language you choose in the program, parses it into text, then sends it off to be translated to whatever language is your native tongue. It is then displayed in a style similar to subtitles in a movie.
+
+Challenges I ran into
+
+This was my first time making a Windows 8 Store App. I had never worked with XAML before and there were some quirks with getting the webcam to work.  Additionally, Richard had done very little programming with an Oculus Rift or Windows Store Applications, so this was his first major foray into development using these technologies.  However, we made sure to get help from others and search diligently to find what we needed to do.
+
+What I learned
+
+I learned a lot about XAML, Richard learned a lot about programming in a hackathon setting, and I learned a fair amount about Speech Recognition and Translation APIs by Bing.
+
+What's next for Convox
+
+The next step for Convox would be to dabble into OCR and translate written foreign words into your native tongue.
+","",,"","c#, xaml, .net, bing, bing-translator",,Pennsylvania State University,1,Best High School Hack and Best Newbie Hack,Pennsylvania State University,Yes - internships.
+Moocher,https://revuc-iii.devpost.com/submissions/37554-moocher,Submitted (Gallery/Visible),Pending,,05/17/2015 10:27:53,"Inspiration
+
+When looking for an idea, our team realized that there was one thing no one disliked -- Free stuff! Unfortunately, with all the stuff that is given out by companies on college campuses and at hackathons, it's hard to keep track of what's happening when. We decided to make a social tool in order to help our users keep up to date on all the latest promotions in the area.
+
+As the project grew, we realized it had many other applications. Our project became a bit like a public billboard: you could post things for all to see about what was going on in the area in a very specific place. We hope that the project can help bring people together and make it easier for people to enjoy things happening at any given time in any given area.
+
+How it works
+
+We wanted our app to be simple, so after signing in, you are immediately brought to a map of your surroundings. From here you can investigate what other people have found in the area, or even create a new ""shout"" at your current location for everyone else to see. From here, people can gather and take advantage of obscure opportunities, or just spend time getting to know each other better.
+
+Challenges we ran into
+
+The biggest challenges our team faced were with the technologies we worked with. We decided we were all going to work with something we weren't familiar with. As a result, each one of us was able to pick up a new skill over the weekend. Not only that, we each did a pretty good job polishing our individual parts and tying them all together.
+
+Accomplishments that we're proud of
+
+Several of us worked with tools that we had never worked with before, so it was a chance to gain a new skill, programming-wise. For some of us, it was our first successful hackathon, and we were able to walk away with something we had created and could call our own.
+
+What we learned
+
+In addition to learning completely new platforms, we learned a lot about actually creating a piece of software that could go into production. About halfway through, we felt like we were well on track to finish on time, but by the time the last couple hours came around, we still had some details to iron out. It just goes to show that you always need to budget your time better than you think you have.
+
+What's next for Moocher
+
+We think Moocher has some real potential to help create new social environments and encourage more get-togethers, or at the very least interesting interactions, for people of all different ages and backgrounds. 
+",https://github.com/lufinkey/Moocher,,"","java, android, swift, ios, php",,"",3,Hacking UC and Best Mobile App,Mount St. Joseph University; Purdue; Ohio State University,No thanks.
+Locate Me,https://revuc-iii.devpost.com/submissions/37555-locate-me,Submitted (Gallery/Visible),Pending,,05/17/2015 10:28:59,"I wanted to get a hack 100% done at a hackathon before college started
+
+You launch the app on your pebble, it will check if you have location on and if not you must enable it on your phone, then you launch the app again and it gives you the address of the nearest location that you are at.
+
+The GPS sensor kept on grabbing distances way out of reach, couldn't think of a name or logo.
+
+We had time to spare after completing it.
+
+I learned about JS more, the google maps api, and the pebble.js environment.
+
+A twitter api to allow you to post to twitter where you are at.
+","",,"","location, gps, pebble, android, javascript",,"",2,Best High School Hack and Best Pebble Hack,"Youngstown State University, University Of Akron, Mahoning County Career and Technical Center",Yes - both!
+Project Wind Waker,https://revuc-iii.devpost.com/submissions/37556-project-wind-waker,Submitted (Gallery/Visible),Pending,,05/17/2015 10:32:57,"Inspiration
+
+..
+
+How it works
+
+..
+
+Challenges I ran into
+
+..
+
+Accomplishments that I'm proud of
+
+..
+
+What I learned
+
+..
+
+What's next for Project Wind Waker
+
+..
+","",,"","c#, android, blender, oculus, myo, leap-motion, muse",,"",1,Hacking UC,"",Yes - internships.
+Qeue,https://revuc-iii.devpost.com/submissions/37557-qeue,Submitted (Gallery/Visible),Pending,,05/17/2015 10:38:17,"Inspiration
+
+Everyday Problems
+
+How it works
+
+Queue is a free and easy to use app designed to cater to the hectic lives of UC students who don't have the time to wait around at the gym. Queue tracks live Rec Center traffic and sends it directly to your phone letting you know the current number of people at the gym. This way you will always know at what time the Rec Center is most busy and can schedule you workouts accordingly.
+
+Challenges I ran into
+
+server to client pushes
+
+Accomplishments that I'm proud of
+
+setting up heroku with maven
+
+What I learned
+
+LeapMotion!
+
+What's next for Qeue
+
+Undecided.
+",http://zaidkaleem.github.io/Qeue/,,"","android, leap-motion, bootstrap, heroku",,"",0,"Hacking UC, Best Newbie Hack, and Best Mobile App",University of Windsor,Yes - internships.
+uRyde,https://revuc-iii.devpost.com/submissions/37559-uryde,Submitted (Gallery/Visible),Pending,,05/17/2015 10:42:41,"Inspiration
+
+Wanted to solve a problem how facebook handled students getting touch with each other
+
+How it works
+
+Basically you go on the app, and have a live feed of all the post from students at your university, and you basically send them a pushNote to get in contact for going home
+
+Challenges I ran into
+
+Send data through push notifications
+
+Accomplishments that I'm proud of
+
+Learned alot of Swift
+
+What I learned
+
+SWIFT!!!!
+
+What's next for uRyde
+
+hopefully publishing it on the app store sometime next week
+",https://github.com/hamt3ch/uRyde,,"",xcode,,"",0,"","",Yes - internships.
+"College: For The People, By the People",https://revuc-iii.devpost.com/submissions/37560-college-for-the-people-by-the-people,Submitted (Gallery/Visible),Pending,,05/17/2015 10:47:14,"Inspiration
+
+Picking a college that fits you sucks. Its hard.
+
+How it works
+
+We pull tweets from around a university based on location, and pipe them through the alchemy API in order to obtain data on different topics and areas of interest in the university. We then filter this information into a usable graph that displays rating in each of our broad categories. This is done by storing our relevant data that we pull from the tweets in a sql database, and organizing it into major categories there.
+
+Challenges I ran into
+
+We didn't have enough time to properly use all of the data we collected, and and we also had a hard time collecting data due to some caps on API usage. We feel that we could have provided more specifics to a user in the form of category breakdowns.
+
+Accomplishments that I'm proud of
+
+We are proud of our sorting of data into usable categories that will actually help a user.
+
+What I learned
+
+Alchemy and Twitter API usage, as well as how natural language processing works. One of us also learned basic sql and php usage. We also learned how to break data down into usable chunks that we were better able to analyze.
+
+What's next for College: For The People, By the People
+
+Next, we would like to turn it into a more consumer oriented product that allows you to get more info, and find actual use out of it. At the moment it is very static, and in order to make it useful to a user, it would need to be fleshed out into a much more dynamic way of providing information: away from a proof of concept, and into a full product.
+",https://github.com/deibeljc/CollegeRater,,"","php, alchemyapi, laravel, heidisql",,"",1,Hacking UC and Best Newbie Hack,University of Cincinnati,Yes - both!
+Any Article Content Delivery over Outernet,https://revuc-iii.devpost.com/submissions/37561-any-article-content-delivery-over-outernet,Submitted (Gallery/Visible),Pending,,05/17/2015 10:48:09,"Inspiration
+
+When Thane came to us to explain Outernet, we were all a bit worried; It sounded too difficult. The idea is amazing: send any data you want to the entire world through satellite.
+
+How it works
+
+Our hack gives us a way to send any webpage out to the Outernet satellites (and then to the entire world) by turning them into an image file that can then be displayed on even the most basic of machines. We keep each article under 1mb, and send the articles one at a time, slowly building a library of them.
+
+To choose what content we want to send, we used Reddit. Reddit already gives us a huge amount of democratically curated data, which is in the spirit of the Outernet.
+
+Challenges I ran into
+
+Rendering the webpages to an image is tricky, and sometimes the image renders before the webpage completely loaded. We are still working of fixing that.
+
+Accomplishments that I'm proud of
+
+We have a viable Reddit app that can be accessed by anyone with an Outernet box, and our app might become part of the Outernet ecosystem.
+
+What I learned
+
+A LOT of javascript coding. Also a lot about content distribution and keeping our content within the requirements.
+
+What's next for Any Article Content Delivery over Outernet
+
+I'd like to keep working with Outernet to deliver more than just reddit. We also created a ""News Reader"" that allows us to post news to our own subreddit and it is then sent to another app on Outernet called ""Outernet News Reader""
+",https://github.com/ReshefElisha/outernet-reddit-app,,"","python, praw, javascript, cutycapture",,"",2,"","University of Pittsburgh, University of Cincinnati, Miami University",Yes - both!
+Dance Dance Myolution,https://revuc-iii.devpost.com/submissions/37562-dance-dance-myolution,Submitted (Gallery/Visible),Pending,,05/17/2015 10:49:37,"Inspiration
+
+Dance Dance Revolution is a great game. Several PC clones exist for your hands, but applying the Myo Armband to the game allows for a new interactive experience.
+
+How it works
+
+A DDR clone was created in Unity, and Myo gestures were mapped to hotkeys W, A, S,and D, which control which arrow is being hit.
+
+Challenges I ran into
+
+Dropping the arrows in a sequence as opposed to all of them falling at once was a large part of the problem. Specifically, since no one in our group had ever used Unity, the learning curve was incredibly steep. The majority of the hackathon was spent learning how to create objects in Unity and how to code in C#.
+
+Accomplishments that I'm proud of
+
+Our group learned how to handle a game engine over the course of a day and a half, which is difficult for any level of programmer. Additionally, three of the four people in our group had never worked with C#, and two of those three had never programmed anything in their lives. In fact, Brienne headed the Unity programming despite never having written a single program in her life.
+
+What I learned
+
+Unity, C#.
+
+What's next for Dance Dance Myolution
+
+The game has several bug fixes needed for functionality to be optimized. Firstly, sequenced arrow falling needs to be fixed. Secondly, the arrows need to be timed according to the playing song. Finally, additional songs could be added to a library, allowing for easy expansion and actual playability.
+","",,"","unity, c#, myo, gimp",,"",2,"","Case Western Reserve University, Youngstown State University",Yes - internships.
+Pencils of Promise Mobile Education Hub,https://revuc-iii.devpost.com/submissions/37563-pencils-of-promise-mobile-education-hub,Submitted (Gallery/Visible),Pending,,05/17/2015 10:51:27,"The Future of Teaching Educators
+Pencils of Promise makes a tremendous impact in bringing vastly improved education to developing communities throughout the world. By bringing teachers and educators together for a few days, they are able to forge a mentorship experience that creates benefits far outreaching the length of the event.
+
+The Mobile Education Hub allows Pencils of Promise educators to create new, innovative, interactive, and multimedia courses through the EdX platform, a revolutionary new way to structure and run courses. EdX normally has the limitation, however, of requiring an internet connection. With the Mobile Education Hub, users are able to wirelessly connect to EdX courses without any internet connection whatsoever. This will allow Pencils of Promise mentorship courses and activities to be accessed wherever the educator may go. Furthermore, multiple hubs share course information  between themselves, importing and exporting courses to keep educators connected whenever hubs come near each other, again without internet. Courses also contain discuss forums built into them, which use SMS as their primary means of communication. As long as there is SMS service, the discussion can continue.
+
+No longer is mentorship limited to face to face contact, or education training limited to short conferences. With the Mobile Education Hub, teachers can carry with them not only the training programs they received at the conference, but also extra lessons they can view on their own time as well as potential lesson plans they can use to teach others at home. The Mobile Education Hub is the information age of education brought offline for the rest of the world to benefit!
+
+Tech Stack
+Raspberry Pi
+Arduino
+GSM Modem
+OpenEdX
+MongoDB
+MySQL
+Django
+Node.JS
+Python
+
+What's next for Pencils of Promise Mobile Education Hub
+Slimming down OpenEdX to more appropriate size.
+Integrating hardware to limit size and cost.
+Creating durable casing so Mobile Education Hub is hardy and extra portable.
+",https://github.com/projectdeltaio/edx-platform,,"","",,"Columbia University in the City of New York, University of Maryland - College Park",2,Hacking UC and Best Mobile App,"University of Maryland, College Park",Yes - both!
+IP Mockup,https://revuc-iii.devpost.com/submissions/37564-ip-mockup,Submitted (Gallery/Visible),Pending,,05/17/2015 10:54:38,"We became inspired to create this application after finding a lack of simple and usable application design tools. The app would be very useful for business communication as well as private development.
+
+We have a website built on MVC, ASP.NET, Javascript, and HTML which allows users to register and design their application. We also built a Java application which works as an offline counterpart for taking your designs on the road.
+
+The offline IP Mockup tool was built without the use of any frameworks which made for a lot of extra work. On the web interface, we had dynamic dragging and dropping using pure Javascript and jquery.
+
+The web app looks really smooth and professional. With a little polishing this tool could be a very useful resource for individuals and companies looking to share their designs.
+
+We learned that Java is not the most convenient tool for designing user interfaces without framework. Also, don't spend too much time playing chess.
+
+We would like to clean up the web app and the offline app, add extra functionality and move into production.
+",https://github.com/kjvelarde/IPMockup,,"","javscript, java, asp.net, c#, sql, mvc, angular.js, jquery, html, css, bootstrap",,"",0,"",Columbus State Community College,Yes - both!
+Pepe - Scheduler,https://revuc-iii.devpost.com/submissions/37565-pepe-scheduler,Submitted (Gallery/Visible),Pending,,05/17/2015 10:55:31,"Inspiration
+
+Scheduling appointments with businesses is a hassle you have to call them like someone who lives in the stone age. If I can order pizza online why not schedule doctor appointments.
+
+How it works
+
+We take two schedules apply our algorithm to compare them then suggest date and times that fit both parties
+
+Challenges I ran into
+
+The algorithm for compared the two schedules was somewhat difficult. Also we had some issues with not focusing on the main functionality from the beginning. 
+
+Accomplishments that I'm proud of
+
+Working to develop a useful tool with friends.
+
+What I learned
+
+Build less and focus on one core component more
+
+What's next for Pepe - Scheduler
+
+Our UI could be more intelligent instead of suggesting times we could allow users to select from available times using a good UI tool.
+",https://github.com/dathack/,,"","node.js, angular.js, postgresql, bootstrap, redis",,"",0,Hacking UC and Best Newbie Hack,"University of Cincinnati, Case Western Reserve University",Yes - both!
+PartyNow,https://revuc-iii.devpost.com/submissions/37566-partynow,Submitted (Gallery/Visible),Pending,,05/17/2015 10:57:06,"Inspiration
+
+PartyNow
+
+ PartyNow was made in light of the vast amount of mediocre DJ's that come with the college experience. I'm sure we all have been to countless numbers of parties or get togethers in which the DJ just doesn't get it. Shouldn't everyone be able to come to a general consensus on what we should listen to?
+
+How it works
+
+PartyNow utilizes the Spotify Android SDK and Web API. A user has the option to either host a party of join a party. If the user hosts a party then a queue of music is hosted on the phone of the host, and music is played from his device. Other users can then join the party he has started, where they will get access to the queue of music that is being hosted. Here's where the crowd sourced DJing comes in! You can then up vote songs to the top of queue depending on what music you like, meaning good music for all!
+
+Challenges I ran into
+
+Using web sockets was slightly new to this group, which came as a challenge at times. The Spotify SDK and API is only in Beta as well so it is not the best documented, which always bring a challenge.
+
+Accomplishments that I'm proud of
+
+The fact that we have a working app the connects people through common tastes in music in realtime!
+
+What I learned
+
+The experience that we got with Android apps that connect to a backend and web sockets is pretty valuable
+
+What's next for PartyNow
+
+The next step for PartyNow is to make a web app and iOS app, which shouldn't be hard as everything will use the same backend
+","",,"","android, spotify, node.js, socket.io, mongodb, mongoose",,"",2,Best Mobile App,university of cincinnati,Yes - internships.
+PyGameProject2015,https://revuc-iii.devpost.com/submissions/37567-pygameproject2015,Submitted (Gallery/Visible),Pending,,05/17/2015 10:59:25,"Inspiration
+
+Love retro gaming and love programming!
+
+How it works
+
+Usage of PyGame with Python 3.2 using custom sprites etc.
+
+Challenges I ran into
+
+Getting a good internal code structure, configuring ai, and making animations
+
+Accomplishments that I'm proud of
+
+Building it up from scratch and home-brewing 99% of its contents
+
+What I learned
+
+How to program in python, game dev, and what hackathons are like!
+
+What's next for PyGameProject2015
+
+Possibly build upon, improving graphics (resolution and sprites), adding maps, enemies, or rebuilding altogether.
+",https://drive.google.com/drive/u/0/folders/0B_Mt6lruxuNmfkc0OVlaRjBfZEFwVTdVdm01SXA2RWI2cVZXSnJiVVo4THpQM0hLYUVXU3c/0B_Mt6lruxuNmfjYzWEhZaUkzY19RSXlGZGtaMWt3cU9XRGZQX01yN2JjTkVDb1NpcDc5RGM,,"","python, pygame, github",,"",1,"","",No thanks.

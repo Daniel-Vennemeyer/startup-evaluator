@@ -1,0 +1,1422 @@
+[
+    {
+        "name": "Canada Eh!",
+        "description": "A site for information and entertainment with a home page and additional pages for memes, a unit converter, and sources."
+    },
+    {
+        "name": "PABLA",
+        "description": "Blockchain-based authentication system that grants access based on user transaction verification and physical authentication, ensuring traceability without compromising identity."
+    },
+    {
+        "name": "Prescription Tracker",
+        "description": "An interface for doctors and patients to manage prescriptions. Users log in as either doctors or patients, with dedicated functionality for each role."
+    },
+    {
+        "name": "Drowsiness Detection",
+        "description": "A model that detects driver drowsiness by monitoring eye closure. If eyes are closed for over 3 seconds, it alerts the driver. For extended closure, it sends location-based notifications to emergency contacts."
+    },
+    {
+        "name": "MoneyMan",
+        "description": "A game where players navigate a maze, collecting money tokens while avoiding symbols of financial irresponsibility."
+    },
+    {
+        "name": "SeedSearcher",
+        "description": "A tool that suggests plants suitable for specific climates based on location or zip code and rainfall, using the OpenWeather API for climate data."
+    },
+    {
+        "name": "Kids Eat",
+        "description": "An app that notifies low-income families about free meal events for children in their community."
+    },
+    {
+        "name": "The Brave Little Toaster",
+        "description": "A novelty device allowing users to insert toast into a VHS player, choose a toasting level, and have the bread toasted and dispensed from the tape slot."
+    },
+    {
+        "name": "VR Based Customer Mortgage App",
+        "description": "A VR app that aids in mortgage decisions by predicting home values and showing crime history in the area, complete with Google Street View integration for home viewing."
+    },
+    {
+        "name": "DPA SCA on AES on Arduino Nano using ChipWhisperer",
+        "description": "A side-channel attack (SCA) tool that leverages differential power analysis (DPA) on an AES encryption key using an Arduino Nano."
+    },
+    {
+        "name": "Get High Don't Die",
+        "description": "A drug usage tracking service that cross-references user data with FDA adverse event reports to provide personalized drug recommendations and track potential interactions."
+    },
+    {
+        "name": "AR in Banking",
+        "description": "An AR-integrated mobile banking app that changes how users interact with banking information and transactions."
+    },
+    {
+        "name": "Super-Marka-Metrics",
+        "description": "An app for Kroger customers to track weekly spending with visual breakdowns, using ML to predict future spending based on commodity choices."
+    },
+    {
+        "name": "OhmSee",
+        "description": "A neural network-based tool that identifies the resistance value of a resistor using image recognition."
+    },
+    {
+        "name": "Battleship AI",
+        "description": "An AI opponent for the game Battleship with a strategy that builds upon sequential guesses around an initial hit to optimize ship targeting."
+    },
+    {
+        "name": "WeLearn",
+        "description": "An educational app with a game-like quiz system that unlocks levels sequentially, covering Physics, Chemistry, and Biology, with data stored in Google Firebase."
+    },
+    {
+        "name": "Globe Chat Application",
+        "description": "A messaging app with real-time translation, enabling users to send messages in any language and have them translated instantly."
+    },
+    {
+        "name": "Mission Im-pastable",
+        "description": "An interactive game where an audience can influence the actions of a dungeon-crawling player by voting, built with Unity, ReactJS, Firebase, and REST API integration."
+    },
+    {
+        "name": "Bryn-5/3",
+        "description": "A mobile-accessible spending tracker that displays spending data visually on a map and through graphs, aiding in financial awareness."
+    },
+    {
+        "name": "OutreachSheet",
+        "description": "Automates sending and receiving messages between Google Sheets and Facebook Chat for streamlined outreach."
+    },
+    {
+        "name": "BeeBeeMath",
+        "description": "An online platform for kindergarten teachers to teach basic math concepts, designed as an in-class tool to support early math education."
+    },
+    {
+        "name": "Geographical Quiz",
+        "description": "An app that generates automatic geographical quizzes and saves scores to track user achievement."
+    },
+    {
+        "name": "Minecraft Discord Bot",
+        "description": "A bot for Minecraft servers where players earn in-game currency deducted over time; integrates with Cloud SQL for cross-server persistence."
+    },
+    {
+        "name": "Hearthclone",
+        "description": "A card game simulation."
+    },
+    {
+        "name": "Buyers Guide Simplified",
+        "description": "An app that scans car buyer's guides to pull up vehicle history reports, with an option for VIN-based lookup."
+    },
+    {
+        "name": "Nutrition on a Budget",
+        "description": "Visualizes the cost-to-calorie ratio of foods to help budget-conscious shoppers compare the nutritional and economic value of their choices."
+    },
+    {
+        "name": "Money Moves",
+        "description": "A savings visualization app where users input deposits and time frames to see future savings growth, represented as a trail of money."
+    },
+    {
+        "name": "Vibe Check",
+        "description": "A wearable device that uses radar to monitor respiratory and heart rates, displaying data visually and providing haptic feedback."
+    },
+    {
+        "name": "Small Steps Personal Fitness Calculator",
+        "description": "Calculates BMI and daily protein intake recommendations based on height, weight, and body fat percentage."
+    },
+    {
+        "name": "Be A Pro",
+        "description": "A point system for ranking players’ recent games, designed for university leaders, with preferences and points stored in MongoDB."
+    },
+    {
+        "name": "Therapy Hack",
+        "description": "A mental health app that uses facial and vocal emotion analysis for sentiment tracking and matches users with nearby therapists based on scheduling."
+    },
+    {
+        "name": "Algorithm Minesweeper",
+        "description": "A program that attempts to logically solve and clear Minesweeper levels by identifying mines."
+    },
+    {
+        "name": "The Statistical Relation of Food Types",
+        "description": "Uses datasets to predict customer behavior related to four types of food."
+    },
+    {
+        "name": "NerdScholar",
+        "description": "A web app that enhances study environments by helping students find in-person study groups using geofencing, adding a collaborative dimension to learning."
+    },
+    {
+        "name": "PlayFair Cipher",
+        "description": "Encrypts or decrypts secret messages using the PlayFair cipher technique."
+    },
+    {
+        "name": "Looking For Moms Online",
+        "description": "A lighthearted project aiming to spread joy online."
+    },
+    {
+        "name": "SecureTheTag",
+        "description": "Generates relevant and trending Instagram hashtags based on image content using an image classifier, helping users reach larger audiences."
+    },
+    {
+        "name": "Autonomous UV Sterilization Robot",
+        "description": "A robot that uses UV lights to sterilize spaces autonomously. It navigates via QR codes and turns off UV lights if humans are detected, ensuring safety."
+    },
+    {
+        "name": "The Covid Dashboard",
+        "description": "A dashboard displaying COVID-19 data, vaccination rates, and economic insights, with detailed state-by-state information."
+    },
+    {
+        "name": "Smart Garage System",
+        "description": "An IoT-based garage system with facial recognition and number plate reading for secure access, along with a live feed and manual control via a mobile app."
+    },
+    {
+        "name": "The Timeless Clock",
+        "description": "A clock that tells time relative to a past event, e.g., displaying time as days and hours since a specific date, instead of the current clock time."
+    },
+    {
+        "name": "Water My Plants",
+        "description": "An automated plant care system using hygrometers to monitor soil moisture and control watering intervals based on plant needs."
+    },
+    {
+        "name": "Gungho",
+        "description": "A social game where players mimic poses in a video call. AI evaluates pose accuracy, with challenges ranging from pop culture to martial arts."
+    },
+    {
+        "name": "InvestX",
+        "description": "A platform allowing millennials to invest in companies aligned with their values, aggregating real-time stock data and impact scores."
+    },
+    {
+        "name": "The Recruitment Game",
+        "description": "A scavenger hunt game that combines digital and traditional puzzle-solving, allowing players to choose their own path to the shared destination."
+    },
+    {
+        "name": "GreenUP",
+        "description": "An app that suggests sustainable ways to reuse objects by analyzing user-submitted photos, encouraging eco-friendly behavior."
+    },
+    {
+        "name": "LazyKnow",
+        "description": "A tool that captures lecture highlights or full transcriptions, enabling users to review AI-generated notes for quicker learning."
+    },
+    {
+        "name": "Detectia",
+        "description": "A text-based lie detector that analyzes input statements for truthfulness using NLP metrics like readability, word length, and speech parts."
+    },
+    {
+        "name": "Chelper",
+        "description": "A Discord bot that manages a classroom by verifying student IDs, managing roles, and allowing assignment submissions directly to the teacher."
+    },
+    {
+        "name": "Mastermind Game",
+        "description": "A guessing game where players or an AI attempt to crack a randomly generated code within a limited number of turns."
+    },
+    {
+        "name": "Coin Tosser",
+        "description": "A simple app that simulates a coin toss, giving heads or tails as the result."
+    },
+    {
+        "name": "Bananalyzer",
+        "description": "A web app that analyzes photos of produce to determine ripeness and freshness, using image processing and a neural network."
+    },
+    {
+        "name": "Witty Bear",
+        "description": "An event scheduling platform powered by ReactJS and Google Cloud, providing tools for organizers and attendees to coordinate effectively."
+    },
+    {
+        "name": "Fluency",
+        "description": "An app that analyzes communication skills, tracking metrics like speaking rate and pause frequency to provide insights into speech patterns."
+    },
+    {
+        "name": "Crash Buddy",
+        "description": "A motorcycle safety jacket embedded with sensors and GPS, which alerts emergency services of the rider’s location in case of an accident."
+    },
+    {
+        "name": "Leafy",
+        "description": "An Android app that uses a CNN model to diagnose plant leaf diseases from images, alerting nearby users if the disease is infectious."
+    },
+    {
+        "name": "Hack it On!",
+        "description": "A team-based game where players complete coding and problem-solving tasks to ‘hack’ into a mainframe, earning points through challenges."
+    },
+    {
+        "name": "Seek Out Local",
+        "description": "An app that connects users with local businesses for repeated purchases, offering proximity-based shopping options to support small businesses."
+    },
+    {
+        "name": "Fruit Fun Pico-8 Game",
+        "description": "A simple platformer game where players control a cat to catch falling fruit, aiming to reach 50 points to win."
+    },
+    {
+        "name": "Spaceship Escape Room",
+        "description": "An online multiplayer Unity3D game where players work together to repair a damaged spaceship, requiring teamwork and problem-solving skills within a limited time."
+    },
+    {
+        "name": "TrackOpp",
+        "description": "A platform for users to share opportunities with reference links, allowing peers to suggest improvements or mark content as spam."
+    },
+    {
+        "name": "Crowdsource3D",
+        "description": "Connects individuals without 3D printers to those who have them, enabling affordable 3D printing services and a revenue stream for printer owners."
+    },
+    {
+        "name": "Vitreous",
+        "description": "A Zoom-like platform for online lectures that tracks eye engagement, rewarding students with extra credit for focused participation."
+    },
+    {
+        "name": "Automated Super Mario Odyssey",
+        "description": "Uses a custom parser to map input strings into button presses for Nintendo Switch, automating gameplay on Super Mario Odyssey."
+    },
+    {
+        "name": "Plutonomics",
+        "description": "A wealth management platform using consumer data to visualize spending and curb online purchases, helping users manage finances effectively."
+    },
+    {
+        "name": "Quizi",
+        "description": "An interactive quiz site for practicing math skills with a variety of targeted problem sets."
+    },
+    {
+        "name": "Cellular Automata",
+        "description": "Simulates various cellular automata with customizable traits, including a Conway entity for Game of Life simulations."
+    },
+    {
+        "name": "Online Class Website",
+        "description": "A website to store and organize online class links, allowing users to view and edit their schedules for convenience."
+    },
+    {
+        "name": "Clide, the Art Bot",
+        "description": "An art bot that generates brush strokes using a random decision-making algorithm."
+    },
+    {
+        "name": "Social Stock",
+        "description": "Uses Twitter API and sentiment analysis to analyze tweets about stocks, providing a graphical sentiment overview for investors."
+    },
+    {
+        "name": "Plagiarism Detector",
+        "description": "Detects plagiarism by analyzing lexical, syntactic, and semantic features, utilizing WordNet for semantic relations."
+    },
+    {
+        "name": "Habit Hammer",
+        "description": "A habit tracking app that allows users to log in with Firebase authentication and view a list of sample habits."
+    },
+    {
+        "name": "Sleeper",
+        "description": "An SMS-based social deduction game."
+    },
+    {
+        "name": "Flappy Bird Clone",
+        "description": "A clone of the classic Flappy Bird game."
+    },
+    {
+        "name": "Fanua",
+        "description": "A mobile app for co-investing in properties, with messaging, property filters, and market trends to assist investors in decision-making."
+    },
+    {
+        "name": "Dragon and Fairy (DaF)",
+        "description": "A project focused on self-learning through data analysis and visualization."
+    },
+    {
+        "name": "ClinicalConnections",
+        "description": "A platform connecting individuals with clinical trials, improving transparency and awareness about available trials and participating organizations."
+    },
+    {
+        "name": "Sign Speller",
+        "description": "An app that displays video subtitles in text and American Sign Language (ASL) format."
+    },
+    {
+        "name": "Skillscapade",
+        "description": "Users can access courses, collect points, and view profiles through Google account integration."
+    },
+    {
+        "name": "PassBox",
+        "description": "A password manager that securely stores and generates passwords, customizable with length and character options."
+    },
+    {
+        "name": "Flip Study",
+        "description": "An app that tests users' pronunciation of text by listening and providing feedback."
+    },
+    {
+        "name": "PAX",
+        "description": "A safe platform for mental health support with community and AI features, offering chat, group sessions, meditation, and therapist booking."
+    },
+    {
+        "name": "Good Vibrations",
+        "description": "A sensory feedback device using vibrations to aid balance and safety for balance-impaired individuals, potentially reducing fall risk."
+    },
+    {
+        "name": "Visualizing Kuka 7 Node Robot Arm",
+        "description": "A WebGL app for visualizing the movements of a Kuka robot arm with interactive sliders and pre-built movement sequences."
+    },
+    {
+        "name": "Censible",
+        "description": "A web browser extension that blocks user-defined content, useful for protecting children from inappropriate content or reducing distractions."
+    },
+    {
+        "name": "Chip8 FPGA Emulator",
+        "description": "A virtual machine emulator for classic CHIP-8 arcade games, allowing users to play and create retro-style games."
+    },
+    {
+        "name": "Caringo",
+        "description": "A platform for discovering and supporting social causes, allowing users to follow, donate, and connect with nonprofits."
+    },
+    {
+        "name": "Busy Bees",
+        "description": "An educational platform with interactive content for learning words, math, and concepts tailored to different age groups."
+    },
+    {
+        "name": "ManageMe",
+        "description": "A task management app that organizes user tasks into a calendar, helping users track and complete their weekly goals."
+    },
+    {
+        "name": "My-Kalory",
+        "description": "A calorie and macro tracker that scans nutrition labels and tracks intake, helping users meet dietary goals with real-time data."
+    },
+    {
+        "name": "GitPHREAKERS",
+        "description": "A strategy game hosted on GitHub, where players adapt their strategies based on opponents' configurations and code visibility."
+    },
+    {
+        "name": "HighwayHarmony",
+        "description": "A music app that evenly queues songs from each participant in a group using the host’s Spotify account, ensuring fair playtime for all."
+    },
+    {
+        "name": "CardCache",
+        "description": "An app for managing gift cards, allowing users to view balances, add new cards, and trade or auction cards in a marketplace."
+    },
+    {
+        "name": "Neon City Metaverse",
+        "description": "A virtual world for socializing, working, and learning, offering events, virtual goods trading, and educational sessions in a futuristic setting."
+    },
+    {
+        "name": "tone In",
+        "description": "A Slack app that uses machine learning to analyze message tone and provide real-time feedback on formality and professionalism in work channels."
+    },
+    {
+        "name": "Space AI",
+        "description": "A modular AI builder where users design AIs in a drag-and-drop editor to battle in a spaceship game using custom logic."
+    },
+    {
+        "name": "D&RFID",
+        "description": "An RFID-based tool for managing D&D character data, with a digital dice roller for convenient gameplay."
+    },
+    {
+        "name": "Le Cook (230-4)",
+        "description": "An app that suggests recipes based on ingredients users add to a virtual basket, helping to minimize food waste."
+    },
+    {
+        "name": "BearChat",
+        "description": "A voice assistant for campus navigation, events, services, and personalized recommendations, also providing mental health resources and music streaming."
+    },
+    {
+        "name": "Virtual Sandbox",
+        "description": "A VR sandbox environment allowing users to explore and interact in a virtual setting."
+    },
+    {
+        "name": "SharedSight",
+        "description": "A news search engine with misinformation detection, featuring explainable AI for user corrections and semantic search."
+    },
+    {
+        "name": "What the Flip",
+        "description": "A card-flipping app that reveals cards from a standard deck when flipped."
+    },
+    {
+        "name": "Useless Button",
+        "description": "An intentionally unclickable button designed purely for amusement."
+    },
+    {
+        "name": "Finance Invaders",
+        "description": "A finance management tool combined with a Space Invaders-style game, making budgeting more engaging."
+    },
+    {
+        "name": "Spotify Notifier",
+        "description": "An app that sends text notifications when followed artists release new music on Spotify."
+    },
+    {
+        "name": "Exam Study App",
+        "description": "A Duolingo-inspired study app for engineers preparing for the FE exam, guiding users through exam topics over customizable timelines."
+    },
+    {
+        "name": "ISS Tracker",
+        "description": "A real-time tracker that displays the user's location alongside the position of the International Space Station on a map."
+    },
+    {
+        "name": "TDT (Transit Digital Twin)",
+        "description": "A platform for transit planners to view real-time transit data, crash reports, and traffic information for better urban planning."
+    },
+    {
+        "name": "American Sign Language",
+        "description": "An educational tool for learning and practicing American Sign Language, with resources and a search engine for exploring sign language topics."
+    },
+    {
+        "name": "EtsUC",
+        "description": "An online thrift store platform designed to make second-hand shopping easy and accessible."
+    },
+    {
+        "name": "Ditto",
+        "description": "A speech-to-text converter for live speeches, offering various export options including summarization."
+    },
+    {
+        "name": "Robotic Revelations",
+        "description": "A data visualization project using innovative methods to compare sensor and target data, emphasizing the importance of clear visual analysis."
+    },
+    {
+        "name": "Internest",
+        "description": "An app for tracking habits and interests, allowing users to share data with others to find common interests."
+    },
+    {
+        "name": "Rubik's Cube Visualizer",
+        "description": "A terminal-based Rubik's Cube simulator for practicing and visualizing moves."
+    },
+    {
+        "name": "Meow-Piano",
+        "description": "A music app that converts piano notes into cat sounds, creating a whimsical musical experience."
+    },
+    {
+        "name": "OBLIVISCOR",
+        "description": "An interactive story app with visual and narrative choices leading to multiple endings, focused on personal learning."
+    },
+    {
+        "name": "Barter Books",
+        "description": "A book-sharing app allowing users to trade books within their community, promoting local connections and reducing book costs."
+    },
+    {
+        "name": "Otaku Outages",
+        "description": "A status monitor for popular anime streaming sites, providing updates on current site functionality."
+    },
+    {
+        "name": "Homey Carnival",
+        "description": "A platform for organizing and volunteering at food carnivals for homeless people, incorporating barcode scanning for donated food tracking."
+    },
+    {
+        "name": "CyberCat",
+        "description": "An educational app presenting six common encryption techniques, with visuals and descriptions for easy understanding."
+    },
+    {
+        "name": "Watch Party",
+        "description": "A website for sharing movie recommendations, connecting users with similar tastes through interactive data visualizations."
+    },
+    {
+        "name": "UkraineAlert",
+        "description": "An SMS service that sends updates on the Ukrainian crisis by aggregating information from tweets."
+    },
+    {
+        "name": "Making Bank",
+        "description": "A simple banking app for account management, allowing users to deposit, withdraw, and transfer money."
+    },
+    {
+        "name": "Recycling Co & Co",
+        "description": "A platform connecting people with surplus recyclable materials to those in need, promoting sustainability and community recycling."
+    },
+    {
+        "name": "Dino",
+        "description": "A platformer game featuring cute dinosaur characters."
+    },
+    {
+        "name": "Candy Shop",
+        "description": "A static website showcasing a hypothetical candy museum concept."
+    },
+    {
+        "name": "Retro Study",
+        "description": "An online education tool with features like emotion detection, posture analysis, and AR learning to enhance student engagement."
+    },
+    {
+        "name": "BlitzOn!",
+        "description": "A single-player PC version of Dutch Blitz where users play against AI opponents."
+    },
+    {
+        "name": "Student Solution",
+        "description": "An organizational platform for students to keep track of study materials, schedules, and class links."
+    },
+    {
+        "name": "RealTimeTranslation",
+        "description": "A real-time audio translation app that sends translated audio to Discord for user communication."
+    },
+    {
+        "name": "rAI",
+        "description": "An app for visualizing and building ML architectures, allowing users to dynamically adjust parameters and train models."
+    },
+    {
+        "name": "Money Learn, Money Earn",
+        "description": "A child-friendly money management app teaching savings and budgeting through chores and in-app rewards."
+    },
+    {
+        "name": "EasyRefer",
+        "description": "A platform for hospital referrals with patient record sharing and referral tracking, using Twilio for notifications."
+    },
+    {
+        "name": "Bad-Tempered Bee",
+        "description": "A light-sensitive toy bee that 'gets angry' in low light, indicated by a red LED and sound."
+    },
+    {
+        "name": "Hack-io Party",
+        "description": "A mini-game series where players attempt to complete challenges using a custom Arduino controller."
+    },
+    {
+        "name": "Calorymita",
+        "description": "A CRUD application intended for managing data using CockroachDB."
+    },
+    {
+        "name": "UMonitor",
+        "description": "A Ukraine crisis news aggregator, filtering updates by city and displaying real-time safety information for evacuees."
+    },
+    {
+        "name": "SavePecunia",
+        "description": "An interactive board game where players make financial decisions along a game path, aimed at financial literacy."
+    },
+    {
+        "name": "Two Plus Two Equals You Win",
+        "description": "A digital version of Connect 4."
+    },
+    {
+        "name": "Virtual Office Space",
+        "description": "A virtual environment for exploring websites and educational resources, with interactive research rooms."
+    },
+    {
+        "name": "Autonomous Minecraft",
+        "description": "A bot that autonomously navigates Minecraft servers, interacting with players and moving to coordinates."
+    },
+    {
+        "name": "Tic-Tac-Toe Game",
+        "description": "A simple tic-tac-toe game created with HTML, CSS, and JavaScript."
+    },
+    {
+        "name": "Voctract",
+        "description": "An app for creating verbal contracts, converting speech to text and generating legal documents with digital signatures."
+    },
+    {
+        "name": "Bearcat Coin",
+        "description": "A campus-specific cryptocurrency secured by the Ethereum blockchain, enabling students to send and receive Bearcat Coin among each other."
+    },
+    {
+        "name": "The Wage Worker of Wall Street",
+        "description": "A stock trading simulation game where players buy and sell stocks based on historical market data, news, and trends across financial quarters, ending with a summary of their investments."
+    },
+    {
+        "name": "CollegeFinder",
+        "description": "A prototype application that helps students find colleges based on state and budget, with more search criteria to be added."
+    },
+    {
+        "name": "Guitar Synthesizer",
+        "description": "An application that listens to guitar frequencies via the device microphone and maps them to sheet music notes."
+    },
+    {
+        "name": "Crypto View",
+        "description": "A web platform for users to create, publish, and sell digital content or collectibles, including physical and virtual items like ceramics, jewelry, and art."
+    },
+    {
+        "name": "Rick the Discord Bot",
+        "description": "A Discord bot capable of controlling a user’s Spotify account, joining voice calls, and streaming audio, including humorous video links."
+    },
+    {
+        "name": "Bee",
+        "description": "A playful project that plays jazz music while displaying the phrase 'Always bee yourself.'"
+    },
+    {
+        "name": "Denial Dial",
+        "description": "A rejection text service that sends delayed rejection messages and pairs random users texting the hotline, adding a humorous twist to rejection."
+    },
+    {
+        "name": "Circuit Builder AR",
+        "description": "An AR tool that overlays wiring on electronic parts detected by the phone camera, simplifying circuit building."
+    },
+    {
+        "name": "The Fizzle Fairies Menagerie of Funky Retro Carnivores",
+        "description": "A game where players create, feed, and play with retro-styled virtual animals, aiming to increase their scores."
+    },
+    {
+        "name": "PowerSetter",
+        "description": "A tool that finds subsets of a given set."
+    },
+    {
+        "name": "DIALEXT - SMS Communication without Language Barriers",
+        "description": "An SMS-based group texting interface that translates messages to each user's preferred language, designed for low-data usage and easy communication across languages."
+    },
+    {
+        "name": "Portable Remote-Controlled Forklift Prototype",
+        "description": "A redesigned, remote-controlled forklift for enhanced safety and portability, equipped with zero-turn capabilities for maneuvering in tight spaces."
+    },
+    {
+        "name": "WhackaStack",
+        "description": "An educational game about credit management, where players learn key credit tips by whacking 'credit monsters' modeled after common financial mistakes."
+    },
+    {
+        "name": "QUICK-INV",
+        "description": "An inventory tracker that compares baseline and current images of a shelf or fridge, using Google Vision API and Twilio for grocery notifications."
+    },
+    {
+        "name": "ELLo Mate",
+        "description": "A web app for English Language Learners (ELL) that tracks reading comprehension and progress, with stats accessible for teachers and tutors."
+    },
+    {
+        "name": "Useless Unity",
+        "description": "A VR project that displays trees in an enclosed virtual space, allowing users to explore using a headset."
+    },
+    {
+        "name": "Revolutionizing Image Recognition",
+        "description": "An enhanced image recognition system for store products, integrated with stock data, recipes, and location services to improve customer experience."
+    },
+    {
+        "name": "ScanAway",
+        "description": "An app using QR codes to report energy issues or restroom problems based on location, encouraging community feedback."
+    },
+    {
+        "name": "Java Raycasting Engine",
+        "description": "A 2D scene simulator using raycasting to determine wall heights from player distance, creating a pseudo-3D effect."
+    },
+    {
+        "name": "slimeboy",
+        "description": "A video game where players control a slime character, defeating enemies to progress."
+    },
+    {
+        "name": "Vimana Sahai",
+        "description": "An AI travel companion bot that assists with navigation, gate directions, flight delays, and airport information."
+    },
+    {
+        "name": "ZeroTrace",
+        "description": "A peer-to-peer chat application built on IPFS, enabling secure communication across locations and devices."
+    },
+    {
+        "name": "Lil’ Drone",
+        "description": "A drone controlled through text commands sent via Twilio, allowing for remote navigation."
+    },
+    {
+        "name": "MEME",
+        "description": "A dystopian-themed game where players navigate a cityscape, defending against attackers to reach the source of the invasion."
+    },
+    {
+        "name": "Punderwhelming.com",
+        "description": "A humor website that uses Markov chains to generate puns and mangled sentences, including a Bee Movie quote generator."
+    },
+    {
+        "name": "Rejuvenating Recipes",
+        "description": "A recipe recommendation app that uses health data and machine learning to suggest foods that promote well-being."
+    },
+    {
+        "name": "Snap, Paper, Scissors!",
+        "description": "A web-based game of Rock, Paper, Scissors that tracks scores and allows players to log in with Snapchat to play with friends."
+    },
+    {
+        "name": "FastCheckOut",
+        "description": "An app for fast in-store checkout, allowing users to scan items and generate a QR code for quick payment at the register."
+    },
+    {
+        "name": "Polyfy",
+        "description": "An application that transforms images or live video into low poly art using Delaunay triangulation and FAST feature detection."
+    },
+    {
+        "name": "Stand Up",
+        "description": "An app that scans product barcodes to check if they align with sustainable practices, including vegan and recycling information."
+    },
+    {
+        "name": "Les Catacombes de Paris",
+        "description": "A cooperative game where two characters defend against intruders, with unique abilities to fight and consume enemies."
+    },
+    {
+        "name": "Store Savr",
+        "description": "An app that allows consumers to order products online and pick them up at the store. Employees verify that customers only take the items they ordered, saving time for customers and reducing costs for the store."
+    },
+    {
+        "name": "Polyglotté",
+        "description": "A web tool that uses the laptop camera to capture images and translates detected objects or text into five different languages."
+    },
+    {
+        "name": "Automation Logging",
+        "description": "An improved automation process using Docker containers, Google Cloud, and Kubernetes to deploy applications, with a logging system using an APM server for communication between web applications and logging systems."
+    },
+    {
+        "name": "VR Planetarium",
+        "description": "A VR experience that takes users on a journey through space, transcending physical laws for immersive exploration."
+    },
+    {
+        "name": "USELESS",
+        "description": "Provides random, humorous posts and notifications that serve no practical purpose."
+    },
+    {
+        "name": "soldAR",
+        "description": "An AR app with two modes: live monitoring of soldering sessions with temperature tracking, and a tutorial mode guiding users through soldering steps."
+    },
+    {
+        "name": "shttr",
+        "description": "A social rating system for public bathrooms, documenting features like type, presence of changing rooms, and open hours."
+    },
+    {
+        "name": "Ninja Cat Adventure",
+        "description": "A game where players control a ninja cat on a quest to defeat enemy critters and become a ninja master."
+    },
+    {
+        "name": "Sight Necklace",
+        "description": "A wearable device using ultrasonic sensors to detect nearby objects, providing sound-based feedback to inform users of direction and distance."
+    },
+    {
+        "name": "Fun 2 Fin",
+        "description": "A fun and motivational app designed to raise financial awareness and improve financial habits."
+    },
+    {
+        "name": "Campfire",
+        "description": "A network security tool that uses Suricata to monitor malicious traffic and sends alerts via Twilio API when suspicious activity is detected."
+    },
+    {
+        "name": "Parental Display",
+        "description": "A digital display for homes, allowing parents to send messages to children remotely, viewable on a connected screen in the home."
+    },
+    {
+        "name": "CookWithKroger",
+        "description": "A recipe app that allows users to search for budget-friendly recipes, add ingredients to their cart, and access step-by-step cooking instructions."
+    },
+    {
+        "name": "Emoji Feel",
+        "description": "An app that classifies emoji images into three categories: positive, negative, and neutral."
+    },
+    {
+        "name": "GifBot",
+        "description": "A webcam-based app that detects a user’s facial expression and returns a matching GIF representing the detected emotion."
+    },
+    {
+        "name": "FaceRekExtension",
+        "description": "A browser overlay using facial recognition to prevent unauthorized access to specific web pages, protecting sensitive information."
+    },
+    {
+        "name": "SongSnap",
+        "description": "An app that converts your currently playing Spotify song into a sticker for use in Snapchat."
+    },
+    {
+        "name": "Tap",
+        "description": "A simple app that displays numbers when the user taps a button, serving no real functional purpose."
+    },
+    {
+        "name": "Open Banking API Creation Challenge by 5/3rd Bank",
+        "description": "Creates APIs with limited access for third-party applications, promoting secure open banking."
+    },
+    {
+        "name": "Chainsmokers",
+        "description": "An LED light show app that syncs with music, making an LED strip 'dance' to the beat."
+    },
+    {
+        "name": "FileBuddy",
+        "description": "A photo management app that uses OpenCV to process images for easy readability and uploads them to a server for storage and categorization."
+    },
+    {
+        "name": "UC Bearcats Lung Cancer Study",
+        "description": "A research project focused on analyzing spatial patterns related to lung cancer."
+    },
+    {
+        "name": "Social Media Connector using MERN Stack for JP Morgan",
+        "description": "A social networking platform for developers, enabling them to interact through a profile-based system built with the MERN stack."
+    },
+    {
+        "name": "AutoMed",
+        "description": "A wearable, mobile-controlled device that calculates and administers medication dosage based on personal data, with notifications powered by Twilio."
+    },
+    {
+        "name": "FinTopia",
+        "description": "An app that provides personalized financial plans based on user survey data, assessing key factors that influence financial well-being."
+    },
+    {
+        "name": "Bread and Milk Alarm",
+        "description": "A humorous app designed to send annoying reminders for grocery items."
+    },
+    {
+        "name": "Knowledge Kiosk",
+        "description": "A tool that provides definitions for entered words, with planned additional features for expanded knowledge resources."
+    },
+    {
+        "name": "SecureAWS",
+        "description": "An Alexa-integrated security tool that performs security assessments on AWS environments and provides user-friendly reports on security metrics."
+    },
+    {
+        "name": "Digital Forensic Linguistics",
+        "description": "A toolkit that uses random GitHub user data to develop models connecting program information with user demographics."
+    },
+    {
+        "name": "KillChainBot",
+        "description": "An automated bot that performs a full cyber attack chain from surveillance to exploitation, maintaining its own security."
+    },
+    {
+        "name": "LendMe",
+        "description": "A blockchain-based peer-to-peer lending platform where lenders set terms, with AI-driven monitoring and bank-level security features."
+    },
+    {
+        "name": "GreenLight",
+        "description": "An anonymous resource locator for veterans, allowing them to find local support services by entering their zip code."
+    },
+    {
+        "name": "PollMe",
+        "description": "A polling tool for classes or meetings, allowing participants to text responses or questions and providing real-time results for presenters."
+    },
+    {
+        "name": "OpenFund",
+        "description": "OpenFund is a platform enabling users to pursue financial goals with open-source investing algorithms, making financial independence more accessible."
+    },
+    {
+        "name": "OpenLab",
+        "description": "OpenLab is a virtual chemistry lab that simulates chemical reactions, offering lower-income schools a safe and affordable way to conduct experiments."
+    },
+    {
+        "name": "Secure Drawer",
+        "description": "A smart security drawer with automatic locking and unlocking based on proximity to an authorized phone, with alarms and red lights triggered if unauthorized access is attempted."
+    },
+    {
+        "name": "Smart Cart",
+        "description": "A shopping cart attachment with a display and barcode scanner, offering real-time information on sales, related items, and recipe suggestions while collecting data for store analytics."
+    },
+    {
+        "name": "Nanohack",
+        "description": "Nanohack is an adventure game capturing the hackathon spirit in an engaging, interactive experience."
+    },
+    {
+        "name": "The Thingamagig",
+        "description": "A fun device that plays the Mario theme on a buzzer once a counter reaches a set level, with data transmitted over LoRa."
+    },
+    {
+        "name": "Snapsey",
+        "description": "Snapsey allows users to take pictures of food products and receive nutrition information in their selected native language."
+    },
+    {
+        "name": "LaserCubes",
+        "description": "An interactive CUBE WORLD experience where users explore their environment using camera tracking."
+    },
+    {
+        "name": "ApperceptionVR",
+        "description": "A VR experience with curated scenarios that assess gut reactions to ethical situations, measuring metrics like stress management, adaptability, and problem-solving."
+    },
+    {
+        "name": "Cara",
+        "description": "Cara is a facial authentication service offering easy integration for apps and websites, with applications in family memory support, classroom attendance, and employee clock-in systems."
+    },
+    {
+        "name": "DrumVR",
+        "description": "A virtual drumming experience allowing users to play drums without a physical drum set."
+    },
+    {
+        "name": "Beacon-of-Hope",
+        "description": "An emergency tracking system aiding people in finding assistance during natural disasters."
+    },
+    {
+        "name": "Maxland",
+        "description": "A tool that suggests optimal residential housing types based on land usage data to maximize housing development and utility."
+    },
+    {
+        "name": "BinarySolVR",
+        "description": "A VR game where players convert decimal numbers to binary by adjusting in-game switches, with five levels of increasing difficulty."
+    },
+    {
+        "name": "DashWall",
+        "description": "A smart wall display showing home diagnostics such as time, temperature, and water levels, with adaptive brightness based on ambient light."
+    },
+    {
+        "name": "Simply Useless Simple Uses",
+        "description": "A collection of mini-programs performing amusing yet purposeless functions."
+    },
+    {
+        "name": "Mind The Gap",
+        "description": "An app where users can type and share messages, viewing what others have written in a connected database."
+    },
+    {
+        "name": "Satellite Chasers",
+        "description": "A DIY omni-directional antenna that receives VHF signals, constructed from affordable materials for under $35."
+    },
+    {
+        "name": "LowDiskReader",
+        "description": "A tool that provides methods to display text numbers and error codes from disk read operations."
+    },
+    {
+        "name": "Heart Disease Risk Assessment",
+        "description": "A model trained on patient data to predict heart disease risk, offering healthcare providers screening suggestions based on patient data."
+    },
+    {
+        "name": "eyeRoom",
+        "description": "A room occupancy tracker using a Raspberry Pi, webcam, and OpenCV, pushing data to Firebase and accessible via a Telegram bot."
+    },
+    {
+        "name": "Electronic Music Maker",
+        "description": "A device for creating electronic music sounds, with an interface of knobs and buttons for real-time control."
+    },
+    {
+        "name": "Some Kind of Clock",
+        "description": "A simple digital clock with basic time display functionality."
+    },
+    {
+        "name": "Vitamin-Cynth",
+        "description": "A fruit-based keyboard allowing users to play music by interacting with different fruits."
+    },
+    {
+        "name": "while(i<= 6°) { friend = friendOfFriend }",
+        "description": "An AR app using GearVR and social network data to identify and display the shortest path of connection to others in real-time."
+    },
+    {
+        "name": "BudgetBuddy",
+        "description": "A budgeting app that tracks transactions and provides monthly budget suggestions, filtering out negatively reviewed expenses."
+    },
+    {
+        "name": "Smart-Calendar",
+        "description": "A synchronized wall calendar that updates with events from users' phone calendars, enhancing family coordination."
+    },
+    {
+        "name": "Smart Relief",
+        "description": "A transparency tool for charitable organizations, ensuring funds are distributed transparently."
+    },
+    {
+        "name": "autoLift",
+        "description": "An armband-based rep counter that connects via Bluetooth, counting reps during exercises based on grip detection."
+    },
+    {
+        "name": "Pryoritize",
+        "description": "An app that assists users in making decisions by prioritizing options for them."
+    },
+    {
+        "name": "Relational Image Map",
+        "description": "A map-based app that plots images based on user queries, currently limited by mock data."
+    },
+    {
+        "name": "GunSafe",
+        "description": "A firearm detection and alert system using beacons to notify authorities in case of unauthorized firearm presence in secure zones."
+    },
+    {
+        "name": "Budget for a Cause",
+        "description": "A budgeting tool for effective charitable donations, allowing users to set monthly giving goals and distribute funds to selected charities."
+    },
+    {
+        "name": "Never Expire",
+        "description": "A food tracking app that notifies users of expiring items to reduce food waste."
+    },
+    {
+        "name": "Dementia Helper",
+        "description": "A facial recognition app that announces the names and details of visitors to dementia patients to aid recognition and comfort."
+    },
+    {
+        "name": "Altruist",
+        "description": "A social platform connecting donors with recipients in need, especially during natural disasters."
+    },
+    {
+        "name": "TransitU",
+        "description": "An app for students that optimizes commuting schedules using live bus data, assisting with timely arrival based on their class schedules."
+    },
+    {
+        "name": "WeCU",
+        "description": "A mental health check-in app for students and patients, providing daily surveys to track mood, energy levels, and offer support resources."
+    },
+    {
+        "name": "CHAAP: Chat With Any Anonymous Page",
+        "description": "A Chrome extension that enables conversations with any webpage, supporting multiple LLMs like AWS, OLLaMA, and GPT. It includes HEMLock algorithm to protect user data from being used for model pretraining."
+    },
+    {
+        "name": "QueryPages",
+        "description": "A framework that facilitates conversations with organizational data, allowing companies to securely train the llama2 model on internal data and policies."
+    },
+    {
+        "name": "BardTales",
+        "description": "A generative AI-powered tool that converts written text into professional-quality audiobooks with voice narration and music."
+    },
+    {
+        "name": "CapSoul",
+        "description": "An app for digital wardrobe management, providing personalized daily outfit suggestions and tracking fashion consumption for sustainability. It also includes fabric care guidance."
+    },
+    {
+        "name": "Paisa",
+        "description": "An OCR-powered expense management tool designed to split bills seamlessly from receipts."
+    },
+    {
+        "name": "GRAID",
+        "description": "An AI-enhanced grading platform that includes webcam proctoring, assignment management, and student-grader communication features. Competes with platforms like Canvas."
+    },
+    {
+        "name": "Datox",
+        "description": "A platform connecting clients with freelancers for complex data needs, simplifying the process significantly for customers."
+    },
+    {
+        "name": "Super Awesome Shiba Inu Website",
+        "description": "A website to generate endless pictures of Shiba Inus paired with inspiring phrases, with style customization options."
+    },
+    {
+        "name": "Academath",
+        "description": "An educational platform for calculus topics, including limits, derivatives, integrals, and Riemann Sums, with adaptive difficulty levels and achievements."
+    },
+    {
+        "name": "CloseTalk",
+        "description": "An app that connects people nearby without exchanging contact information, utilizing Bluetooth and NearBy protocol for secure, anonymous networking."
+    },
+    {
+        "name": "SafeSpace",
+        "description": "An app providing anonymous crime reporting, resource access, safe route mapping, and personalized safety plans, plus secure event documentation."
+    },
+    {
+        "name": "Scribble Beasts",
+        "description": "Hosts an online server for playing the game Scribble Beasts."
+    },
+    {
+        "name": "Audio Visualizer",
+        "description": "An audio visualizer that offers various visualizations for audio files, including frequency volume and oscilloscope displays."
+    },
+    {
+        "name": "PhishEye",
+        "description": "A phishing detection tool that leverages AI to flag potential phishing elements in emails, with educational features to increase awareness."
+    },
+    {
+        "name": "Novice Finance",
+        "description": "A finance app featuring ML modules for startup success prediction, loan approval, default estimation, and customer churn forecasting."
+    },
+    {
+        "name": "LimitLess",
+        "description": "A calculus learning app with daily practice reminders, adaptive difficulty levels, and bite-sized info on solving derivatives and integrals."
+    },
+    {
+        "name": "Positive Casino",
+        "description": "A slots game that provides users with random advice instead of traditional results, including mental health resources like SAMHSA."
+    },
+    {
+        "name": "Ucases",
+        "description": "A tool that generates new practice questions based on exam questions provided in a PDF for students' practice."
+    },
+    {
+        "name": "CodeScope",
+        "description": "Uses web scraping and OpenAI to compare hackathon projects on Devpost, offering insights and similarity scores for judges."
+    },
+    {
+        "name": "Best Dressed",
+        "description": "A virtual shopping app where users can create profiles, save clothing preferences, and try on outfits virtually before purchasing."
+    },
+    {
+        "name": "CtrlAltEsc",
+        "description": "A secure authentication service that provides temporary bank credentials, incorporating encryption, fraud detection, and expiration alerts."
+    },
+    {
+        "name": "More than Twins",
+        "description": "A digital clone project showing visual effects of different drugs on a 3D human model based on Arduino input."
+    },
+    {
+        "name": "PhizzIO",
+        "description": "An interactive platform connecting patients and physiotherapists, with features for real-time movement tracking, patient analytics, and personalized treatment plans."
+    },
+    {
+        "name": "RF Shield",
+        "description": "Maps cellular tower locations and identifies RF-shielded areas, displaying RF-free zones and providing relevant news about RF developments."
+    },
+    {
+        "name": "Memento",
+        "description": "A digital journal for users with cognitive diseases, storing entries as memories and providing summaries to support independence and track symptoms."
+    },
+    {
+        "name": "GameGenie",
+        "description": "An app that generates schedules and scorecards for card games like Hearts and Euchre."
+    },
+    {
+        "name": "Plant Parenthood",
+        "description": "A plant database for gardeners to log and track plant information, including planting dates and care details."
+    },
+    {
+        "name": "Gravity-Glide-VR",
+        "description": "A VR game where users experience swinging in a simulated environment, testing their fear of heights."
+    },
+    {
+        "name": "InstantMed",
+        "description": "An app for browsing medicines with an AI chatbot for health queries and medicine recommendations."
+    },
+    {
+        "name": "ProxyVerse",
+        "description": "A microphone sharing tool that streams audio between nearby Android devices using the Nearby Connections API."
+    },
+    {
+        "name": "Campus Palate",
+        "description": "A dining app for students, recommending campus food options based on dietary requirements and preferences."
+    },
+    {
+        "name": "Spotify Rex",
+        "description": "A music recommendation and social engagement app allowing users to share, react, and discuss favorite songs and artists."
+    },
+    {
+        "name": "Trust Skin",
+        "description": "An AI-powered skincare platform that explains ingredients, matches customers with dermatologists, and provides treatment and maintenance advice."
+    },
+    {
+        "name": "Hackathon Team Creator",
+        "description": "An app for assigning hackathon team locations, updating room occupancy, and ensuring even distribution of teams."
+    },
+    {
+        "name": "No1Best Compliance",
+        "description": "A compliance tracking website for companies to publicly display their adherence to data policies."
+    },
+    {
+        "name": "Pneumonia-de.tech",
+        "description": "A machine learning tool for detecting pneumonia from chest X-rays, with a website showcasing its diagnostic capabilities."
+    },
+    {
+        "name": "Nonogram Solver",
+        "description": "An algorithmic solver for nonogram puzzles using CNF and a satisfiability solver."
+    },
+    {
+        "name": "HealthSphere",
+        "description": "A health platform providing personalized insights and wellness tools through data analytics, covering physical, mental, and emotional health."
+    },
+    {
+        "name": "Lingual Links",
+        "description": "A language-learning platform with lessons, quizzes, and native speaker chat for immersive practice."
+    },
+    {
+        "name": "Feline Fury!",
+        "description": "A card game based on cat statistics compiled from a cat facts database."
+    },
+    {
+        "name": "EquationQuest",
+        "description": "A math practice game with multiple modes including Focus, High Score, and Time Attack."
+    },
+    {
+        "name": "Fluid Simulation & Render",
+        "description": "A point-based fluid simulation in a bounded volume with surface generation via the marching cubes algorithm."
+    },
+    {
+        "name": "B.A.T",
+        "description": "A robot that follows users and shouts humorous insults when in close range."
+    },
+    {
+        "name": "Stock O' Clock",
+        "description": "A stock information website where users can input symbols and receive stock data."
+    },
+    {
+        "name": "Meetcode",
+        "description": "An interactive DSA learning platform supporting collaborative coding, visualizations, and pair programming."
+    },
+    {
+        "name": "Symptom Reporter",
+        "description": "A tool for users to log symptoms, create notes, and upload images for review by medical practitioners."
+    },
+    {
+        "name": "Clinical Research Journal",
+        "description": "A platform for clinical trial participants to track schedules, contacts, and log personal reflections."
+    },
+    {
+        "name": "hr-connect",
+        "description": "A feedback collection tool for employees and managers to support productivity reviews and career development."
+    },
+    {
+        "name": "Who Got Next?",
+        "description": "An app for queue management at sports courts, including features for admins to manage player queues and game scheduling."
+    },
+    {
+        "name": "Medical Parse",
+        "description": "A diagnostic tool that lists potential diseases based on user-input symptoms for comprehensive health assessments."
+    },
+    {
+        "name": "Spring to Life",
+        "description": "A social platform for senior citizens, encouraging interaction and skill maintenance through closed group activities."
+    },
+    {
+        "name": "HitchHigh",
+        "description": "A ride-sharing app for high school students to access affordable transportation to school and events."
+    },
+    {
+        "name": "Fix People Quitting Drug Trials",
+        "description": "A tool to identify reasons for dropout in voluntary drug trials and suggest solutions."
+    },
+    {
+        "name": "Proxy Pi",
+        "description": "Enables a laptop to use the IP address of a Raspberry Pi 3, hiding network activity to enhance privacy and prevent identity theft, with IPTraf to monitor data transmission."
+    },
+    {
+        "name": "uDj",
+        "description": "A web service hosted on a Raspberry Pi that allows multiple users to collaboratively manage a song queue in real-time via a RESTful API, ideal for parties and social gatherings."
+    },
+    {
+        "name": "You Suck At Music",
+        "description": "Analyzes saved Spotify songs and playlists, providing an overall popularity rating for each playlist based on Spotify's song popularity metrics."
+    },
+    {
+        "name": "Sword Fight",
+        "description": "A motion-based game where device movements control attack, defense, and push actions in a battle, with scoring based on player interactions."
+    },
+    {
+        "name": "Melody Player",
+        "description": "A program that plays melodies on six piezo buzzers with a selectable tune display on an LCD screen, triggered by a button press."
+    },
+    {
+        "name": "Help, Actually",
+        "description": "A browser extension that evaluates charity websites using Charity Navigator ratings, suggesting alternative charities and providing related news for transparency."
+    },
+    {
+        "name": "Hackathon",
+        "description": "A competitive racing game where players navigate obstacles and hack each other’s courses to win."
+    },
+    {
+        "name": "WatsonBot",
+        "description": "A Discord-based home automation framework using IBM Watson's natural language processing for user-friendly home command execution."
+    },
+    {
+        "name": "Smart Motion Sensor",
+        "description": "A sensor that detects motion, captures a picture, and sends an alert message to a predefined mobile number."
+    },
+    {
+        "name": "UC Monopoly",
+        "description": "A simplified Monopoly game featuring property transactions and jail, with a focus on 3D modeling and design."
+    },
+    {
+        "name": "Savor",
+        "description": "Connects individuals with surplus food to those in need, facilitating community-based food sharing."
+    },
+    {
+        "name": "UCwhatIdidThere",
+        "description": "An app and API encouraging city exploration through tagged locations that provide information, suitable for city tourism, universities, and large events."
+    },
+    {
+        "name": "Meme Me!",
+        "description": "Uses Affectiva's facial recognition software to detect emotions and generate personalized memes based on the user’s expression."
+    },
+    {
+        "name": "Space-Shooter",
+        "description": "A classic space shooter game built in Python using the Pygame library."
+    },
+    {
+        "name": "Live Accountable",
+        "description": "A budgeting tool that helps users manage their finances based on paycheck allocations."
+    },
+    {
+        "name": "SmartMirror",
+        "description": "Displays essential daily information such as time, weather, and calendar events on a mirror."
+    },
+    {
+        "name": "Purrfect-Kitties",
+        "description": "Displays values from the Muse headband and triggers actions, with integration from two repositories that are in progress."
+    },
+    {
+        "name": "RPGBOT",
+        "description": "Runs a text-based D&D-style adventure via a GroupMe bot, allowing users to engage in RPG gameplay within chat."
+    },
+    {
+        "name": "Project Party Up",
+        "description": "A group location and chat app that lets users track each other's real-time location, chat, and join or leave groups."
+    },
+    {
+        "name": "Smart434",
+        "description": "Voice commands from Amazon Echo are sent to IBM IoT, allowing Raspberry Pi to control lighting based on user requests."
+    },
+    {
+        "name": "Benjamin Chat",
+        "description": "A communication platform with contextual text suggestions, smart home alerts, and ephemeral messaging for enhanced conversations."
+    },
+    {
+        "name": "Reddit Digest Bot",
+        "description": "Emails users the top posts from specified subreddits, based on a PM sent with email and subreddit details."
+    },
+    {
+        "name": "Watrr",
+        "description": "A smart water temperature system with mechanical controls to manage shower water flow at desired temperatures."
+    },
+    {
+        "name": "VRtionary",
+        "description": "A VR version of Pictionary that runs in a browser, allowing multiplayer drawing and guessing games in a virtual environment."
+    },
+    {
+        "name": "Printer Pal (860B3)",
+        "description": "A Dash-button system to notify school staff about printer issues, including jammed, out of ink, or out of paper."
+    },
+    {
+        "name": "Barking Up The Pong Tree",
+        "description": "A real-life Pong game projected onto a surface where players control paddles by moving their phones."
+    },
+    {
+        "name": "Polynous",
+        "description": "A Git-repository cloning tool that creates a workspace for viewing and editing project files, with planned file commit functionality."
+    },
+    {
+        "name": "Stock Extension",
+        "description": "A Chrome extension that displays stock information in a popup for user-inputted stock tickers."
+    },
+    {
+        "name": "Joys of Coding (aka Wild Compile)",
+        "description": "A C# web IDE that allows users to submit and execute code, with input-output handling, via a web interface."
+    },
+    {
+        "name": "Hot Wheels",
+        "description": "A placeholder for a project involving racing or automotive themes."
+    },
+    {
+        "name": "Tweeter",
+        "description": "Reads aloud tweets with specified hashtags using speech synthesis for auditory engagement with Twitter content."
+    },
+    {
+        "name": "AISee",
+        "description": "A self-hosted, privacy-focused photo management system with voice search and IBM Watson integration for smart tagging."
+    },
+    {
+        "name": "Technical Interviewer",
+        "description": "An Alexa skill for conducting technical interviews by asking coded questions, storing results in DynamoDB, and analyzing with IBM Watson."
+    },
+    {
+        "name": "Unboxel VR",
+        "description": "An interactive VR guessing game where players identify 3D objects hidden under disappearing boxes by speaking out guesses."
+    },
+    {
+        "name": "VCare",
+        "description": "Monitors patient health with real-time data, sending emergency alerts to hospital staff and physicians via voice assistant and SMS."
+    },
+    {
+        "name": "RevSearch",
+        "description": "A tool to access, create, and manage files on a computer, designed for ease of file operations."
+    },
+    {
+        "name": "Rank It!",
+        "description": "A Chrome extension for rating websites with upvote and downvote functionality, inspired by Reddit, to rank user experience."
+    },
+    {
+        "name": "Automatic Pet Feeder",
+        "description": "Dispenses pet food at set intervals or via a web page, with a future feature to track feeding frequency over 24 hours."
+    },
+    {
+        "name": "HallOfShame",
+        "description": "A web application that identifies online profiles using abusive language, with a Bad Words Score for ranking users."
+    },
+    {
+        "name": "VRythm",
+        "description": "A VR rhythm game where players grab spheres on the beat in a 3D environment for an immersive music experience."
+    },
+    {
+        "name": "Alexa Twister Game",
+        "description": "An Alexa skill that provides randomized Twister instructions, simulating a real game with sound effects and player cues."
+    },
+    {
+        "name": "Hangry Prevention - K1",
+        "description": "Generates grocery lists based on user purchase history and patterns to prevent missed grocery needs."
+    },
+    {
+        "name": "ReBay",
+        "description": "ReBay is a reverse auction marketplace where customers post requests, and sellers respond with items at set prices, allowing for downward bidding. This approach speeds up shopping by attracting sellers eager to make sales, unlike traditional eBay."
+    },
+    {
+        "name": "Engineering Solutions Using IoT Device",
+        "description": "An IoT-based system that uses light sensors to control street lighting based on ambient conditions and temperature sensors to monitor pasteurization, ensuring precise temperature control to prevent overcooking."
+    },
+    {
+        "name": "Bob",
+        "description": "Bob is a conversational bot that allows users to set reminders with location and attachment details, notifying them at the specified time."
+    },
+    {
+        "name": "uPin",
+        "description": "A location-based social platform where users can post anonymous or nickname-based pins, engage in discussions, and favorite other users to follow their updates."
+    },
+    {
+        "name": "UCyber Hotspot Sniper",
+        "description": "A tool that uses a directional antenna and custom software to analyze WiFi signal strength, allowing for precise 3D localization of routers based on real-time data."
+    },
+    {
+        "name": "Book My Music",
+        "description": "An e-commerce website for music enthusiasts with three categories: 'Create Music' for instruments, 'Cherish Music' for record labels, and 'Experience Music' for accessories."
+    },
+    {
+        "name": "Timer Extension for Google Chrome",
+        "description": "A Chrome extension that allows users to set a timer for their browsing session, automatically closing tabs when time expires. Users can opt to close tabs in the current window or all windows, with notifications as the session ends."
+    },
+    {
+        "name": "AlwaysProf",
+        "description": "An Amazon Alexa skill designed to support students by providing in-house professors who offer academic and emotional guidance."
+    },
+    {
+        "name": "ByteSearch",
+        "description": "A database search solution using NoSQL with optimized time and space complexity. It implements a byte-based database where each value is one byte, enhancing retrieval efficiency."
+    },
+    {
+        "name": "Obelix Search",
+        "description": "A search tool that takes user input and queries multiple websites to display data and information relevant to the specified term."
+    },
+    {
+        "name": "Intelligent Andro Blue Public Safety",
+        "description": "A public safety app that uses Bluetooth to send emergency alerts to nearby devices. Each device acts as both server and client, creating a stable network to relay alerts in emergencies."
+    },
+    {
+        "name": "Unity Game",
+        "description": "A Unity-based game where players engage in combat with a slime opponent."
+    },
+    {
+        "name": "Rainbow Run",
+        "description": "A fast-paced game where players press the button matching the first LED color on a rainbow strip. Incorrect selections delay progress, and reaching the end in record time sets a high score across four levels."
+    },
+    {
+        "name": "Speed Control with Rotary Sensor",
+        "description": "An automotive control system that uses a rotary sensor to monitor the car's tilt angle. If the angle exceeds a set limit, it gradually reduces motor speed until an interrupt occurs or the car stops."
+    }
+]

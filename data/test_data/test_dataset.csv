@@ -1,0 +1,391 @@
+text,label
+"Symptom Reporter - Our users log in and then can report the symptoms through a list of symptoms, creating notes, and uploading an image. Our medical practitioner will be able to go in and view the results of the data reported.",0
+Super Awesome Shiba Inu Website - Our website allows you to generate new pictures of Shiba Inus till your heart's desire. Your favorite dog will bless you with a variety of inspiring phrases. Not enough? Kick it up a notch by changing the mode to fit your style!,0
+"Moonglow - Moonglow connects local Jupyter notebooks to remote cloud compute. Machine learning researchers and data scientists use us to scale up their experiments without having to do DevOps.
+
+Previously, Leila was a software engineer at Jane Street. She led the build-out of its equities clearinghouse connectivity infrastructure and was the technical lead of its front-office SRE team. Trevor was part of Hazy Research Lab at Stanford, and published machine learning research at NeurIPS, ICLR and ACL.
+
+With the explosive growth of deep learning, there are over 1 million ML researchers who do computationally intensive experiments every day. They use Jupyter notebooks to do so, but every time they want to try out a new idea, they need to get the notebooks running on cloud machines. This process, repeated hundreds of times a month, is time-consuming and error-prone.
+
+Moonglow reliably brings the time-to-experiment down from 5 minutes to 20 seconds. Just as Vercel and Replit abstracted away the lower levels of the computing stack for web developers and programmers, we do the same for ML researchers.
+
+https://moonglow.ai
+",1
+"Speed control with rotary sensor - It takes the angle of the motor from the current position(say standard operation angle of the car with the road) from the rotary sensor and when the car tilts more than the specified angle, the speed of the motor is reduced until interrupt is ocured or the speed reaches zero.",0
+"WeCU - CU DAILY
+By monitoring the student's or patient's mental well-being by implementing a daily check-up which consists on 3 short questions regarding energy levels, any concerns, and in the ruler quadrants scale, how do they feel that specific day.
+
+Our CU DAILY check-up is a tool created to be there even when we can't. Maybe being in person is not a thing someone can do daily, but in WeCU the patients and students are first. We want to be there for them at any minute they need us, plus we keep track of their data and analyze it, to see patterns on they're mental health depending on the season, month, personal situation, etc. Our daily survey serves as a way for the patient's and students to wait a second and understand how they feel, while getting feedback about their recent energy levels and mood data displayed as a chart for their convenience.
+
+In UC WeCU
+Our fabulous student section is a great way for students to get to know all the resources they can access within UC, maybe getting support, talking to someone, or using our built in tips and hacks tile, which we developed with love to help people struggling with Stress, Seasonal Depression, Home Sickness, and Anxiety about exams. in WeCU we know that most students struggle with those topics and we're here to help the transition to be a college student, the hard winter or finals week, be easier to manage.",0
+"ScanAway - This App is called ScanAway. 
+
+ The Icon of the App is the QR code for GO-BEARCATS #Interesting Fact  
+
+Based on a location and type of place, a QR Code is generated for a given location. 
+The app scans the QR Code and allows you to inform the administrators about common energy issues you face.
+
+We have extended this app to include reporting issued faced in a restroom as well.",0
+"DryMerge - DryMerge lets people automate work with plain English. Say you want to manage inbound leads. Instead of dragging blocks or writing code, just tell DryMerge ""Whenever I get an email from a potential customer, add their details to a google sheet and draft a reachout message"" and watch it happen in seconds.
+
+Counterintuitively, 88% of no-code users are actually programmers. We're changing that by making automation as fast and intuitive as conversation. This opens up the market to all knowledge workers, not just technical ones, and expands it by an order of magnitude. ",1
+"PAX - PAX is a safe place for sharing thoughts and feelings with a supportive community and professionals, to be heard and healed.PAX allows users to anonymously and remotely talk about their issues in a safe neighborhood. 
+
+
+We plan on letting users connect with other users and share their problems and listen as a listener. 
+A person can always talk with our smart AI bot and get tips on mental health and self-improvement. 
+We also let people join in group sessions or directly book an appointment with a therapist or expert. This allows people from all around the world to access this resource and benefit themselves.
+-There are many features like meditation, 24/7 hotline service, goal tracker, 1-1 chatting, listener service, group chatting, etc.",0
+"Fluency - The Fluency is a lightweight app that will help analyze your communications. At any point, a user can choose to start or stop recording their audio. The audio file will then be securely transferred over to our back-end servers to analyze directly using ML models without any work on the user-end. Once the analysis is completed, users can see statistics such as their speaking rate, amount of unnecessary pauses, and other valuable, and sometimes unexpected data.",0
+"OpenInt - OpenInt helps teams ship product integrations in hours, not weeks, using no or low code. Read and write data using unified APIs or sync it straight to your database. ",1
+"Precip - Precip uses AI to make hyperlocal weather observations. We’re started with the most important dimension of weather: rain. For example, one of our customers uses Precip daily to make sure their heavy trucks won’t get stuck in muddy fields.
+
+Our highly rated mobile app is the best way to see rain and snow totals anywhere. 
+",1
+"eyeRoom - Using opencv, running on a raspberry pi with a webcam, we capture images of a room and determine the number of individuals in the room. The image of the room and the meta data is then pushed to a firebase server. A telegram bot can be used to access the server and report to users the status of the room.",0
+Visualizing Kuka 7 Node Robot Arm - Visualizing Kuka 7 Node Robot Arm is a web application hosted through WebGL that allows users to interactively visualize the movements of a Kuka 7 Node Robot Arm through the use of sliders. Users can adjust the angles of each joint and see how it affects the position of the end effector. The application also includes a variety of pre-built sequences that demonstrate the capabilities of the robot arm. The application is also able to interpret the CSV file provided by Kinetic Vision to create a moving visualization of the Kuka 7 Node Robot.,0
+"Granza Bio - Granza Bio is developing cancer therapeutics modelled from our body’s own immune system. Our therapeutics termed “attack particles” are engineered to specifically target only cancer cells, preventing any unwanted toxicity and adverse side effects. 
+
+Our attack particles have shown cancer-killing efficacy in brain (glioblastoma), ovarian, lung, and skin cancers. Our platform can also be deployed to target a great range of diseases including autoimmune diseases and infections.
+
+Interested to know more? Get in touch founders@granzabio.com!",1
+"Student Solution - It provides a platform to organize all of the study material, class links, syllabus, timing, teacher's name, etc. in one place. so, students didn't have to worry of arranging things. We will provide them this features.",0
+"Flair Health - We partner with infusion centers, pharmacies and sites of dispensing across the country to address the unique challenges of specialty medication billing, like tracking underpayments, appealing denials and timely refiling claims.
+
+Using our proprietary tech-driven tools, we streamline financial workflows for specialty pharmacies, infusion centers, and clinics, driving medication access for patients.",1
+Plutonomics - Plutonomics is a wealth management platform that uses anonymous consumer data to help users save money through retroactive data visualizations and proactive spending control. See where you are spending money at brick and mortar shops and find other retail locations near by. Consult 5uz3 Orman to see if you are approved or denied and curb your online impulse purchases.,0
+"EasyRefer - The project has the following features:
+
+
+Patients' records are maintained on the platform, sharing while referring to other hospitals.
+Referring patients to other hospitals will be seamless.
+The hospitals have a way to connect.
+The patient will be intimated on two occasions (through Twilio API). One, when the patient is registered by a hospital, and another one, when the patient's referral request is accepted by the other hospital.
+When the hospital will make a referral request, then all the related test reports of that patient will be forwarded as an attachment along with the email. So, every hospital will be receiving the referral requests in the form of an email. 
+Every hospital will be having a statistics page that will be having every referral log. The referral log can have three states which are as follows:
+
+
+a. Accepted (A): If the referred patient has been accepted
+
+b. Rejected (R): If the referred patient has been rejected
+
+c. Pending (P): If the referral is still pending i.e. the referred-to hospital has not responded to the request",0
+Vitamin-Cynth - It allows you to play music with a fruit-based keyboard.,0
+"Vitreous - Vitreous is a zoom-like platform that incorporates ocular tracking of its participants(students) and rewards engagement during online lectures. Aiming to encourage in-class engagement, Vitreous incentivizes focus and engagement during lectures by tracking students' line of sight. When a students sight Is aimed at an assigned pinpoint in the instructors presentation, the students participation is tracked, and points are added to their running participation grade for extra credit. Instructors also have the ability to add pinpoints to specific areas within their presentation. Rather than forcing students to use this feature, Vitreous allows students to toggle the focal feature on or off. By opting to have the feature on and focusing on the presentation, students are awarded extra credit on their participation grades.",0
+"Polynous - It allows you to specify a git-repository to clone and then creates a workspace from cloning the git-repo.
+At the moment it allows you view the project directory as well as open files.
+
+Planned for it is the ability to edit the files as well as commit files to the cloned git-repo.",0
+CollegeFinder - This prototype allows a student or someone interested in college to find colleges in any state and within their budget (with more search criteria to come),0
+"Nectar - Nectar helps large companies collect carbon emissions data for mandatory disclosures. Over 50,000 companies today are required to collect utility data for upcoming regulations in the US/EU. Sustainability teams manually parse the data, a process that takes 100M work hours annually, requires expensive audits, and results in inaccurate metrics. Nectar automatically extracts, structures, and inputs this data into companies' existing systems.",1
+"FlowiseAI - Flowise uses low-code approach that enable developers to manage the whole lifecycle of building LLMs apps in production. From protoyping, evaluation, to iterations.",1
+"while(i<= 6Â°) { friend = friendOfFriend } - We use Samsung's GearVR to access the augmented reality to identify in real-time how the person is related to you. It also shows the shortest path of your connection (example : friend of a mutual friend). It scans the environment and calls the machine learning API for facial recognition. Which maps the person to the database collected from popular social networks like LinkedIn, Instagram, Facebook to say how they are related to you.",0
+Otaku Outages - It monitors the top Anime Streaming sites and displays easy to digest information on the current status of their site.,0
+"Artie - Artie is software that streams data from databases to data warehouses in real-time. Today, most companies run their ETL process every few hours or overnight, so their data warehouse is always out of date; with Artie, the warehouse always has live production data.",1
+"Printer Pal (860B3) - Our project makes teachers' lives easier by removing the need for teachers to walk all the way to the secretary's office whenever the printer is down. This allows teachers to be more productive by spending that time focusing on their students and their lesson plans. There are 5 printers in Hughes High School and each printer would have it's own Dash button.  When the button is pressed a special message denoting which button was pressed and how it was pressed would be sent to the recipient. In this case, the recipient is the secretary at Hughes High School, but in other cases it may be the building's services manager or inventory manager.
+
+Short = Printer is jammed
+
+Long = Printer is out of ink
+
+Double = Printer is out of paper",0
+"CraftOS - CraftOS is how wineries track and sell their wine. 83% of wine production in the US comes from small batch wineries, we provide inventory tracking and POS tools for them.",1
+"tone In - We created tone In, a Slack application that uses machine learning and data collection to educate users on the tone of their work and personal environments. By analyzing the tone of each message in a channel using OpenAI's ""davinci"" model, tone In provides users with real-time feedback on their message's formality and professionalism. It also measures each message against an overall channel tone or a tone value assigned by an administrator to ensure consistency.",0
+"Technical Interviewer - We are using Alexa skills to ask the technical questions, which will be hard coded using Node.js. For example, we have 100 applicants selected through ATS. The first level of interview will be conducted through Alexa. This saves the time for both Technical as well as HR recruiter. We are using Dynamo DB to store the results from Alexa and IBM Watson will be used to process the results which can filter the top students accordingly.",0
+"Habit Hammer - You can sign up, log in, and log out using Firebase authentication, and see a list of sample habits.",0
+"Stock Extension - At this time, it takes a user-inputted stock ticker and then returns current stock information in a popup Google Chrome extension.",0
+"rAI - My personal philosophy is I don't build things I don't use. The app visualize and dynamically build ML architectures on the spot by changing parameters on the sidebar. It will also train the model against the MNIST dataset, and allow the user to enter their own input in after the training is complete. So basically, it helps people interface with and better understand neural networks. As a person who is coming back to ML like me, it is very helpful to see the subtle inner workings of activation functions or how hidden layers change the game.",0
+"GovEagle - GovEagle is building an AI RFP automation platform for medium to large government contractors. Using GovEagle, contractors have been able to submit more proposals without compromising quality. ",1
+"issen - issen is an AI conversational language app that helps you become fluent. Your on-demand voice tutor is personal to you, adapting lessons and chats to your particular interests, learning style, and goals.
+
+Our mission is to transform language learning by offering a level of connection, effectiveness and fun that, until now, only human teachers could provide.",1
+"OpenFund - OpenFund is a platform where anyone can come to make their financial goals real, and use open source investing algorithms to make financial independence attainable.",0
+"Paasa - Paasa is the global investing platform for aspiring HNIs in emerging markets.
+
+HNIs in countries like India want to diversify their wealth internationally. Saving their wealth in a depreciating currency puts them at risk in a global context. However, most customers still hesitate due to lack of guidance on capital controls, tax laws that change every year, and slow outflows from local banks.
+
+Paasa streamlines this - thus empowering HNIs to save for their child's education, spend overseas confidently, and build generational wealth in a stable currency.
+",1
+"The Covid Dashboard - do
+
+This dashboard displays covid data, vaccinations, and economic insights. Provides visual data and can provide information on each state.",0
+Dragon and Fairy (DaF) - This project is a self-learning-and-challenging experience with data analysis and visualization.,0
+"moonrepo - moonrepo is a developer tool that reduces build/test/deploy times, and maintenance costs for companies. We’ve achieved this through moon, our open source build system and repository management tool. moon can be paired with moonbase, our paid service that provides cloud caching, CI insights, code ownership, and health score related metrics. The company is founded by Miles Johnson and James Pozdena who have a combined 25+ years in the software development industry with tenure at Airbnb and Coinbase.",1
+"Alexa twister game - Alexa generates the basic instructions required for the popular multiplayer game Twister. This skill set can be opened using the prompt Ask Twister Game, and should be followed by the total number of players playing. Sample prompt: ""Alexa, Ask Twister Game 5"". The code then generates a random instruction; ""Player 1 place your left hand on blue color"", where the player number, direction, body part, and color are randomized by the software. As a bonus we have also added special sound effects to simulate a real spinning board.",0
+UC_bearcats_lung_cancer_study - We proposed to analyse spatial pattern.,0
+"Zigma - by NextUI - We began with an open-source library for React developers that enables them to create beautiful and accessible interfaces (NextUI). We are now building Zigma a complete frontend-as-a-service platform to make building the frontend part of products easier, allowing teams to focus more on their product and less on design systems and frontend complexities (zigma.io).",1
+"Chelper - Right from the creation of the server, Chelper guides teachers through the configuration, there is almost no actions needed from the teacher. Here's what we implemented
+
+
+When students will join the Discord, it will ask them for their student ID to verify them, rename them to their real name and assign them the right role to give them permissions to what they need. This way, no more Discord raid!
+Teachers can give assignments with a due date and students will be able to submit their hard work directly to the bot, in his direct messages which will redirect it only to the teacher. 
+Teachers are able to start online class at any moment, which opens the voice channel for the students to join",0
+"Navier AI - Navier AI is making CFD 1000x faster with their ML-based solver.
+
+
+Physics simulations, such as Computational Fluid Dynamics (CFD), are essential across many industries ranging from the design and analysis of aircraft, to weather prediction, to the development of medical devices. Today’s simulation tools use explicit numerical solvers for physical equations, such as the Naiver-Stokes equations. These solvers are complex to setup and can take ages to produce results.
+
+
+Navier AI is building 1000x faster simulations using physics-ML solvers. Navier AI's fast CFD platform will enable engineers to quickly explore design spaces and perform analysis-in-the-loop design optimization. They are lowering the barrier to entry for aerospace and mechanical engineers to create high performance designs.",1
+"autoLift - The user wears a Myo armband which connects to a phone via Bluetooth. By clenching a fist or grabbing a barbell / dumbbell, one would initialize the rep counting mode. Once the grip is released, the app returns the number of reps completed in the set.",0
+"Pipeshift - Pipeshift is the ""Vercel for open-source LLMs"", offering a platform for finetuning, distilling, and inferencing open-source LLMs for engineering teams to get to production with their LLMs 10x faster. With Pipeshift, companies making >1000 calls/day on frontier LLMs can use their data and logs to replace GPT/Claude in production with specialized LLMs that offer higher accuracy, lower latencies, and model ownership.
+
+We are experts in LLMs, having scaled LLMs to 1000s of users in 2023. That's when we saw the massive drawbacks of closed-source LLMs in production, making us start Pipeshift. We met 6 years back as roommates during undergrad, and before starting Pipeshift, we led a defense robotics non-profit backed by NVIDIA and built a health-tech startup.
+
+The shift to AI is like the shift to the cloud, every company is going to implement AI. And, open-source AI will be as good as closed-source AI. Meta's Llama 3.1 models prove that. But, the open-source AI stack is a complete mess, with companies needing a team of engineers to set up 10+ different tools just to get started and every optimization needs countless engineering hours.
+
+Pipeshift offers this stack out of the box. With our fine-tuning + distilling platform and one-click deployment stack for hosting these LLMs, we ensure 10x faster experimentation cycles and time-to-production. Think ""Vercel for open-source LLMs"".",1
+"Skillscapade - Users can create an account using Google and view the profile page. 
+Users can access some courses that are already made by creators, and collect points.",0
+"FurtherAI - FurtherAI is building a workforce of AI Teammates for the insurance industry to handle repetitive manual tasks involving unstructured data processing and data entry across disjointed systems. Our first AI Teammate handles quote generation workflows for insurance brokers & MGAs.
+",1
+"Upsolve AI - Upsolve AI is a customer-facing analytics as a service platform. We are building a full data stack that enables businesses to build and offer analytics to their customers at lightning speed and gives their customers the superpower to answer any data questions via AI. The company is founded by Ka Ling Wu and Serguei Balanovich, who built a similar product at Palantir before (featured in Palantir's S-1), growing it to 50+ enterprise customers and 8-figures of annual revenue in 2 years.",1
+"Luthor - One-click AI content generators have flooded the market with low-quality, cookie-cutter content. This makes it harder for brands that truly care to stand out. At Luthor we offer on-brand content that your readers will actually love to read. Our AI handles repetitive tasks like keyword research and data gathering, then creates the first draft. From there, we bring in domain experts and skilled writers to refine the content to fit your industry and adhere to your unique brand voice.
+ 
+At Luthor we're taking back the internet and humanizing it one blog at a time.
+
+",1
+"Pair AI - Pair AI is Shopify for knowledge products. We empower creators, educators, and experts to launch addicting mobile-first video courses and provide AI-assisted coaching services at scale. Our platform is a one-stop shop to seamlessly monetize what you know! We make learning as fun and engaging as watching a TikTok.",1
+"FastCheckOut - Our app gives user faster checkout options when shopping in-store. This application retains the fun of shopping in-store with the fast checkout convenience of online shopping.
+When you are shopping for items, you can right away scan those and add them to your cart. After completing the cart, the app generate a QRCode for you. You can directly scan it at the POS to enable payment.
+Our app provides ease of use, as it does not require login or other hassles of adding items manually.",0
+"Get High Don't Die - In the Information Age, wouldn't it be nice if you could use your own data for more than just Netflix movie recommendations?
+
+Get High Don't Die is a service that allows users to track their adherence and frequency of drug usage, as well as keep track of any negative side effects they've experienced. By cross referencing the data from the other users and your own records, we can discover new drug interactions and provide increasingly personalized drug recommendations. In addition, our integration with the FDA's adverse drug event reporting system allows us a source of original truth when making recommendations to users.",0
+"Mantys - Mantys helps SaaS companies calculate and forecast their ARR accurately in real time without using multiple spreadsheets. For example, NextBillion uses Mantys to pull data from HubSpot and Chargebee and create real-time views of their Contracted ARR, Billed ARR, Churn, and forecasted ARR",1
+"Tiptap - Tiptap is a suite of open source content editing and real-time collaboration tools for developers building apps like Notion or Google Docs. It’s used by thousands of businesses worldwide, including LinkedIn, GitLab, Axios, and Anthropic.",1
+"OBLIVISCOR - This hackathon I valued my own learning over the capabilities of the hack itself, so the impact is lower this semester. OBLIVISCOR runs from the first awareness of the main character, to the inevitable end. It has two different choices, and two different endings depending on the decisions you make. It is an application, so there are visuals as well.",0
+"Envelope - Envelope is a banking app with built-in budgeting. It's similar to Mint, Copilot, or Rocket Money, but our app issues you a checking account during onboarding so there's no syncing or flaky bank connections. We are structured to be the primary checking and savings account for our users.
+
+
+
+We (Josh and Katelyn) are married cofounders who previously worked on Apple Card and the Robinhood iOS app. We started Envelope because we were using clunky tools like the Chase app, spreadsheets, and Mint to run our family finances and realized we could do it better.
+
+
+
+In the future, you could go set up a Chase account for checking, E-Trade for investing, SoFi for savings, Ally for money market, Greenlight for kid cards, PLUS the Mint/YNAB/Rocket Money to glue it all together + budgeting, or you could just use Envelope.
+
+
+
+
+_Envelope Money is a financial technology company and is not a bank. Banking services provided by Pacific West Bank, Member FDIC. Your funds are FDIC insured up to $250,000 through Pacific West Bank, Member FDIC. The Envelope Money Visa® Debit Card is issued by Pacific West Bank, N.A. pursuant to a license from Visa U.S.A. Inc. and may be used anywhere Visa cards are accepted._",1
+"Friday - Email sucks. It takes forever to go through, and hiring an assistant is costly and invasive. Friday is building the assistant that learns how to predict the action that you will take on your emails, and does it for you.
+
+Today's email products try to help you go through your emails a little faster, but if you have to get through 1000 emails, those products doesn't do much for you. 
+
+The reality is, most of the emails you get don't require you to personally look at them. Friday completely eliminates the need to check those emails, and handles them all at once for you, immediately. 
+
+Friday is here to file away spam, sift through newsletters for important tidbits, text you important notifications, and reply to mundane emails, so that no matter how many thousands of emails are in your inbox, you'll just be left with the few emails that actually require your personal touch.
+
+Getting this right is difficult, so everyone else settles with trying to help you go through your email twice as fast. If you want to go 100x as fast, you shouldn't spend even a second on useless emails. 
+
+Friday gets this right, bringing the elite experience of having a professional assistant to the entire world.",1
+Hot Wheels  - /,0
+"Melody Player - The coded program uses 6 piezo buzzers to play melodies from various recognizable tunes. The base shield provides digital pin connections for the buzzers and button; and an I2C pin connection for the LCD. In this program, a song is selected (at this time, the others must be commented out), and a brief melody is played through the buzzers when the button is pressed. In addition, the LCD displays the song title",0
+"VR Planetarium - VR Planetarium puts the user onboard a ship similar to Cosmos's Ship of The Imagination, in which physical laws such as the speed of light are transcended for the sake of intellectual exploration.",0
+"BiteSight - BiteSight shows users videos of food we think they will love from nearby restaurants and delivers it right to their door. 
+
+Zac and Lucious studied together at UT Austin. Zac did CS and AI Research, and Lucious built his first $1M ARR product while moonlighting at a YC startup at age 19.
+
+Since launching the beta in February, BiteSight has onboarded 274 restaurants in SF, handled 211 orders, and users are growing more than 50% each week, all organically.
+
+UberEats and DoorDash have become cluttered and impersonal super apps. They've created a $30B opportunity for a delivery app that puts the customer experience first by combining high-quality videos, recommendations, and social proof from your most trusted food critics - your friends.",1
+"Guardian AI - Guardian is an AI platform to help healthcare providers (hospitals, MSOs, physician groups) fight denials and address unpaid claims. Providers deploy Guardian to:
+
+1. Detect emerging patterns in payer reimbursements
+2. Automate the diagnosis and resolution of unpaid claims and denials
+
+Our founding team ran AI revenue cycle programs at Mount Sinai, NYC Health+Hospitals, and several other large health systems at Palantir, generating millions of dollars per hospital while eliminating hundreds of hours of work.",1
+"MagnaPlay - MagnaPlay is game translation simplified into SAAS. Every game needs to be translated - a process which currently consists of finding freelancers, verifying their quality, negotiating prices, building contracts and waiting months for them to deliver. 
+
+With MagnaPlay, game developers cut out the middleman and get results 5x faster, at half the price and with more reliable quality. Our combination of AI, expert translators and SAAS fully integrates translation into the gamedev workflow, ensuring games are translated and reach the worldwide audiences that love them so much.",1
+"Book My Music - Our website allows you to purchase items under three categories - 
+Create Music -  Instruments
+Cherish Music - Record labels
+Experience Music - Accessories",0
+"FleetWorks - FleetWorks automates the 2B phone calls and emails that the freight industry makes every year. We use voice synthesis, generative AI, and integrations with logistics systems to solve the largest cost in this industry - people. 
+
+
+When Uber Freight needs to ship a truckload of Coca-Cola going from Phoenix to Bentonville. They can use FleetWorks to call the driver to get an ETA, alert the receiver and shipper that the driver is running late, and reschedule the appointment - all with automated text messages, phone calls, and emails.",1
+Tweeter - Allows a user to specify a list of Twitter hashtags. Any tweet with a specified hashtag will then be read aloud via speech synthesis software.,0
+"Openmart - Openmart is the GTM platform for reaching local business owners. Think of us like Apollo/ZoomInfo but for local business/POI data. We help sales professionals query millions of unstructured local business data like local government filings, websites, reviews and socials",1
+"BearChat - The BearChat has several features, some of which are:
+
+Campus Navigation: BearChat helps students navigate the campus by providing directions to buildings, classrooms, and offices. It can also suggest the best route to take based on the student's location.
+
+Campus Services: The voice assistant could provide information about various campus services such as the library, counseling center, health center, and career center. It could also help students schedule appointments or connect with the appropriate staff.
+
+Campus Events: BearChat can keep students informed about upcoming campus events such as concerts, lectures, and workshops. It could also suggest events that may be of interest to the student based on their preferences.
+
+Therapy Suggestions: During stressful times, BearChat can suggest resources for mental health and well-being. For example, it could recommend therapy sessions or mindfulness exercises.
+
+Weather Information: BearChat can provide students with up-to-date weather information such as the temperature, humidity, and precipitation forecast for the day.
+
+Music Streaming: BearChat can play music for students, either by suggesting a playlist or artist, or by playing the student's preferred genre or style of music.
+
+Personalized Recommendations: Over time, BearChat learn the student's preferences and suggest personalized recommendations for campus services, events, and activities.",0
+"Moreta - At Moreta, we simplify payments for international travelers, letting you pay for anything using just your phone. Say goodbye to the hassle of searching for the best cash exchange rates or ATMs on your next trip. With Moreta, paying local merchants is easy, and the best part? Transparent fees.
+
+We came up with Moreta while on our own backpacking adventures. Watching locals pay with a simple scan while we fumbled with cards and cash. So, we created a solution. By syncing with local payment networks, Moreta lets you pay like a local—securely and digitally—without needing a bank account in every country.
+
+We’re starting in Asia, where QR code digital wallets are taking over and are now the top choice at checkout. As these wallets start to join forces for cross-border payments, Moreta will be the first to bridge the gap for international travelers from card-centric markets to seamlessly tap into these local networks. Moreta will target 67 million travelers arriving in the region each year, who together have $127 billion in everyday expenditure.",1
+"Wattson Health - Medication errors cost the healthcare industry $40 billion each year, the largest contributor being the manual processes employed by pharmacies. Wattson Health's automation platform integrates with pharmacies' existing systems and enables them to fill prescriptions error-free in a matter of seconds vs. hours or even days.",1
+"LimitLess - Our Calculus app - Limitless - has a variety of functions to help the average Calculus student excel in learning this beautiful math. Firstly the most important thing to do to excel in anything, especially something as difficult as understanding Calculus, is practice - our app makes it so that you get a daily reminder from text or email to do at least 1 practice problem a day which over time drastically improves your skill. Another thing that we have is that our practice problems are adaptive, meaning if you get them right they will get harder over time - which overall helps you become better. Another functionality our app has is that it has bite-sized info on how to solve derivatives and integrals using different techniques - power rule for derivatives or U-sub for integrals etc.
+##",0
+"UC Monopoly - We couldn't fit all the features of Monopoly in our time frame, but you can buy and pay rent on other property and you can go to jail. We spent a lot of time working on our meshes and 3D modeling and we are proud on how it came out.",0
+"Fanua  - We built a mobile application that connects fellow investors who are interested in co-investing in properties. Through our messaging system and property search filters, users are able to locate and invest in properties with ease, as well as contact fellow investors on the application. Users can also use the data visualization to see trends in the housing market and property price predictions. Using these features, users can determine when the appropriate time to buy a property is in a certain region or county.",0
+Algorithm Minesweeper - Attempts to logically find mines and clear a minesweeper level,0
+"Truewind - Truewind (YC W23) is AI-powered bookkeeping and finance software for startups. Using GPT-3, Truewind captures the business context that only founders have, making accounting easier and more accurate. Through a combination of AI and concierge service, Truewind delivers a delightful financial back office experience, that includes:
+
++ Reliable bookkeeping with less errors
++ Detailed financial models
++ Built exclusively for startups
++ Fast, responsive expertise",1
+"PollMe - Anyone can set up an account to put out polls in a class or meeting; the attendees just have to send a text to the app's phone number with a header to identify the class section and poll. The presenter then can see real-time results of how attendees answered. Similarly, if someone has a question, instead of having to raise their hand and ask it in front of a large group of people, they can send a text with a header identifying the class section or meeting, and the professor can receive that real-time.",0
+"Cara - Cara is simple - it's a service that offers a drop-in solution for facial authentication. Any app or website can incorporate Cara into their service with ease - all the difficult bits are abstracted away by the robust yet secure technology hiding behind Cara's servers. The idea is to bring the power of this new technology to everyone - from aspiring startups trying to get their products off the ground to freelance developers looking for a way to differentiate themselves from the crowd. In order to prove Cara's widespread applications, we built a series of demos incorporating Cara in different aspects, proving its worth within the family, the education system, and the industry at large.
+
+Family
+
+Dementia and Alzheimer's are terrible to experience - both as the victim and his/her family. Though Cara can't solve major breakthroughs in medical technology, we can help mitigate the memory-related symptoms of these diseases. Cara can be used on AR devices to help patients of dementia or Alzheimer's remember who they're talking to. With the press of a button, Cara will recognize the person in front of you and pull up helpful information about them - such as their name, the last time you've seen them, and where they work. With the power of technology, we can transform the last moments of our elders into memorable experiences rather than painful ones.
+
+Education
+
+""Can anyone tell me who's absent today?"" - a common question repeated across the world every morning in thousands of high school classrooms, Cara can solve this too. Using a simple camera setup in front of every classroom doorway, taking attendance manually becomes a relic of the past. As students filter into the classroom, all they have to do to be marked ""present"" is to tap a screen and wait to be recognized. However, Cara extends beyond simple attendance taking - with a curious mix of psychology and technology, Cara can recognize the emotions permeating a face. In combination with observing facial angles, Cara makes it possible to tell who's paying attention in class - and how they're feeling about it. Teachers can use this feedback to improve their lessons, as well as watch out for under-performing students.
+
+Industry
+
+Lastly, we decided to tackle a problem in the industry - the slowness of employee clock systems. Swiping a time-card or scanning a tag is boring - facial recognition is cool. With Cara, these systems can be easily replaced to be quick and painless. Times are automatically logged between clock-ins and clock-outs, ensuring the integrity of both employees and managers.",0
+"Hyperbound - Hyperbound is a simulated AI sales roleplay platform that turns ICP descriptions into interactive AI buyers in less than 2 minutes. It helps your sales team onboard 50% faster and boosts your team's conversions on cold, warm, & discovery calls.
+
+Every sales team wants to do more roleplays, but it's often unscalable and biased. Instead of having your sellers practice on real prospects and burn leads in the process, Hyperbound allows your reps to get realistic at-bats with an AI buyer. Sellers can finally gain call confidence and mastery in a simulated environment that doesn't put your pipeline at risk and gives time back to your managers. 
+
+Interested in trying it out today? Start a free demo simulation at https://app.hyperbound.ai/buyers?invite=bookface and contact us at founders@hyperbound.ai for next steps. ",1
+"Trust Skin - Initially, our website will use an AI-powered model to provide potential customers with a simple explanation of the ingredients they inputted. The AI-powered model used here has been trained with reliable sources of information. Training and using AI on our website is necessary because skincare ingredients are innovated daily, and updating and tracking each ingredient individually is problematic. Thus, by using AI, the input ingredients can be explained thoroughly and accurately. 
+Furthermore, our website will attract potential customers who want to explore and treat their skin radically. Our website will partner with many local dermatologists and clinics specializing in various aspects of skin. After placing their order with questionnaires, customers will be classified, and the AI model will choose the best-fit clinic and dermatologist. There were 4 stages in the process: assigned take-home skin testing, collected sample, analyzing sample, and doctor approval. Besides these services included in the order, the customer can also have further assistance with our AI model skincare ingredient recommendation to maintain their improved skin condition after treatment.",0
+"Maxland - Maxland aims to give suggestions on what type of housing to place on the land in order to maximize residential use of the land.   This will help encourage the developmental use of the land and get more people in homes.  It displays the different types of homes with data points on the map, the value it has, and a suggested housing type improvement.",0
+"Crash Buddy - We have embedded piezo-sensors, an accelerometer, a GPS module and NodeMCU into a motorcycle jacket. When the driver meets with an accident(whether they are hit or fall down), the piezo-sensors are activated which in turn activates the GPS module which then relays the location of the rider to Google Firebase and displays the location on a website for easy access by the Emergency services.",0
+"hr-connect - It is feedback form collected from the employee and managers by HR to review the productivity, what are the next steps involved in the employee's career and personal life. It also helps the company to maintain a healthy culture and constanst improvement",0
+"Reddit digest bot - It just emails the users the top posts from the subreddits
+The user has to PM the email and the subreddits to a reddit account (badolaay) with semicolon ';' as delimiter
+For example: abc@mail.com;programming;askreddit",0
+Java Raycasting Engine - Simulates 2d scene and raycasts from the player/camera over many angles in their field of view. Uses the distances from the player to determine how tall the wall should be at that x-coordinate.,0
+Flappy Bird Clone - It plays the game flappy bird,0
+"Prescription Tracker - Prescription Tracker?
+
+It creates an interface for the doctor and another interface for the user. Both login using the same application with an option for the doctor to log in as a doctor and the patient as a patient on the startup page.",0
+David AI - ,1
+"ParcelBio - ParcelBio is developing a programmable technology to safely and specifically deliver mRNA to diverse cell types in the body. Our proprietary (nanoparticle-free) technology, which we call ‘STAmP’, stabilizes the mRNA and utilizes an interchangeable, lock-and-key-like targeting mechanism which enables fully customizable mRNA medicines.",1
+knowledge kiosk - You enter a word and it outputs a definition for it (want to add much more but 24 hours is not nearly enough time to implement everything that we want to add),0
+"Outerport - Outerport lets companies use their GPUs more efficiently by making it easy for them to be swapped from task to task. Just like how VMWare made it easy to put multiple users on a single server machine, we make it easy to put multiple AI models on a single GPU. Rather than having separate sets of GPUs for each task, you can buy less GPUs and make better use of it.
+
+Hot swap foundation model weights instantly, minimize cold starts, scale horizontally, maintain version control, secure your models on a central registry, perform A/B tests, and save 40% on GPU costs. ",1
+"Pointwise - People spend hours on blogs and YouTube searching for the best credit card. Pointwise makes it easy to know which credit cards to get over time by analyzing your spending patterns and long term goals
+",1
+Unboxel VR - We built an interactive VR game. Players are placed into a VR space containing a 3D object hidden under a grid of boxes. The boxes randomly disappear. The goal is to guess what the object is with as many blocks left as possible. Players guess by simply talking out loud!,0
+"GifBot - GifBot uses a webcam to capture a live frame of the user's facial expression to determine their emotion, then it returns a viewable gif that reflects that emotion.",0
+"Foundation - Foundation is the buyer experience platform for homebuilders. By bringing the new home shopping, purchase, and ownership experience online, Foundation helps homebuilders sell more homes, more profitably, to happier customers.",1
+"VCare - VCare solution aids to constantly monitor a patients health condition and performs the following actions during an emergency:
+1) alerts the hospital staff using a voice assistant
+2) sends an SMS alert to the physician
+
+The solution also provide a real-time data monitoring using smart charts and graphs.",0
+" Intelligent Andro Blue Public Safety - In Emergency a PC Server with bluetooth connecitivity will send alerts to all the nearby bluetooth devices with app 
+ Intelligent Andro Blue Public Safety.All those devices will act as both server and client.They receive those alerts and will send once again to all the devices near to them.Thus alerts will be sent on stable network.",0
+"Redouble AI - Redouble AI is the solution to scale human-in-the-loop for AI workflows in regulated industries. Instead of having to rely on slow and expensive human reviewers, Redouble’s clients save 80% of staff costs and significantly improve the accuracy and quality of their outputs by integrating our tool into their workflows. Addressing an $11BN market, the company is already generating revenue with its first set of clients. The founders are two serial entrepreneurs (who have built successful companies in AI and health-tech respectively) and a data engineering veteran who has written more than 120 enterprise-grade software applications.",1
+"Spring to Life - The app is a welcoming place, specifically for senior citizens. It is designed to motivate members to interact and maintain or progress their physical, cognitive, and social skills. A group leader can for their closed group, which supplies a safe haven for those within. With senior citizens being a primary",0
+ISS Tracker - Our project request's the user's precise location to display on a map along with the current location of the International Space Station.,0
+"Srcbook - Srcbook is an open-source TypeScript notebook for rapid prototyping, learning, and internal tooling.
+
+We believe that in 2024 there is still no productive prototyping environment for JS/TS. Python has Jupyter and streamlit, but what about TypeScript which is largely the language de facto of product teams? Srcbook is the solution to this tooling gap.
+
+Whether you are prototyping node code, exploring libraries, sharing ideas with your team, building agents, or running evals, srcbook is the best tool for you and your team.
+
+We're an open-source company and our vision is to make it dead easy to iterate on ideas and even deploy mini-apps to production incredibly easily.",1
+"Bad-Tempered Bee - A light sensor inside the cardboard housing allows the bee to detect for very bright light or not. When there is not enough light, the bee becomes angry and this is indicated by the glowing red eye and the sound it produces. The buzzer is very quiet so there is a red indicator LED for when it is on.",0
+"Busy Bees - Busy Bees is an interactive education platform that allows users to learn new words, solve math problems and learn new concepts with explanations appropriate to their age groups.",0
+Open Banking API creation challenge by 5/3th Bank - Creates specific API with limited access for the 3rd party application,0
+RPGBOT - - Runs a DND style text adventure via a groupme bot in user's desired groupme chat,0
+"Voker - Voker is a no-code platform that empowers product teams to build AI features in minutes without involving engineers. Companies like Lull.com and Dutch.com are using our platform to improve their consumer experience and retention.
+
+Alex and Tyler met at a high-growth E-Commerce startup where Tyler was running Technology & Data. Together, they built AI products that bootstrapped the company profitably to $100MM in Revenue.
+
+Alex experienced firsthand the broken developer experience in AI while building enterprise infrastructure at Yardi. Even with a dedicated ML team, it took too much time to build simple AI features. It was clear that if large companies were struggling with this, SMBs would definitely be left behind. We went directly to our network of SMB operators and found our hunch was correct. Within a week we had two paying customers even before launching our first prototype.
+
+Voker is built for product specialists who know they can delight their users with AI but can't spend engineering bandwidth on building those features. By making AI accessible and practical, Voker helps these businesses profit from this new wave of innovation. ",1
+"Spaceship Escape Room - Gameplay
+
+This project is an online multiplayer Unity3D game where players work together to stabilize their spaceship which has been damaged by asteroids. Users have a very limited amount of time to fix the ship before they run out of oxygen, and have to use problem-solving skills and teamwork to make sure they succeed!",0
+"Barking Up The Pong Tree - A real life Pong platform is projected onto a surface of your choice, and you can control the paddle by moving your phone. Aim the ball at the power-ups to get cool stuff.",0
+"Therapy Hack - The user enters their information like name, gender, address etc in a form which will be added to the patient database
+The Questionnaire will ask the user a series of questions to know more about what they're going through
+Then, the user uploads a video elaborating on themselves, which is then analyzed using Convolutional Neural Networks (CNN) and Vision API to detect the user's visual and vocal emotions
+The user's audio is converted to text and the CNN performs sentiment analysis which outputs the likelihood of their emotions
+The user's visual is analyzed by the Vision API to detect key facial landmarks to detect emotions like Happy, Sad, Surprised, Angry
+A scheduling algorithm in Python sorts the doctors and patients depending on the user's address provided and gives the user a list of available doctors",0
+"Clide, the art bot - Clide carefully decides which stroke of the paint brush to make next using a complex decision-making algorithm. (random number generator)",0
+"TransitU - Allows the commuting student to enter their class schedule, and finds the optimal time to leave using live, webscraped bus data with the Live Shuttle Tracker (https://uc.transloc.com/).",0
+"SPRX - SPRX uses AI to prepare corporate R&D tax credits.
+
+With our technology, anyone can prepare an R&D Tax Credit accurately and fast. To provide some background, the R&D Credit is often cited as the most complex and audited tax credit in the United States. With that in mind, we set out to create software to achieve two primary objectives:
+
+1. Ensure that any credit computed with our software is exactly what the IRS is asking for in terms of quality.
+
+2. Democratize the ability to perform high quality R&D Credit studies extremely fast.",1
+"InvestX - So thatâ€™s how we built InvestX, a platform that allows millenials to easily find and invest in companies based on the issue they care about. We aggregates realtime stock data along with articles about the impacts a company has on the world to determine the metrics score based on their preference.
+
+So",0
+"EquationQuest - This game allows the user to practice math problems by through various different game modes.
+
+
+Focus mode: Practice questions of a specific level
+High Score mode: Try and get the highest score possible
+Time attack: Answer as many questions as possible in 30 seconds.",0
+"Social Stock - Social Stock uses the Twitter API and a sentiment analysis program that allows us to look at hundreds of tweets and find the sentiment of each tweet. From that, I was able to graph these points to show the users the overall analysis of the stock.",0
+"Secure Drawer - Our security drawer has many features to protect your stuff.  We have it locked with a servo.  If your phone is near the device (within a foot or two), it will automatically unlock the drawer and you can open it with ease.
+
+However, if you are NOT an authorized user, the drawer will be locked.  If you try to pick up the box, an alarm to go off and there will be red lights flashing!  This will scare anyone trying to take the box.",0
+"Pigeon - Pigeon makes it easy for businesses to collect documents from their clients. Instead of having to make client portal accounts or create new Dropbox folders every time you need documents, with Pigeon you can send an itemized upload checklist in a few clicks.",1
+"Soff - Soff is a supply chain OS for manufacturing companies. We unify supply chain data and automate core workflows, such as data entry, requesting quotes, comparing quotes, and issuing purchase orders. Our customers save dozens of hours a week spent on repetitive manual tasks.",1
+Nanohack - It captures the idea and theme of a hackathon and presents it in a fun adventure that anyone can enjoy!,0
+"Voctract - The goal is to have an app where two people can agree to record and sign a verbal contract. 
+A Speech-to-Text API converts the audio to a legal document with digital signatures. 
+The idea is to have this as a handy tool like POS devices.",0
+"Formula Insight - Formula Insight offers Institutional Investors previously inaccessible data. We provide a central repository of financial models so investors can track changes to forecasts, quantify projection accuracy and expedite analysis.  This further systematizes the investment process and enables better investment decisions.",1
+"Nowadays - Nowadays is an AI copilot that automates the boring parts of planning corporate events. For example, our AI can contact venues by email and phone to get availability, deal with back-and-forth negotiations, and present the best options.",1
+"Corgea - Corgea helps companies fix vulnerable code quicker, and save 80% of the engineering cost & time in fixing these issues. It does this by using AI to write code fixes and issues pull-requests for your engineers to approve. You can see examples of real fixes here: demo.corgea.com. ",1
+"Conduit - Conduit–OpenTable for warehouses–makes software for warehouses to automate scheduling with truckers. Every day, hundreds of thousands of warehouses have trucks waiting in lines because scheduling and check in is currently done with email, spreadsheets and paper. Conduit automates these processes to help trucks get in and out faster and warehouses get products in and out faster. 
+
+Conduit is easy to integrate with shipper transportation and warehouse management systems, as well as carrier and broker systems. ",1
+"Bob - You could strike a conversation with the bot and while at it, you could set up reminder and when the time come Bob gonna remind you about it along with the locations, attachment you have for it.",0
+GreenLight - :  GreenLight will allow a veteran to anonymously enter their zipcode and find not only available resources but also give them a contact to reach out to in order to expedite the veteran getting the help they need.,0
+Decisional AI - Decisional is building an AI Financial Analyst for Private Market Investors that pulls information from public and private data sources. Financial Services firms like LTV Capital use our AI Agent to gain superhuman abilities like gleaning insights from thousands of data rooms or documents & magically modelling spreadsheets in seconds,1
+"Apriora - Apriora conducts live interviews with an AI recruiter. Companies use us to get the best hiring signal on their applicant pool and hire in a fraction of the time.
+Our AI recruiter has a live conversation over a video call with each of your candidates based on the interview questions you choose or that are recommended based on the job description. During the interview, our AI asks personalized follow-up questions in real-time based on the candidate's responses.
+Our AI recruiter can be customized to your roles in minutes and has already conducted thousands of interviews across engineering, IT, retail, hospitality, and more.",1
+"Leya - Leya is an AI-powered workspace for law firms and legal professionals. 
+
+Leya lets lawyers automate their repetitive tasks and access public sources and their own data on one single platform.
+
+Learn more at https://www.leya.law/",1
+Kids Eat - Our app notifies families that live below poverty line (30% in Berea community) of the free meal events for their kids in the town.,0
+"OpenLab - As rudimentary as it is, this simulates an a chemical reaction, which we believe would help benefit lower income schools as well as providing a safe environment to safely mix in chemicals and simulate them. Some examples, include combustion and acid-base reactions.",0
+"The Fizzle Fairies Menagerie of Funky Retro Carnivores - You create and play with little animals, feed them, and raise that score!",0
+"Mindely - Mindely is the first AI interviewer designed for skills assessment interviews. Hiring for high volume, high turnover roles (e.g., consultants, analysts, sales & customer representatives) is time-consuming, inconsistent, and prone to unconscious bias. Managers spend valuable time on lengthy skill-based interviews instead of focusing on building candidate relationships or on driving company revenue. 
+
+Traditional AI interviewers don’t solve these issues – their rigid Q&A formats and one-size-fits-all approach can’t handle complex skill assessments. Mindely changes the game as the first AI interviewer built for in-depth case study, technical and role-play interviews. It: 
+- Simulates human interaction with real-time dialogue 
+- Challenges candidates with dynamic, adaptive responses 
+- Eliminates interviewer bias to create a fair, inclusive hiring process 
+- Works 24/7 to free up senior staff and widen talent pool 
+
+With Mindely, companies can rapidly customize and deploy human interviews at AI scale to test specific on-the-job skills.",1
+"Silimate - Silimate is the co-pilot for chip designers; it finds functional bugs, predicts PPA issues, and recommends fixes in real-time alongside RTL development.
+
+Today, chip teams spend most of their 12-18 month design cycles converging to functional correctness and optimized PPA (power/performance/area). With Silimate, chip designers write correct, PPA-optimized RTL code from the onset and build better chips in less time.",1
+"RealTimeTranslation - In its most basic form my project takes an audio input, i.e a microphone, and it translates that audio into any language you want. The translated audio is then piped into discord for someone else to hear!",0
+"reworks - reworks is the fastest way for agentic AI companies to integrate with external software. Instead of spending weeks integrating with traditional API:s or writing custom scraping scripts, teams use reworks to build browser-based integrations that don't break.",1
+"The Timeless Clock - The timeless clock tells you the current time relative to the time of a past event. For example, it'll tell you that the time is 57 days, 4 hours, and 30 minutes relative to the start of the 2010 winter Olympics. This way, it is able to tell you the current time without telling you the current time!",0
+Exam Study App - My app utilizes a duoling-style approach to help engineers study for the FE exam for 10-15 minutes per day. Taking them over all the required units for the exam over a selected amount of time that is determined upon registration and is easily changeable.,0
+"SafeSpace - The app has 6 different functionalities - It has the ability to be able to anonymously report any crime or violent action to all police stations and hospitals within a 5 mile radius of the User's current location. Another view has all resources the User could possibly need in order to seek help or any next steps in order to get help or advice for their situation. Our app also has a functional ChatBot that responds to prompts issued by the User and provides them with 24/7 access to this resource in case their access to other resources are taken away in their situations. It also gives the User access to a map that doesn't track their history or keep a copy of it and provides tailored results of important landmarks or areas they can seek refuge from their abuser(s). Another View is the option to create a personalized plan for safety with predetermined prompts and the ability to store and re-visit their responses. The last feature that the app has is to document any evidence or record of events that took place and when they did in order to keep a paper-less, untraceable log of events to re-visit if needed later.",0
+"Leafy - The android app takes a leaf image from mobile gallery. App is connected via API to python backend which uses a well trained CNN based model which is trained by dataset comprising of over 30000 plant images. It can accurately predict and classify leaf diseases to a degree of 94%. If the model finds the detected disease to be infectious, it notifies all the nearby mobile phones(in radius < 2 km) to take precautions to prevent the disease.",0

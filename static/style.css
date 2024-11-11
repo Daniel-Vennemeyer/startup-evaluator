@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-header {
+    padding: 20px;
+    text-align: center;
+}
+
+.form-label {
+    font-weight: 500;
+    color: #495057;
+}
+
+textarea.form-control {
+    resize: none;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.alert-info, .alert-danger {
+    font-size: 1.25rem;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: opacity 0.2s;
+}

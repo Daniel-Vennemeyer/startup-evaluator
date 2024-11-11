@@ -1,0 +1,1277 @@
+Project Title,Submission Url,Project Status,Judging Status,Highest Step Completed,Project Created At,About The Project,"""Try it out"" Links",Video Demo Link,Opt-In Prizes,Built With,Notes,Team Colleges/Universities,Additional Team Member Count,If You Submitted For The Domain.Com Prize What Was The Domain You Chose?,Please Enter The Discord Usernames Of All Your Team Members!
+SecureTheTag,https://revuc-x.devpost.com/submissions/209549-securethetag,Submitted (Gallery/Visible),Pending,Submit,02/20/2021 13:20:05,"Inspiration
+
+A couple days ago were reading a passage in English about how social media presence is helping people such as small businesses and organizations make change. We thought back to this idea and were inspired to create SecureTheTag, especially after seeing the effect that the COVID-19 Pandemic has left on small businesses. Many small businesses have struggle to stay open during these difficult times due to less people being out. By using our tool, we hope small business owners can gain the social media traction they need to keep their doors open. Furthermore we hope to make the lives of marketers, business people, and influencers on social media easier, so they don't have to search for hashtags and decide which ones are the best themselves, instead they can rely and use the help of our app to decide.
+
+What it does
+
+Our hack, SecureTheTag, provides the most relevant and popular hashtags for Instagram posts, bringing in larger audiences that are more likely to interact with the userâ€™s content. All the user has to do is upload the picture that they want to post on Instagram onto our website. Then, the image is put through an image classifier that returns a list relevant trending hashtags (sorted from most relevant to least relevant) to use when posting the picture.
+
+How we built it
+
+We built the SecureTheTag tool using the Google Cloud Vision API and an Instagram Hashtag API. Using Javascript, we called the Google Cloud Vision API to use Google's Machine Learning model to classify the picture that the user uploads into labels. Using these generated labels we called a Hashtag API to generate related trending hashtags. Using our custom JavaScript algorithm on these APIs our code generates a list of 30 relevant trending hashtags sorted from most trending to least. We then implemented this JavaScript into the HTML and Bootstrap CSS to create our attractive and responsive website.
+
+Challenges we ran into
+
+One of the challenges we ran into when building SecureTheTag was implementing APIs. We have had no prior experience in using the APIs that we used, so it took some time to read through documentation and ensure we were using them correctly. Another challenge we faced was coding in Asynchronous JavaScript. The APIs we used were implemented asynchronously, meaning that we had to adjust our JavaScript methods and syntax accordingly. This was a very new concept to all of us considering we only learned JavaScript 2 weeks ago. One last challenge we ran into was making our website look good using Bootstrap. None of us had that much experience using Bootstrap so it was a learning experience for all three of us. Luckily, we powered through and were able to create a very attractive and responsive website!
+
+Accomplishments that we're proud of
+
+Some accomplishments that we're proud of are efficiently implementing our APIs into our JavaScript code through asynchronous JavaScript code. We are also proud of the fact that we were able to create such a great looking website using Bootstrap.
+
+What we learned
+
+Throughout the development of SecureTheTag, we learned a lot of new topics in programming. For instance we learned how to use REST in order to interact with our Google Vision and Instagram APIs and why they are useful. We're also really new to JavaScript, learning the basics about a week ago and this time we learned how and why we should use asynchronous JavaScript. The biggest thing we learned and dedicated most of our time to was how to design an appealing web page. We learned a lot on prototyping with different applications such as Adobe XD, Figma, and Bootstrap Studio, how to do animations with CSS, and other design concepts such as color schemes and the rule of thirds.
+
+What's next for SecureTheTag
+
+In the future, we would like to allow users to log in to the site using their Instagram credentials and even post directly to their page from our website. Unfortunately, Instagram has about a 2-week verification time frame so we were unable to implement it. We also want to eventually incorporate a database that will store recently generated hashtags so users can choose from an even larger selection, and will store data on the amount of hashtags that have been generated through our website.
+Be sure to ""Secure Your Tag Online"" today at ""www.securethetag.online""!
+","https://github.com/whyroland/SecureTheTag, http://www.securethetag.online/",https://youtu.be/HOE_tCNKyuQ,"Best Domain Registered with Domain.com (MLH), Best use of Google Cloud (MLH), Best Design Hack, Most Creative Hack, Wolfram|One and Wolfram|Alpha Pro (Wolfram)","node.js, express.js, ejs, javascript, css3, html5, google-cloud, googlevision, rapidapi, bootstrap, bootstrapstudio",,Bridgewater-Raritan High School,2,https://securethetag.online,"ahaan#9291, Aryan#9336, roland#9150"
+Untitled,"",Draft,Pending,Manage team,02/20/2021 13:52:47,"","",,"","",,University of Cincinnati,0,"",""
+Autonomous UV Sterilization Robot,https://revuc-x.devpost.com/submissions/209586-autonomous-uv-sterilization-robot,Submitted (Gallery/Visible),Pending,Submit,02/20/2021 13:56:45,"Inspiration
+
+Through our time during the Pandemic, all of us learned a lot about how easy it is to spread a virus. My teammate and I wanted to find a way in which we reduce the chances of this happening as much as possible, with as little reliance on people themselves. Not only because they themselves could be carrying the virus, which is still a very important element, but also because they could very easily get the virus while cleaning or working in such environments.
+To deal with this problem well, we decided to work on making the process of cleaning the environment as autonomous as possible.
+
+What it does
+
+The Autonomous UV Sterilization Robot autonomously travels within a room, reading its way through QR Codes placed by the user, informing about where to go. On it, are UV tube lights, that through a relay are turned on. There is a camera on board that is used to not only read the QR code's output but is also used to run a Computer Vision algorithm that searches for humans. If a human is spotted, the UV tube lights are turned off and the machine stops to ensure that no humans are harmed.
+
+How we built it
+
+We used a pre-welded frame. On the frame, we attached a UV tube light, soldered on 4 motors, and made space for the other electricals on the top. The brain of it all is the Raspberry Pi. On the pi, we wrote a program in Python, making use of the OpenCV library for Computer Vision and the Raspberry Pi library to handle the motors and the instructions.
+Together, through the camera, we get the input of the QR code with the directions. The Pi then processes this input and sends the commands based on a logic we wrote to make it move in the desired direction. This is done to avoid obstacles and stay within the path defined by the user through the QR code.
+
+Challenges we ran into
+
+We had to learn a lot of the hardware and the Raspberry Pi's working. Having not worked with it besides some very basic things, we had to learn it practically from scratch to implement something fairly complex.
+Along with this, the motor drivers were new to us too. Getting them to work and effectively get the robot moving was a challenge.
+
+Accomplishments that we're proud of
+
+We were able to get the code working, and handle a project we did not think we could do within 24 hours. From soldering the motors to testing and writing a lot of the code from scratch, we gave it our best shot.
+
+What we learned
+
+We learned a lot about Computer Vision, interacting with a Raspberry Pi, Running algorithms in conjecture with one another, and a lot about hardware. From soldering on and taking off a lot of motors to find the right ones with the right torque, to ensuring that the tubes were in the right place and were safe, along with acrylic for the electricals to avoid any short-circuiting.
+
+What's next for Autonomous UV Sterilization Robot
+
+We plan to pitch this idea to schools and offices/workplaces. During the time the places are empty, leaving the bot inside along will take care of ensuring that the risk of not only Coronavirus but a lot of other viruses, bacteria and diseases is mitigated.
+",https://github.com/gaurangbharti1/opencv_detection,https://youtu.be/pMI1ebTBexw,"Best Hardware Hack Sponsored by Digi-Key (MLH), Best Education Hack, Best Design Hack, Most Creative Hack, Making the Customer's Life Easier (84.51)","raspberry-pi, python, opencv, pyzbar, gpio",,"University of Cincinnati, University of British Columbia",1,"","GBHacker23#5176, hypercosmac#9173"
+The Covid Dashboard,https://revuc-x.devpost.com/submissions/209597-the-covid-dashboard,Submitted (Gallery/Visible),Pending,Submit,02/20/2021 14:08:49,"Inspiration
+
+I find it very cumbersome to access relevant covid data from popular resources. Websites like the CDC website provide too much data. I think most of us want to see a few data points. How many new cases are there, how many vaccinations, and what the trend is currently, and how does it affect me economically.
+
+What it does do
+
+This dashboard displays covid data, vaccinations, and economic insights. Provides visual data and can provide information on each state. 
+
+How we built it
+
+This is a full-stack project built using React.js, Node.js, and PostgreSQL. My API connects to Covid's Project API database that provides daily updates in JSON. Unfortunately, this API does not provide vaccination data. I had to create my own API for vaccination data to populate the dashboard with. I also created a database with sample data provided by 84.51 and 5/3 banking to get economic insights into how covid has affected the economy. I used express.js to construct the server.  The front end queries the server for information such as aggregate sales in a particular category, etc. 
+
+Challenges we ran into
+
+I learned how important it is to clean data. Some of the csv's had trailing spaces which made it very difficult to identify why the queries were not working. I ran into massive time constraints for this project and had to resort to very bad coding practices and file structures. 
+
+Accomplishments that we're proud of
+
+Built a full-stack web application in one day that also provides data analytics into consumer data provided by 5/3 banking and 84.51. In just one day, I had to track down an API that is both accurate and up to date. I had to track down vaccine data in a CSV format and create a PostgreSQL database to perform queries on.  I created an API, complete with endpoints, to link all the data together and provide a service to my front-end react dashboard. The project is version controlled and the source code can be found on GitHub in the link provided before. 
+
+What we learned
+
+I learned how to set up a RESTful API in node.js by scratch using express.js.  I learned that it takes 90% of the time to figure out 10% of the problems. I discovered the importance of reading documentation, searching google, and asking mentors for advice. The product can be messy, the product can be badly designed, but put the product out. Iterate and iterate and iterate. LEAN and AGILE all the way. 
+
+What's next for The Covid Dashboard
+
+Currently, I'm an intern for GE Aviation. I'm interested in how the increase in vaccinations will affect the confidence of people in air travel. I would like to scrape TSA data using beautifulsoup to track the daily difference in flights between today and 2019. I'm also taking a machine learning class this semester. I would like to incorporate more advanced machine learning algorithms in my analytics. I'd also like to have more detailed insights, like how the data changes based on zip code. I' would also like users to choose what analytic conditions they would like to choose. The app will then predict expected future outcomes as well. 
+","https://github.com/jfenglu814/covid-data-tracker, https://github.com/jfenglu814/covid-data-tracker-api, https://github.com/jfenglu814/covid-data-tracker/projects/1",https://youtu.be/MvqwOMoeZh4,"Best Design Hack, Most Innovative Grad Hack (EECS-GSA), Show Me the Money! (Fifth Third), Making the Customer's Life Easier (84.51)","javascript, react, node.js, express.js, postgresql",,University of Cincinnati,0,"",Jeffrey Feng Lu#3218
+Smart Garage System,https://revuc-x.devpost.com/submissions/209615-smart-garage-system,Submitted (Gallery/Visible),Pending,Submit,02/20/2021 14:31:52,"Inspiration
+
+In today's world automation has become an important thing in everyone's life. So, we decided to build an intelligent garage automation system.
+
+What it does
+
+Nowadays, Garage security is very vulnerable given the amount of theft activity that has gotten an increment over the last couple of years. Through this Smart IOT Garage Door System, we will mitigate a lot of risks and effort that a person has to go through while trying to get his/her car in or out. The Smart Garage system can automatically open the Garage door by facial recognition and number plate reading. Our system consists of an app which has been made with MIT App Inventory and through which manually, the Garage door can be opened and closed and also, we can control the lighting system of the Garage. Another feature is also included in this app with which we can see the last image of the person whose was face was registered during the opening of the app. Also, when the smart garage system is activated, a unique link is generated every time with which we can see the live feed of the garage front through the camera and also through any CCTV cameras if connected.
+
+How we built it
+
+We have used pretrained images of owner and encoded it with face recognition package of python. Whenever a new person comes in front of the camera, the camera will detect the person and the frame will get screenshotted. The required frame will get encoded by the facal recognition package and it gets matched with known pre-trained encoded images. If it matches then the frame will become black and white and the person's name will appear on top of the box drawn on the detected face otherwise it will show unknown. If it gets matched then it will make the GPIO pins of the relay module of Jetson Nano high making the garage door open. An app is being made with MIT app inventory. It consists of 5 buutons, 2 of which will open and close the garage manually, 2 of them will control the lighting system of the garage and there will be another button which will show the image of the last person whose face has been recognized. The pytesseract package has been used to decode the number plate of the car. If the decoded string through OCR gets matched with the owner's number plate in the python script itself, it will make the GPIO pins of the relay module of Jetson Nano high making the garage door open and it will automatically close after a certain amount of time. Flask has been used for livestreaming the feed that the camera will provide and in that face detection will also work.
+
+Challenges we ran into
+
+There are many challenges that we faced while building the project. Connecting the IBM cloud with Jetson Nano was a tough challenge. Also, as it is a preliminary prototype, there are certain things we have to look out for. The device will also respond when any known image of any trained person or number plate is brought to its sight. We can overcome this issue by focusing more on the OCR (Optical Character Recognition) part and on the facial recognition part with some extra eye-blinking cascades, etc. Also, the live stream is only possible in the local network and the user and the system must be connected over the same network to get the live video feed from the door cam. Again, the facial recognition part is a bit slow. And, the accuracy of the number plate detection OCR plate is only 60% for now i.e. according to our tests, it can detect 6 out of the 10 number plates correctly. But we can again improve it by rigorous training of the ML model.
+
+Accomplishments that we're proud of
+
+We are actually proud of what we have accomplished. We created the prototype in a very small amount of time. 
+
+What we learned
+
+We learned about time management and quick brain storming of ideas.
+
+What's next for Smart IOT Garage System
+
+We will improve our system more efficiently in the near futur. We want to link our project with voice assistants like google assistant, amazon alexa, etc in future. We are keeping the project open source and everyone will be welcomed to contribute in our project.
+",https://github.com/Ayanghosh-agno/Smart-IoT-Garage-Jetson-nano-,https://www.youtube.com/watch?v=ODm2gdt_G60,"Best Domain Registered with Domain.com (MLH), Best Hardware Hack Sponsored by Digi-Key (MLH), Best Education Hack, Best Design Hack, Most Creative Hack, Most Useless Hack, 1st Place Capture the Flag","ibm-cloud, node-red-flow, mit-app-inventor, python, flask, jetson-nano, 8-module-relay, raspi-v2-camera, android-device",,"Maulana Abul Kalam Azad University Of Technology, University of Burdwan",1,http://allknowinggarage.tech,sayanta66#9409 agno#6203
+Untitled,"",Draft,Pending,Manage team,02/20/2021 15:53:00,"","",,"","",,Nashua High School South,0,"",""
+The Timeless Clock,https://revuc-x.devpost.com/submissions/209693-the-timeless-clock,Submitted (Gallery/Visible),Pending,Submit,02/20/2021 16:47:51,"Inspiration
+
+Our inspiration came from the fact that we wanted to create something that was simultaneously useful and not useful at the same time. We also wanted to compete in the ""most useless hack"" prize category and looked into how we can over-complicate a simple tool to make it inefficient.
+
+What it does
+
+The timeless clock tells you the current time relative to the time of a past event. For example, it'll tell you that the time is 57 days, 4 hours, and 30 minutes relative to the start of the 2010 winter Olympics. This way, it is able to tell you the current time without telling you the current time!
+
+How we built it
+
+We compiled a database of past events and their date+time. Then we built a backend that calculates the time difference between the current time and the past event. We then have a website (frontend) to display the time relative to the event and to change the background image
+
+Challenges we ran into
+
+
+Finding data of events that had date and time (HH:MM:SS)
+Connected the backend to the frontend with Flask
+
+
+Accomplishments that we're proud of
+
+
+Having a responsive frontend and a time counter
+Having an idea that's so stupid that it works
+
+
+What we learned
+
+
+Learned how to make a responsive frontend
+Learned how to connect front and backend using Flask
+
+
+What's next for The Timeless Clock
+
+
+Make it work for times/events that are in the future
+Make it work with times/events that happened in BC (before AD)
+Make events editable so people can use it as a deadline counter
+
+",https://github.com/ryan-lam/TimelessClock,https://youtu.be/C5vK3TcPIcA,"Best Education Hack, Best Design Hack, Most Creative Hack, Most Useless Hack","python, html5, css, flask, javascript",,"University of Waterloo, Western University",2,"","RyanRageboi#8424, BX Jax #9959, Ming #1395"
+Water My Plants: An Automated Way to Care For your Greens,https://revuc-x.devpost.com/submissions/209759-water-my-plants-an-automated-way-to-care-for-your-greens,Submitted (Gallery/Visible),Pending,Submit,02/20/2021 20:22:57,"Inspiration
+
+In our fast-paced world, it is easy to forget to complete simple tasks. We are plagued with questions such as â€œdid I run the dishwasher?â€, â€œdid I shut the garage door?â€, â€œdid I submit my essay last night?â€. One of the most common questions one asks themselves is â€œdid I water my plants?â€. It is common for a person to forget to add watering plants to their daily routine. This device was created to help combat this issue. The Water My Plants device will assist in keeping your plantsâ€™ watering schedule consistent and reduce the chances they will become dehydrated. 
+
+What it does
+
+This project monitors the moisture level of the soil in a potted plant using a hygrometer, and indicates the moisture level using an LED indicator as well as a LED screen. The user can also input how much water their plant needs using the GUI. This input indicates how long to go in between each watering instance. Based on the moisture level and how much water the plant needs, the pump will activate, watering the plant for a short period. A second hygrometer is also used to measure the water level used for the pump, and a second LED is configured to indicate the level to the user.
+
+How we built it
+
+This project was created with an Arduino, the Processor GUI creator, and external hardware including a motor, a pump, LEDs, an LCD and a hygrometer. The external equipment was wired on a breadboard and connected to the Arduino. The Arduino code was written in C++, and contains code which may read the hygrometer and change the values of the LEDs and LCD based on values read from the hygrometer and the GUI. The GUI created with processor has several functions which may interact with its buttons and send data to the Arduino. The GUI sends commands to the external hardware, which can read and control data coming from the external equipment.
+
+Challenges we ran into
+
+Part of the original idea was to have a light sensor that could tell the user if the plant was getting enough sunlight. Unfortunately, the hardware used for this portion was not compatible with the Arduino board we are using, so it was unable to be configured. Another part of our original idea was to connect to the internet to interface with the Arduino, and to configure the date and time used to space out watering. None of the team members were comfortable putting their personal information into the site, however. To remedy this, the Real-Time Clock was used to keep track of time, and a GUI was created using the Programming tool. Further, a challenge faced while completing this project was working on a hardware project remotely. Since this was not a web-based application, we could not use a host such as GIT to work on code in parallel. To overcome this issue, the team used the ""Request Control"" function on Microsoft Teams to create, run and edit the code associated with the Arduino and the Processor GUI. Overall, this worked very well, and all team members were able to complete their tasking.
+
+Accomplishments that we're proud of
+
+We are very proud of this project, but we are particularly proud of our GUI which changes settings on the Arduino. We also enjoyed using components that were new to us, such as the hygrometers, RGB LEDs, and the OLED screen. We are also happy that we got our project to work as intended despite the struggles of working on a physical project remotely.
+
+What we learned
+
+None of our group members have ever developed on an Arduino before, so we learned how to use the Arduino IDE and Arduino Due. This involved a lot of research and debugging while under a time constraint. This was also the first time any team member has worked with Java or the Processor GUI creator. Throughout this project, we learned the syntax of Java and how the use the Processor GUI to make an interface that can interact with an Arduino. Another important skill we learned was how to send and receive data between the Arduino and the Processor GUI. One functionality that was ultimately not incorporated was the ability to receive a value from the Arduino and print it on the processor GUI. The team also learned about the challenges of working on a hardware project remotely, and how one is able to overcome them. 
+
+What's next for Water My Plants: An Automated Way to Care For your Greens
+
+The project has many aspects that can be improved upon, primarily the customizability. Right now there are only preconfigured options that the user can select for watering their plants. In the future functions can be added to the GUI that allow the user to configure the moisture settings, as well as the watering intervals, to make the program better suit any plants the user may have. Adding a â€œDays since last wateredâ€ indicator to the GUI would also be a big improvement for the user, as they would be able to check if the plant had been watered appropriately.
+
+Team member contact information
+
+Daniel Mraz - mrazdl@mail.uc.edu
+Andi Thomas - thoma4a2@mail.uc.edu 
+Sam Heyl - heylse@mail.uc.edu
+Nick Heyl - heylna@mail.uc.edu
+",https://github.com/thoma4a2/WMP_Hackathon2021,https://youtu.be/MUBzzGGBhyw,"Best Hardware Hack Sponsored by Digi-Key (MLH), Most Innovative Grad Hack (EECS-GSA)","java, c++, motor, leds, arduino, processing, gui, pump, hygrometer, lcd, realtime-clock",,University of Cincinnati,3,"","Ainikkah#4205, doge#1273, nick483#4422, Themagicman16#5726"
+Gungho,https://revuc-x.devpost.com/submissions/209806-gungho,Submitted (Gallery/Visible),Pending,Submit,02/20/2021 21:32:06,"Inspiration
+
+In this pandemic, a lot of people are working or studying from home, deprived from social interaction and physicals activities. This is a frightening situation especially for young people who are starting to feel isolated. In addition, it had been proven that doing special poses, like power poses or Yoga can improve mental health, physical health and self-esteem as well! That's why we've created Gungho.
+Through Gungho we bring people together and in a safe way, just like they are in the same room!
+
+What it does
+
+Gungho, is a game where you invite people to try a series of human poses, in a group call, the person that imitates the pose the best is the winner. The series of challenges range from, pop poses, yoga poses, famous movies like Kung fu pandas and even Jackie Chan iconic martial arts poses etc !! It is a social multiplayer game powered by AI (tensorflow), that is all about having fun, socializing and staying physically active and mentally healthy.
+
+How we built it
+
+Our app is built on top of TenorflowJS using Posenet model and React JS for frontend. We used Web RTC for the video calls and socket.io to synchronize the score between the players.
+
+Challenges we ran into
+
+We faced problems optimizing the model and find a good balance between accuracy and speed.
+We've also had some troubles managing complex components.We  also ran into trouble with collaboration as many of us were in drastically different time zones. Eventually, we saw this as an advantage as we were able to work 24 hours around the clock. It was also amazing to collaborate with people from different countries.
+
+Accomplishments that we're proud of
+
+We are proud of how much we accomplished during this time frame. We've learned about new tech stacks and all of us didn't even know how to build a working MVP before this! :)
+
+What we learned
+
+TenserflowJS, PeerJS and many tips of React.
+
+What's next for Gungho
+
+Enhance some functionalities, like comparing the pose with the player's pose, a ranking board that shows the best players and cool AR filters like hats, moustaches, skins for players !
+",https://github.com/shannon-c/GungHo-,https://youtu.be/dt8GCl7n4Ms,"Best Education Hack, Best Design Hack, Most Useless Hack, Most Innovative Grad Hack (EECS-GSA), 1st Place Capture the Flag","tensorflow, react, webrtc, node.js, socket.io",,"Epsom College, National Institute of Technology, Tiruchirappalli",1,"",shannon-c and rakshaa2000
+InvestX,https://revuc-x.devpost.com/submissions/209922-investx,Submitted (Gallery/Visible),Pending,Submit,02/20/2021 23:59:50,"Inspiration
+
+With meme stocks taking over social media recently, many of millenials have jumped into the world of finance without having much investing experience. Millennials, as they care about making an impact, also want to know how they can invest sustainably. But as a first timer, they donâ€™t know where to start and which company they should invest in.
+
+What it does
+
+So thatâ€™s how we built InvestX, a platform that allows millenials to easily find and invest in companies based on the issue they care about. We aggregates realtime stock data along with articles about the impacts a company has on the world to determine the metrics score based on their preference.
+
+So how does it work?
+
+
+The user picks the impact that they want to focus on from a choice of broad impact(which supports ESG), or climate or social impact.
+Then based on that preference, we find articles of each company relating to that preference and use machine learning to recommend top 5 stocks which are top performers in that impact category.
+They choose the company and can find out more about how that company stacks up against others in various ESG dimensions.
+
+
+Features
+
+
+Dynamically updated chart with the latest stock data
+All the latest market data and ESG stats for the the S&P500
+Set your ESG preference on your profile
+Pull articles for the company based on your ESG preference
+Search for stocks across the market
+
+
+ESG Dimensions
+
+
+Environmental impact
+Labor Practices
+Social impact
+Gender equality
+Pay equality
+Corporate activity impact
+Public welfare score
+Long term profitability
+Short term profitability
+
+
+How we built it
+
+
+Nextjs/React = FE
+Serverless functions w/ Next = Part of backend (firebase admin sdk)
+TailwindCSS = Styling
+Figma = Prototypes/Mockups/Designs
+Firebase Auth = Authentication and Authorization (if we do group buy)
+Firebase Firestore and Datastax = Central Database
+Flask Backend = Central Backend
+Selenium = Web Scraping
+Yarn
+Alpaca for Market data, not alpha vantage or polygon.io
+Refinitiv and RapidAPI for ESG data
+newsapi.org
+
+
+Challenges we ran into
+
+
+Alphavantage ratelimiting so had to use alpaca
+Polygon.io free API is only limit 5
+SearchAPI is only on alphavantage
+New to NextJS
+News API Rate limiting
+
+
+Accomplishments that we're proud of
+
+Best project we've got so far in hackaton, so proud of our team being able to finish all features in short amount of time (24 hours only).
+
+What we learned
+
+Learned a lot of new tech stacks
+
+What's next for InvestX
+
+Adding a trading function, impact categories, link to government entities that regulate environment data.
+","https://github.com/jessehu312/investx, https://investx.tech/, https://investx.vercel.app/",https://youtu.be/iMJnRGgpMTk,"Best Domain Registered with Domain.com (MLH), Best use of Google Cloud (MLH), Best use of DataStax Astra (MLH), Best Education Hack, Best Design Hack, Most Creative Hack","nextjs, react, tailwindcss, firebase, datastax, flask, selenium, yarn, firestore, alpaca, newsapi",,"north china university of technology, University of Washington, Florida Institute of Technology-Melbourne",3,https://investx.tech,"prismnavy#5085 , Allegro145 #0583 , Aryan Vichare #8618 , muntaser #9731"
+The recruitment game,https://revuc-x.devpost.com/submissions/209938-the-recruitment-game,Submitted (Gallery/Visible),Pending,Submit,02/21/2021 00:17:18,"The recruitment game
+
+Recruitment is an art. Humans recruit humans/non-humans from the pool of information they have but has anyone connected with all the homo-sapiens around the world? Cicada 3301 was meant to recruit highly intelligent people through the dark-web. It was/is a collaborative effort from humans all around the globe to connect with people who wanted to work together to achieve a common goal, innovation! I care for each and everyone on this planet so I want to recruit everyone whether it's the dark web or the surface web. The recruitment game will help us connect with people, to understand people and the most important thing of all, it'll help people to understand how a person's mind works. 
+
+History
+
+This game started in 2013 when a group of like-minded people were having a cup of coffee and discussing advance recruitment techniques. There were engineers, researchers, and a human being which nobody knows. People call that person Cicada. They intended to connect with every human on the planet but the only thing common between that group was that they played games. They were all cryptographers in their ways so they started a game. I might have also played that game sometime in my life but it was not available publicly. This is an open-source game that will help us to achieve the goal which they intended to achieve. 
+
+What it does
+
+This is a scavenger hunt. It is a simple game but complex at the same time. A person can solve these clues using a computer or just a pen and paper. As you can see in the videos that I designed a game using a pencil so a human can easily solve it with a pencil or a computer but, it solely remains in the hands of the human which path they use because each path leads to a different destination. Everyone has started the journey from a different place but we will end it together! 
+
+What's next for The recruitment game
+
+This is a game which will keep on going until all the people interested are into it. A person will start the game and will get bored because they might be unable to reach the next clue but, each and every clue will be a hurdle or a step forward. This can turn into one of the world's largest open-source project where researchers from all over the world can contribute and help each other to achieve their goals. I started this game alone with the intention to connect people. Let's see what happens next. 
+",https://hellokathan2.wordpress.com,https://youtu.be/1nITCfifMaY,"Best Education Hack, Best Design Hack, Most Creative Hack, Most Useless Hack, Most Innovative Grad Hack (EECS-GSA)","python, cryptography, angular.js",,University of Cincinnati,0,"",nightkpowl
+GreenUP,https://revuc-x.devpost.com/submissions/210041-greenup,Submitted (Gallery/Visible),Pending,Submit,02/21/2021 02:03:44,"Inspiration
+
+Everyone knows about the challenges that our planet is facing when it comes to the environment. This is why we would like to cultivate an eco-friendly culture among the general public in a fun and simple way. 
+
+What it does
+
+GreenUP will allow you to take a picture of an object and will suggest different fun and sustainable ways to reuse and recycle your object. You do a favor to Earth while having fun!
+
+How we built it
+
+We used Python for our backend and Google Cloud's Cloud Vision API to build an ML model that will detect the object on camera. For the front end, we used Flask.
+
+Challenges we ran into
+
+Knowing the right tools to use in the start of the project is always a hard task. We had to do a lot of research and ask questions before starting to code. Gathering a good dataset of different objects and ways to recycle them was also not easy. We did not know much about Google Cloud's API and Flask, so we had to do some research.
+
+Accomplishments that we're proud of
+
+We are just proud to be able to complete the project and come up with something that works and achieves good results.
+
+What we learned
+
+A LOT! From how to code in the backend, deploy the ML model, move to the front end.. We just learned a lot from this project and we are happy to have been able to complete it.
+
+What's next for GreenUP
+
+We would like to expand our dataset and include more objects and maybe new features that would make it better for the user.
+",https://github.com/yahyaakli/spring2020hackathon,https://www.youtube.com/watch?fbclid=IwAR2Xldo4nmm7dOJVvaS0XDehDdaZ862sI9ojjuFgeuxojozWzEfK68nzi2M&v=ns7Jq-9SvEc&feature=youtu.be&ab_channel=yahyaakli,"Best use of Google Cloud (MLH), Best Design Hack, Most Creative Hack, Most Innovative Grad Hack (EECS-GSA)","python, google-cloud, flask",,University of Cincinnati,1,"","nabil.berjaoui, yahya.akli"
+LazyKnow,https://revuc-x.devpost.com/submissions/210199-lazyknow,Submitted (Gallery/Visible),Pending,Submit,02/21/2021 04:52:58,"Inspiration
+
+Sometimes, we needed to refer back to a lecture to review, or wished not to miss important lectures that we didn't have the ability to fully attend. Unfortunately, Zoom, and most video-conferencing services, only allow hosts and paying customers to record meetings. We thus created LazyKnow to help us avoid falling behind in class.
+
+What it does
+
+LazyKnow provides users the important information of a lecture through just a few simple clicks. You can indicate when you want LazyKnow to begin and finish storing content from your lecture. After your lecture is finished, you can choose to retrieve the full transcription of your lecture and/or automatically download AI-generated notes if you're reviewing in a rush.
+
+How we built it
+
+We built it using Python, tkinter, AssemblyAI, and the Bert Extractive Summarizer
+
+Challenges we ran into
+
+We had problems transcribing the audio due to compatibility and encoding issues with the audio files.
+
+Accomplishments that we're proud of
+
+We're proud of making a functional app through our combined efforts, and not giving up and ""subtly leaving the hackathon"" after experiencing severe technical difficulties for a few hours.
+
+What we learned
+
+We learned about the complexities of computer audio handling, how to create desktop applications, and the power of friendship.
+
+What's next for LazyKnow
+
+We hope to generate more sophisticated and attractive-looking notes for our users.
+",https://github.com/bbrianzzhang/notetaker,https://youtu.be/4UDyJP76BWs,"Best Education Hack, Most Creative Hack","python, tkinter, assembly-ai",,"",1,"",senioritis#7240 Brian Zhang#9263
+Detectia,https://revuc-x.devpost.com/submissions/210411-detectia,Submitted (Gallery/Visible),Pending,Submit,02/21/2021 08:06:44,"Inspiration
+
+Recently a video popped in my recommendation, this was the video - link. This video caught my attention and I watched it to the end. It got my mind thinking, I browsed the Internet and came to know that a machine called a Polygraph can actually detect truths and lies using body vitals. After further research, I found there are web tools that can spot lies using facial and audio recognition, Soon I thought we could make a tool that detects a lie by the text provided, it seemed to be a great idea. So we started this project
+
+What it does
+
+This is a text-based lie detector. 
+Users can input text/statements and submit them. Our neural network will analyze the statement and classify it as truth or lie based on these categories
+
+
+No. of characters
+No. of words
+Avg. length of words
+Readability score
+Part of speech: Is this word an adjective, noun, something else
+After analyzing it properly it would tell you whether it is truth or lie and the truth/lie percentage as well.
+This tool can really help in spotting lies
+
+
+How we built it
+
+We used Flask and Python in the backend to create the web server. For detecting lies, we use a Neural network and NLP for our model. The model is trained on 200 rows of data by PolitiFacts, PolitiFacts is a website which provides facts and rates them as true or false. We have used CSS and vanilla JS for the frontend.
+
+Challenges we ran into
+
+We are both high schoolers and this project was a bit complex for us. Having limited experience in ML as well as neural networks we faced hurdles every minute. Using helps from open source platforms asking some friends and crash coursing things we made it through. But there were specific challenges that had us scared -
+
+
+Data Scraping
+Using NLP and Neural network (first timers)
+Our teammates left in between which only left us two
+Hosting it
+
+
+Accomplishments that we're proud of
+
+This hackathon was very competitive. Jostling through the competitive coding experience had us goosebumps.  During these 24 hours, we achieved many things which made us proud and boosted our self-esteem. The accomplishments we are most proud of -:
+
+
+Completing this grand project in 24 hours
+Building the neural network
+Successfully data scraping over 800 rows (although we didn't use it at the end)
+Training the Neural network (was a too tedious task)
+
+
+What we learned
+
+We are both high schoolers and this project was a bit complex for us. Having limited experience in ML. We learned the basics of ML,  expanded our knowledge of python, and learned about neural networks
+
+What's next for Detectia
+
+We will make it more accurate and provide reasons as well.
+We will also add OCR (image to text) and Speech to the text which will make it more accessible
+","https://detectia.herokuapp.com/, https://github.com/antriksh123/Detectia, https://detectia.tech",https://youtu.be/p9ZhpZxvdYY,"Best Domain Registered with Domain.com (MLH), Best Education Hack, Best Design Hack, Most Creative Hack, Most Useless Hack","python, machine-learning",,DLF Public School,2,https://detectia.tech/,yum#8922 Chief#7929
+Chelper,https://revuc-x.devpost.com/submissions/210441-chelper,Submitted (Gallery/Visible),Pending,Submit,02/21/2021 08:27:54,"Inspiration
+
+Some of our team members have been in online discord classes before. We noticed that, for teachers, Discord can be a bit complicated to learn with all those text channels, vocal channels, permissions, roles, etc. We think Discord could be a very good platform for online classes plus it's free! So, how about a bot that manages a class for the teacher?
+
+Goal
+
+Our goal is to centralize everything in one platform because online classes, most of the time, are split onto multiple platforms for assignments, classes, etc. Also, we want to add some security features to prevent student to cause chaos in the server
+
+What it does
+
+Right from the creation of the server, Chelper guides teachers through the configuration, there is almost no actions needed from the teacher. Here's what we implemented
+
+
+When students will join the Discord, it will ask them for their student ID to verify them, rename them to their real name and assign them the right role to give them permissions to what they need. This way, no more Discord raid!
+Teachers can give assignments with a due date and students will be able to submit their hard work directly to the bot, in his direct messages which will redirect it only to the teacher. 
+Teachers are able to start online class at any moment, which opens the voice channel for the students to join
+
+
+How we built it
+
+We built it using Discord.py and we developped inside a poetry virtual environment. We also implemented a database connection, but we did not link it to the application due to lack of time. Also, to make it easier for our user, we made a beautiful pdf documentation 
+
+Challenges we ran into
+
+Message reaction events took a lot of time to put into place
+
+Accomplishments that we're proud of
+
+For the whole team, it is our first Discord bot and we think it's a pretty good start
+
+What's next for Chelper
+
+There's a lot of online class problems that we thought of, but in 24h we had to select the major ones. In the future, we could implement chat restrictions, moderation tools, ban chat words, anonymous questions.
+
+Credits
+
+All art work credits goes to Gael Abudarham
+
+
+Instagram : @roundworkimage
+
+","https://discord.com/api/oauth2/authorize?client_id=810221205554593852&permissions=8&scope=bot, https://github.com/AggroBane/Chelper, https://drive.google.com/file/d/1Y7tcqTIG1NqNucqjnnaC-NiTzO7JmFmU/view?usp=sharing",https://www.youtube.com/watch?v=kRZdfa6JB8M&feature=youtu.be&ab_channel=CodeMonke,"Best Education Hack, Most Creative Hack","discord.py, python, sql, poetry",,CÃ©gep Garneau,2,"","AggroBane#7712, eXo #9582, Hypstersaurus #6896"
+Mastermind game,https://revuc-x.devpost.com/submissions/210505-mastermind-game,Submitted (Gallery/Visible),Pending,Submit,02/21/2021 09:02:43,"Inspiration
+
+I started playing board games when I was young, and I still loving them. Now, with my new additions of skills in Computer Science, I am able to build these board games by code. I am also interested in creating bots that can navigate the game itself and solve it. 
+
+The rule of Mastermind
+
+If you already know it, you can skip for the next section
+This is the game called Mastermind, a type of logical game between 2 players. One player comes up with a sequence of colors (in this program a sequence of digits, from 1 to 9), and the other player tries to solve it by making guesses. After each guess, the player with the code provides information about how closely matched the guess is compared with the actual code (element-wise comparison).  
+
+There are three types of indicators: Green, which is an exact match of a digit (value and position in the code sequence); Yellow, which shows that digit exists in the code sequence; and Red, which shows that digit is not in the code sequence at all. 
+
+What it does
+
+The game has two parts. One part is for you, the player, to guess the number randomly generated by the system. The other part is the AI, in which you provide the test and see how many steps the AI takes to solve it. 
+
+For the first part, the program randomly generates a sequence of 4 digits from 1 to 9. You then take turns to guess the digits. Whenever you press Enter, 1 turn counts. The results box shows how closely matched your answer is with the code sequence. The rules for the colors can be found in The rule of Mastermind above, in the second paragraph. Theoretically you have only 8 turns maximum to solve the digit. 
+
+For the second part, the program asks you for a sequence. Then an AI attempts to solve that sequence using the knowledge it learns after each guess. Its guesses are shown in the box on the right of the program, and the final guess should match with the code you provide in the first place. 
+
+How I built it
+
+This project is very simple. The external modules needed to import for Python to run this program are only Numpy and Pygame. 
+
+The project has three main classes (or files). The first class is the Mastermind() class, which is the game objevt. The second class is the MastermindAI() class, which is the AI object used to solve the game given the Mastermind() class for it. Finally, the MainGUI() connects all the objects together to create the GUI for this project. 
+
+The concept behind the AI is also very simple. The first guess we make a random guess, and sees what the feedback is. The AI stores its knowledge in some variables. The self.known is a dictionary that maps the index of the sequence to its correct answer. The self.existed() is a set that records the possible values in the sequence. The self.cannot is a dictionary of sets that maps the index of the sequence to a set of values it cannot have. And the self.notexisted() is a set that contains the values the sequence is sure to not have. After each guess, these four variables are updated, and they are very robust that they can solve the sequence in usually 5 or 6 steps. 
+
+The motivation of the design of this AI is from the Minesweeper problem set, in the Knowledge lecture by CS50 Introduction to AI course on EdX. 
+
+Challenges I ran into
+
+There are some obvious bugs in the program, like the digits get overriden if the user does not press Delete before, or the past guesses board does not have a scrolling function if there are more than nine guesses. I do not have time to cover everything, because I am still a beginner in code, and I work alone on this project. 
+
+Accomplishments that I'm proud of
+
+Of course my proudest is the work being able to run! This project is far from the much more complicated programs or websites or AI systems out there. But it is beginner friendly, yet it covers many important Python concepts, like event handling, inheritance, management of objects and data structures, ...
+
+What I learned
+
+This project allows me to practice using Pygame one more time, as well as giving me the time constraints to finish the project. 
+
+What's next for Mastermind game
+
+There are several ways to expand this game, such as allowing a user to define the range of digits (or numbers) for each element in the sequence, and the length of the sequence itself. Running the code for many randomly generated sequences, and providing plots to analyze the AI's performance is also very interesting. I can also try improving the bot by building optimalization code for it. Then finally, to publish it, I can build a simple website from Flask, then use the networking module in Python to build a Mastermind website that allows the players to log in and play each other. 
+",https://github.com/Mustardburger/mastermind,https://www.youtube.com/watch?v=h9n0AfBhjIk&feature=youtu.be,"","python, pygame",,University of Cincinnati,0,"",Mustard
+Coin Tosser,https://revuc-x.devpost.com/submissions/210526-coin-tosser,Submitted (Gallery/Visible),Pending,Submit,02/21/2021 09:12:53,"Inspiration
+
+We are beginners. We wanted to win. So we decided to make a website that is not useful. Just to get a prize in Useless hack.
+
+What it does
+
+It gives the output as heads/tails upon clicking a button
+
+How we built it
+
+Using HTML, CSS, and Javascript.
+
+Challenges we ran into
+
+How to center button to the center of the page, How to show the result of the coin toss
+
+Accomplishments that we're proud of
+
+Learnt positioning of elements using CSS
+
+What we learned
+
+HTML, CSS and git
+How to change background colour using animation.
+
+What's next for Coin Tosser
+
+Add more games or mini-games and convert the website to a 
+",https://github.com/Irfan7014/RevolutionUC-2021,https://youtu.be/-mDizfWdxS8,Most Useless Hack,"html, css, javascript",,Fr. Conceicao Rodrigues College of Engineering,3,"",Irrffii  /  iwtga /  rachel-codead  /  aayushi
+Bananalyzer,https://revuc-x.devpost.com/submissions/210527-bananalyzer,Submitted (Gallery/Visible),Pending,Submit,02/21/2021 09:13:34,"Inspiration
+
+With the pandemic causing people not to move as much, eating healthy is as important as ever. During this time, one of our group members tried eating more produce but had minimal knowledge on what was good and for how long. We realized a barrier was present for produce selection and healthy eating for inexperienced buyers.
+
+What it does
+
+Bananalzyer utilizes a web application to take pictures of produce to be analyzed. Then, image processing trained by a neural network uses the image to provide data on ripeness, freshness, and days until the item goes bad. The data is presented to the customer to inform them to make the best decision.
+
+How we built it
+
+We built the web app using Bootstrap, HTML, CSS, and Flask. Utilizing Github and VS code to work together on the project between the four people. Then to analyze the fruit we used image processing trained by a neural network. We used several different image processing techniques and algorithms. We utilized machine learning to help classify good and bad fruit.
+
+Challenges we ran into
+
+During the project, with 4 people working together we ran into coordination issues. Also, given no final solution sometimes ideas conflicted. When designing the website we had minimal front end development experience so designing and redesigning the website was a big challenge. 
+
+Accomplishments that we're proud of
+
+We are proud of developing an idea that will help the health of others by giving them access to more information to make better decisions. Team work was improved between the group during the process to improve efficiency through the event. Being able to submit a working application and being able to demo it effectively was a fulfilling achievement.
+
+What we learned
+
+We learned front end development and how to overcome the challenges involved with it. Also, we learned how to integrate the image processing into the web application to accomplish the intended functionality and make the idea come to life.
+
+What's next for Bananalyzer
+
+Unfortunately, due to time constraints, Bananalyzer could not meet all the functionality that was intended. Up next is incorporating more produce to chose from, improve the UI to make it easier to use, and provide more data on the produce. We plan on expanding our process by adding in questions related to the texture for the user to input after he/she has taken a picture of the produce. We understand there are other factors that go into the freshness of produce and will be working towards adding these factors to enhance the rating process. We also plan on improving the ""Bananalyze"" page by showing more detailed data as well as using charts so the consumer can visualize the data easier. This visualization is important so the customer can understand the important factors, freshness, ripeness, and how long the produce will last.
+",https://github.com/32BenH/FruitParty,https://youtu.be/k-U78owcmII,"Best Domain Registered with Domain.com (MLH), Best Design Hack, Most Creative Hack, Most Useless Hack, Most Innovative Grad Hack (EECS-GSA), Making the Customer's Life Easier (84.51)","html, css, java, python, github, matlab",,University of Cincinnati,3,https://banalyzer.tech,"wije#8943, Leaxle#2933, Kwippy#5578"
+Witty Bear,https://revuc-x.devpost.com/submissions/210591-witty-bear,Submitted (Gallery/Visible),Pending,Submit,02/21/2021 09:52:58,"Inspiration
+
+What it does
+
+Powered with ReactJS and Google Cloud, Witty Bear is a platform where not only you can attend the events but schedule the events as well. It's a perfect platform for the organizers and the attendees to coordinate.
+
+How we built it
+
+We developed a web application framework ""Witty Bear"" as a prototype of user interface which uses Google Cloud Firestore as back-end and ReactJS as front-end. Authentication and storage of information done through Google Cloud Firestore as well.
+
+Challenges we ran into
+
+We faced issues with the design of the frontend as we were trying to implement a great user experience. Connecting and fetching the data from the Google Cloud was also a bit challenging.
+
+Accomplishments that we're proud of
+
+The user interface of our web application is something we are proud of. We are now more familiar with Google Cloud. CRUD operations and query with Google Firestore are all the things that we'll list as our accomplishments.
+
+What we learned
+
+From the first commit on git to collaborating as a team, connecting Google Cloud and deploying the code on heroku, we have learned a lot.
+
+What's next for Untitled
+
+We are extremely excited about the web application and we are definitely going to work on it and take it to a position where it can actually help people.
+","http://wittybear.herokuapp.com/, https://github.com/aman-malviya/revolutionuc",https://youtu.be/KU1QpdLSNmk,"Best use of Google Cloud (MLH), Best Education Hack, Best Design Hack","react, html5, css3, google-cloud, firestore, vscode, github, git",,"MANIT Bhopal, India",1,"",'@yash7091       @Aman Malviya
+Hack It On!,"",Draft,Pending,Project overview,02/21/2021 10:01:17,"","",,"","",,Ivy Tech Community College of Indiana,0,"",""
+Fluency,https://revuc-x.devpost.com/submissions/210625-fluency,Submitted (Gallery/Visible),Pending,Submit,02/21/2021 10:10:56,"Inspiration
+
+Eloquent oration and strong communication are crucial skills to make sure one's point gets across, whether that be in interviews, presentations, or even every day conversation. Our team realized that there are countless self-improvement apps to help users quantify their fitness, knowledge, productivity, etc. but nothing for speaking. With all communication being virtual, it is ever more important to focus on the quality of our words, because that's one of the only ways for us to connect with each other. Everyone wants to be a better speaker, and the Fluency is designed to support the process of refining one's speech.
+
+What it does
+
+The Fluency is a lightweight app that will help analyze your communications. At any point, a user can choose to start or stop recording their audio. The audio file will then be securely transferred over to our back-end servers to analyze directly using ML models without any work on the user-end. Once the analysis is completed, users can see statistics such as their speaking rate, amount of unnecessary pauses, and other valuable, and sometimes unexpected data.
+
+How we built it
+
+The Fluency is an Electron App which makes API requests to a Google Cloud Platform Flask back-end. The libraries used to analyze the data is my-voice-analysis.
+
+Challenges we ran into
+
+None of our team had been familiar with how modern libraries work with audio files, and it turns out they are a lot more complicated than we'd imagined. Figuring out how to transfer these files back and forth from the client-side to the back-end was a headache as the configuration for how our app would record audio could only work on Windows machines.
+
+The models that have been made for specifically the task of analyzing issues in speech are restricted in their functionality, and there are no robust technologies that have been produced for this task. Thus we had to hack together a few different libraries together to get the analysis that we wanted.
+
+We initially were thinking of using simple serverless API calls from a simple chrome extension. However, the packages and programs we needed to set-up became very delicate and so we had to completely scrap and recreate our backend around halfway through, and the browser was often fickle with allowing us to record microphone audio.
+
+Accomplishments that we're proud of
+
+Despite the difficulties dealing with audio files, we managed to create an extremely streamlined back-end. The computation speed can be scaled up quite easily by adding more cores into the GCP Compute Engine, and we abided by REST standards.
+
+What we learned
+
+Although we had experience with Python and backend before, we had never used Flask. It was incredible to see libraries that seemed to constantly break down in deployment be so seamlessly integrated via Flask. While working with the Python ML, we also realized both how incredibly powerful ML is, as well as how incomplete these models currently are for speech analysis and a day-to-day user. 
+
+When our ideas for making a Chrome extension broke down, we knew we had to find something equally as accessible. Mentors suggested Electron, and we decided to use that for the first-time to create a client-side interface. 
+
+What's next for Fluency
+
+There are so many possibilities ahead now that we have settled the back-end infrastructure and audio data transfer. It is now far more feasible to iterate on our ideas and expand the types of models that we are using for the audio analysis. Different models allow for different analyses, and depending on which features users want to see, we can pick and choose models to implement. 
+
+Part of the hopes with the project as a Chrome Extension was for integration with Google Meets or Messenger Calls for ease of use whenever entering a meeting. As an isolated Electron App, we now have the opportunity of integrating with Zoom, Skype, and other video/audio calling platforms.
+
+We want to give users a very comfortable, accessible, but also productive experience, so we want to implement visualizations of the data and trends across time so that users can have a better idea of how to improve.
+",https://github.com/joshuanianji/um-detector,https://youtu.be/De7u6KFPyNo,"Best use of Google Cloud (MLH), Best Education Hack","javascript, html, firebase, electron, flask, python, machine-learning, natural-language-processing, google-cloud",,University of Alberta,3,"","calvin, OshuaJay, RubberNoodles, ProbablyNotWorking"
+Crash Buddy,https://revuc-x.devpost.com/submissions/210630-crash-buddy,Submitted (Gallery/Visible),Pending,Submit,02/21/2021 10:13:18,"Inspiration
+
+Motorcycles are by their nature far less crashworthy than closed vehicles. They are also less visible to other drivers and pedestrians and less stable than four-wheel vehicles. Operating a motorcycle requires a different combination of physical and mental skills than those used in driving four-wheel vehicles. Motorcyclists and their passengers are more vulnerable to the hazards of weather and road conditions than drivers in closed vehicles.
+
+In 2018, 4,985 motorcyclists died in motorcycle crashes and 857 bicyclists were killed in traffic crashes in the United States. Crash Buddy is a simple solution to this problem. It updates the website with the pre-crash data of a vehicle and also the position of the crashed vehicle. The amount of death and loss due to accidents is immense, especially for the victims who could be saved but weren't due to the lack of available communications with the medical support system. With this and a few close calls ourselves we came up with this project.
+
+What it does
+
+We have embedded piezo-sensors, an accelerometer, a GPS module and NodeMCU into a motorcycle jacket. When the driver meets with an accident(whether they are hit or fall down), the piezo-sensors are activated which in turn activates the GPS module which then relays the location of the rider to Google Firebase and displays the location on a website for easy access by the Emergency services.
+
+How we built it
+
+We used a few piezo sensors strategically placed at places that would feel the pressure after being hit during an accident, a neo-6m GPS module and a NodeMCU.
+
+Challenges we ran into
+
+The GPS module took some time to get up and running.
+
+Accomplishments that we're proud of
+
+Integrating hardware, GPS services, a website and a cloud to create an exciting and helpful project!
+
+What we learned
+
+Always reset your NodeMCU before uploading new code otherwise you will waste a lot of time compiling and running the right code and getting wrong results.
+
+What's next for Crash Buddy
+
+To deploy the website in real life for Emergency services and increase accuracy of GPS module.
+","https://github.com/atharwa-24/Crash-Buddy, https://crash-buddy.netlify.app",https://youtu.be/s_BeUUfpEvY,"Best use of Google Cloud (MLH), Best Hardware Hack Sponsored by Digi-Key (MLH), Best Design Hack, Most Creative Hack","nodemcu, neo6mgps, accelerometer, piezo-sensor, html5, css, javascript, bootstrap, google-maps, firebase",,"VIT, Pune, Vishwakarma Institute of Technology , savitribai phule university, pune university ",3,"","PeePeePooPoo#0661, Atharwa_Kharkar#1002, sastadante#2016, Tejas_Khairnar#8735"
+Leafy,https://revuc-x.devpost.com/submissions/210640-leafy,Submitted (Gallery/Visible),Pending,Submit,02/21/2021 10:20:25,"Inspiration
+
+My major source of motivation for leafy was an incident that took place recently. My mother and her friends are very enthusiastic about botany. My house has a big garden with innumerable plants. She usually spends a lot of her time catering to all their needs. Once my neighbourâ€™s plant recently caught a infectious plant disease which was left undiagnosed. Due to this, the disease got communicated to our plants leading to their gradual death. Being nature lovers, it was a very traumatic experience for all of us. It made me wonder about the huge losses that the agriculture sector incurs because of the lack of right awareness at the right time. This prompted me to prepare a mobile application to prevent its reoccurrence.
+
+What it does
+
+The android app takes a leaf image from mobile gallery. App is connected via API to python backend which uses a well trained CNN based model which is trained by dataset comprising of over 30000 plant images. It can accurately predict and classify leaf diseases to a degree of 94%. If the model finds the detected disease to be infectious, it notifies all the nearby mobile phones(in radius < 2 km) to take precautions to prevent the disease.
+
+How we built it
+
+CNN model using Tensorflow, Scikit-learn, and OpenCV
+App using android studio
+API using flask(python)
+and around 5 cups of coffee â˜•ï¸ 
+
+Challenges we ran into
+
+I used my knowledge of java, python and html with a bit of css. Building a CNN model which could private the highest level of accuracy and F1 score was the main challenge. Another challenge was trying and testing the perfect combination of the CNN model parameters achieved desired results.
+
+Accomplishments that we're proud of
+
+Through the course of this hackathon, I learnt the use of Google cloud AI notebooks which will go a long way in helping us become better hackers. The fact that we were able to document our imagination and ideas into code successfully and complete this project in time is probably a big accomplishment for both of us. 
+
+What's next for Leafy
+
+With the use of Drone, I look forward to map acres of land to help the farm owners. Also, I can extend and develop another model which would be able to analyse soil through photos and predict about any lack of nutrients.
+","",https://youtu.be/8koEKykNoLA,"Best use of Google Cloud (MLH), Best Design Hack, Most Creative Hack, Most Innovative Grad Hack (EECS-GSA), 1st Place Capture the Flag, Making the Customer's Life Easier (84.51)","tensorflow, python, java, android",,University of Massachusetts Amherst,0,"",mst#1470
+Hack it On!,https://revuc-x.devpost.com/submissions/210643-hack-it-on,Submitted (Gallery/Visible),Pending,Submit,02/21/2021 10:21:25,"Inspiration
+
+This project was pretty heavily inspired by games in the Jackbox series, as well as some past projects we've worked on. We decided we want to try for a retro-theme game, and ended up theming it around hacking.
+
+What it does
+
+In Hack It On, all players are grouped on a team and tasked with completing specific tasks such as debugging a program, entering in passwords, and reading out said passwords for people to achieve the ultimate goal of earning enough points to hack into the mainframe. What's the mainframe? We're not quite sure yet.
+
+How we built it
+
+Hack It On was originally served through Django, with the majority of it is written in NodeJS. Communication between the client and the server is handled through Socket.IO. Issues with deploying the Django server forced us to switch to NodeJS for serving last minute.
+
+Challenges we ran into
+
+The biggest challenges we ran into were not logical ones, but just the time constraint and random JavaScript irregularities. Eventually, though, we made the most of our time and solved all the random errors.
+Also, Domain.com had trouble with our user account. We did purchase the domain hacking-it.online.
+","https://github.com/drewgifford/HackItOn, http://hackiton.drewgifford.com",https://youtu.be/AiZFkZn_OO0,"Best Domain Registered with Domain.com (MLH), Best Design Hack, Most Creative Hack","node.js, django, html5, css3, javascript, socket.io",,"University of Cincinnati, Ivy Tech Community College of Indiana",1,http://hacking-it.online,"Toadally#0001, Jared#5984"
+Seek Out Local,https://revuc-x.devpost.com/submissions/210660-seek-out-local,Submitted (Gallery/Visible),Pending,Submit,02/21/2021 10:33:51,"Inspiration
+
+The pandemic has impacted many local businesses to cut costs with staff, hours, or shutting down the business as a whole. Local and independent businesses need new and lasting customers to make a comeback and to continue expressing their passion for their products. Consumers are transitioning from passive to active consumerism. This is from people spending time at home and realizing the surrounding items should be of good quality and evoke positive emotion. People are choosing quality and price over commodity and convenience. This app will connect consumers with unique, lasting, neighborhood businesses.
+
+What it does
+
+Ideally, the app would be able to connect with the consumers history of purchases from supermarkets such as Kroger, Target, or Walmart. The program would recognize the repeated items and define the item to begin searching for a match from a local business. The information from the local businesses would be drawn from their online shops to provide accurate pricing and content. The ""matched"" item would appear for the user for them to compare and decide to buy commodity or to buy local. The user would be able to see their proximity to the store location using GPS. However, if the person were not looking for food but rather gifts, Etsy.com would be presented to highlight artists in proximity. Navigating to a businesses webpage for purchasing items removes any payment security requirement of the app. Overall, the app encourages the user to buy from local businesses by presenting the organized information   accurately. 
+
+How I built it
+
+I built the user-interface portion using Adobe Xd. I begin with a loading screen as the app were to start up. Then the main screen includes a search bar and the products. From there, I was able to draw paths between screens to show the movement between product images to business websites. 
+
+Challenges I ran into
+
+One challenge was not having any back-end development to know if the idea would be applicable. This did not halt my work as my main goal was to visualize the product and to learn new software!
+
+Accomplishments that I'm proud of
+
+I'm proud of completing my first hackathon! I had a great time getting to meet people, learning Adobe Xd, and being able to create and design a visual and interactive project. 
+
+What I learned
+
+I learned an entirely new software to create and manipulate images. I appreciate having an aesthetic outlet and still being able to solve a problem. 
+
+What's next for Seek Out Local
+
+The next step is to begin the back-end development. Another addition could be to compare the users expenditures with supermarket vs. local/independent businesses with user-interface.
+","",https://youtu.be/uMGnGqi7TjI,"Best Design Hack, Making the Customer's Life Easier (84.51)",adobe,,University of Cincinnati,0,"",lran#9157
+Fruit Fun Pico-8 Game,https://revuc-x.devpost.com/submissions/210663-fruit-fun-pico-8-game,Submitted (Gallery/Visible),Pending,Submit,02/21/2021 10:34:47,"Inspiration
+
+I really enjoy playing platform and retro games such as Celeste and I thought it would be fun to learn how to make one myself!
+
+What it does
+
+I built a simple platformer game in which you are a cat who has to jump around and catch fruit falling from the sky. You win the game when you reach 50 points!
+
+How I built it
+
+I built this game using Pico-8, a game making software that runs on a modified version of the Lua language. For the first half of the hackathon I used tutorials to learn the basics of Pico-8 and afterward created my game.
+
+Challenges I ran into
+One of the biggest challenges that I ran into was creating the main menu screen and win screen. Because I made them after the game and movement, I had to almost completely move around all my code to make a ""state machine"" or something that would allow me to shift between the main menu, win screen, and game state. There were several scary moments where I went to test the game and nothing happened, but I managed to fix it in the end!
+
+Accomplishments that I'm proud of
+I'm proud of myself for making a fully functional game from scratch! I am also proud of myself for submitting my first ever hackathon project!
+
+What I learned
+The basics of Pico-8 and Lua
+The basics of game development
+How hard 8x8 pixel art is and how frustrating collisions can be
+
+What's next for Fruit Fun Pico-8 Game
+Something that I wanted to add at the very beginning of the project was a character select option. I want to make it so that once you achieve certain milestones (like collected 100 fruit or won 3 times) you could unlock new characters to play with such as a dog, panda, llama, etc.
+I also wanted to add a stage select option where players could select a different environment to play in. However, these goals first require me learning how to create selection options in Pico-8!
+",https://github.com/SaadKhan090/Fruit-Fun,https://www.youtube.com/watch?v=on8iok4Pg6U,"Most Creative Hack, Most Useless Hack","pico-8, lua",,"",0,"",Pixelated_Polygon
+Spaceship Escape Room,https://revuc-x.devpost.com/submissions/210664-spaceship-escape-room,Submitted (Gallery/Visible),Pending,Submit,02/21/2021 10:35:02,"Inspiration
+
+One of my hobbies that I miss most during the pandemic is going to Escape Rooms with my friends! This project was inspired by those rooms, and the social problem-solving fun that comes along with them!
+
+What it does
+
+Gameplay
+
+This project is an online multiplayer Unity3D game where players work together to stabilize their spaceship which has been damaged by asteroids. Users have a very limited amount of time to fix the ship before they run out of oxygen, and have to use problem-solving skills and teamwork to make sure they succeed!
+
+Technology Stack
+
+The code behind this project is supported heavily by the Mirror Networking library alongside the Chykary/FizzySteamworks git repo. These technologies allow players to connect to each others' easily & without port forwarding, with the only requirement being that they have an instance of Steam running on their machine!
+
+Assets
+
+Many art and sound assets were made for this project! While most of the in-game map is made using the Unity Probuilder library, nearly every not-floor-or-wall 3D asset was made by Jake using Blender! The music for the game was all made by Kevin within the duration of the hackathon, as well as many of the sound effects!
+
+Challenges we ran into
+
+I (Sam) am very new to realtime multiplayer networked game development - more than a month ago, I'd never heard of the Mirror networking library! Early on in the project, I spent something around 30 minutes debugging a connection issue, which turned out to be a typo we made during runtime when connecting to a session!
+
+Another issue I ran into - at something like 4am, I had an issue where Unity said I was missing the Steamworks libraries. They were in my asset folder and everything, but I couldn't get rid of the compiler error! I spent over an hour debugging the issue before I tried re-cloning my project, which did the trick!
+
+Accomplishments that we're proud of
+
+We're all extremely happy about how the game feels to play! The ambience between the models and the SFX and the snappy gameplay makes for a very enjoyable time, which we're able to easily share with our friends thanks to the Steam Networking features we included!
+
+What we learned
+
+I (Sam) learned a ton about networked game devlopment! I'm currently taking a computer networking course, in which we've briefly discussed things like server commands and Rpc's, and this project has given me a much greater understanding of the strength of those tools.
+
+What's next for Spaceship Escape Room
+
+After a long night's sleep, and a bit of catching up with homework, I plan on sharing this game with my friends so I can see what they think!
+",https://github.com/swiimii/space-escape-room/releases/tag/v0.1,https://youtu.be/aPVLR89Az4E,"Best Design Hack, Most Creative Hack","unity, blender, ableton, c#",,University of Cincinnati,2,"","""Sam 2#3895"", ""CoolUncle420#7978"", ""BrokenGlass (Jake)#2213"""
+TrackOpp,https://revuc-x.devpost.com/submissions/210666-trackopp,Submitted (Hidden),Pending,Submit,02/21/2021 10:35:39,"Inspiration
+
+I missed multiple hackathons and internship application period.
+
+What it does
+
+User can post about oppurtunities with reference links and rest of the peers can suggest improvement regarding it and mark it as spam as appropriate.
+
+How I built it
+
+Firstly I designed the system with all of the constraints and then frontend and then backend.
+
+Challenges I ran into
+
+Designing the MVP version was very hard as different oppurtunities have different information to show.
+
+Accomplishments that I'm proud of
+
+I was able to complete the MVP in reasonable amount of time.
+
+What I learned
+
+Planning and then executing saves a lot of time.
+
+What's next for
+
+I will complete then web and mobile version and then launch approach general audience to use it.
+",https://github.com/RajGM/TrackOpp,https://www.youtube.com/unable-To-create-iT-just-Ashort-hack-to-submit,"Best Education Hack, Making the Customer's Life Easier (84.51)","html5, css3, javascript, node.js, mongodb",,University of London,0,"",RajGM#6163
+Crowdsource3D,https://revuc-x.devpost.com/submissions/210689-crowdsource3d,Submitted (Gallery/Visible),Pending,Submit,02/21/2021 10:54:28,"What it does
+
+Crowdsource3D allows people without 3D printers to connect with those who have 3D printers. For those without 3D printers, this is very useful because they can get their parts printed without buying a 3D printer, and it will be cheaper than 3D printing services. For those with 3D printers, this is a great opportunity to earn money by selling 3D prints.
+
+How I built it
+
+For the backend, I used Deno, Typescript, and Postgres SQL. For the frontend, I used vanilla HTML and Javascript.
+
+What's next for Crowdsource3D
+
+In the future, I'd like to improve Crowdsource3D into a real web app. I'd like to improve the frontend to make it look presentable and I'd like to improve the backend to make it more secure. I would also like to make a more automated workflow for vendors, like having a desktop client that will automatically print requested parts.
+","",https://www.youtube.com/watch?v=mzy9wO0huAg&feature=youtu.be&ab_channel=NikosPlugachev,"","typescript, deno, html5, javascript, postgresql",,"",0,"",Nikos Plugachev#2827
+Vitreous,https://revuc-x.devpost.com/submissions/210690-vitreous,Submitted (Hidden),Pending,Submit,02/21/2021 10:55:38,"Inspiration
+
+As current university students we understand the impact Covid has had on education and the way it has affected studentsâ€™ grades. With lectures now being primarily remote, focus and concentration during online lectures and presentation has gone down dramatically. Suffering from the same lack of motivation to be engaged in class, we aspired to create a solution to this problem and create a source of motivation through what is Vitreous.
+
+What it does
+
+Vitreous is a zoom-like platform that incorporates ocular tracking of its participants(students) and rewards engagement during online lectures. Aiming to encourage in-class engagement, Vitreous incentivizes focus and engagement during lectures by tracking students' line of sight. When a students sight Is aimed at an assigned pinpoint in the instructors presentation, the students participation is tracked, and points are added to their running participation grade for extra credit. Instructors also have the ability to add pinpoints to specific areas within their presentation. Rather than forcing students to use this feature, Vitreous allows students to toggle the focal feature on or off. By opting to have the feature on and focusing on the presentation, students are awarded extra credit on their participation grades.
+
+How we built it
+
+Using JavaScript, Node.js, & Express.Js, we built a zoom lookalike for web conferencing. Within this conferencing platform, we included the ocular tracking software which was incorporated using JavaScript, HTML, & CSS. The project's webpage was built using React, JavaScript, CSS, & HTML.
+
+Challenges we ran into
+
+Creating a zoom-like environment mostly using Node.Js was completely out of our comfort zone and level of knowledge/experience. Incorporating a software for focal tracking, which we also had no experience in was equally as difficult. Working tirelessly and collaborating to bring our idea to reality enhanced our communication skills and tested our ability to adapt and quickly learn new technologies.
+
+Accomplishments that we're proud of
+
+This project challenged us by testing our abilities and forcing us to step out of our comfort zone, but at the end, proved to be extremely rewarding. Throughout these\ 36 hours, we were able to learn new technologies and languages we werenâ€™t familiar with and build a full project from it. The way we approached the problem and executed the solution is an accomplishment this team is very proud of.
+
+What we learned
+
+Through Vitreous we learned the importance of communication and collaboration. By effectively communicating, we were able to divide the work in order to proficiently manage our time. By collaborating on GitHub, we were able to complete a functional application and effectively deliver our solution.
+
+What's next for Vitreous
+
+We plan to continue working on this solution and adding additional features for Vitreous to soon launch a production-ready application professors and students can download.
+","https://github.com/FrankieJH/Vitreous?fbclid=IwAR1ItzO_b4lffAZ_kQhlve1QXN60hdUrylCZrgyGzalXcd-nPOKQgT-aqfY, https://github.com/hernandez11/Vitreous, https://vitreous-cc7ad.web.app",https://youtu.be/aWL0UYHpag4,"Best Education Hack, Most Creative Hack","css, ejs, express.js, git, github, html, javascript, nodemon, npm, peerjs, react.js, socket.io, uuid",,"",0,"",Frankie #1808 Angel Hernandez #5098
+Automated Super Mario Odyssey,https://revuc-x.devpost.com/submissions/210694-automated-super-mario-odyssey,Submitted (Gallery/Visible),Pending,Submit,02/21/2021 10:58:00,"Inspiration
+
+Super Mario Odyssey is a game that we all know and love, and by drawing inspiration from the popular ""Twitch Plays"" series we got the idea to try something similar with SMO. Our original idea was to log the keys we press from the keyboard to complete an entire level then mirror the inputs to complete the level a second time autonomously, but we ran into hardware trouble where one of our Arduino boards was dead.
+
+What it does
+
+Our hack uses a custom parser to take an input string of 1s and 0s from an external source and map each bit of the string to a button press. The button press objects are then sent to the Switch from the Arduino board as hex values for the switch to process as button presses.
+
+How we built it
+
+We used an Arduino Mega 2560 with our own version of the firmware to interface with the Nintendo Switch through its USB C port.
+
+Challenges we ran into
+
+Because the Arduino isn't running the correct firmware, we had zero access to its serial debugging features. This made us have to really dive into the static code and find inconsistencies in our algorithms.
+
+Accomplishments that we're proud of
+
+Getting a simple ""A"" press from the Arduino to register on the switch was a huge stepping stone. This helped us realize that what we were doing was indeed possible, and it would be possible to simulate every button on the Switch.
+
+What we learned
+
+Working with this kind of low level C programming was uncharted territory for all of us, so there was a lot of research that we all had to do to figure it out.
+
+What's next for Automated Super Mario Odyssey
+
+Our hopes with this project is to use a second Arduino to remember enough moves from a computer to complete an entire level of Super Mario Odyssey without human interaction.
+","",https://youtu.be/nvzeT9jFnWI,Best Hardware Hack Sponsored by Digi-Key (MLH),"arduino, c, nintendo",,Ohio University - Main Campus,3,"","Dj73960#3205, Daniel Abdelsamed#0384, kassadyjean#0738, bgolski#8261"
+DATA TITAN,https://revuc-x.devpost.com/submissions/210696-data-titan,Submitted (Gallery/Visible),Pending,Submit,02/21/2021 11:04:02,"Our inspiration for this project was the 5/3 proposal challenge, we were intrigued with the data set they provided and we're excited to brainstorm problems and then code solutions. Based on the data set we were given which was information on customer demographics and card transactions.
+
+We developed a rough draft of a website/app that would be user friendly for both clients and business management. The client side was user friendly and would show the client their current transactions and spending habits, categorized in general topics within a pie chart so the client could easily see what they were spending most of their money on whether that be food or entertainment. The business user face combines  both the demographics data of the clients such as age, marital status, ect. and their spending habits to see comparatively where the demographics of clients affects their spending habits. This is shown via a stacked histograms.
+
+The front end of the website we tried using figma to map out and would later program it into flask to operate. The backend was mostly composed using figma to consolidate all the data and take commands from the front end and deliver them to the user. We divided the work where one of us would work on the back end and one of us would work on the front end.
+
+We hit a few bumps being what exactly we wanted to do for a solution to the problems and had many idea brainstorming sessions that eventually got us to our final solution.
+
+We are proud of the work we created.
+
+We learned a few new programming languages or improved upon skills that we already knew.
+
+What's next for DATA TITAN
+","https://github.com/lan-dry/datatitan/tree/master, https://www.figma.com/file/x4YZVqkmjxHdDvKciDtwgR/Untitled?node-id=1%3A102",https://www.youtube.com/watch?v=XvajF8qTz_U&t=1s,"Best Design Hack, Show Me the Money! (Fifth Third)","flask, figma, bokeh, easybase.io, html5, python",,Tekup University,1,"",Landry Fotso#6935 willow(she/her)#3880 tomandjerry69ing#5036
+Plutonomics,https://revuc-x.devpost.com/submissions/210697-plutonomics,Submitted (Gallery/Visible),Pending,Submit,02/21/2021 11:05:03,"Inspiration
+
+Budgeting and financial management apps are a dime a dozen. How can banks assist consumers in improving their financial health?
+
+What it does
+
+Plutonomics is a wealth management platform that uses anonymous consumer data to help users save money through retroactive data visualizations and proactive spending control. See where you are spending money at brick and mortar shops and find other retail locations near by. Consult 5uz3 Orman to see if you are approved or denied and curb your online impulse purchases.
+
+How we built it
+
+This project was built in Adobe XD and converted to Flutter through a plugin, this allowed for rapid prototyping of static components while still allowing for dynamic integration of Google Maps. Flutter not only allowed for quick conversion from wireframe to high fidelity prototype, it also ensured the solution was cross-platform across web, Android, and iOS. Data was cleaned and formatted locally in Excel and hosted on Datastax Astra to allow for REST API calls.
+
+Challenges we ran into
+
+Converting from Adobe XD to Flutter was not always reliable and a lot of testing was needed to reestablish the design. Many plugins in Adobe XD are also locked behind a paywall and that restricted the types of graphs that could be effectively produced.
+
+What we learned
+
+As a native mobile and backend developer, this was my first foray into frontend design and data science. My goal was to learn to create an interactive prototype in Adobe XD and built the product with as little code as possible. I learned how to use the tools in Adobe XD to create the usable components that would effectively demo that data obtained. I also learned how to use the database tools to glean insights from various sources.
+
+What's next for Plutonomics
+
+
+Applying more accurate location tracking as Zip Code areas can be quick large.
+Creating a spending habit algorithms to more accurately track the impact of purchases
+Improving map visualization through layers
+
+",https://github.com/xinyizou/plutonomics,https://youtu.be/VmDlWE-JQMI,"Best use of DataStax Astra (MLH), Show Me the Money! (Fifth Third)","flutter, adobe-xd, datastax-astra, google-maps",,"",0,"",annie.z#3235
+Quizi,https://revuc-x.devpost.com/submissions/210699-quizi,Submitted (Gallery/Visible),Pending,Submit,02/21/2021 11:08:05,"Inspiration
+
+We wanted to build a website that could help students learn with more autonomy as students ourselves, which is why we created this site in order to practice a wide range of math skills.
+
+What it does
+
+The site operates like a targeted quiz, allowing the user to practice their skills on a diverse set of math problems.
+
+How we built it
+
+The site is built with ExpressJS and MongoDB, storing user info into the database and handling all quiz logic in ExpressJS. Additionally, we also employed a Python script to parse plaintext questions and convert them to LaTeX for better-looking questions.
+
+Challenges we ran into
+
+Time was a big limiter for us, as the original plan was to fine-tune the OpenAI GPT-2 model on the mathematics dataset published by Deepmind to allow GPT-2 to generate its own math problems. However, due to the nature of the 1.5B parameter model and the speed of Google Colaboratory, we were unable to train the model in time and had to resort to other tactics.
+
+Accomplishments that we're proud of
+
+Our site runs fairly well with a clean workflow, and still holds the opportunity to pass potential ML-based logic in at a later time. Additionally, the database holds particularly well considering as very few of us had worked with MongoDB in the past. Finally, the custom LaTeX parser holds very well, allowing us to cleanly display sophisticated mathematical expressions.
+
+What we learned
+
+We learned a great deal about parsing, MongoDB, and general web development.
+
+What's next for Quizi
+
+With more time, we could potentially deploy a GPT-2 based backend to generate questions, potentially allowing for an infinite set of questions for a student to practice while still holding to the target skills.
+","https://github.com/john-whiting/Quizi, http://74.91.115.135:3000/",https://youtu.be/_d_u9Ghhsf4,"Best Education Hack, Best Design Hack, Most Creative Hack, Wolfram|One and Wolfram|Alpha Pro (Wolfram)","mongodb, express.js, node.js, ejs, python, javascript",,University of Cincinnati,2,"","TheCdoubleOL#0001, smithhs99#9772, whynot#9037"
+Cellular Automata,https://revuc-x.devpost.com/submissions/210723-cellular-automata,Submitted (Gallery/Visible),Pending,Submit,02/21/2021 11:32:48,"Inspiration
+
+Primer youtube video that depicted a natural selection simulation. Link below:
+https://www.youtube.com/watch?v=0ZGbIKd0XrM
+
+What it does
+
+Allows the user to simulate various cellular automata. Several pre-made entities are included that have several adjustable traits that will change their behavior. One of these is a Conway entity that can be used to simulate Game of Life. A more in depth description can be found in the GIthub repo ReadMe.
+
+How we built it
+
+We created the project in Python. We used the pygame module to display a 2-dimensional grid that depicts the environment and entities in the environment.
+
+Challenges we ran into
+
+Project size, over-engineering, library integration, library usage, and time constraints.
+
+Accomplishments that we're proud of
+
+We implemented Conway's Game of Life in our framework.
+
+What we learned
+
+UML, public programming projects, pygame, plotting, debugging, high-level data structures, and abstraction.
+
+What's next for Cellular Automata
+
+Adding new types of entities and simulating their behavior.
+Add the ability for entities to change and evolve their traits.
+",https://github.com/king2b3/rev-uc-cellular-automata,https://youtu.be/tsB7z9psXFc,"Best Design Hack, Most Creative Hack, Most Useless Hack, Most Innovative Grad Hack (EECS-GSA), Wolfram|One and Wolfram|Alpha Pro (Wolfram)","python, pygame",,University of Cincinnati,2,"","Truck#5154 , Booth #9643 , i-question-this #9198"
+Online class website,https://revuc-x.devpost.com/submissions/210724-online-class-website,Submitted (Gallery/Visible),Pending,Submit,02/21/2021 11:33:27,"Inspiration
+
+We are tired of finding the online class links again and again, so we came up with this idea. 
+
+What it does
+
+This website helps us store all the online class links, view the class schedule, and edit the schedule for our convenience.
+
+How we built it
+
+We build it using HTML, CSS, JS
+
+Challenges we ran into
+
+We have some issues with the format of the website. 
+
+Accomplishments that we're proud of
+
+This is the first hackathon of one of us. Also, 
+
+What we learned
+
+We learned team programming, how to create the front-end part of the website.
+
+What's next for the Online class website
+
+We should add some backend features
+",https://github.com/AlexPham19/RevUC-2,https://www.youtube.com/watch?v=e4uq2oyiQ1A,"","html, css, javascript, jquery",,University of Cincinnati,2,"","Alex Pham#5266, Crazymacaroni #8125, carpediem #2573"
+"Clide, the art bot",https://revuc-x.devpost.com/submissions/210727-clide-the-art-bot,Submitted (Gallery/Visible),Pending,Submit,02/21/2021 11:35:18,"Inspiration
+
+I wanted to make a robot that can exceed my artistic abilities.
+
+What it does
+
+Clide carefully decides which stroke of the paint brush to make next using a complex decision-making algorithm. (random number generator)
+
+How we built it
+
+For this challenge, I took it upon myself to only use trash and existing junk electronic parts to make Clide.
+
+Challenges we ran into
+
+Clide's motors are just that. I don't own any servos, so it was difficult making precise movements. Further, the motors are cheap laptop cooling board fans, and therefore are hardly powerful enough to rotate Clide.
+
+Accomplishments that we're proud of
+
+Clide's beautiful art.
+
+What we learned
+
+Robots are the next big thing when it comes to the arts.
+
+What's next for Clide, the art bot
+
+Art and retirement. Clide has lived a long life of art in the past 24 hours. His motors are beginning to fail and Clide is thinking of settling down and putting his art life behind him.
+","",https://www.youtube.com/watch?v=NmntoEmeQ4I&feature=youtu.be,"Most Creative Hack, Most Useless Hack","python, raspberry-pi, cardboard, blood, sweat, and]tears",,"",0,"",pixel#3275
+Untitled,"",Draft,Pending,Manage team,02/21/2021 11:35:46,"","",,"","",,Lovely professional university,0,"",""
+Social Stock,https://revuc-x.devpost.com/submissions/210731-social-stock,Submitted (Hidden),Pending,Submit,02/21/2021 11:38:57,"Inspiration
+
+I was inspired by the GME boom. I wanted to create a program that could find the sentiment analysis of a certain stock so ""the average joe"" could know what people are hyping up now.
+
+What it does
+
+Social Stock uses the Twitter API and a sentiment analysis program that allows us to look at hundreds of tweets and find the sentiment of each tweet. From that, I was able to graph these points to show the users the overall analysis of the stock.
+
+How we built it
+
+Using Python and its abundance of packages. Also, I used the Twitter API and HTML to display the webpage. Finally, I used repl.it to display and run the python code in the browser.
+
+Challenges we ran into
+
+I ran into a big challenge finding a way to put the python code on a webpage. Since flask or Django was not working, I had to resort to using repl's embed code function.
+
+Accomplishments that we're proud of
+
+I'm proud to find a way to use Twitter's API and connect it to the sentiment analysis to hopefully show people the view on a certain stock
+
+What we learned
+
+I learned a lot about the Twitter API and python in general
+
+What's next for Social Stock
+
+Making the python work in the browser with repl.it and using other social medias.
+",https://github.com/Haneesh25/Social-Stock,https://youtu.be/NasUBhzyUkw,"Best Education Hack, Best Design Hack, Most Creative Hack","python, html5, css3, javascript, repl, twitter",,"",0,"",Haneesh25
+Plagiarism Detector,"",Draft,Pending,Project details,02/21/2021 11:40:46,"Inspiration
+
+Plagiarism in free text has become a common occurrence due to the wide availability of voluminous information resources. Automatic plagiarism detection systems aim to identify plagiarized content present in large repositories. This task is rendered difficult by the use of sophisticated plagiarism techniques such as paraphrasing and summarization, which mask the occurrence of plagiarism. In this work, a monolingual plagiarism detection technique has been developed to tackle cases of paraphrased plagiarism. A support vector machine based paraphrase recognition system, which works by extracting lexical, syntactic, and semantic features from input text has been used. Both sentence-level and passage-level approaches have been investigated. The performance of the system has been evaluated on various corpora, and the passage level approach has registered promising results.
+
+What it does
+
+Plagiarism detectors usually characterize unstructured documents using various categories of textual features such as lexical, syntactic, and semantic. The most popular lexical features are character and word n-grams, while parts-of-speech (POS) information is used extensively to compute syntactic features. Semantic features depend on a thesaurus like WordNet to typify word relationships. 
+
+How we built it
+
+In this work, a machine learning-based paraphrase recognizer, which operates by extracting lexical, syntactic, and semantic features, has been used to detect plagiarism in text passages. The sentence-level paraphrase recognition system reported in  has been adapted for determining if two passages have been plagiarized. Two different approaches have been investigated: in the first, the input source and suspicious passages have been split into sentences, and the original sentential paraphrase recognition system has been applied. In the second approach, the input passages have been retained as it is, and various features extracted from the passages have been used to judge whether the suspicious passage is a plagiarized version of the source.
+
+Challenges we ran into
+
+Accomplishments that we're proud of
+
+That we successfully made accurate plagirism detector in short period of time
+
+What we learned
+
+We learned about natural language processing
+
+What's next for Plagiarism Detector
+
+To include regional language and also programming languages
+",https://drive.google.com/file/d/1rteN3fN2Ee5FGmFbkCM1qEkV_EtTHjD-/view?usp=sharing,https://www.youtube.com/watch?v=YpGrGlhW7lI&ab_channel=pritamkumarmehta,"","python, nltk, natural-language-processing",,mumbai university,2,"",""
+Untitled,"",Draft,Pending,Manage team,02/21/2021 11:53:56,"","",,"","",,Jyothi engineering college,0,"",""
+Habit Hammer,https://revuc-x.devpost.com/submissions/210743-habit-hammer,Submitted (Gallery/Visible),Pending,Submit,02/21/2021 11:55:14,"Inspiration
+
+Habit trackers are only good for one thing: tracking existing habits. Which is cool and all, but what if you want to start a new habit, or stop an old one? Trackers donâ€™t help with that. In fact, they can be downright discouraging.
+
+Staring at a huge list of tasks leaves you feeling overwhelmed. When you inevitably miss a day, seeing that disappointing hole in your streak makes you want to just give up. To avoid those feelings of guilt and hopelessness, you can play it safe and only track established habits that you already do all the time, but what's the point of tracking those?
+
+Habit Hammer teaches you to build and maintain a new habit, or break an old habit, instead of just tracking how many times you've done it.
+
+What it does
+
+You can sign up, log in, and log out using Firebase authentication, and see a list of sample habits.
+
+How I built it
+
+Habit Hammer runs on a Flask backend, and stores it's data on Firestore. The frontend is simple JavaScript/HTML/CSS.
+
+What I learned
+
+This was my first time 
+
+
+making a website with more than two pages
+making a project with a login
+using cloud storage
+needing to safely store a private key 
+
+
+As someone who has never really done much backend, I also learned a lot about Flask. 
+
+Code
+
+See my code here!
+","https://habithammer.glitch.me/, https://glitch.com/edit/#!/habithammer, https://github.com/elddc/HabitHammer",https://youtu.be/HAY1eKyihWU,"Best use of Google Cloud (MLH), Best Design Hack, Most Creative Hack, Most Useless Hack","javascript, python, flask, firebase",,"",0,"",eldcwhldc
+Sleeper,https://revuc-x.devpost.com/submissions/210744-sleeper,Submitted (Gallery/Visible),Pending,Submit,02/21/2021 11:55:32,"Inspiration
+
+For this project we were inspired by social deduction games like Mafia, Avalon, or Secret Hitler that we play frequently. However, we wanted to create a version for 3+ people since it is really difficult to gather many people during COVID times.
+
+What it does
+
+A SMS based app that runs a social deduction game.
+
+How we built it
+
+We used python as the programming language, flask to create the website, and twilio to manage SMS messages.
+
+Challenges we ran into
+
+We struggled to find a database structure to store game info, but decided to use flask and twilio to solve this. It was also very difficult to figure out the design of the game rules as it involved a lot of trial and error.
+
+Accomplishments that we're proud of
+
+All of us learned a new language and programming package, in addition to half the team having their first hackathon experience. We also have created a new game that we will enjoy playing!
+
+What we learned
+
+We learned about project management, debugging, SMS using twilio, and improved our python fluency.
+
+What's next for Sleeper
+
+Expanding the game for more options, and improving the UI
+","http://sleeperagent.online/flaskapp, https://github.com/Alex7Li/SleeperAgent",https://youtu.be/bsj2WIGZ1oU,"Best Domain Registered with Domain.com (MLH), Most Creative Hack","python, flask, twilio",,Ohio State University,3,https://sleeperagent.online/flaskapp,"JonNykiel, lavptl24, alexli, nick_clawson"
+Poker Data Gathering Game,"",Draft,Pending,Project overview,02/21/2021 11:56:13,"","",,"","",,University of Cincinnati,2,"",""
+Flappy bird clone,"",Draft,Pending,Additional info,02/21/2021 11:57:03,"Inspiration
+
+Flappy bird
+
+What it does
+
+It plays the game flappy bird
+
+How we built it
+
+We built it using Pixi JS as the framework to create the game, the game is coded in Javascript
+
+Accomplishments that we're proud of
+
+The collision works, the bird flies as intended
+
+What we learned
+
+How to create a game using javascript
+
+What's next for Flappy bird clone
+
+Creating another game
+","",https://www.youtube.com/watch?v=gaURyS2KBeI,"","javascript, pixi",,"",1,"",adam#9876 ahmeda25 #6443 JayTee #8315
+FlappyUntitled,"",Draft,Pending,Manage team,02/21/2021 11:57:57,"Inspiration
+
+Flappy
+
+What it does
+
+Flappy bird
+
+How I built it
+
+Java and html
+
+Challenges I ran into
+
+asd
+
+Accomplishments that I'm proud of
+
+asd
+
+What I learned
+
+asd
+
+What's next for FlappyUntitled
+
+sad
+","",https://www.youtube.com/watch?v=gaURyS2KBeI,"","javascript, html",,University of Cincinnati,0,"",""
+Untitled,"",Draft,Pending,Manage team,02/21/2021 12:03:07,"","",,"","",,University of Cincinnati,0,"",""
+Flappy Bird Clone,https://revuc-x.devpost.com/submissions/210768-flappy-bird-clone,Submitted (Gallery/Visible),Pending,Submit,02/21/2021 12:03:07,"Inspiration
+
+Flappy bird
+
+What it does
+
+It plays the game flappy bird
+
+How we built it
+
+We built it using Pixi JS as the framework to create the game, the game is coded with Javascript.
+
+Challenges we ran into
+
+Accomplishments that we're proud of
+
+The collision works, the bird flies as intended
+
+What we learned
+
+What's next for Flappy Bird Clone
+","",https://www.youtube.com/watch?v=gaURyS2KBeI,"","javascript, pixi",,University of Cincinnati,2,"",JayTee#8315 Adam#9876 Ahmeda#6443 Elijh#2133
+Fanua ,https://revuc-x.devpost.com/submissions/210788-fanua,Submitted (Gallery/Visible),Pending,Submit,02/21/2021 12:17:45,"Inspiration
+
+Our city of Dublin, CA has a plethora of residential, vacant, and commercial land, and the economy of the city is dependent heavily on the real estate industry. With small businesses struggling during the pandemic, we realized that these sectors intersect significantly. Keeping this in mind, we decided to research this industry and attempted to facilitate its processes through an application that would streamline real estate networking and co-investing.
+
+What it does
+
+We built a mobile application that connects fellow investors who are interested in co-investing in properties. Through our messaging system and property search filters, users are able to locate and invest in properties with ease, as well as contact fellow investors on the application. Users can also use the data visualization to see trends in the housing market and property price predictions. Using these features, users can determine when the appropriate time to buy a property is in a certain region or county.
+
+How we built it
+
+The frontend was built in Dart using the Flutter software development kit. We created custom widgets and animations to use through the app so the user experience would be simple and elegant. The backend was built using a Python Web Server and Firebase. The Python Web Server was created using the Flask framework and retrieves real estate data from the Realtor API. We also use statistical analysis on the property data to find the average house price and a convolutional neural network to predict future property prices. The Firebase was used for encrypted messaging services and user authorization. It also stores user info and property data.
+
+Challenges we ran into
+
+We had a lot of trouble with the messaging system and updating the messages in real-time between users since we didnâ€™t want the users to refresh the page each time a new message was sent. We also had some problems with querying data from the API and updating the data on user requests such as filtering the properties.
+
+Accomplishments that we're proud of
+
+We are really proud of our real-time Firebase messaging system which we integrated into our Flutter application. We were also really happy with the data analysis we conducted on our properties and provided users with graphical data as well as property information based on the userâ€™s geolocation.
+
+What we learned
+
+Over the course of this hackathon, we learned how to use Python web servers efficiently to acquire data from the Realtor API and implement it in Fafoo Investments. We also learned how to integrate Firebase into our Flutter Application.
+
+What's next for Fanua
+
+We hope to further develop our real estate app so that it displays information about the nearby demographics, school ratings, and local properties purchased. Additionally, we plan on adding more investment properties to our application that are located outside of the United States. Through non-U.S. properties, international investors will be able to connect with each other and co-invest.
+",https://github.com/Kaushik-Indukuri/fanua-backend,https://youtu.be/ElM_el44EzI,"Best Design Hack, Most Creative Hack","flutter, dart, python, firebase, flask, realtorapi",,"",4,"","Kaushik, Akhil, yuvi, derek"

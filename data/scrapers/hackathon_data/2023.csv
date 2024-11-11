@@ -1,0 +1,1291 @@
+Project Title,Submission Url,Project Status,Judging Status,Highest Step Completed,Project Created At,About The Project,"""Try it out"" Links",Video Demo Link,Opt-In Prizes,Built With,Notes,Team Colleges/Universities,Additional Team Member Count,Mlh Points Question,Domain.Com Domain Names,Tell Us How Your Experience With Mlhâ€™s Sponsor Technology Went.,Room Number
+Dragon and Fairy (DaF),https://revolutionuc2023.devpost.com/submissions/393808-dragon-and-fairy-daf,Submitted (Gallery/Visible),Pending,Submit,02/25/2023 12:22:15,"Inspiration
+
+This project is a challenging and used-to-learn project for our team to gain more experience about data analysis and data modeling. At the beginning of the Hackathon RevUC23, the challenge of Kinetic Vision attracted our attention to how interesting the concept is. We found the two robots Kuka and Baxter very interesting since their arm motion is designated on the model of the natural human arm.
+
+What it does
+
+This project is a self-learning-and-challenging experience with data analysis and visualization.
+
+How we built it
+
+We used Python to convert data from MATLAB into data frames and try to visualize it by plotting 2D motion models.
+
+Challenges we ran into
+
+I don't have much experience on handling and visualizing data. Therefore, I had to learn and do at the same time. Moreover, it was quite problematic when converting MATLAB into Python and plotting motion model the data with pandas and plot
+
+Accomplishments that we're proud of
+
+I have drawn the plot for all the data based on their categories
+
+What we learned
+
+I had a great opportunity to improve my knowledge with data and robotics. I also understand more the incredible ability of Python Library
+
+What's next for Dragon and Fairy (DaF)
+
+I will work on the Baxter robots and 3D model
+",https://colab.research.google.com/drive/1jxTkN2hDlQu0nsKuQQNgZ1JT_V4vLbdy#scrollTo=fCom5-9qTmk4,https://youtu.be/-HB1oGmcw44,Robotic Data Visualization (Kinetic Vision),"python, jupyter, google",,University of Cincinnati,1,University of Cincinnati,"","",220-8
+ClinicalConnections,https://revolutionuc2023.devpost.com/submissions/393829-clinicalconnections,Submitted (Gallery/Visible),Pending,Submit,02/25/2023 12:55:37,"Inspiration
+
+Looking at MedPaceâ€™s challenge, we wanted to create something different that would not only streamline the online clinical trial process, but better another portion of it as well. We also wanted to try our hand at Fifth Thirdâ€™s challenge to increase knowledge and passion for a useful field for people. We were able to combine these to create a site that gives people who might not have otherwise been able to access these clinical trials a way to participate in things that they have a passion for/give them a passion for. This also allows for online clinical trials to reach people in farther physical locations, which can increase diversity and inclusion in those, which is something that is often overlooked/not able to be focused on in a meaningful capacity.
+
+What it does
+
+Our site ClinicalConnections aims to be a hub for individuals to connect with clinical trial organizers and organizations. The organizations would ideally be vetted before being given a profile, to increase transparency for the potential patients. The patients themselves may never have known about the possibility of participating without our site, which increases education and awareness. Many people want to help others, especially groups they are a part of, so being upfront with what types of people these trials are in need of can give the patients an idea of who those trials aim to help. The site consists of four pages: Home, Trials, Organizations, and Legal. Home and Legal are information regarding the site itself; the mission statement, legalities regarding HIPPA, etc. Trials is a grid of cards for each open clinical trial, which links to the organization putting it on so patients can do more accurate and informed research. These profiles then both link back to Trials, as well as link to the Organizations tab which shows a grid of cards for all the organizations on the site, which can all be viewed in more detail on the individual cards. The overarching goal of ClinicalConnections is to bring the clinical trial process into the modern age, with transparency, passion, and reach.
+
+How we built it
+
+We hosted our website on GitHub Pages. We used the classical front end technologies â€” HTML, CSS, and JavaScript.
+
+Challenges we ran into
+
+Neither of us were extremely well versed in website creation, and Faith was the only one who had made projects with it in the past, so this was a good challenge. We had difficulties setting up the HTML/CSS files in the beginning, but the project took off once those were set up. Elias found it especially difficult to do HTML/CSS formatting.
+
+Accomplishments that we're proud of
+
+Faith was able to implement JavaScript correctly at this hackathon, which was not the case at MakeUC last semester. Elias was happy to learn more HTML, and was able to meaningfully contribute to the project.
+
+What we learned
+
+Both of us got better at front end development. We used GitHub Pages for the first time, which made getting the website up and running much easier. Faith was able to use and actually implement JavaScript to allow for navbar navigation, which was a first. Elias was able to put into practice a lot of basic web dev knowledge for the first time as well. He learned a lot of front end, and how to put it into practice.
+
+What's next for ClinicalConnections
+
+In the future, it would be great to really flesh out the account creation for clinical trial organizations. If the site was able to get big, it would also be great for individuals to create accounts if participating in multiple trials. In terms of actual technologies, taking it off of GitHub Pages to also for a dynamic website would also open many more doors in terms of scaling up the website.
+","https://faithrider.github.io/ClinicalConnections/, https://github.com/faithrider/ClinicalConnections",https://youtu.be/MO8U2MpdEms,"Best Educational Hack, Best Design Hack, Best Social Impact Hack, Best Domain Name from Domain.com (MLH), Purposeful User Engagement (Fifth Third Bank), Most Creative Use of GitHub (MLH), Best Digital Solution to Improve the Clinical Trial Process (Medpace)","html5, css3, javascript",,University of Cincinnati,1,University of Cincinnati,"clinicalconnections.tech, witflee.tech","",1819
+Untitled,"",Draft,Pending,Manage team,02/25/2023 12:56:34,"","",,"","",,University of Cincinnati,0,"","","",""
+Sign Speller,https://revolutionuc2023.devpost.com/submissions/393841-sign-speller,Submitted (Gallery/Visible),Pending,Submit,02/25/2023 13:34:00,"Inspiration
+
+When I was in school, there was a friend of mine who started suffering with bilateral hearing loss. She struggled to do basic things like reading in the class. It took 8 years of therapy to speak well. Although she has no speech discrimination ability, but she can hear some sounds. As I grew up, this topic drew my attention. As I researched more about this, there were many facts which were horrifying. Itâ€™s when I realized that special people could make use of technology to improve this situation. 
+
+What it does
+
+There are two types of output once we play a video on our application.
+
+
+It will show the subtitles of YouTube content in text format.
+It displays American Sign Language (ASL) of the respective content. 
+
+
+How we built it
+
+We are using Streamlite to build interactive front end. Python code fetches the video URL, given by the user. It extracts the subtitles and converts them into American Sign Language (ASL). We deployed our application on Azure and Google Cloud. We also maintained a collaborative GitHub Global Campus history. 
+
+Challenges we ran into
+
+We had to troubleshoot the deployment issues we faced in Azure and we were successfully able to overcome it. 
+Web app is also deployed on Google Cloud Platform with the help of docker. We faced challenges while dockerizing the web app.
+
+Accomplishments that we're proud of
+
+We are proud of doing our little bit of contribution to the society and make the deaf's people life better. We are also able to help educators and parents for their training purpose. Technically, we can give a demo of the application from front-to-end as well.
+
+What we learned
+
+We learnt to use Streamlit as front end to build web app efficiently. We learnt code versioning of the project files with Github. We also learnt cloud technologies like Google Cloud and Azure to deploy our web app.
+
+What's next for Sign Speller
+
+As they say, there's always a room for improvements, we see below opportunities to improve Sign Speller:
+
+
+Dynamic Streaming of Sign language with Video streaming.
+Planning to develop mobile app.
+We will optimize the back end efficiency with the help of Large Language Models (LLMs).
+We are planning to develop a sign language chat-bot.
+We will add animated hand gestures to improve interaction.
+
+","https://videotoaslapprun-f2c4xcgofq-ue.a.run.app/, https://signspeller.azurewebsites.net/, https://github.com/sameeerjadhav/RevolutionUC.git, https://youtu.be/RJ02coS-f14, http://signspeller.tech",https://youtu.be/RJ02coS-f14,"Best Educational Hack, Best Design Hack, Best Social Impact Hack, Most Useless Hack, Best Domain Name from Domain.com (MLH), Best use of Google Cloud (MLH), Most Creative Use of GitHub (MLH)","python, streamlit, azure, github, github-actions, google-cloud, docker",,University of Cincinnati,2,University of Cincinnati,signspeller.tech,"",Lobby-8
+Skillscapade,https://revolutionuc2023.devpost.com/submissions/393845-skillscapade,Submitted (Gallery/Visible),Pending,Submit,02/25/2023 13:36:03,"Inspiration
+
+Our inspiration for Skillscapade came from the need for a unique twist on more ""corporate"" learning platforms, offering a way for users to engage with content in a way that feels less like a chore and more like an adventure. We wanted to create a tool that would empower individuals and organizations to design customized, gamified learning experiences that not only teach new skills, but also inspire a sense of curiosity, exploration, and achievement. With Skillscapade, we hope to revolutionize how people think about learning and make education more enjoyable and effective for everyone.
+
+What it does
+
+
+Users can create an account using Google and view the profile page. 
+Users can access some courses that are already made by creators, and collect points.
+
+
+How we built it
+
+
+Angular web framework in the background 
+Dynamic calls to Google Firebase for documenting 
+Secure SSO sign in with Fireauth
+
+
+Challenges we ran into
+
+
+User identification
+
+
+hard to do securely
+
+asynchronous communication
+
+
+hard to update in real time
+accomplished using RxJS observable/subscriber models
+
+
+
+Accomplishments that we're proud of
+
+
+We're proud to say that we have a minimum viable product working--please make an account on https://skillscapade.tech and find out for yourself!
+Secure, data visualizations update in real time
+
+
+What we learned
+
+
+Lots of Angular backend development 
+The Angularfire API for configuring and using Firebase with Angular 
+Stenganography and finance, for tract research
+
+
+What's next for Skillscapade
+
+
+We plan to add quick and easy editing tools for users and companies to upload and edit their own content tracts for use in learning about niche subjects and corporate training on the material. 
+We also plan to make a system that would track course popularity and use machine learning to cluster similar courses and recommend different courses to users automatically. 
+
+",https://github.com/jack-margeson/skillscapade/,https://www.youtube.com/watch?v=9zOKBvHNWus,"Best Domain Name from Domain.com (MLH), Purposeful User Engagement (Fifth Third Bank)","angular.js, firebase, python, fireauth, stenganography, domains.com, rxjs",,University of Cincinnati,2,University of Cincinnati,https://skillscapade.tech,"",210A-6
+PassBox,https://revolutionuc2023.devpost.com/submissions/393857-passbox,Submitted (Gallery/Visible),Pending,Submit,02/25/2023 13:52:49,"Inspiration
+
+Our inspiration behind this project stems from the ever growing problem of cyber crime and its effects on the world around us. More than 23 million people use ""123456"" as their password to their account. With that being one of the many simply guessed passwords, secure and randomly generated passwords have never been more needed.
+
+What it does
+
+Our password manager, PassBox, will safely add, store, and even generate secure passwords for all of your accounts across the internet. Our Password generator gives you options for certain requirements like punctuation or capital letters as well as a slider for password length! Passbox keeps all of your information behind a password protected screen so you only need to remember one password of your choice.
+
+How we built it
+
+We used Python functions to store, create, edit, and retrieve text files containing our data as well as PySimpleGUI in order to bring a graphical user interface into our program for ease of use for the user.
+
+Challenges we ran into
+
+This was both of our first times creating an application program that uses a graphical interface but once we figured that out our biggest problems were trying to delete options from our combo-box. We also ran into an issue with our program crashing if certain requirements were not met from the user but that was fixed. Additionally, file permissions/file I/O, using the os module to find files in different folders, and UI design were challenges that we were able to overcome.
+
+Accomplishments that we're proud of
+
+I would say we are definitely proud of turning in a working and complete project that really helped challenge us and helped us grow in our field. With only a small bit of programming experience in comparison to others in the competition, we feel we outdid ourselves with what we were able to create.
+
+What we learned
+
+I think the most important concept we learned is linking our graphical user interface with our python project. Working with a GUI within our code really helped with ease and accessibility from the user point of view as well as challenged us with something we had not used before.
+
+What's next for PassBox
+
+Our next steps would be implementing the encryption and decryption phases to work with our project. We have written two separate functions with the processes but with more time, implementing it into the code will make PassBox feel much more complete. After that, figuring out a way for the combo-box to delete entries when wanted would also be beneficial.
+",https://mailuc-my.sharepoint.com/:p:/g/personal/rohlofav_mail_uc_edu/EZdqPTl5v7BIpGCy9VIAATsBKNljrptfcsXXxk6dkpws9w?e=nlWgWz,https://www.youtube.com/watch?v=h9_fnwgbpUs,"Best Design Hack, Most Useless Hack, Purposeful User Engagement (Fifth Third Bank)","python, pysimplegui, visual-studio",,University of Cincinnati,1,University of Cincinnati,N/A,"",basement
+Flip Study,https://revolutionuc2023.devpost.com/submissions/393880-flip-study,Submitted (Gallery/Visible),Pending,Submit,02/25/2023 14:27:50,"Inspiration
+
+The goal of the speech recognition flashcard software from FlipStudy was to make it easier for student to study and hone their pronunciation skills. Traditional flashcard apps frequently depend on users rating their own pronunciation, which can be subjective and may not be an accurate representation of their level of proficiency. The FlipStudy app gives users a more objective and interactive learning experience by integrating voice recognition technology. By offering an enjoyable, interesting, and personalized learning experience, we hope to assist users in achieving their language learning objectives. 
+
+What it does
+
+Displays text that the user is learning and asked them to speak it to which it will listen and tell if you you are pronouncing it correctly. 
+
+How we built it
+
+Programmed in Python and using WordPress for the website framework. 
+
+Challenges we ran into
+
+We did not know how to setup and use speech recognition so we found a speak recognition library for Python which we read documentation to use to build a speech interpreter. We also ran into trouble integrating WordPress with Python as our backend was mainly PHP.
+
+Accomplishments that we're proud of
+
+This is our first time integrating PHP and Python to work together. 
+
+What we learned
+
+Working with Speech to Text and Text to Speech over API and with Python. Calling Python from PHP and returning the results for PHP to work with further. Building audio recorders in HTML5.
+
+What's next for FlipStudy
+
+We hope to introduce languages beyond English. Speech to Text processing with supervised based machine learning. With a human reviewing the sound bytes, then they can provide the feedback the AI needs to adapt to various speech patterns.
+",https://flipstudy.tech/,https://www.youtube.com/watch?v=Bha9O4OLVOM,"Best Educational Hack, Best Social Impact Hack, Best Domain Name from Domain.com (MLH), Best use of Google Cloud (MLH), Most Creative Use of Twilio (MLH), Purposeful User Engagement (Fifth Third Bank), Most Creative Use of GitHub (MLH)","python, php, wordpress",,"University of Cincinnati, Cincinnati State Technical and Community College",3,"University of Cincinnati CEAS, Indian Hill High School.",FlipStudy.tech,It was hard but we were able to work it out in the end.,255
+EndoDome,"",Draft,Pending,Project overview,02/25/2023 15:02:14,"","",,"","",,University of Cincinnati,2,"","","",""
+PAX,https://revolutionuc2023.devpost.com/submissions/393952-pax,Submitted (Gallery/Visible),Pending,Submit,02/25/2023 16:52:39,"Inspiration
+
+One in four people will face mental health issues in a year worldwide. We wanted to tackle this issue by making mental health care affordable.
+
+What it does
+
+PAX is a safe place for sharing thoughts and feelings with a supportive community and professionals, to be heard and healed.PAX allows users to anonymously and remotely talk about their issues in a safe neighborhood. 
+
+
+We plan on letting users connect with other users and share their problems and listen as a listener. 
+A person can always talk with our smart AI bot and get tips on mental health and self-improvement. 
+We also let people join in group sessions or directly book an appointment with a therapist or expert. This allows people from all around the world to access this resource and benefit themselves.
+-There are many features like meditation, 24/7 hotline service, goal tracker, 1-1 chatting, listener service, group chatting, etc.
+
+
+How we built it
+
+We used CSS, javascript, and HTML to build a prototype website for our project PAX.
+
+Challenges we ran into
+
+It wasn't easy to make a chatbot by just using javascript.
+
+Accomplishments that we're proud of
+
+We are proud of the concept we created as it can make a global impact.
+
+What we learned
+
+Since it's our first hackathon, we couldn't build a fully functioning app. However, we learned the implementations of javascript, CSS, and HTML.
+
+What's next for PAX
+
+Our future plans for PAX are to make the entire app, build an even more extensive chatbot and connect it to the internet. 
+",https://adksam.github.io/,https://youtu.be/BtAcEdPMpx8,"","html, css, javascript, powerpoint, canva, jotform",,University of Cincinnati,2,University of Cincinnati,"","",265
+Good Vibrations,https://revolutionuc2023.devpost.com/submissions/393960-good-vibrations,Submitted (Gallery/Visible),Pending,Submit,02/25/2023 17:28:50,"Inspiration
+
+Wearable vibrotactile devices are becoming increasingly popular for medical interventions. This technology is based on the concept of stochastic resonance, in which low level noise can enhance signal detectionâ€”like those signals used for balancing oneself! By using these devices, medical professionals can provide targeted and personalized interventions that can improve patient outcomes. Furthermore, these devices are non-invasive and easy to use, making them ideal for medical applications and for in-home clinical trials. 
+
+For our project, we have designed and produced a vibrotactile vest that applies vibrations at varying frequencies at different points around the trunk of the body. By modifying the frequency and statistical structure of these vibrations, different types of intervention can be achieved. It is hoped that this device can not only be used for the advancement of sensorimotor research, but also assist in motor therapies for elderly or movement-impaired individuals. It also has the massive potential to help those beyond our interested population, including vision impaired individuals. 
+
+What it does
+
+Our device generates signals using CircuitPython to produce specific vibration patterns. This vibration could be noisy and improve sensation and balance via stochastic resonance as described above. We can also control the vibration motors individually to provide more fine-grained information about the userâ€™s environment. For example, the motor array could vibrate more intensely on the left side, indicating an approaching obstacle from that direction. It is easy to see how this device opens the opportunity to study a number of unique research questions with clinical importance.  
+
+More broadly, this device provides a way to potentially increase safety in balance-impaired individuals. Research shows sensory degradation associated with aging, resulting in an increased number of falls in older individuals. Research also suggests that the introduction of auditory or vibratory stochastic resonance can improve sensory detection. Through this, it is hoped that the application of vibratory stimulation can reduce fall risk and balance impairment in these communities. Recurrent elderly fallers are often hospitalized and have much higher mortality rates, hence the importance of developing a non-invasive intervention and research tool, such as ours. This device, in addition to traditional research use, can also be sent home with research participants to see how its regular use alters fall risk.  
+
+How we built it
+
+Our device currently makes use of 16 vibrating coin motors, with room for 48, which are connected to PWM motor controllers that are controlled by a Raspberry Pi Pico W. We cut and soldered the wires that connect our circuit. Commands are sent to the Raspberry Pi Pico W using CircuitPython to allow for the activation and control of the individually addressable motors. As a result, different amounts of vibration with varying statistical structure may be applied.  
+
+The motors were connected to an orthopedic belt to allow for easy and comfortable application to the torso. The motors were stuck to three strips of Velcro which were sewn onto the orthopedic belt.  
+
+Challenges we ran into
+
+The most significant challenge we ran into was the development of the hardware. We initially faced issues of needing extra materials than those that we brought, needing to get extra wire, insulation, converters, and transistors. Further, we faced issues of accuracy in our soldering, wherein we had to redo a significant chunk of the wiring we had done initially. These issues slowed us down pretty harshly. 
+
+Due to the hardware delays, we had limited time to test the planned Bluetooth functionality of the device, and had to save that for a future improvement to the device. 
+
+Accomplishments that we're proud of
+
+We are very proud of the progress we made on this project. There may be some parts that are not as cleanly developed as they could be (an issue we intend to fix in the future), and we are happy to have developed a functional device, with a 3D virtual demo.  
+
+We are also happy that we were able to practice and learn some new functional skills that will aid in the development of other research tools in our respective labs.  
+
+What we learned
+
+To conduct this project, we had to learn a significant amount about the theoretical perspectives on noise-based stimulation and the application of noise therapies to different medical conditions. Through this, we were able to gain perspectives on the societal impact of the technologies that we can develop. We were able to consider not only the development of this tech, but also who the tech is there to serve. 
+
+From a technical perspective, this project was one of the more ambitious tasks that we have undertaken. As a team of majority Psychology students and one Computer Science student, we were able to learn a lot about electrical engineering to accomplish this project. Specifically, we were able to develop skills in soldering, circuit design, and communication using the I2C protocol. 
+
+What's next for Good Vibrations
+
+The Vibrotactile belt that we have developed will be employed in research at the University of Cincinnati Center for Cognition, Action, and Perception. We plan to continue this research line, investigating the potential benefits of vibratory stimulation on the perceptual-motor system, and the potential therapeutic avenues this technology can be applied to. Before implementation, we also plan to increase the number of motors and clean up the design of the device, including 3D printing a storage pouch for the motor controllers and other external materials. 
+
+We hope we can continue to develop different wearable technologies, aimed at providing vibratory stimulation in more task-specific areas. For example, generating a vibrotactile glove to enhance sensory function in the upper limbs, or socks to improve function of the lower limbs, etc. By targeting specific areas, we may be able to see more finely-grained benefits, such as improving the manipulation of the hands in Parkinsonâ€™s Disease patients â€“ though more research is also necessary for these advancements. 
+",https://github.com/scott181182/RevUC2023,https://youtu.be/-Ky0D3yhhVI,Best Digital Solution to Improve the Clinical Trial Process (Medpace),"c#, circuitpython, i2c, soldering, github, onedrive, powerpoint",,University of Cincinnati,3,University of Cincinnati (all members),"","",Lobby-2
+Visualizing Kuka 7 Node Robot Arm,https://revolutionuc2023.devpost.com/submissions/394035-visualizing-kuka-7-node-robot-arm,Submitted (Gallery/Visible),Pending,Submit,02/25/2023 20:51:16,"Visualizing the Movements of Kuka 7 Node Robot Arm through Unity and C
+
+Inspiration
+The inspiration for Visualizing Kuka 7 Node Robot Arm came from our interest in robotics and automation. We wanted to create a tool that could help engineers and researchers visualize the movements of a Kuka 7 Node Robot Arm. Coming into the hackathon, we wanted to do something related to that and we ended up running into Mitchell of Kinetic Vision who told us that there was a challenge relating to visualizing the movement of the robot.
+
+What It Does
+Visualizing Kuka 7 Node Robot Arm is a web application hosted through WebGL that allows users to interactively visualize the movements of a Kuka 7 Node Robot Arm through the use of sliders. Users can adjust the angles of each joint and see how it affects the position of the end effector. The application also includes a variety of pre-built sequences that demonstrate the capabilities of the robot arm. The application is also able to interpret the CSV file provided by Kinetic Vision to create a moving visualization of the Kuka 7 Node Robot.
+
+How We Built It
+We built this web application through primarily Unity since it is an amazing tool for modeling 3d objects that require physics and because it is easy to publish through WebGL. We also used AutoCad, RoboDK, Blender, and Fusion360 to create the 3d models in the form of obj files for the motors that make up the robotic arm.
+
+Challenges We Faced
+One of the biggest challenges we faced was getting the different parts of the robot arm to rotate with each other. This is because the location of one motor is relative to the one below it which caused some errors with rotating higher level motors. This was fixed through coding specific rotation scripts that would force the proper rotation. Another issue we had was with the 3d motors for each model not rendering correctly in Unity. An example of such an issue would be the center of the model and thus the rotation not being in the center of the actual mesh.
+
+What We Learned
+Something we learned today about was prioritizing work and not underestimating the process. We had a list of features we wanted to have accomplished by the end of the hackathon but we quickly realized that we had to drop some of the features to make sure that the more important features like the rendering and movement were correct. One of the key components that allowed our simulation to work the way is does was with inverse kinematics, which is the use of kinematic equations to determine the motion of a robot to reach a desired position. We also were overconfident going into this because the tasks early on the process were easy while the process of putting everything together was significantly more difficult
+
+Accomplishments
+Weâ€™re proud of the realistic 3D visualization we were able to create using Unity. We are happy with the front end and we find it simplistic.
+
+Whatâ€™s next for Visualizing Kuka 7 Node Robot Arm
+In the future, we plan to add more advanced features to Visualizing Kuka 7 Node Robot Arm, such as support for multiple robot arms and the ability to save and load custom sequences. We also plan to add onto this by adding the feature of recording robotic movements and converting those movements into a CSV that can be used for the physical robot arm.
+","http://howardgotinastickysituationwithspacearm.tech/, https://www.youtube.com/watch?v=PEpoWVudzjY",https://www.youtube.com/watch?v=a9zgm1uAzVE,"Best Domain Name from Domain.com (MLH), Robotic Data Visualization (Kinetic Vision), Most Creative Use of GitHub (MLH)","matlab, python, unity, c#, autodesk-fusion-360, robodk, html, css, blender",,University of Cincinnati,3,University Of Cincinnati,http://howardgotinastickysituationwithspacearm.tech/,"'- Overall the Kinetic Visions requested software, ""RoboDK"", had a small learning curve, however after taking the time to understand learn the logic behind everything our project became a lot more streamlined. 
+- The domain hosting service was mixed because through the process of getting the domain was filled with errors and setting the DNS could have been easier. However, it seems to have worked and I enjoyed the overall experience.",230-7
+Censible,https://revolutionuc2023.devpost.com/submissions/394117-censible,Submitted (Gallery/Visible),Pending,Submit,02/25/2023 22:57:47,"Inspiration
+
+Our inspiration came from the never ending quest for a safer internet experience. We have all experience the excessive use of vulgarity or obscene imaging in today's world wide web. Censible is our method of cutting down on these forms of media and providing a more enjoyable experience.
+
+What it does
+
+Censible is a web browser extension meant to provide a better search experience for the user. Censible will monitor webpages for the user and remove user selected key words and blur images relating to those keywords. Censible can be used by parents to protect their children's devices from inappropriate content by setting their own custom boundaries. Censible has workplace applications as well, users can create a list that can block distracting data from their view.
+
+How we built it
+
+We used an open source git repo called ""Spoiled"" which could parse html for a list of banned words and black out all the text around the words and any images near them. We expanded upon this by making images blur with a gaussian effect and incorporated google cloud's Vision api to look for labels in the images. These labels were also compared with the banned word list, making the censoring more specific. We also added an embedded options menu where the user could choose how much to blur images.
+
+Challenges we ran into
+
+This project encountered many roadblocks. The first of many was implementing the Google API. Our team lead looked into the problem and came up with a solution after many hours of research. Another challenge was allowing the user to create multiple lists for different work settings. Unfortunately our group ran out of time before we were able to complete this task. In the future, we look to completing this task along with other unfinished tasks.  
+
+Accomplishments that we're proud of
+
+We are very of the Google Cloud Vision API that we implemented into the system. This API looks at every image on a webpage and then generates a list of words relating to the image. Those keywords are then checked against the users blocked list and will blur out the image if any words in the list match the block list. 
+
+What we learned
+
+Javascript API calls
+Google Cloud
+Async await
+HTML
+CSS
+Chrome cache storage
+Extensions
+
+What's next for Censible
+
+In the future, we would like to see Censible expand to the point where users can add multiple lists for different settings. This way Censible could be used in both an educational and workplace setting. The user would just need to switch to their separate list for that task.
+",https://censible-demo.netlify.app,https://youtu.be/peUvxB5r28Q,"Best Design Hack, Best Social Impact Hack, Most Useless Hack, Best Domain Name from Domain.com (MLH), Best use of Google Cloud (MLH), Purposeful User Engagement (Fifth Third Bank), Most Creative Use of GitHub (MLH)","javascript, html, css, google-cloud-vision, google-cloud, chrome, chrome-storage-cache",,University of Cincinnati,2,University of Cincinnati,d3mo.tech,We used Github it was really useful when pushing new programs to each other.,230-3
+Chip8 FPGA Emulator,https://revolutionuc2023.devpost.com/submissions/394137-chip8-fpga-emulator,Submitted (Gallery/Visible),Pending,Submit,02/25/2023 23:16:31,"Inspiration
+
+The members of the group all learned about FPGAs in class, but had no experience designing a large scale project involving them. The CHIP-8 emulator seemed like a fun and challenging project for an otherwise professional use cases of the emerging technology.
+
+What it does
+
+The CHIP-8 Emulator is a virtual machine with a collection of retro arcade games, there is also implementation to create personal games.
+
+How we built it
+
+We used a hardware description language to program individual components such as a program counter, display, memory, alu, instruction decoder, controller input, timer, and a stack.
+
+Challenges we ran into
+
+Synthesis time for the program can be minutes long, adding valuable time to debugging times. VHDL error messages can also be cryptic, leading to intense bug finding. 
+
+Accomplishments that we're proud of
+
+We completed the controller functionality. We have three instructions completely implemented. 
+
+What we learned
+
+Unit testing is very important and very difficult on hardware projects. 
+
+What's next for Chip8 FPGA Emulator
+
+Finish the display functionality, add the remaining instructions, create our own game to include.
+",https://github.com/tweger1999/FPGA_Chip_8_Emulator,https://youtube.com/shorts/QRRtJEy9O3I?feature=share,"Best Educational Hack, Best Design Hack, Most Useless Hack, Most Creative Use of GitHub (MLH)","vhdl, fpga",,University of Cincinnati,2,University of Cincinnati,"",Github repository,Lobby-5
+Caringo,https://revolutionuc2023.devpost.com/submissions/394170-caringo,Submitted (Gallery/Visible),Pending,Submit,02/26/2023 00:23:23,"Inspiration
+
+We were inspired to create Caringo after realizing that there was a need for a platform that connects people with causes they care about in a more personalized and impactful way. We wanted to make it easier for individuals to find and support causes that align with their values and interests, and to provide a space for nonprofits to share their stories and connect with potential donors.
+
+What it does
+
+Caringo is a platform that allows users to discover and support causes they care about through personalized recommendations and social sharing. Users can create profiles, follow causes, and donate to organizations directly through the platform. Nonprofits can also create profiles, share their stories, and connect with potential donors.
+
+How we built it
+
+We came up with the mockup design using an assortment of collaboration creativity tools, such as Adobe Photoshop, Figma, and Adobe Illustrator.
+
+Challenges we ran into
+
+We realized early-on that creating an iOS app from scratch, with what experience we had, was not feasible, but we were determined to see our idea come to life.
+
+Accomplishments that we're proud of
+
+We learned a lot about how an End-User is impacted by design choices, and how these design choices can be used to impact society.
+
+What we learned
+
+Throughout the development of Caringo, we learned a lot about building scalable and secure applications. We also learned a lot about working collaboratively as a team and leveraging each other's strengths.
+
+What's next for Caringo
+
+In the future, we plan to continue improving and expanding the platform, including adding more features and implementing more functionality.
+",https://github.com/CameronPocisk/Caringo.git,https://youtu.be/sj_ftP2Hkhg,"Best Design Hack, Best Social Impact Hack, Most Useless Hack, Best Domain Name from Domain.com (MLH), Purposeful User Engagement (Fifth Third Bank)","figma, css, html, adobe-illustrator, adobe-premiere-pro, javascript",,University of Cincinnati,3,University of Cincinnati,Caringo.tech,"",Floor 4 Lounge
+Busy Bees,https://revolutionuc2023.devpost.com/submissions/394172-busy-bees,Submitted (Gallery/Visible),Pending,Submit,02/26/2023 00:32:21,"Inspiration
+
+We wanted to provide personalized education to all students. This would allow students to learn more about their interests, and capabilities and help them achieve more than what they would in a general education system.
+
+What it does
+
+Busy Bees is an interactive education platform that allows users to learn new words, solve math problems and learn new concepts with explanations appropriate to their age groups.
+
+How we built it
+
+The application was built using python and flask web frameworks. We used open API to receive text answers and used it to teach students.
+
+Challenges we ran into
+
+We had difficulty integrating flask and HTML as there was some logical error while displaying the new words. However, this problem was fixed. We also had trouble with the openAI API as it only returned parts of the text prompt and not the entire text. We were able to fix this by increasing the maximum number of tokens.
+
+Accomplishments that we're proud of
+
+We are proud that we were able to develop a flask application with minimal experience in web dev. We were able to design the web app effectively and use HTML and CSS to syle it.
+
+What we learned
+
+We learn a lot about web dev using python and flask can be used to develop web apps like Busy Bees. We learn a lot about openAI and used to effectively in our project.
+
+What's next for Busy Bees
+
+We plan to integrate a voice recognition feature that would make the application more interactive.
+",https://github.com/aniruddh-alt/Busy-Bees/tree/master,https://vimeo.com/802432586,"Best Educational Hack, Best Design Hack, Purposeful User Engagement (Fifth Third Bank)","python, flask, html5, css3, openai",,University of Cincinnati,1,University of Cincinnati,"","","auditorium, table to the left"
+WriteRight,https://revolutionuc2023.devpost.com/submissions/394216-writeright,Submitted (Gallery/Visible),Pending,Submit,02/26/2023 01:38:37,"The process to Write it Right:
+
+1. What inspires us?
+
+When we were young, we would write lessons in books by hand. Growing older, some may adapt the typing method for the sake of convenience, though some would prefer keeping the traditional way. When we-the teammates met each other, we would spend all day in the library studying. We notice that we have so many ways to keep notes from lessons. Regarding reviewing, this gap creates difficulties for us since it is not the same format. Therefore, we would like to bridge this gap by creating an AI that can convert handwritten format to digital text. 
+
+2. What we learned
+
+
+  We have learned about the techniques to train an AI. Some aspects must take a long path to go, while some only need a shortcut for an AI to understand. What makes it important is that you have to know when is enough. Just like raising a baby, it does not know anything, so our job is to ensure we cover all the areas within the time pressure. 
+  For 24 hours, we would start everything from scratch. We trained a newly born AI from single little things like telling it the gap between characters or a curvy shape to make an â€œoâ€ or â€œaâ€. Letâ€™s not mention that not every curve looks the same, and we would have to point out every possibility. We have learned (in a brutally hard way) that we must take time to raise â€œa babyâ€ AI, which is the only thing that is against us in this Hackathon game. 
+  Technical parts aside, we have learned how to be the actual team. With the pressure of 24 hours, time management is of utmost importance. Obviously, we would strive for the best; however, pressure alone is not enough. We learned when the time is for task delegation, and we trust our teammates with the task assigned. By knowing each of the memberâ€™s strengths and weaknesses, we divided the tasks evenly, and this team has raised a baby AI up within a day. 
+
+
+3. How we built our project
+
+Handwriting recognition is a process of identifying and transcribing the handwritten text into machine-readable digital text. The model you refer to combines Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs) to accomplish this task.
+      The model has three main layers:
+
+
+  CNN layer: The first layer in the model is a CNN layer that is responsible for detecting and extracting text from the input image. This layer uses convolutional filters to scan the input image and extract relevant features for handwriting recognition.
+  RNN layer: The second layer in the model is an RNN layer that takes the features extracted by the CNN layer and transcribes them into text. This layer uses a recurrent architecture to process the input data sequentially and maintain a memory of the previous inputs. This helps the model to capture the contextual information of the text and improve its recognition accuracy.
+  CTC layer: The final layer in the model is a CTC (Connectionist Temporal Classification) layer that converts the output of the RNN layer into a sequence of characters. This layer uses the CTC algorithm to handle variable-length sequences and perform alignment between the input image and the output text.
+  Finally, our AI is deployed to capture images of handwritten text into digital ones.
+During inference, the model takes an input image of handwritten text and uses the CNN layer to extract features. These features are then passed to the RNN layer, transcribing them into text. The CTC layer then converts the output of the RNN layer into a sequence of characters representing the recognized text.
+
+
+4. Challenges we face.
+
+
+  Time constraints: learning and raising a baby is progress, and 24 hours might not be enough for us to train our AI to be as accurate as expected.
+  Training process for an AI: handwritten text varies, from a neatly written paragraph to a sketchy one. Our job is to use a wide range of tools to help it understand in a short period of time. This is what we struggle with most. 
+      Compatibility issues:: working with open source library requires abundant work of version control and OS environment to ensure compatibility. 
+  Conflicts between teammates: not everything is as smooth as butter. We had different opinions and different ways of approaching the problem. It is not usually a negative thing. Many ideas would result in a better apprehension of the process. Whatâ€™s important is how we would reach an agreement so that we could quickly move on and really apply our decided method to practice.
+
+",https://github.com/ToanNham/WriteRight,https://www.youtube.com/watch?v=-VKTiUSlQHA,"Best Educational Hack, Most Useless Hack","python, kivy, windows-10, iamhandwritingdatasets, tensorflow",,University of Cincinnati,3,University of Cincinnati,"","",230
+ManageMe,https://revolutionuc2023.devpost.com/submissions/394266-manageme,Submitted (Gallery/Visible),Pending,Submit,02/26/2023 02:56:17,"Inspiration
+
+ManageMe
+Our team is comprised of busy college students who struggle to balance all of our many tasks, so we worked to create a solution.
+
+What it does
+
+First, users are directed to a page where they can register as new users so their tasks will be saved upon returning later. It will then ask users for the tasks they need to complete and organize them into a visually appealing calendar. Users can then see what remaining tasks to work on for the rest of their week.
+
+How we built it
+
+We used Flask, Python, and Javascript for the backend and HTML and CSS for the front end. The template for our user management system was found on GitHub, and we used a separate template for the schedule interface. After this, we began integrating the two templates to allow for user submission of times and task names. We overhauled the entire front end to create a more enjoyable user experience. 
+
+How we run it
+
+Using google API we deployed our project through a web app deployment. We used Github to manage the codebase and deploy the code to our GCP environment. We created an SSH token for the VM to allow it to pull from the Github repository. Lastly, we added a custom .tech domain from domaim.com. 
+
+Challenges we ran into
+
+Using the flask-SQL Alchemy for inputting data was causing us issues as we weren't familiar with the way to access items stored in the .db file. It also took us time to learn how to host a website on Google Cloud, then route this website to our .tech domain. 
+
+Accomplishments that we're proud of
+
+Successfully hosting our website so it is accessible to a wider audience was a huge accomplishment of ours. 
+
+What we learned
+
+We learned how to better utilize CSS to create visually appealing websites. 
+
+What's next for ManageMe
+
+Our next steps are to create a way to have a dynamic number of events, fix the way to add names to tasks, and fix the start time and end time text entries. 
+","http://www.manageself.tech, https://github.com/nrgrill/ManageMe",https://youtu.be/pRmx69sTvmE,"Best Domain Name from Domain.com (MLH), Best use of Google Cloud (MLH), Purposeful User Engagement (Fifth Third Bank)","python, flask, javascript, bootstrap, css, html",,University of Cincinnati,2,University of Cincinnati,manageself.tech,It was great to use domain.com and Google Cloud to host our website.,560K
+My-Kalory,https://revolutionuc2023.devpost.com/submissions/394293-my-kalory,Submitted (Gallery/Visible),Pending,Submit,02/26/2023 04:02:55,"What inspired us
+
+Nutrition apps such as MyFitnessPal or other online tools can often make calorie tracking confusing as the same food item usually have different macros and serving sizes. We wanted to have a way for users to track calorie quickly and accurately, without needing to enter values by values into an interface to get their result. As such, We implemented a way to scan nutrition labels with the camera, and extract the nutrition values from the captured product and update that info to the user's preset caloric and macro goals. We implemented a way to scan nutrition labels and extract the nutrition values from the captured product and update that info to the user's preset caloric and macro goals.  We decided to go with this idea because we wanted to try our hands at utilizing an API that provided a pre-trained Machine Learning model.
+
+What it does
+
+The app helps users to track their calories and macro-nutrients intake. By scanning the nutrient facts label on a food product, our app will extract the information presented and calculate how much calories and macro-nutrients were consumed and how much are left to meet the user's target.
+Users will be prompted to provide login or sign up information before they are able to use the app's functionalities. If it is their first time, the page will have the user fill out a physical index form to calculate their Body Mass Index (BMI). Once in the app's main page, users will have the option to either view their dashboard, which displays information on their current caloric and macro-nutrient intakes, or choose to capture a food product to get the nutrition information, which will then be updated to the dashboard.
+
+Project scope
+
+For our frontend, we used the React framework to provide users with an interactive and fluid experience. Our backend was written in Python using the Django framework and we incorporated Firebase for Backend-as-a-Service to provide our app with user authentication. For our database, we use MongoDB to store the user's information as well as the products they have scanned through our app for quicker data retrieval. We also included Google's Vision API to help extract and decode the captured image into usable data to send to our backend database.
+
+Challenges we ran into
+
+One of the challenges we ran into early on into the project was getting MongoDB to work with the Django framework, as well as ensuring all project members have access to the database. Because we are still inexperienced working with Django, we also had difficulties using Google's Vision API and decoding the information that was given from the image. Additionally, we still have not nailed down the process of communicating between the frontend and backend as the errors that were given did not point to the exact root and we had to spent a majority of our time debugging the code.
+
+What we managed to achieve
+
+We definitely underestimate the scope of our project, especially given that only a few of us had expertise in the frameworks and software we used during development. In the end we managed to set up the MongoDB cloud database to work with our Django backend as well as the Firebase. We also managed to integrate Google's Vision API  to scan and extract the values from a product's nutrition label, which we then used to update our database. In addition, to make up for our rather lackluster backend, our frontend team made sure that the user's experience be as smooth and interactive as possible.
+
+What we learned
+
+We definitely feel a bit more comfortable using Django as a backend framework for our future project. There was a big learning curve trying to integrate MongoDB as our database, especially the process of setting up a schema for the collections and creating working API endpoints for our frontend and backend, but eventually we managed to figure it out. We also gained new knowledge of how to use Google's Vision API as we were able to decode the text returned by the API from a captured image to usable data that we then sent to our API endpoints. Finally, we utilized a few advanced React techniques and modules, such as Bootstrap, to create a nice-looking and responsive web application, which helped us gain more experience in frontend development.
+",https://github.com/dominhnhut01/revolutionuc2023,https://youtu.be/SC5J2QSICSc,"","javascript, python, django, react, mongodb, firebase, google-vision-api",,Miami University,3,Miami University,"","",220-3
+GitPHREAKERS,https://revolutionuc2023.devpost.com/submissions/394356-gitphreakers,Submitted (Gallery/Visible),Pending,Submit,02/26/2023 06:05:27,"Inspiration
+
+This all started two days ago, when my brother cracked the joke that instead of using a minecraft server to play together, we should just upload a save to Github. Now we're here.
+
+What it does
+
+GitPHREAKERS is a cell based strategy game, based upon the gimmick that the game save is hosted on github, allowing you to view you opponents scripts, cell configurations, as well as the source code. The idea is that by allowing for easy access to intelligence on everyone, it'll force players to constantly update their plans, come up with red herrings, and adapt to their opponents attempts to exploit weaknesses in their strategy.
+
+How I built it
+
+I used primarily React for the client, and express and AWS for the server.
+
+Challenges I ran into
+
+Side note, unfortunately I wasn't able to host it entirely on GitHub. I was so not about to figure out how to deal with GitHub authorization, and the other various issues with constant commits. As a result , most of the handling is done on an actual server :( 
+
+This may be fixed in V2
+
+Turns out, React is a terrible framework for anything game adjacent. It gets all too easy to get tangled states and ugly inheritances. Honestly, not sure what I was thinking. Additionally I was pretty rusty on express and AWS, so that seriously ate into my time budget. Ultimately though, nothing was more infuriating than getting git to cooperate. I fought that program for two hours, trying to get it to automate, before a two line stackoverflow post saved me. In the end, its means I just didnt have enough time to implement everything I wanted too, so I had to cut scripting, seriously downgrading the games complexity.
+
+LOVE LAST MINUTE PROBLEMS: IM NOT RUNNING HTTPS, AND I NEED IT TO BE ABLE TO TALK TO MY SERVER ON GITHUB PAGES, BRB RUSHING A CERTBOT INSTALL.
+
+Accomplishments that I'm proud of
+
+Getting the github repo automations working is great, Its a fun gimmick being able to link to a cell's niche in the repo. I'm also quite happy with the UI, as despite its rushed nature, its still looks pretty stylish, and keeps information clean and organized. Finally, im pretty happy with the (proposed) gameplay loop. I feel as though given the time to be fully featured and fleshed out, it'll make a great little strategy game.
+
+What I learned
+
+Well first and formost, never use React for games. Wont be making that mistake again. Aside from that, I actually learned a good deal on proper react practices, though more in the way of what NOT to do. 
+
+What's next for GitPHREAKERS
+
+Most immediately, A refactor of the codebase. It is a hot mess, and the horrors hidden under the UI are not safe to be viewed by man. After that, I'd like to complete the features I had been angling for, including scripting, customization, and an actual endgame.
+",https://theselphine.github.io/GitPhreaks/,https://youtu.be/vSny7MdQ1DQ,"Most Useless Hack, Most Creative Use of GitHub (MLH)","amazon-web-services, react, html5, javascript, express.js",,"",0,University of Cincinnati,none,"Git was a nightmare, but all the Github apis I dealt with were quite user friendly and easy to use. The CLI tool is a DREAM compared to raw git.",230-5
+HighwayHarmony,https://revolutionuc2023.devpost.com/submissions/394392-highwayharmony,Submitted (Gallery/Visible),Pending,Submit,02/26/2023 07:42:38,"Inspiration
+
+In two weeks, a group of friends and I are going on a road trip. In the past, some of us have put in few songs while others have put in hundreds. With HighwayHarmony, I hope to create an app that creates a more even play of the songs in the cue. 
+
+What it does
+
+The app will allow for each 'player' to add a song under their name, and the program distributes the songs played by each person. It connects with the host's Spotify account and once the song and player have been recorded, determines which songs to put in the cue. Each member will have an equal chance of being selected to have their selections put on. So the number of additions does not affect the probability of getting songs played
+
+How we built it
+
+We built this project using Python, the Spotify API, and Kivy for python.
+
+Challenges we ran into
+
+Spotify has a webpage dedicated to developers so they have easy access to API. Once we were on the website, it was a struggle to figure out how to use this information as it came in odd forms. Eventually, we were able to work through this, and the next issue was figuring out how to create code that read the Spotify data and added the songs to cue. Finally, the biggest hurdle was figuring out how to turn the project from lines of text into an app. We have never worked with developing UI, so this was certainly a big challenge for us
+
+Accomplishments that we're proud of
+
+We are very proud that we have a working demo of our product. We were worried about connecting our code logic to the Spotify API and even further to buttons and text boxes within a UI. We are very excited that our UI is working and did not detract at all from our working base layer logic.
+
+What we learned
+
+We learned a lot about how to use API calls and how to develop a UI using libraries within Python
+
+What's next for HighwayHarmony
+
+We hope to continue to develop our product to make it easier to use, and to allow our app to be run on several devices at once. This way, we will have the app ready for our upcoming road trip!
+",https://github.com/kyleyoung1121/HighwayHarmony,https://youtu.be/5G_ele_nPoo,"","python, spotify, kivy",,University of Cincinnati,2,University of Cincinnati,"","",220-2
+CardCache,https://revolutionuc2023.devpost.com/submissions/394411-cardcache,Submitted (Gallery/Visible),Pending,Submit,02/26/2023 08:15:10,"Inspiration
+
+inconvenience of carrying gift cards along with the chance of losing them. Along with this, the balance is always in question.
+
+What it does
+
+CardCache is an app that allows a user to collect gift cards in their wallet. In the wallet users are able to see their balance, add gift cards, and scan gift cards to use them. The marketplace allows users to buy, sell, and trade gift cards in the auction house. 
+
+How we built it
+
+built using the following tools
+
+
+html
+CSS
+Github
+Visual Studio
+Android Studio + Emulator
+Photoshop
+ OneNote
+
+
+Challenges we ran into
+
+
+All team members had zero coding experience with all platforms used
+Paywalls
+Xcode and SwiftUI could not be ran on PC
+Android Studio app testing and creating was difficult
+Alignment
+
+
+Accomplishments that we're proud of
+
+
+Creating a website
+Sticking with 1 idea
+Having a final product
+Learned countless new coding styles
+
+
+What we learned
+
+We learned to stick with one idea and figure out which coding style worked best. We learned that trial and error is the best form of learning while coding. We learned many types of problem solving strategies while coding. Along with this we learned many technical skills like, html, tags, visual studio, photoshop, CSS, and Android Studio 
+
+What's next for CardCache
+
+We hope CardCache can develop into and entirely independent gift card market. It would allow users to   satisfy all gift card needs, from time of purchase until time of use. In the future, geo-location will suggest gift cards based on location and user preference. Also, users can buyout of gift cards by paying a large taxation set by company.
+","",https://youtu.be/qBqD61qaR8I,"Best Design Hack, Best Social Impact Hack, Most Useless Hack, Purposeful User Engagement (Fifth Third Bank), Most Creative Use of GitHub (MLH)","visual-studio, html, css, photoshop, android-studio",,University of Cincinnati,0,University of Cincinnati - Main Campus,"","",suite 312
+Neon City Metaverse,"",Draft,Pending,Project details,02/26/2023 08:23:43,"Inspiration
+
+The inspiration for the Neon City Metaverse project is the belief that virtual reality and the metaverse have the potential to revolutionize the way we live, work, and interact with each other. With the advancement of technology, it's becoming increasingly possible to create fully immersive and interactive virtual worlds that can offer endless possibilities for entertainment, education, and innovation. The goal of the Neon City Metaverse project is to create a platform that harnesses the power of virtual reality and the metaverse to bring people together, facilitate creativity and collaboration, and provide new opportunities for personal and professional growth.
+
+What it does
+
+Welcome to Neon City Metaverse, the ultimate virtual world where you can live, work, and play like never before! Imagine a fully immersive experience where you can customize your own avatar, explore futuristic landscapes, and interact with people from all over the world.
+
+Our metaverse is a social hub where you can attend virtual events, concerts, and parties, or simply hang out with friends in a virtual cafe. You can also earn real money by creating and selling your own virtual goods and services, or by completing tasks and challenges within the metaverse.
+
+But Neon City Metaverse is not just about entertainment and socializing. It's also a platform for education, training, and collaboration. You can attend virtual classes, workshops, and seminars, or work on projects with colleagues from different parts of the world.
+
+So whether you're looking for a fun place to hang out, a new way to make money, or a cutting-edge platform for learning and innovation, Neon City Metaverse has something for everyone. Join us today and discover the endless possibilities of the virtual world!
+
+How we built it
+
+The development of the Neon City Metaverse project involves a combination of software engineering, game development, and virtual reality technology. The project's core team consists of developers, designers, and experts in virtual reality and the metaverse.
+
+To build the project, the team first created a concept and design for the virtual world, including the visuals, environments, and interactions. They then used game engines such as Unity or Unreal Engine to create the virtual world's 3D models, animations, and physics.
+
+The team also used virtual reality devices, such as Oculus or HTC Vive, to test and refine the user experience. They integrated various features, such as social networking, virtual commerce, and educational tools, to make the metaverse more engaging and useful for users.
+
+Throughout the development process, the team conducted user testing and received feedback to improve the metaverse's functionality, usability, and overall experience. Finally, the project was launched, and ongoing updates and improvements are made based on user feedback and technological advancements in virtual reality and the metaverse.
+
+Challenges we ran into
+
+The development of the Neon City Metaverse project came with several challenges that the team had to overcome. Some of these challenges include:
+
+
+Technical challenges: Creating a fully immersive and interactive virtual world requires advanced technology, including virtual reality devices and complex game engines. The team had to overcome technical challenges such as optimizing performance, reducing latency, and minimizing motion sickness.
+User experience: The team had to ensure that the metaverse was easy to use and navigate for users of all skill levels. They had to design an intuitive user interface and interactions that would make it easy for users to connect with others, explore the world, and engage in activities.
+Security and privacy: As with any online platform, security and privacy were major concerns. The team had to implement robust security measures to prevent hacking, fraud, and other malicious activities, as well as to protect users' personal information.
+Content creation: To keep users engaged, the team had to ensure a steady stream of high-quality content, including virtual events, educational tools, and new features. This required ongoing collaboration with content creators and a system for regularly updating and expanding the metaverse's offerings.
+Adoption and scaling: The success of the metaverse depended on user adoption and scalability. The team had to develop a marketing strategy to attract users and ensure that the metaverse could handle a large number of users without compromising performance or user experience.
+
+
+Accomplishments that we're proud of
+
+There are several accomplishments that the Neon City Metaverse team is proud of:
+
+
+Creating a fully immersive and interactive virtual world: The team successfully developed a virtual world that users can explore, interact with each other, and engage in various activities, including socializing, commerce, and education.
+Providing new opportunities for users: The metaverse has created new opportunities for users to connect, collaborate, and earn money by selling virtual goods and services.
+Ongoing updates and improvements: The team has demonstrated a commitment to ongoing updates and improvements, based on user feedback and technological advancements, to ensure that the metaverse remains relevant and engaging for users.
+Positive user feedback: The team has received positive feedback from users who enjoy the metaverse's features, ease of use, and social atmosphere.
+Creating a community: The metaverse has created a community of users from around the world, who come together to socialize, learn, and work together in a virtual environment.
+
+
+Overall, the team is proud of the impact that the Neon City Metaverse has had on users' lives and the potential for the metaverse to continue evolving and expanding in the future.
+
+What we learned
+
+The Neon City Metaverse project has provided the team with several valuable lessons, including:
+
+
+The importance of user feedback: User feedback is crucial for improving the user experience and ensuring that the metaverse meets the needs of its users.
+The need for ongoing updates and improvements: The metaverse is a dynamic environment that requires ongoing updates and improvements to remain relevant and engaging.
+The potential of virtual reality and the metaverse: The project has highlighted the vast potential of virtual reality and the metaverse to revolutionize the way we live, work, and interact with each other.
+The importance of collaboration: The development of the metaverse required collaboration between developers, designers, and experts in virtual reality and the metaverse. This collaboration was essential for creating a cohesive and functional virtual world.
+The challenges of creating a virtual world: The project has highlighted the technical, design, and user experience challenges associated with creating a virtual world, including optimizing performance, reducing motion sickness, and ensuring ease of use for users of all skill levels.
+
+
+Overall, the Neon City Metaverse project has provided the team with valuable insights into the potential and challenges of virtual reality and the metaverse and has set the stage for ongoing innovation in this exciting field.
+
+What's next for Neon City Metaverse
+
+The Neon City Metaverse project is an ongoing endeavor, and the team has several plans for its future development. Some of the next steps for the project include:
+
+
+Expanding the virtual world: The team plans to expand the metaverse with new environments, activities, and features that will enhance the user experience and provide new opportunities for engagement.
+Improving performance: The team will continue to optimize the performance of the metaverse to ensure that it can handle a large number of users without compromising speed or stability.
+Integrating emerging technologies: The team plans to integrate emerging technologies, such as blockchain and artificial intelligence, to enhance the functionality and security of the metaverse.
+Increasing user engagement: The team plans to implement strategies to increase user engagement, such as gamification and rewards programs.
+Partnerships and collaborations: The team plans to establish partnerships and collaborations with other companies and content creators to expand the metaverse's offerings and attract new users.
+
+
+Overall, the Neon City Metaverse project will continue to evolve and innovate to provide a dynamic and engaging virtual world for its users.
+",https://onedrive.live.com/?authkey=%21AHcEAAwzu5xSRFU&id=8D24F63B531C559F%217700&cid=8D24F63B531C559F&parId=root&parQt=sharedby&parCid=2D20F0550256DA29&o=OneUp,https://www.youtube.com/watch?v=m8Fuj_6hx0w&embeds_euri=https%3A%2F%2Fwww.dlnkworks.com%2F&feature=emb_title,"","unity, cisco-unity-connection-messaging-interface, icon, github, git, javascript, java, python, python-package-index, unityhub, blender, unreal-engine",,"",0,"","","",""
+tone In,https://revolutionuc2023.devpost.com/submissions/394430-tone-in,Submitted (Gallery/Visible),Pending,Submit,02/26/2023 08:30:04,"Inspiration
+
+Our inspiration for tone In was to help users better navigate the often complex and diverse environment of Slack channels. We recognized that users can find it challenging to gauge the tone of a conversation, particularly in busy channels or workspaces with new members constantly joining. We also wanted to provide administrators with a tool to indicate the level of formality of their channels to users.
+
+What it does
+
+We created tone In, a Slack application that uses machine learning and data collection to educate users on the tone of their work and personal environments. By analyzing the tone of each message in a channel using OpenAI's ""davinci"" model, tone In provides users with real-time feedback on their message's formality and professionalism. It also measures each message against an overall channel tone or a tone value assigned by an administrator to ensure consistency.
+
+How we built it
+
+tone In was built using Python and integrates with the Slack API. We used OpenAI's ""davinci"" model to fine-tune our machine learning algorithm and develop our AI-generated responses feature. We also created a gamification feature that ranks the most and least professional users and a visualization feature that sends users a bar graph of top professional users.
+
+Challenges we ran into
+
+One of our biggest challenges was finding suitable documentation for the Slack API that could meet our specific needs. Additionally, having multiple AI models required extensive testing using real conversations from Slack channels, which was time-consuming due to limited token returns per minute. 
+
+Accomplishments that we're proud of
+
+Despite these challenges, our successful implementation of tone In provides users with valuable insights into their tone and helps them communicate more effectively in Slack channels.
+
+What we learned
+
+One of the main challenges we faced was finding good documentation for the Slack API that was tailored to our needs. We also had to test each AI model with actual conversations from the Slack channel, which was time-consuming due to the limited number of tokens that could be returned by the AI per minute.
+
+What's next for tone In
+
+Moving forward, we plan to continue improving tone In by adding more advanced AI models and improving the user interface. We also hope to integrate with other messaging platforms and expand our user base.
+",https://github.com/bledsoef/tone-in.git,https://youtu.be/AyOnug-3OKM,Purposeful User Engagement (Fifth Third Bank),"python, bolt, openai, slack, matplotlib, github, pandas",,Berea College,3,Berea College,"","We had a great experience using GitHub at the hackathon! The platform was easy to use and allowed our team to collaborate seamlessly on our project. We were able to create and merge pull requests, track issues, and keep our code organized. Overall, GitHub played a crucial role in helping us complete our project within the given timeframe.",186
+Baymer,"",Draft,Pending,Project overview,02/26/2023 09:10:38,"","",,"","",,"University of Cincinnati, Pennsylvania State University",1,"","","",""
+Space AI,https://revolutionuc2023.devpost.com/submissions/394476-space-ai,Submitted (Gallery/Visible),Pending,Submit,02/26/2023 09:24:17,"Inspiration
+
+We took inspiration from one members  interests in AI and simulations and the others interests in game development. This allowed us to combine the ideas into one and be able to split work between the front end and the back end.
+
+What it does
+
+Our program allows a player to define and create their own custom AI using a modular, drag and drop logic graph editor that is custom built using the pyglet library and Python. Once they finish their personal AI, they can save the graph and then proceed to play the game which puts the player up against their own AI in a spaceship battle.
+
+How we built it
+
+We built this using Python and pyglet while also using the Live Share feature of Visual Studio Code to work simultaneously on the same files.
+
+Challenges we ran into
+
+Some challenges involved creating our own custom collision system to detect when a projectile or ship hit one another, constructing a proper menu system within pyglet and working around having multiple scenes, and developing the wiring and drag and drop features of the AI Graph Editor.
+
+Accomplishments that we're proud of
+
+We're very proud to be able to have finished each aspect of our project, especially the AI Graph Editor and how we were able to take those inputs and parse them into an AI network that simulated within our game. Although it's just a start, this concept can be taken much further into the depths of user built AI, especially with its modular design which allows for the graph nodes to be expanded upon and added easily.
+
+What we learned
+
+We learned quite a lot about pyglet as both of us had never used it before and we also improved upon our Python skills. Learning how to create collision from scratch, developing a drag and drop logic editor, and seamlessly linking up the editor, AI, and game gave us plenty of experience and growth in programming.
+",https://github.com/CodingPenguin1/RevolutionUCHackathon2023,https://youtu.be/q79nA8NtHUg,"","python, pyglet",,University of Cincinnati,1,University of Cincinnati,"","",Esports conference room / 1st floor
+D&RFID,https://revolutionuc2023.devpost.com/submissions/394478-d-rfid,Submitted (Gallery/Visible),Pending,Submit,02/26/2023 09:25:56,"Inspiration
+
+We took inspiration from RFID/NFC-enabled figures such as Skylanders, Disney Infinity and Amiibos, and realized nobody, to our knowledge, has applied that technology to Dungeons and Dragons despite D&D character minifigures being wildly popular with players of the game. We thought it would be neat if you could store your character's information on the minifigure itself instead of having to keep track of a paper character sheet or paid online subscription service.
+
+What it does
+
+Reads and writes D&D character data to and from an RFID tag attached to a character minifigure. It also provides a dice roller for players of the game to use as an alternative to rolling physical dice.
+
+How we built it
+
+We connected an MFRC522 RFID reader/writer to a Raspberry Pi 3. All of the code was written in Python. Several libraries (Spidev, MFRC522, SimpleMFRC522) go into making the RFID reader/writer work, while we used the guizero library to build the user interface.
+
+The example minifigures were laser-cut in the makerspace downstairs.
+
+Challenges we ran into
+
+The Raspberry Pi libraries we found for the MFRC522 RFID reader/writer module would only read/write one 64-byte sector of the tag, of which 16 bytes are reserved, so we had to condense the character data into 48 characters (i.e. 48 ASCII characters) total.
+
+Only one of us actually was familiar with playing D&D so there was a significant learning curve about the basics of the D&D game system for the others, and we ended up significantly simplifying several aspects of the game and making the system a proof of concept instead of a 100% fully functional game system. We believe we still managed to capture the barebones essensce of what is needed to play a game though.
+
+We also originally also wanted resin 3D printed figures to attach the RFID tags too, but we ended up lasercutting 2D figures when we found out the makerspace had a 3-5 day turnaround time for resin prints.
+
+Accomplishments that we're proud of
+
+It works, and we actually managed to condense the critical character data within our 48 Byte limit. None of use had ever built built a GUI in Python or worked with RFID in Python before.
+
+What we learned
+
+How to read and write data to and from RFID tags using an MFRC522 reader/writer connected to a Raspberry Pi using Python
+How to create interactive GUIs in Python with the guizero library.
+
+What's next for D&RFID
+
+Turn the reader/writer into a stand-alone USB device with an Arduino Leonardo that can then be connected to any computer. The Arduino libraries appear to allow for more convenient lower-level manipulation of the RFID tag data, and would enable us to store more data by allowing us to access every sector of the RFID tag's storage instead of just one. This would also let the character app be used on any computer instead of just a Pi running Raspberry Pi OS.
+We would also like to make the GUI more polished and user friendly, and print true 3D minifigures in which to embed the RFID tags.
+",https://github.com/Nfloc/DND-Infinity-RevUC-2023,https://www.youtube.com/watch?v=comingsoonn,"Best Design Hack, Best Social Impact Hack, Most Useless Hack","raspberry-pi, python, mfrc522, rfid, guizero",,"University of Louisville, University of Cincinnati",2,"University of Cincinnati (x3)
+University of Louisville (x1)","",N/A,220-05
+Le Cook (230-4),https://revolutionuc2023.devpost.com/submissions/394482-le-cook-230-4,Submitted (Gallery/Visible),Pending,Submit,02/26/2023 09:28:29,"Inspiration
+
+We wanted to create an app that would potentially cut down on food waste in the world.
+
+What it does
+
+Users can add items they want to use in their ""basket"", then, using the ingredients in the basket the app will return recipes the user can make with them.
+
+How we built it
+
+We used react-native for the app development and a Food API for the data.
+
+Challenges we ran into
+
+Many of us had not used react-native prior to this hackathon so trying to overcome the learning curves it brings was a big hurdle.
+
+Accomplishments that we're proud of
+
+We are proud that we were able to create a working and finished product.  We all learned something new and are proud that we were able to overcome some major obstacles.
+
+What we learned
+
+We all learned about react-native, fetching data via an API and CSS
+
+What's next for Le Cook (230-4)
+
+Being so limited on time, we weren't able to realize all of our ideas.  We definitely want to add a filter to the recipes and provide the users with more nutritional information seamlessly inside the app rather than using a link to view that information. 
+",https://github.com/DrewRoach/LeCook,https://youtube.com/shorts/IDFlcK20EtQ?feature=share,"Best Educational Hack, Best Design Hack, Best Social Impact Hack, Most Useless Hack, Purposeful User Engagement (Fifth Third Bank), Most Creative Use of GitHub (MLH), Best Use of Clerk.dev","react-native, javascript, css",,"University of Cincinnati, Ohio State University",3,"University of Cincinnati
+Ohio State University","","",230-4
+BearChat,https://revolutionuc2023.devpost.com/submissions/394492-bearchat,Submitted (Gallery/Visible),Pending,Submit,02/26/2023 09:46:30,"Inspiration
+
+We were inspired by the lack of personal voice assistant/chatbot for the students of the University of Cincinnati. Something that is UC student-specific would be greatly beneficial.
+
+For example, it could help students navigate the campus, find the locations of classrooms, labs, and offices, provide information about course schedules, grades, assignments, and exams, and answer frequently asked questions about campus life and services.
+
+Additionally, a voice assistant could provide personalized support and guidance to students, helping them stay on track with their academic and personal goals. It could offer reminders for deadlines and appointments, suggest study resources and techniques, provide feedback on assignments and projects, and connect students with academic advisors and support services.
+
+What it does
+
+The BearChat has several features, some of which are:
+
+Campus Navigation: BearChat helps students navigate the campus by providing directions to buildings, classrooms, and offices. It can also suggest the best route to take based on the student's location.
+
+Campus Services: The voice assistant could provide information about various campus services such as the library, counseling center, health center, and career center. It could also help students schedule appointments or connect with the appropriate staff.
+
+Campus Events: BearChat can keep students informed about upcoming campus events such as concerts, lectures, and workshops. It could also suggest events that may be of interest to the student based on their preferences.
+
+Therapy Suggestions: During stressful times, BearChat can suggest resources for mental health and well-being. For example, it could recommend therapy sessions or mindfulness exercises.
+
+Weather Information: BearChat can provide students with up-to-date weather information such as the temperature, humidity, and precipitation forecast for the day.
+
+Music Streaming: BearChat can play music for students, either by suggesting a playlist or artist, or by playing the student's preferred genre or style of music.
+
+Personalized Recommendations: Over time, BearChat learn the student's preferences and suggest personalized recommendations for campus services, events, and activities.
+
+How we built it
+
+BearChat uses NLTK on Python using Tensorflow and Pytorch and is converted to a python web browser using Flask. Along with this, the instances in the Python program use various Google APIs like the text-to-speech API and the weather API. The front-end was created using Flask(Python), HTML, CSS and JavaScript.
+
+Challenges we ran into
+
+We ran into challenges while trying to convert thePython file using Flask as Tensorflow did not seem to be compatible with the pip version we were using. Upon various attempts, we realised that Tensorflow alone wouldn't work so we moved on to using both Tensorflow and Pytorch. 
+
+While running the code, the audio created by the voice assistant does not seem to be sent back to the main HTML. This is a problem we haven't been able to resolve.
+
+Accomplishments that we're proud of
+
+We are proud that we were successfully able to make a chatbot on the back-end side. It was able to run with 99% accuracy. Our front-end looks wonderful too!
+
+What we learned
+
+We learned how to use Flask and Pytorch  and also understood back-end to front-end attachment.
+
+What's next for BearChat
+
+We plan on adding more features to BearChat and providing it with Google Cloud connectivity which will allow it to be personalised based on any UC student. We also want to be able to add more buildings/parking spots on the location services and also name the UC buses that run on the shuttle services. Overall, we want to improve the student experience in relation to our website.
+",https://github.com/ArleenMonteiro/BearChat,https://www.youtube.com/watch?v=oz7M1XptE8Q&ab_channel=KartavyaSingh,Best use of Google Cloud (MLH),"tensorflow, google-web-speech-api, google-weather-api, flask, python, pytorch, css, html, javascript, nu, shell",,University of Cincinnati,1,University of Cincinnati,"",We haven't used much of MLH's technology in our projects.,230-2
+Parkinson's Companion,https://revolutionuc2023.devpost.com/submissions/394493-parkinson-s-companion,Submitted (Gallery/Visible),Pending,Submit,02/26/2023 09:47:36,"After four years of volunteering at a retirement home and forming a deep connection with a resident who I watched get diagnosed with Parkinson's recede into her shell, I realized how much symptoms of Parkinson's like loneliness and depression affect patients and how much Parkinson's in general is overshadowed by other neurological conditions. Ruth passed away during the COVID-19 pandemic without saying goodbye and I was not able to provide her the company I used to due to isolation restrictions. Many retirement homes remain understaffed after the pandemic and healthcare workers overworked. That's where our new Alexa skill, Parkinson's Companion comes in. 
+
+Parkinson's Companion is a really smart and kind caretaker, friend, and loved-one all in one. When the skill is activated at time of choice by the retirement home resident, Parkinson's Companion asks the resident about their wellbeing, exercise, whether they've taken their medications, whether they would like to leave a note for their loved ones, directs patients through exercise and mindfulness techniques, and most importantly reminds the resident that they are not alone and are loved. Healthcare providers and family can view these interaction summaries in a website dashboard that we hope to make an EPIC API with in the future, allowing them to monitor and be with the resident at all times (HTML rough draft webpage). Nurses can set text reminders to retirement home residents through our Twilio integration feature.
+
+We used Javascript, HTML, AWS Lambda, Twilio, and Python. With more time and expertise (most of our members had very little coding experience and did not know what an Alexa skill was at the beginning of the hackathon), we hope to enable a menu where residents are given the option to directly call family, have wearable data integration, a journaling feature, and much more. We plan to do this through Mallika's founded nonprofit Parkinson's Together, where we hope to use grant money to further develop our skill and interface! Thank you for your time. 
+",https://youtu.be/k9IABiOdx74,https://youtu.be/k9IABiOdx74,"","html5, javascript, python, twilio",,University of Cincinnati,2,University of Cininnati,"","",220
+Virtual Sandbox,https://revolutionuc2023.devpost.com/submissions/394495-virtual-sandbox,Submitted (Gallery/Visible),Pending,Submit,02/26/2023 09:50:30,"Inspiration
+
+Other Vr apps created in the past
+
+What it does
+
+It is a VR sandbox
+
+How we built it
+
+using c# and unity
+
+Challenges we ran into
+
+Our original idea not working out the best
+
+Accomplishments that we're proud of
+
+Making a VR app
+
+What we learned
+
+map design and more VR code
+
+What's next for Virtual Sandbox
+
+to try to get back onto our original idea 
+","",https://www.youtube.com/watch?v=YLRikJHMDUs,"Most Useless Hack, Purposeful User Engagement (Fifth Third Bank)","unity, c#",,University of Cincinnati,3,University of Cincinnati,"","",238
+SharedSight,https://revolutionuc2023.devpost.com/submissions/394510-sharedsight,Submitted (Gallery/Visible),Pending,Submit,02/26/2023 10:05:50,"Inspiration
+
+SharedSight was designed with the intention of building an explainable AI system that could detect misinformation, but learn to be wrong. As such, SharedSight offers an efficient search platform that will not only identify misinformation, but justify it's decisions and correct itself based on human feedback.
+
+What it does
+
+SharedSight is a search engine for News articles published by HuffingtonPost between 2012-2022, but the system can work with any type of natural language text corpus. SharedSight also identifies misinformation, but it focuses on explaining its decisions with nested semantic search and letting users correct it if it produces incorrect results.
+
+How we built it
+
+I built SharedSight using Co:here text embeddings, FAISS for similarity search using HNSW, and Python to string everything together. Other utilities used were PyTorch, ArgParse, Matplotlib, SKLearn, and more.
+
+Challenges we ran into
+
+Finding a good embedding space to process the text in was quite tricky, as the embedding step is the most crucial step of the process. If the mapping did not produce an embedding that properly highlighted the topology of the topic space, any similarity search we did would be ultimately useless.
+
+Accomplishments that we're proud of
+
+We're proud of the fact that we built a similarity search that runs in near real-time that also can detect misinformation, but it also can identify misinformation and justify its decisions of misinformation. This accomplishment is a big first step I've taken in building explainable and effective AI, and a step that I'm quite proud of.
+
+What we learned
+
+I learned a great deal, especially involving things like Transformer Embeddings, BERT, Dimensionality Reduction using tSNE, Similarity Search with FAISS, Prompt Engineering, and Topic Modelling.
+
+What's next for SharedSight
+
+Some next steps for SharedSight could be finding a smarter embedding space, perhaps one that supports joint image-text embeddings to allow for interchangeable search between articles and images. Additionally, the system could be made to be decentralized, which could be an active area of research worked on by students at UC soon. The system could also be integrated into web-apps or other utilities, hosted using a Flask/FastAPI webserver or integrated with other systems like ElasticSearch. Finally, this system could be used with a larger text corpus, as it only uses 2k text samples of the 201k text samples in the Huffington Post Dataset.
+",https://github.com/arnavkomaragiri/shared-sight,https://youtu.be/7QOTKcFSuyw,"Best Educational Hack, Best Social Impact Hack, Purposeful User Engagement (Fifth Third Bank)","python, co:here, faiss, ml, dl, natural-language-processing, hnsw",,"",0,University of Cincinnati,"","",210A-3
+What the Flip,https://revolutionuc2023.devpost.com/submissions/394511-what-the-flip,Submitted (Gallery/Visible),Pending,Submit,02/26/2023 10:09:54,"Inspiration
+
+We would like to learn how to program for website, iOS and Android using Flutter, while incorporating Twilio's Communication API
+
+What it does
+
+Allowing the user to flip a card and reveal the result of the card from the 52-card deck
+
+How we built it
+
+A website, mobile applications built using Flutter, Dart for Android, iOS, web.
+
+Hosts on: whattheflip.tech by domain.com.
+
+Include: Twilio's Communication API for Messaging.
+
+Details: The user sends a message to Twilio's number to start the game, the result from ""Flip the Card"" will be read by Twilio's API, it will then process the result and send an appropriate message based on the card to the user based on the foundation of Cartomancy.
+
+Challenges we ran into
+
+This is our first time using Flutter, Dart and Twilio so we have had a lot to learn.
+
+Accomplishments that we're proud of
+
+We are proud that we know more how to program for website, iOS and Android with less resources and as fast as we could
+
+What we learned
+
+Stateless widget, stateful widget, Dart programming language, setting up Flutter development environment in Visual Studio Code, how to wrap widget, how every components of Flutter and the app is a widget. 
+
+What's next for What the Flip
+
+Expand features, allowing the user to have their card read and output a personalized message based on the basis of Cartomancy
+",https://github.com/dunguyenforever/What-the-Flip,https://youtu.be/KcB64PhfYTM,"","flutter, twilio, domain.com, dart, html, css",,University of Cincinnati,1,University of Cincinnati,whattheflip.tech,"",462
+Useless Button,https://revolutionuc2023.devpost.com/submissions/394512-useless-button,Submitted (Gallery/Visible),Pending,Submit,02/26/2023 10:10:09,"Inspiration
+
+wanted to do something fun and learn the basics of javascript, html, and css
+
+What it does
+
+An unclickable button to waste time using 
+
+How we built it
+
+a simple javascript backend and very simple frontend
+
+Challenges we ran into
+
+having never programmed in javascript, html, or css
+",https://github.com/mansourem/useless_buttons,https://www.youtube.com/watch?v=dQw4w9WgXcQ,Most Useless Hack,"javascript, html, css",,"",0,University Of Cincinnati,"","",210A-5
+Finance invaders,https://revolutionuc2023.devpost.com/submissions/394514-finance-invaders,Submitted (Gallery/Visible),Pending,Submit,02/26/2023 10:18:19,"Inspiration
+
+Managing your finances is a very boring task. Since, It is such a boring task it is usually ignored and placed on the backburner due to that exact reason
+
+What it does
+
+Finance invader is a fusion between boring Finance management and fun space invaders. Combining the two makes your favourite finance tracker and since its so fun it encourages you to do your finances 
+
+How we built it
+
+We used Python to manage the backend data management was done with CSV HTML, CSS and JS was used to make the front end the frame work we used was flask
+
+Challenges we ran into
+
+Time constraints were the biggest challenge we ran into since none of us had experience in the languages it took us longer than we anticipated to write the working code
+
+Accomplishments that we're proud of
+
+Finishing a somewhat working prototype of our idea was something we are proud of. Going through with the idea and finishing the prototype even when we were low on motivation was also something we looked fondly at now that we are done
+
+What we learned
+
+CSS, HTML, JS, CSV and data management  
+
+What's next for Finance invaders
+
+Finishing up the Alpha for finance invaders and making a final working prototype
+","",https://youtu.be/UtJT8n4T6a8,"Best Design Hack, Best Social Impact Hack, Purposeful User Engagement (Fifth Third Bank)","python, html, css, javascript, flask, csv",,University of Cincinnati,0,University of Cincinnati,"","",468
+Spotify Notifier,https://revolutionuc2023.devpost.com/submissions/394515-spotify-notifier,Submitted (Gallery/Visible),Pending,Submit,02/26/2023 10:18:59,"Inspiration
+
+We were inspired by Spotify themselves. While Spotify already has this functionality, it often is hard to find and more often than not doesn't send out notifications for singles or anything other than albums. We wanted to fix this by making it obvious that your favorite artists have dropped a new track.
+
+What it does
+
+Sends a text message to your phone when one of your followed artists drops a new track.
+
+How we built it
+
+We used Spotipy and Twilio.
+
+Challenges we ran into
+
+We ran into some varying issues, such as Spotify Authentication, Twilio message limits, and broken API stuff.
+
+Accomplishments that we're proud of
+
+Building something that works.
+
+What we learned
+
+How Spotify works, Python, APIs, and Twilio.
+
+What's next for Spotify Notifier
+
+Improved functionality to send notifications about upcoming music, podcasts, or suggestions every week using a different AI than Spotify to recommend content that may fit your interests better.
+","",https://youtu.be/_1I2zKZ0fTw,"Most Useless Hack, Most Creative Use of Twilio (MLH)","twilio, python, spotify",,University of Cincinnati,0,University of Cincinnati,musicnews.tech,Very good,None
+Exam Study App,https://revolutionuc2023.devpost.com/submissions/394518-exam-study-app,Submitted (Gallery/Visible),Pending,Submit,02/26/2023 10:21:11,"Inspiration
+
+I am currently studying for the FE exam as a 5th year Civil Engineer and there was no tools available for me to aid me in my studies and keep me consistent for 10-15 minutes per day over a few months.
+
+What it does
+
+My app utilizes a duoling-style approach to help engineers study for the FE exam for 10-15 minutes per day. Taking them over all the required units for the exam over a selected amount of time that is determined upon registration and is easily changeable.
+
+How we built it
+
+As a civil engineer, I did not have much prior experience in coding. I learned how to use react native and expo to develop and test this app. I was able to get 2 screen working and the process of integrating a custom-button to my app.
+
+Challenges we ran into
+
+I did not like the standard button that came with react native so I created a separate custom-button to go along with my app. This was my first challenge and truly taught me how that is even done and how to import a file that I created and use it in my app. The second challenge was making two screens and the process of tracking the screen that the user is on. 
+
+Accomplishments that we're proud of
+
+I am proud to have even something to look at after the weekend that is somewhat working as intended thus far.
+
+What we learned
+
+I learned syntax for react-native,  JS, how to use expo, how to create a custom button, and how to make multiple screens.
+
+What's next for Exam Study App
+
+Whats next is to add a user profile, fix the UI, implement actual study questions and provide solutions.
+","",https://www.youtube.com/watch?v=gYLMo0kLeiQ&feature=youtu.be,"","react-native, css, expo.io",,University of Cincinnati,0,University of Cincinnati,"","",LOBBY-7
+Life path game,"",Draft,Pending,Project overview,02/26/2023 10:21:35,"","",,"","",,University of Cincinnati,0,"","","",""
+ISS Tracker,https://revolutionuc2023.devpost.com/submissions/394523-iss-tracker,Submitted (Gallery/Visible),Pending,Submit,02/26/2023 10:29:32,"Inspiration
+
+From a young age, my colleague and I have been interested in all things astronomy. As newbies in the web development space, we wanted to create a project that would teach us new skills we can expand on in the future. 
+
+What it does
+
+Our project request's the user's precise location to display on a map along with the current location of the International Space Station.
+
+How we built it
+
+We used HTML and CSS to create our page, along with JavaScript to handle the application logic. To show a map on the page, we used Leaflet, an open source JS library for interactive maps. Displaying the current location of the ISS was accomplished with an request to Open Notify's ""International Space Station Current Location"" API via jQuery.
+
+Challenges we ran into
+
+Given our limited web development experience prior to the event, we had some brief difficulties with properly requesting information from the API.
+
+Accomplishments that we're proud of
+
+In a short period of time, we were able to learn a handful of new web development skills and leverage them to build a website with useful and interesting functionality for an end user.
+
+What we learned
+
+Throughout our work on this project we learned to allocate our time more effectively and manage the scope of our ideas/development. We also came to realize that despite the wealth of information available to us, problem solving isn't typically as simple as Googling. Adaptability and improvisation are key.
+
+What's next for ISS Tracker
+
+In the future we aim to rebuild the project with React Native to create a more appealing UI. Additionally we would like to implement more API requests to provide more metrics on the ISS including the astronomers currently on the station.
+","",https://www.youtube.com/watch?v=wfT2xjiQfFY,"","html, css, javascript, jquery, leaflet.js, iss, api",,University of Cincinnati,1,"Saif Bayyari - University of Cincinnati
+Abdur-Rahman Wafa - Lewis University","","",2310-10
+TDT,https://revolutionuc2023.devpost.com/submissions/394528-tdt,Submitted (Gallery/Visible),Pending,Submit,02/26/2023 10:43:38,"Inspiration
+
+Transportation Planning is one of the most challenging jobs due to a complex fusion of traffic and infrastructure data. Particularly, transit buses route planning is harder as there are multiple routes passing through common stops bi-directionally. To make transit planning easier and more efficient, we propose a digital twin. 
+
+What it does
+
+Transit Digital Twin (TDT) will provide a seamless front-end for transit planners to view the real-time transit bus movement in a city or county or even at a given intersection. TDT will have interfaces to fuse other traffic data sources such as crash reports, real-time sensor data from traffic cameras and traffic signal controllers, work-zone information etc. TDT will also support all the vehicle-to-everything (V2X) messaging formats so transit planners and navigate through transportation network efficiently.
+
+How we built it
+
+We used General Transit Data Specification (GTFS) (Google, 2006) from Cincinnati Go Metro public data. We created a database using PostgreSQL to consume the large route/ trips dataset and built the relationship between all the files available in GTFS data feed. 
+
+In the back end, we used FastAPI + SQL Alchemy to consume the data and API end points to expose the data. We used React to create a front end application with deck.gl as the graphic library. 
+
+Challenges we ran into
+
+Understanding complexity involved in GTFS data and to further clean the data for this project has been the most challenging issue we have solved in this project. Creating the link between database and backend has also been a significant challenge that kept us working through the night. 
+
+Accomplishments that we're proud of
+
+Our major accomplishment in this project is being able to use deck.gl graphic library and create a front-end to display transit bus movements in Cincinnati Metropolitan area.
+
+What we learned
+
+Great learning and also one of the best wins in this project is when we realized that we were stuck because PostGIS extension should be manually enabled for the database before we input the GTFS data.
+
+What's next for TDT
+
+We would like to scale the existing TDT digital twin to add plug ins for real-time transit data using protocol buffer, AI powered data insights, create standardized messages for V2X and IoT sensors, signal controllers, and crash/crime databases. This will create a smart digital twin that traffic agencies can use to help improve the safety of our transportation and also plan sustainable transit. 
+",https://github.com/VaishakHolla/mlh_proj,,"","postgresql, python, fastapi, react, deck.gl, primereact, powerbi, github",,University of Cincinnati,3,University of Cincinnati,transitdigitaltwin.tech,GitHub has been very helpful to track the code changes between team members.,210A-4
+American Sign Language,https://revolutionuc2023.devpost.com/submissions/394529-american-sign-language,Submitted (Gallery/Visible),Pending,Submit,02/26/2023 10:45:52,"What it does
+
+We are here to supply the most convenient and helpful tools for the community to help advance education and awareness. Users will grant exposure to Sign Language which is used to communicate with people with hearing and talking disabilities. Along with some programs with a diversity of topics that are related to life and surroundings, users can also practice them by testing and searching them with the convenient search engine.
+
+How we built it
+
+We aim to create the most accessible and user-friendly website to assist people with disability. Therefore, we use React.js to build it.
+
+From the start of this idea, our team had some struggles with learning to have a deep understanding of sign language. For the technical section, we had difficulty building a website that can be available for both disabled people and other people. For the business and development section, we had to research a lot about the sign language websites as our competition to find out the right pathway and realize our potential development in the long term of our website to test its application, availability, and efficiency. After 24 hours, we basically turned our original idea into a product. We are all proud of ourselves because of trying hard to collaborate and discuss creating the demo of the website, prototype, and business research. We learned a lot about the value of community and our responsibility of connecting and developing the community. We will try to improve our website to be more friendly-user and available to larger user segments by designing structures and varying the contents and improving the translation section in our website.
+","",https://youtu.be/fB8eq_CCA7g,"","react, javascript, node.js, express.js, mongodb, cloudinary, canva, mediapi, tensorflow",,University of Cincinnati,3,University of Cincinnati,"","",220
+EtsUC,https://revolutionuc2023.devpost.com/submissions/394531-etsuc,Submitted (Gallery/Visible),Pending,Submit,02/26/2023 10:50:34,"Inspiration
+
+Etsy, Pinterest, Facebook Marketplace, etc.
+
+What it does
+
+It's an online thrift store.
+
+How we built it
+
+Mostly with HTML, with some CSS for style.
+
+Challenges we ran into
+
+Relearning HTML, Communication, the sheer complexity of this project
+
+Accomplishments that we're proud of
+
+Relearning HTML, developed communication skills, conquering the sheer complexity of this project
+
+What we learned
+
+HTML, CSS, Git, GitHub, etc
+
+What's next for EtsUC
+
+Maybe presented to dean after final adjustments to become a real online thrift store for UC, then other universities later.
+",https://github.com/aau8996/EtsUC,https://www.youtube.com/watch?v=dQw4w9WgXcQ,"","html, css",,University of Cincinnati,3,University of Cincinnati,"",Great,230-11
+Ditto,https://revolutionuc2023.devpost.com/submissions/394537-ditto,Submitted (Gallery/Visible),Pending,Submit,02/26/2023 10:55:20,"Inspiration
+
+We got inspired because people spend so much time taking boring meeting notes, we want to save that hassle.
+
+What it does
+
+Ditto records live speeches and converts them to text. It also provides users with many export options including speech summarization (coming soon).
+
+How we built it
+
+We built it with angular and some node.js was set up but we never got to it.
+
+Challenges we ran into
+
+We ran into a lot of trouble with the live voice transcription. The transcription had to be real time and fast which is a lot more difficult than we thought. We were able to get it working and detect periods/pauses.
+
+Accomplishments that we're proud of
+
+We learned a lot about angular and even sending large amounts of data between components. We are all new to this sort of project so it was interesting to learn ""how to learn"". Understanding large documentations was such a battle even though we didn't finish everything.
+
+What we learned
+
+We learned how to create a very functional web app and understand technologies from documentations.
+
+What's next for Ditto
+
+Not sure, maybe we will finish the summarization AI.
+",https://github.com/sukhbirsekhon/Ditto,https://youtu.be/iIksphSFmbw,"Best Educational Hack, Purposeful User Engagement (Fifth Third Bank)","angular.js, html5, css3, javascript, typescript",,University of Cincinnati,1,University of Cincinnati,n/a,It went well. I liked the food and drinks.,466
+Robotic Revelations,https://revolutionuc2023.devpost.com/submissions/394540-robotic-revelations,Submitted (Gallery/Visible),Pending,Submit,02/26/2023 10:57:05,"Inspiration
+
+This project was inspired by the vast toolkit of different data visualizations we had available to us to display information. We are both very fascinated by data visualization and education and wanted to integrate the two in our project.
+
+What it does
+
+We brought together 3 different means of data visualization. The first is a pie chart which ultimately shows nothing valuable aside from a lesson illustrated the inequality of data visualization. Second is an overlapped line plot showing the difference between sensor data and target data for a given joint across time. Our innovative visualization incorporated this overlapped line plot and made for more interaction between the user and the graph model.
+
+How we built it
+
+We used the well-known Python framework, Dash for this project to deploy the site which contains our information. Graphs were created using MATLAB and Plotly.
+
+Challenges we ran into
+
+Neither of us have very much experience with frontend programming so that presented the bulk of our difficulties unfortunately. We also had originally planned for a 3D opaque model displaying velocities on the robot's blueprint.
+
+Accomplishments that we're proud of
+
+We are definitely proud of the idea and thought process we had gone through to get to the solution we thought up. We tried our best to get the frontend to work the way we had envisioned but ultimately could not. We are proud of the work we put in and learned so much in that process.
+
+What we learned
+
+Definitely picked up a lot about data visualization and frontend programming. Much of what was abstract and mysterious to us before seems now to be simpler and manageable.
+
+What's next for Robotic Revelations
+
+The frontend will definitely need some touching up on and we would love to see this project optimize on the user interface for robotics testers to take inspiration from or utilize in their own work.
+","",https://youtu.be/rVGXMu4eM08,"Best Educational Hack, Most Useless Hack, Best Use of MATLAB (MLH), Robotic Data Visualization (Kinetic Vision)","python, dash, matlab",,"University of Kentucky, University of Cincinnati",1,"University of Cincinnati, University of Kentucky","","",Room 220
+Internest,https://revolutionuc2023.devpost.com/submissions/394545-internest,Submitted (Gallery/Visible),Pending,Submit,02/26/2023 11:06:20,"Inspiration
+
+Our inspiration was to minimize the addictive nature of social media while still being able to share information about yourself to others in a quick and virtual way.
+
+What it does
+
+Internest allows people to get a better idea of their habits and activities in an easily digestible format. They can then choose to share this information with others and easily recognize common interests.
+
+How we built it
+
+We built this site using NextJS for the frontend, elasticsearch for categorization and indexing, Python for the backend, Clerk.JS for auth, spacey for word embeddings, GPT2 for keyword extraction, MongoDB for storing general data and Docker for hosting MongoDB ad elasticsearch. We also used vis.JS for the graphical representation and Fast API.
+
+Challenges we ran into
+
+We had set our sights pretty high for what we could accomplish in a 24 hour period. A lot of the tech stacks we were not all completely comfortable with.
+
+Accomplishments that we're proud of
+
+We are proud to have finished the primary functionality of our web app. 
+
+What we learned
+
+We learned how to work well in a team and separate different tasks. 
+
+What's next for Internest
+
+We hope to scale the project up to compare graphs with other friends. We also want to focus more on growth and personal development patterns.
+",https://github.com/tsepuri/internest,https://youtu.be/8rat1N3YfYY,"Best Design Hack, Purposeful User Engagement (Fifth Third Bank), Best Use of Clerk.dev","elasticsearch, nextjs, python, clerk, gpt2, mongodb, docker, visjs, spacey",,Case Western Reserve University,2,Case Western Reserve University,"",We were happy to see how easy it was to use Clerk for auth.,230-8
+Rubik's Cube Visualizer,https://revolutionuc2023.devpost.com/submissions/394549-rubik-s-cube-visualizer,Submitted (Gallery/Visible),Pending,Submit,02/26/2023 11:08:06,"Inspiration
+
+My friend got me into Rubik's Cube speed solving and I thought it would make a neat idea for a project
+
+What it does
+
+simulates turning a rubiks cube in the terminal
+
+How we built it
+
+using Rust
+
+Challenges we ran into
+
+weirdness with getting input with rust
+
+Accomplishments that we're proud of
+
+Using a 1D array to represent the whole cube in memory and mapping out the 240 different ways all the faces can move (and only messing up a couple that were easy to spot in testing!)
+
+What we learned
+
+A lot more about rust
+
+What's next for Rubik's Cube Visualizer
+
+Next logial step is definitely for the user to be able to program their scrambled cube into the terminal and it showing you how to solve it
+",https://github.com/llukehaskell/rubiks-cube,https://youtu.be/A1EjLFRB4zE,"","rust, vscode",,Ohio University - Main Campus,0,Ohio University,"","",230-9
+Untitled,"",Draft,Pending,Manage team,02/26/2023 11:57:40,"","",,"","",,University of Cincinnati,0,"","","",""
+Untitled,"",Draft,Pending,Manage team,02/26/2023 11:59:38,"","",,"","",,University of Toledo,0,"","","",""

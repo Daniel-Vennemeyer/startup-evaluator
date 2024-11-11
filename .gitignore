@@ -1,0 +1,5 @@
+.env
+__pycache__
+fine_tuned_roberta_model
+augmented_fine_tuned_roberta_model
+results

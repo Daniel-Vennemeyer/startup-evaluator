@@ -1,0 +1,1674 @@
+[
+    {
+        "name": "Flower",
+        "description": "Flower is an open-source framework for federated learning, enabling companies to train AI on distributed, sensitive data across devices or organizational silos, unlocking new data potential in AI.",
+        "one_liner": "Train AI on distributed data"
+    },
+    {
+        "name": "Trigo",
+        "description": "Trigo provides a comprehensive rent history database for landlords and lenders, offering a real-time API and web application to bridge the data gap in tenant and loan approvals.",
+        "one_liner": "Rent data API for landlords and lenders"
+    },
+    {
+        "name": "Scanbase",
+        "description": "Scanbase offers a simple API for medical companies to analyze rapid diagnostic test photos, streamlining test result processing.",
+        "one_liner": "The API for Diagnostic Test Analysis (COVID-19, FLU, RSV, STD, etc.)"
+    },
+    {
+        "name": "Vooma",
+        "description": "Vooma provides AI-driven automation for logistics, helping companies reduce manual work and focus on high-value tasks.",
+        "one_liner": "Automation platform for logistics"
+    },
+    {
+        "name": "Coperniq",
+        "description": "Coperniq is workflow software tailored for solar and energy contractors, reducing costs and accelerating project timelines while automating service and health checks for installations.",
+        "one_liner": "Workflow software for solar & energy contractors"
+    },
+    {
+        "name": "GovEagle",
+        "description": "GovEagle provides an AI-driven RFP automation platform for government contractors, allowing them to draft quality proposals faster.",
+        "one_liner": "First draft of a government RFP response in 60 min"
+    },
+    {
+        "name": "LaunchFlow",
+        "description": "LaunchFlow is an open-source CLI tool that simplifies app deployment to AWS or GCP with minimal configuration, allowing startups to focus on core products.",
+        "one_liner": "Launch your app to AWS or GCP in minutes"
+    },
+    {
+        "name": "FlexWash",
+        "description": "FlexWash is a modern solution for car wash operators, providing tools to manage and expand their businesses in a $15B industry.",
+        "one_liner": "The operating system for the car wash industry."
+    },
+    {
+        "name": "Cakework",
+        "description": "Cakework offers an API that enables developers to add cloud hosting for custom user code without infrastructure management, simplifying platform cloud capabilities.",
+        "one_liner": "API that adds cloud hosting to any developer platform"
+    },
+    {
+        "name": "Ruby Card",
+        "description": "Ruby Card is a neobank for e-commerce businesses, providing flexible spend management and real-time financial insights through commerce platform integration.",
+        "one_liner": "Neobank for e-commerce businesses"
+    },
+    {
+        "name": "Glass Health",
+        "description": "Glass Health is an AI-powered platform for clinicians to develop differential diagnoses and create clinical plans, improving decision support.",
+        "one_liner": "AI-Powered Clinical Decision Support"
+    },
+    {
+        "name": "Pair AI",
+        "description": "Pair AI enables creators to launch mobile-first video courses with AI-driven coaching, reimagining education with engaging, short-form content.",
+        "one_liner": "Reimagining education with short form video and AI"
+    },
+    {
+        "name": "CodeComplete",
+        "description": "CodeComplete provides a self-hosted, enterprise version of AI code completion, tailored to meet security needs and codebase specificity.",
+        "one_liner": "AI-powered code completion for enterprise"
+    },
+    {
+        "name": "Pigeon",
+        "description": "Pigeon simplifies document collection for businesses, offering an itemized upload checklist that clients can complete quickly without extra accounts.",
+        "one_liner": "Document collection made fast, easy, and secure"
+    },
+    {
+        "name": "Rainmaker",
+        "description": "Rainmaker is a crypto wallet for DeFi investments, allowing simple, gas-free transactions through email setup and instant funding options.",
+        "one_liner": "DeFi for Everyone"
+    },
+    {
+        "name": "IcePanel",
+        "description": "IcePanel is a collaborative diagramming tool for teams to map and understand software systems, providing clarity on technical decisions.",
+        "one_liner": "Explain complex software systems to engineering and product teams"
+    },
+    {
+        "name": "Orchid",
+        "description": "Orchid is an AI-powered EHR platform for independent mental health professionals, streamlining administrative and clinical processes.",
+        "one_liner": "AI-powered EHR for independent mental health professionals"
+    },
+    {
+        "name": "GoodCourse",
+        "description": "GoodCourse is a corporate learning platform styled like TikTok, boosting completion rates for training on compliance, inclusion, and more.",
+        "one_liner": "The TikTok style corporate training platform"
+    },
+    {
+        "name": "Forfeit",
+        "description": "Forfeit is a habit-forming app that holds users accountable by requiring evidence of habit completion to avoid a financial penalty.",
+        "one_liner": "An app that takes your money if you don't complete your habits."
+    },
+    {
+        "name": "Truewind",
+        "description": "Truewind offers AI-powered bookkeeping for startups, combining GPT-3 with concierge services to streamline finance management.",
+        "one_liner": "AI-powered Bookkeeping and Finance Software"
+    },
+    {
+        "name": "OpenMeter",
+        "description": "OpenMeter provides an open-source platform for real-time usage metering, supporting AI and API monetization.",
+        "one_liner": "Usage Metering, AI & API Monetization"
+    },
+    {
+        "name": "Outerbase",
+        "description": "Outerbase is a user-friendly database interface, enabling companies to view, edit, and visualize data without SQL coding.",
+        "one_liner": "The interface for your database"
+    },
+    {
+        "name": "Suger",
+        "description": "Suger simplifies cloud marketplace navigation for B2B software products, reducing technical requirements and procurement time for AWS, Azure, and GCP.",
+        "one_liner": "Salesforce for Cloud marketplaces on AWS, Azure, GCP"
+    },
+    {
+        "name": "Cobblestone",
+        "description": "Cobblestone offers software to reduce delinquency and automate processes for institutional landlords, starting with fraud prevention.",
+        "one_liner": "Delinquency reduction and automation software for institutional landlords"
+    },
+    {
+        "name": "Chart",
+        "description": "Chart provides a Unified Tax Record API that connects directly to tax records from the IRS, state tax agencies, and major tax preparation platforms like TurboTax and H&R Block.",
+        "one_liner": "Real-time Access to Verified Tax Records"
+    },
+    {
+        "name": "Bluebirds",
+        "description": "Bluebirds automates outbound targeting for GTM teams by creating custom intent signals, saving sales reps time and enhancing prospecting efficiency by delivering ready-to-prospect leads to CRMs.",
+        "one_liner": "Automate outbound with signals"
+    },
+    {
+        "name": "Diffuse Bio",
+        "description": "Diffuse develops generative AI technology for protein design, aiming to engineer new and functional proteins with unprecedented precision, drawing from a history of AI protein design breakthroughs.",
+        "one_liner": "Generative AI for protein design"
+    },
+    {
+        "name": "Sanvivo",
+        "description": "Sanvivo is a digital platform for European pharmacies, providing software for managing online medication orders, pharmaceutical advice, and health service bookings, akin to Shopify for pharmacies.",
+        "one_liner": "Shopify for pharmacies in Europe"
+    },
+    {
+        "name": "clearspace",
+        "description": "Clearspace offers an internet layer that aligns users' time with their best intentions, helping reduce compulsive phone usage.",
+        "one_liner": "Eliminate compulsive phone usage"
+    },
+    {
+        "name": "Milio",
+        "description": "Milio provides a fully interoperable payment system in Colombia, enabling real-time account-to-account transactions without ACH rails, through API integrations for seamless disbursement and payment.",
+        "one_liner": "B2B-2C real-time account-to-account payments"
+    },
+    {
+        "name": "Mantys",
+        "description": "Mantys allows SaaS companies to accurately calculate and forecast ARR in real-time by integrating data from platforms like HubSpot and Chargebee, eliminating reliance on multiple spreadsheets.",
+        "one_liner": "ARR Reporting and Forecasting for SaaS companies"
+    },
+    {
+        "name": "Coldreach",
+        "description": "Coldreach enables sales teams to find targeted, ready-to-buy leads using AI to monitor relevant public signals such as job postings and news, optimizing outreach relevance and efficiency.",
+        "one_liner": "Find the best leads with custom intent signals"
+    },
+    {
+        "name": "MagnaPlay",
+        "description": "MagnaPlay simplifies game translation with a SaaS platform combining AI and expert translators, enabling faster, cost-effective, and high-quality localization for game developers.",
+        "one_liner": "AI-powered game translation"
+    },
+    {
+        "name": "Sirdab",
+        "description": "Sirdab offers cloud warehousing and logistics solutions in MENA, providing businesses with quick access to storage and inventory management across various temperature zones.",
+        "one_liner": "Cloud warehousing & supply chain platform in MENA"
+    },
+    {
+        "name": "Odigos",
+        "description": "Odigos utilizes eBPF technology to provide an open-source solution for automatically generating distributed traces for any application, reducing engineering overhead in monitoring data extraction.",
+        "one_liner": "Enterprise-Grade OpenTelemetry"
+    },
+    {
+        "name": "Hona",
+        "description": "Hona is a client experience management app, providing businesses with tools to keep clients updated, facilitate document sharing, and enhance service transparency and communication.",
+        "one_liner": "The Domino's Pizza Tracker for service businesses and their clients"
+    },
+    {
+        "name": "Noya Software",
+        "description": "Noya is a product design tool designed for non-designers, offering accessible design capabilities and scaling solutions previously developed at Airbnb for broader company use.",
+        "one_liner": "Product design tool that lets everyone design like a designer"
+    },
+    {
+        "name": "Infinia",
+        "description": "Infinia enables Fintechs, PSPs, and Banks to connect to global real-time payment (RTP) rails for both pay-ins and payouts, supporting efficient international financial operations.",
+        "one_liner": "Real Time Payments infrastructure"
+    },
+    {
+        "name": "Honeydew",
+        "description": "Honeydew provides a semantic layer for data teams to ensure data integrity and support more users by automating data flow updates with each change.",
+        "one_liner": "The home for shared data logic"
+    },
+    {
+        "name": "Sherloq",
+        "description": "Sherloq is a centralized SQL management platform, acting as a 'GitHub for data teams' to provide a unified source of truth for SQL code across organizations.",
+        "one_liner": "GitHub for data teams"
+    },
+    {
+        "name": "SPRX",
+        "description": "SPRX uses AI to simplify the preparation of R&D tax credits, ensuring accuracy and compliance while democratizing access to high-quality credit studies.",
+        "one_liner": "AI for corporate R&D tax credits"
+    },
+    {
+        "name": "Pointwise",
+        "description": "Pointwise analyzes users' spending patterns to recommend the best credit cards based on their goals and timing, simplifying the decision-making process.",
+        "one_liner": "App that tells you which credit cards to get and when"
+    },
+    {
+        "name": "Technician",
+        "description": "Technician accelerates PR merges by detecting check run failures and providing instant AI-suggested fixes, streamlining the CI/CD process for developers.",
+        "one_liner": "Resolve PR check failures instantly with AI"
+    },
+    {
+        "name": "Defog.ai",
+        "description": "Defog offers natural language querying for business data, powered by its open-source SQLCoder model, enabling quick and easy data access for business users.",
+        "one_liner": "Fine-tuned LLMs for enterprise data analysis"
+    },
+    {
+        "name": "FiddleCube",
+        "description": "FiddleCube provides AI-driven adversarial testing for Gen AI systems, ensuring enterprise safety and compliance with legal standards across global regions.",
+        "one_liner": "Build safe, enterprise-ready Gen AI systems"
+    },
+    {
+        "name": "Fiber",
+        "description": "Fiber accelerates development by syncing data from popular APIs to production databases, helping developers build integrations 10x faster.",
+        "one_liner": "We help developers pull data from popular APIs to build integrations"
+    },
+    {
+        "name": "Intrinsic",
+        "description": "Intrinsic offers a unified API for Trust & Safety teams, enabling streamlined safety protocols and cohesive enforcement across policy and product workflows.",
+        "one_liner": "World-Class Tooling for Trust & Safety teams"
+    },
+    {
+        "name": "Homeflow",
+        "description": "Homeflow is a centralized insurance management platform for large real estate investors, allowing easy policy viewing, coverage adjustments, and acquisition quotes.",
+        "one_liner": "Simplifying insurance for large real estate investors"
+    },
+    {
+        "name": "Invitris",
+        "description": "Invitris revolutionizes protein-based drug creation with DNA-to-protein technology, enabling efficient development of synthetic bacteriophages to combat antibiotic-resistant infections.",
+        "one_liner": "Creating new protein-based drugs at scale"
+    },
+    {
+        "name": "Fabius",
+        "description": "Fabius uses AI to analyze customer calls, helping sales leaders improve performance by identifying qualification gaps and enhancing the business case for deals.",
+        "one_liner": "AI to improve Sales Calls"
+    },
+    {
+        "name": "Vocode",
+        "description": "Vocode is an open-source voice AI platform, providing tools and documentation for integrating voice AI into applications.",
+        "one_liner": "Open-source Voice AI"
+    },
+    {
+        "name": "Conduit",
+        "description": "Conduit automates scheduling and check-in processes for warehouses, helping trucks move in and out efficiently by reducing reliance on email, spreadsheets, and paper. It integrates seamlessly with shipper transportation, warehouse management systems, and carrier and broker systems."
+    },
+    {
+        "name": "Resend",
+        "description": "Resend is a new email API designed for developers to build, test, and send transactional emails at scale, providing an alternative to services like Sendgrid, AWS SES, and Postmark."
+    },
+    {
+        "name": "Decohere",
+        "description": "Decohere provides real-time generative AI infrastructure, enabling users to iterate toward creative goals without waiting for long-running GPU tasks."
+    },
+    {
+        "name": "OpenInt",
+        "description": "OpenInt offers low-code or no-code product integration solutions, allowing teams to read, write, and sync data efficiently with unified APIs or directly to databases."
+    },
+    {
+        "name": "Hindsight",
+        "description": "Hindsight helps sales teams collect unbiased insights from closed deals to improve win rates by analyzing closed-won, closed-lost, or churned opportunities."
+    },
+    {
+        "name": "Thread",
+        "description": "Thread simplifies business processes for manufacturing companies, providing a secure platform for document management and collaborative vendor response."
+    },
+    {
+        "name": "DAGWorks Inc.",
+        "description": "DAGWorks provides open-source tools for reliable AI applications, offering development and observability solutions like Hamilton and Burr to streamline AI workflow and data management."
+    },
+    {
+        "name": "Swishjam",
+        "description": "Swishjam is a digital analytics platform that integrates disparate data systems to provide SaaS companies with a comprehensive view of their customers and business metrics."
+    },
+    {
+        "name": "PlayHT",
+        "description": "PlayHT is a Voice AI company that creates conversational voice models capable of cloning any voice or accent and generating speech in real time."
+    },
+    {
+        "name": "Peeba",
+        "description": "Peeba is a B2B wholesale marketplace for Southeast Asia, streamlining the inventory purchasing process for independent retailers and offering a risk-free way to discover unique products."
+    },
+    {
+        "name": "Infobot",
+        "description": "Infobot leverages large language models to generate news content at scale, covering hyper-niche topics by reducing the costs of content creation."
+    },
+    {
+        "name": "Watto AI",
+        "description": "Watto AI uses large language models to create high-quality reports in seconds, offering businesses quick access to marketing reports, white papers, and product documents."
+    },
+    {
+        "name": "Dioxus Labs",
+        "description": "Dioxus enables developers to build, test, deploy, and manage apps across web, desktop, mobile, and AR/VR platforms with a single Rust-based codebase."
+    },
+    {
+        "name": "Hyperbound",
+        "description": "Hyperbound provides a sales call roleplay platform that simulates realistic AI buyers, helping sales teams train and improve conversion rates in a risk-free environment."
+    },
+    {
+        "name": "Deasie",
+        "description": "Deasie offers data governance for enterprise language models, auto-tagging documents by content and sensitivity to ensure only relevant and safe data is used."
+    },
+    {
+        "name": "Accend",
+        "description": "Accend accelerates KYC and onboarding for fintech and banking sectors, automating manual compliance checks and report generation to increase efficiency."
+    },
+    {
+        "name": "Metoro",
+        "description": "Metoro provides comprehensive observability for Kubernetes services, offering installation-free insights, monitoring, and automated diagnostics."
+    },
+    {
+        "name": "Twenty",
+        "description": "Twenty is an open-source CRM platform designed to provide a modern alternative to traditional CRM solutions like Salesforce."
+    },
+    {
+        "name": "Synaptiq",
+        "description": "Synaptiq aims to revolutionize medical education with AI-driven training tools to enhance physician skills, improve healthcare systems, and boost patient care."
+    },
+    {
+        "name": "Nectar",
+        "description": "Nectar helps companies collect carbon emissions data for regulatory compliance, automating data extraction to reduce manual work and improve accuracy."
+    },
+    {
+        "name": "kapa.ai",
+        "description": "kapa.ai enables technical companies to create support and onboarding bots that draw from existing documentation, tutorials, and logs to answer developer questions automatically."
+    },
+    {
+        "name": "Artie",
+        "description": "Artie streams data from databases to data warehouses in real-time, eliminating the need for periodic ETL processes and ensuring up-to-date insights."
+    },
+    {
+        "name": "Can of Soup",
+        "description": "Can of Soup allows users to create and share AI-generated photos of themselves and friends in imaginative scenarios, from moon volleyball to concerts with celebrities."
+    },
+    {
+        "name": "Vaero",
+        "description": "Vaero is an AI-powered platform for patent lawyers, enabling fast drafting and review of patent applications to streamline the legal process."
+    },
+    {
+        "name": "Pierre",
+        "description": "Pierre is a collaborative tool that facilitates team discussions on new features before they are merged, aiming to improve coordination among engineers, designers, and business teams."
+    },
+    {
+        "name": "moonrepo",
+        "description": "moonrepo provides an open-source build system for large codebases and monorepos, reducing build and deploy times with cloud caching and CI insights."
+    },
+    {
+        "name": "Cercli",
+        "description": "Cercli is a platform for Middle Eastern and North African businesses to manage global workforce operations, automating payroll, compliance, onboarding, and HR tasks."
+    },
+    {
+        "name": "Fetchr",
+        "description": "Fetchr is an AI-driven personal shopping assistant that learns user preferences and delivers clothing recommendations based on style, size, and budget."
+    },
+    {
+        "name": "Warp",
+        "description": "Warp is a modern payroll, compliance, and benefits platform designed for startups, automating state tax registrations and compliance tasks so users no longer need to navigate .gov websites."
+    },
+    {
+        "name": "Vendora",
+        "description": "Vendora is a comprehensive platform that helps grocers succeed online through AI-powered automations and integrations with POS, loyalty, inventory, and accounting systems, providing an online storefront and analytics tools."
+    },
+    {
+        "name": "Lightski",
+        "description": "Lightski is an AI-powered writing tool for engineers, integrating with GitHub and Jira to provide contextual suggestions, draft starting points, and rewrites for faster technical documentation."
+    },
+    {
+        "name": "Meru",
+        "description": "Meru doubles nurse productivity by reducing documentation burden with a voice-based flowsheet interface."
+    },
+    {
+        "name": "Kyber",
+        "description": "Kyber enables companies in regulated industries to quickly draft, review, and send complex regulatory notices by auto-generating drafts, allowing for real-time collaboration, and improving quality and accountability."
+    },
+    {
+        "name": "Escape",
+        "description": "Escape is an API security platform that allows users to identify exposed endpoints and vulnerabilities, providing actionable remediation without the need for traffic monitoring or complex integrations."
+    },
+    {
+        "name": "Corgea",
+        "description": "Corgea uses AI to fix vulnerable code by issuing pull requests for engineer approval, saving up to 80% in time and engineering costs."
+    },
+    {
+        "name": "MICSI",
+        "description": "MICSI’s AI software doubles MRI resolution and halves scan times, increasing imaging center capacity and patient throughput, with potential revenue gains per MRI scanner."
+    },
+    {
+        "name": "CraftOS",
+        "description": "CraftOS provides inventory management and POS solutions tailored for small batch wineries, supporting 83% of U.S. wine production."
+    },
+    {
+        "name": "Spine AI",
+        "description": "Spine AI is a reliable AI analyst that answers natural language questions using custom-tuned models and a semantic layer, providing transparency and actionable insights for business teams."
+    },
+    {
+        "name": "Revamp",
+        "description": "Revamp helps eCommerce brands create smarter customer segments for targeted email and ad campaigns, leveraging AI to understand customer behavior."
+    },
+    {
+        "name": "Airgoods",
+        "description": "Airgoods is a wholesale marketplace for specialty food and beverage stores, connecting them with top brands and consolidating inventory management into one platform."
+    },
+    {
+        "name": "Talc",
+        "description": "Talc accelerates dataset creation by 100x with AI, providing high-quality, domain-specific datasets across fields like medical care and insurance."
+    },
+    {
+        "name": "askLio",
+        "description": "askLio builds AI copilots to streamline procurement processes for enterprises, reducing manual work and saving costs, with top companies already using the platform."
+    },
+    {
+        "name": "Craftwork",
+        "description": "Craftwork is a digital-native home painting franchise, enhancing the homeowner and operator experience through software."
+    },
+    {
+        "name": "Atla",
+        "description": "Atla helps developers build reliable GenAI applications by identifying and addressing AI mistakes at scale, monitoring performance, and understanding failure modes."
+    },
+    {
+        "name": "Readily",
+        "description": "Readily enables healthcare organizations to identify and close compliance gaps efficiently, connecting policy data to speed up audits and reduce costly violations."
+    },
+    {
+        "name": "Diligent",
+        "description": "Diligent provides GenAI assistants for fintechs, automating AML and compliance workflows, improving risk detection, and freeing up resources for complex investigations."
+    },
+    {
+        "name": "CareOasis",
+        "description": "CareOasis helps family caregivers receive compensation through government programs."
+    },
+    {
+        "name": "Glade",
+        "description": "Glade pioneers a new genre of AI-powered video games, moving beyond linear gameplay to create adaptive, dynamic experiences."
+    },
+    {
+        "name": "MediSearch",
+        "description": "MediSearch provides direct answers to medical questions, sourcing trustworthy information for accuracy and reliability."
+    },
+    {
+        "name": "Metalware",
+        "description": "Metalware offers cybersecurity tools for firmware, detecting vulnerabilities in devices like drones, satellites, and medical equipment."
+    },
+    {
+        "name": "Egress Health",
+        "description": "Egress Health specializes in end-to-end revenue cycle automation for healthcare providers."
+    },
+    {
+        "name": "Surface Labs",
+        "description": "Surface Labs enhances B2B marketing form conversions by optimizing data collection, analytics, and personalization on business websites."
+    },
+    {
+        "name": "Skyvern",
+        "description": "Skyvern automates browser-based workflows using LLMs and computer vision, streamlining processes like procurement, data entry, and invoice management."
+    },
+    {
+        "name": "Dialtone",
+        "description": "Automates AI-driven supplier communications through voice and email, with data extraction, demand forecasting, spend analysis, and supplier inventory checks for ERP/MRP systems.",
+        "one_liner": "Automate 80% of your supply chain tasks with AI"
+    },
+    {
+        "name": "Transformity",
+        "description": "Provides a comprehensive operating system for liquor retailers, integrating with distributors, automating tasks, and offering new revenue streams for enhanced business management.",
+        "one_liner": "Point-of-sale & Vertical SaaS for the $75B Liquor Industry"
+    },
+    {
+        "name": "Repaint",
+        "description": "A design-focused website builder allowing users to create professional sites without coding through a drag-and-drop interface for complete design freedom.",
+        "one_liner": "A visual design tool like Figma, but it makes real websites"
+    },
+    {
+        "name": "Chow Central Inc",
+        "description": "Develops food delivery technology in Nigeria, including 500chow, a hyper-local delivery-only restaurant with lower operational costs and faster delivery than traditional setups.",
+        "one_liner": "Asset Light Chipotle for Africa"
+    },
+    {
+        "name": "FleetWorks",
+        "description": "Automates communications in the freight industry with voice synthesis and AI, handling tasks like ETA updates, appointment scheduling, and logistics coordination.",
+        "one_liner": "Automating the 2B phone calls and emails that keep freight moving"
+    },
+    {
+        "name": "Health Harbor",
+        "description": "Uses generative AI to streamline insurance calls for healthcare clinics, achieving faster and more reliable benefit verifications than human-based solutions.",
+        "one_liner": "Using generative AI to call insurance for healthcare clinics"
+    },
+    {
+        "name": "Briefer",
+        "description": "A collaborative data platform that allows data scientists to build interactive visualizations and data apps using SQL or Python within a Notion-like interface.",
+        "one_liner": "The collaborative data platform"
+    },
+    {
+        "name": "Hegel AI",
+        "description": "Offers open-source tools for developing applications with generative AI models, including PromptTools, which helps developers experiment with and evaluate prompts and models.",
+        "one_liner": "Open source tools for developing generative AI applications"
+    },
+    {
+        "name": "Outset",
+        "description": "Provides AI-powered user interviews, enabling researchers to conduct qualitative research 100 times faster than traditional live interviews.",
+        "one_liner": "AI-powered user interviews"
+    },
+    {
+        "name": "Serra",
+        "description": "An AI-driven search engine for recruiters to find best-fit candidates by connecting to ATS and external sources, with customized search capabilities.",
+        "one_liner": "AI-powered candidate search"
+    },
+    {
+        "name": "Corgea",
+        "description": "Helps companies fix vulnerable code faster using AI to generate fixes and open pull requests, significantly reducing engineering time and costs.",
+        "one_liner": "Fix vulnerable code using AI"
+    },
+    {
+        "name": "Terminal",
+        "description": "Provides a universal API for accessing telematics data in commercial trucking, supporting companies building insurance, financial services, and fleet software.",
+        "one_liner": "Plaid for Telematics Data in Commercial Trucking"
+    },
+    {
+        "name": "ParadeDB",
+        "description": "A search and analytics platform built on Postgres, providing an Elasticsearch alternative with real-time search capabilities.",
+        "one_liner": "Postgres for Search and Analytics"
+    },
+    {
+        "name": "Eden Care",
+        "description": "Digital health insurer focused on reducing health insurance costs in Africa, targeting employers and aiming to serve the uninsured workforce.",
+        "one_liner": "Digital health insurance for employers in Africa"
+    },
+    {
+        "name": "Finbox",
+        "description": "An AI agent that automates AR and AP team communication, optimizing email prioritization and response based on ERP data for efficient financial management.",
+        "one_liner": "AI agent for AP & AR communication"
+    },
+    {
+        "name": "Smobi",
+        "description": "An AI-powered conversational marketing platform for e-commerce, using interactive SMS messages to drive sales and customer engagement.",
+        "one_liner": "Bringing In-App experiences to SMS"
+    },
+    {
+        "name": "Tiptap",
+        "description": "Open-source content editing and real-time collaboration tools designed for developers building apps with features like Notion or Google Docs.",
+        "one_liner": "Developer toolkit for building collaborative apps"
+    },
+    {
+        "name": "RecipeUI",
+        "description": "An open-source alternative to Postman, allowing teams to debug APIs without backend reliance, widely adopted across engineering teams.",
+        "one_liner": "The open source Postman alternative"
+    },
+    {
+        "name": "OpsBerry AI",
+        "description": "Secures identity management across an organization with AI-driven visibility and vulnerability management, protecting against identity-driven breaches.",
+        "one_liner": "Secure your identity sprawl with AI"
+    },
+    {
+        "name": "Certainly Health",
+        "description": "Marketplace that enables patients to estimate and guarantee out-of-pocket healthcare costs, helping providers secure timely payments.",
+        "one_liner": "Marketplace to book doctors and avoid surprise bills"
+    },
+    {
+        "name": "Silimate",
+        "description": "An AI-powered co-pilot for chip designers, identifying bugs, predicting issues, and providing real-time recommendations to optimize power, performance, and area (PPA).",
+        "one_liner": "The co-pilot for chip designers"
+    },
+    {
+        "name": "Inari",
+        "description": "AI-powered insights platform that analyzes customer data to highlight feedback, identify feature requests, and prioritize product opportunities.",
+        "one_liner": "AI-powered product discovery, feedback analytics, and backlog"
+    },
+    {
+        "name": "Envelope",
+        "description": "Banking app with built-in budgeting, issuing a primary checking account to help users manage finances without syncing multiple accounts.",
+        "one_liner": "Banking with built-in budgeting"
+    },
+    {
+        "name": "VectorShift",
+        "description": "AI automations platform offering no-code and SDK interfaces for document generation, knowledge base searches, chatbot deployment, and more.",
+        "one_liner": "No-Code Generative AI Automations Platform"
+    },
+    {
+        "name": "SafetyKit",
+        "description": "Trust and Safety automation platform using AI to speed up content review workflows, enabling faster and more accurate decision-making.",
+        "one_liner": "AI-Powered Trust and Safety Automation"
+    },
+    {
+        "name": "Glaze",
+        "description": "AI-powered mood board and shopping recommendation platform for women's fashion, matching users with relevant clothing items from popular brands.",
+        "one_liner": "Shop your fashion inspo"
+    },
+    {
+        "name": "Converge",
+        "description": "Auto-tracking platform for e-commerce events, forwarding customer events to analytics tools to improve ad performance and insights.",
+        "one_liner": "Segment for Ecommerce"
+    },
+    {
+        "name": "Osium AI",
+        "description": "Enables materials R&D teams to innovate faster by using AI to streamline the design and development process, promoting greener and lighter materials.",
+        "one_liner": "Speed up materials innovation with Artificial Intelligence"
+    },
+    {
+        "name": "VaultPay",
+        "description": "Digital banking platform for the DRC, providing accessible financial services for smartphone users and supporting small business banking needs.",
+        "one_liner": "Digital banking platform for the 30 million smartphone users in DRC"
+    },
+    {
+        "name": "Ubicloud",
+        "description": "Open-source cloud platform offering services like elastic compute, block storage, and networking, designed to reduce cloud costs by 3-10x.",
+        "one_liner": "Open source alternative to AWS"
+    },
+    {
+        "name": "PurplePages",
+        "description": "AI agent designed for secure and streamlined transactions in online local marketplaces.",
+        "one_liner": "Purple is an AI agent for online local marketplace transactions"
+    },
+    {
+        "name": "ego",
+        "description": "AI-powered simulation engine for generating realistic 3D characters and interactive environments, aimed at creators building simulations and interactive media.",
+        "one_liner": "AI-native 3D simulation engine"
+    },
+    {
+        "name": "Leya",
+        "description": "AI-powered workspace for legal professionals, streamlining repetitive tasks and consolidating access to public and private legal data.",
+        "one_liner": "The AI workspace for lawyers"
+    },
+    {
+        "name": "Scritch",
+        "description": "AI operating system tailored for veterinary care, providing agents that support scheduling and clinical workflows.",
+        "one_liner": "AI operating system for veterinary care"
+    },
+    {
+        "name": "RadMate AI",
+        "description": "An AI copilot for radiologists, utilizing a medical imaging model to read radiology images and generate full reports for review.",
+        "one_liner": "Copilot for radiologists"
+    },
+    {
+        "name": "Relari",
+        "description": "Relari helps AI teams simulate, test, and validate complex AI applications throughout the development lifecycle. Their platform, continuous-eval, is an open-source modular framework for evaluating metrics in text generation, code generation, retrieval, classification, agents, and other LLM use cases. The cloud platform also generates synthetic data and simulates user behavior to stress test GenAI applications.",
+        "one_liner": "Testing and Simulation Stack for GenAI Systems"
+    },
+    {
+        "name": "DryMerge",
+        "description": "DryMerge enables users to automate workflows using plain English commands. Users can automate tasks like managing inbound leads without writing code or using blocks. This tool is designed for knowledge workers, making automation accessible and intuitive for all, not just programmers.",
+        "one_liner": "Automate work with plain English."
+    },
+    {
+        "name": "Navier AI",
+        "description": "Navier AI accelerates Computational Fluid Dynamics (CFD) simulations with an ML-based solver, making them 1000x faster. This technology allows engineers in industries like aerospace and weather prediction to quickly explore design options and optimize them efficiently, lowering the barrier to high-performance design analysis.",
+        "one_liner": "Real-Time CFD Simulations"
+    },
+    {
+        "name": "Upsolve AI",
+        "description": "Upsolve AI provides analytics as a service, empowering businesses to deliver customer-facing analytics at high speed. The platform, founded by former Palantir team members, enables end-users to answer data questions via AI, with a full data stack for rapid deployment.",
+        "one_liner": "Customer-facing analytics as a service, powered by AI."
+    },
+    {
+        "name": "SciPhi",
+        "description": "SciPhi provides R2R, an all-in-one solution for AI applications, offering features like authentication, document management, hybrid vector search, and advanced Retrieval-Augmented Generation (RAG).",
+        "one_liner": "SciPhi is building R2R, the all-in-one solution for RAG."
+    },
+    {
+        "name": "Flex",
+        "description": "Flex is a payment platform that enables businesses to accept HSA/FSA cards, unlocking a $120 billion market. They provide a hosted checkout page or UI building blocks for integrating HSA/FSA payments into existing payment flows.",
+        "one_liner": "Stripe for HSA/FSA payments"
+    },
+    {
+        "name": "Martin",
+        "description": "Martin is a personal AI assistant that interacts through app, text, or email. It integrates with your calendar and inbox to proactively help you with scheduling, meeting summaries, news updates, and more.",
+        "one_liner": "Your AI butler, like Jarvis."
+    },
+    {
+        "name": "Healthtech 1",
+        "description": "Healthtech 1 digitizes repetitive healthcare processes, currently live in over 400 NHS primary care practices. By automating these tasks, Healthtech 1 aims to improve efficiency and address staffing shortages in the UK's NHS.",
+        "one_liner": "Automating repetitive processes in healthcare"
+    },
+    {
+        "name": "Feanix Biotechnologies",
+        "description": "Feanix Biotechnologies advances animal breeding through proprietary genetic testing, offering genetics and breeding services to the trillion-dollar industry.",
+        "one_liner": "Farm Genetics Made Easy - Using DNA and Software"
+    },
+    {
+        "name": "Orbio Earth",
+        "description": "Orbio Earth tracks methane emissions from oil & gas facilities using satellite imagery, providing data to financial firms. Their technology replaces inaccurate emission estimates, helping investors make informed decisions amidst tightening regulations.",
+        "one_liner": "Tracking methane emissions with satellites"
+    },
+    {
+        "name": "CodeStory",
+        "description": "CodeStory is developing Aide, an AI-native, privacy-focused Integrated Development Environment (IDE) built on VSCode, designed for problem-solving with AI agents as a co-developer.",
+        "one_liner": "Aide is an AI-native, privacy-first IDE built on top of VSCode."
+    },
+    {
+        "name": "CatX",
+        "description": "CatX is a digital marketplace connecting insurance carriers and institutional investors to trade insurance risk efficiently, making risk models accessible for asset managers.",
+        "one_liner": "The digital marketplace for insurance risk."
+    },
+    {
+        "name": "Coba",
+        "description": "Coba allows Mexican knowledge workers employed by US companies to earn in USD and spend in Pesos, providing dual-currency financial services like local credit cards and bill payment options.",
+        "one_liner": "Dual Currency Accounts For LatAm."
+    },
+    {
+        "name": "Taylor AI",
+        "description": "Taylor AI is a control panel for real-time text enrichment, offering structured, high-accuracy text classification and entity extraction without infrastructure overhead.",
+        "one_liner": "Unified Platform for Text Enrichment."
+    },
+    {
+        "name": "Autotab",
+        "description": "Autotab is an AI tool for knowledge work automation. It can be trained to complete complex tasks with reliability, interacting with systems like Salesforce, Google Sheets, and Jira.",
+        "one_liner": "AI agents reliable enough to do real work."
+    },
+    {
+        "name": "Flair Health",
+        "description": "Flair Health partners with healthcare facilities to streamline specialty medication billing processes, optimizing financial workflows and improving medication access.",
+        "one_liner": "Platform to address the unique challenges of specialty medication."
+    },
+    {
+        "name": "Wattson Health",
+        "description": "Wattson Health's automation platform integrates with pharmacy systems, minimizing errors and expediting prescription processing, saving time and reducing costs.",
+        "one_liner": "Software for pharmacies to manage RXs and automate manual workflows."
+    },
+    {
+        "name": "Constructable",
+        "description": "Constructable is an AI-powered assistant for construction managers, pulling data from various sources to answer project-specific questions instantly, reducing costly errors.",
+        "one_liner": "AI copilot for construction teams."
+    },
+    {
+        "name": "Nowadays",
+        "description": "Nowadays is an AI co-pilot for corporate event planning, handling tasks like contacting venues and negotiating details to streamline event coordination.",
+        "one_liner": "AI co-pilot for corporate event planning."
+    },
+    {
+        "name": "Structured",
+        "description": "Structured simplifies data discovery and collaboration for teams, centralizing data sources, metadata, and documentation in one platform. It focuses on intuitive data modeling and metric tracking, ensuring data accuracy and reducing redundancy. Ideal for teams prioritizing speed and structure, it treats data like code, promoting reusability and clarity across projects.",
+        "one_liner": "Automating data discovery with AI"
+    },
+    {
+        "name": "Twine",
+        "description": "Twine uses conversational AI to engage small business customers via text, ensuring no missed opportunities due to unanswered calls. It helps identify customer needs and schedule services efficiently.",
+        "one_liner": "AI text message receptionist for SMBs"
+    },
+    {
+        "name": "Srcbook",
+        "description": "Srcbook is an open-source TypeScript notebook designed for rapid prototyping, learning, and internal tooling. It bridges the gap in prototyping environments for JS/TS, allowing teams to explore libraries, share ideas, and deploy mini-apps with ease.",
+        "one_liner": "TypeScript notebooks"
+    },
+    {
+        "name": "Simbie Health",
+        "description": "",
+        "one_liner": "Filling gaps in transitions of care"
+    },
+    {
+        "name": "Foundation",
+        "description": "Foundation is a buyer experience platform for homebuilders, moving the home shopping, purchase, and ownership experience online. It empowers homebuilders to sell more effectively while enhancing customer satisfaction.",
+        "one_liner": "Shopify for Homebuilders"
+    },
+    {
+        "name": "AiSDR",
+        "description": "AiSDR automates sales prospecting with AI-generated emails, achieving industry-level response rates and facilitating customer engagement and meeting scheduling.",
+        "one_liner": "AI sales prospecting. Replace your SDR with AiSDR"
+    },
+    {
+        "name": "Giga ML",
+        "description": "Giga ML is an AI lab focused on creating end-to-end customer care agents for B2C companies, founded by experts from Stanford and IIT KGP. Backed by YC, it’s building robust AI solutions with significant investment.",
+        "one_liner": "AI customer service agent for B2C Companies"
+    },
+    {
+        "name": "Affinity",
+        "description": "Affinity is a compliance training platform built for regulated industries. Leveraging prior experience in fintech, it addresses the specific learning management needs of regulated tech enterprises.",
+        "one_liner": "A compliance training platform built for regulated industries."
+    },
+    {
+        "name": "FlowiseAI",
+        "description": "Flowise is an open-source low-code platform enabling developers to manage the full lifecycle of LLM app development, from prototyping to production.",
+        "one_liner": "Open source Low-Code LLM development platform"
+    },
+    {
+        "name": "Shadeform",
+        "description": "Shadeform offers an easy-to-use GPU Cloud Marketplace with aggregated availability and pricing data, providing efficient access and deployment options for GPU-based AI workloads.",
+        "one_liner": "The GPU Cloud Marketplace"
+    },
+    {
+        "name": "Inconvo",
+        "description": "Inconvo provides a streamlined developer experience for adding conversational AI to any app, making it easy for developers to integrate engaging AI interfaces.",
+        "one_liner": "The easiest way for developers to add conversational AI to any app."
+    },
+    {
+        "name": "Trellis",
+        "description": "Trellis transforms unstructured data into SQL-compliant tables with customizable schemas, allowing users to run SQL queries on complex data sources like contracts and financial documents.",
+        "one_liner": "AI-powered workflows for unstructured data"
+    },
+    {
+        "name": "Eggnog",
+        "description": "Eggnog is an AI video platform that generates consistent characters, positioning itself as the 'YouTube for AI-generated content' with a growing library of remixable assets for collaborative storytelling.",
+        "one_liner": "YouTube for AI-generated content"
+    },
+    {
+        "name": "Simplex",
+        "description": "Simplex creates on-demand vision datasets from 3D scenes for training AI models, saving companies time and costs associated with data collection and labeling.",
+        "one_liner": "Synthetic datasets for vision models"
+    },
+    {
+        "name": "Octolane AI",
+        "description": "Octolane AI provides an AI-first CRM solution that not only stores customer data but also identifies top prospects and assists in closing deals.",
+        "one_liner": "Building AI-first Salesforce"
+    },
+    {
+        "name": "SuretyNow",
+        "description": "SuretyNow is a modernized platform for purchasing surety bonds, allowing businesses to apply and receive quotes online quickly, catering to a large US market opportunity.",
+        "one_liner": "The Modern Surety Bond Platform"
+    },
+    {
+        "name": "FurtherAI",
+        "description": "FurtherAI provides an AI workforce for the insurance industry, automating manual tasks like quote generation and data entry for insurance brokers.",
+        "one_liner": "AI Workforce for the Insurance Industry"
+    },
+    {
+        "name": "Basalt Tech",
+        "description": "Basalt Tech is developing Dispatch, a spacecraft OS that enables collaboration among satellites and optimizes fleet instructions, founded by former engineers from SpaceX and the MIT CubeSat program.",
+        "one_liner": "Autonomy in space, for every mission"
+    },
+    {
+        "name": "Carousel Technologies",
+        "description": "Carousel Technologies offers a PowerPoint plugin with tools for junior professionals to streamline presentation preparation, including AI-driven tools for error reduction and productivity.",
+        "one_liner": "Professional AI toolkit for PowerPoint"
+    },
+    {
+        "name": "Fractal Labs",
+        "description": "Fractal Labs is building an AI-powered platform for user-generated RPGs, allowing creators to develop games like Skyrim without coding knowledge.",
+        "one_liner": "AI powered UGC platform for RPGs"
+    },
+    {
+        "name": "Pivot Robotics",
+        "description": "Pivot Robotics creates AI software for robotic arms, automating tasks like metal grinding in factories and enhancing productivity in labor-intensive environments.",
+        "one_liner": "AI for Robot Arms in Factories"
+    },
+    {
+        "name": "DGI Apparel",
+        "description": "DGI Apparel is a marketplace for custom screenprinters to purchase supplies, allowing users to compare prices, manage carts, and track purchases from a single site.",
+        "one_liner": "Expedia for ordering blank apparel"
+    },
+    {
+        "name": "Garage",
+        "description": "Garage is a marketplace for used firefighting equipment, simplifying the buying and selling process for fire departments with integrated payment, freight, and financing options.",
+        "one_liner": "Marketplace for used firefighting equipment."
+    },
+    {
+        "name": "Mango Health",
+        "description": "Mango Health facilitates reimbursements for physicians referring patients to therapy, supporting therapists and expanding access to therapy services.",
+        "one_liner": "We get physicians paid for sending patients to therapy."
+    },
+    {
+        "name": "nCompass Technologies",
+        "description": "nCompass provides a platform for accelerated, low-latency AI model deployment with hardware support, enabling streamlined AI integration with minimal coding.",
+        "one_liner": "Deploy hardware accelerated AI models with only one line of code"
+    },
+    {
+        "name": "Apriora",
+        "description": "Apriora offers AI-powered interviews, with an AI recruiter that engages candidates in live video interviews, asking tailored questions and providing a high-quality hiring signal.",
+        "one_liner": "Your AI recruiter for interviewing and identifying the best talent"
+    },
+    {
+        "name": "Malibou",
+        "description": "Malibou is a web application designed to help French SMBs manage employees, process payroll, and ensure compliance in a unified platform. By bridging the gap between HR and payroll, Malibou integrates with recently opened French payroll APIs to offer a comprehensive HR and payroll solution.",
+        "one_liner": "The first all-in-one payroll and HR software for French SMBs."
+    },
+    {
+        "name": "Newton",
+        "description": "Newton is an AI-powered VoIP and payments platform tailored for the retail healthcare industry, including dental, medical spa, and veterinary practices. It offers a modern phone system capable of booking appointments, processing payments, and managing recurring patient requests end-to-end.",
+        "one_liner": "AI-powered phones and payments for retail healthcare."
+    },
+    {
+        "name": "Tile",
+        "description": "Tile enables users to create production-grade data automations and applications without the need to write SQL or code, offering an AI-first notebook for building operational data apps.",
+        "one_liner": "AI-first notebook for building operational data apps."
+    },
+    {
+        "name": "Momentic",
+        "description": "Momentic is an advanced AI platform for software testing, accelerating engineering teams at companies like Retool, Podium, Chegg, and Runway.",
+        "one_liner": "The modern standard for software testing."
+    },
+    {
+        "name": "Reducto",
+        "description": "Reducto provides robust document ingestion solutions, transforming complex, unstructured documents into structured data, perfect for applications like RAG and process automation.",
+        "one_liner": "Unlocking data behind complex documents."
+    },
+    {
+        "name": "Maia",
+        "description": "Maia is an AI-driven relationship app that offers daily activities, personalized advice, and insights based on relationship science, helping couples connect and strengthen their bond.",
+        "one_liner": "AI relationship app that keeps couples together."
+    },
+    {
+        "name": "Poka Labs",
+        "description": "Poka Labs offers an AI platform automating operational tasks in chemical manufacturing, beginning with production scheduling. It integrates seamlessly with existing data sources for analytics, scheduling, and communication within one platform.",
+        "one_liner": "The modern operating system for chemical manufacturing."
+    },
+    {
+        "name": "Nuanced",
+        "description": "Nuanced provides advanced detection technology to identify AI-generated fraud, deepfakes, and misinformation. The technology is continuously updated to adapt to emerging generative AI models.",
+        "one_liner": "Nuanced detects AI fraud, deepfakes, and misinformation."
+    },
+    {
+        "name": "Precip",
+        "description": "Precip utilizes AI to deliver hyperlocal weather insights, focusing on precise rain and snow measurements. The app aids industries by providing real-time weather data.",
+        "one_liner": "High precision AI weather models."
+    },
+    {
+        "name": "Tracecat",
+        "description": "Tracecat is an open-source alternative to Tines/Splunk SOAR, enabling security engineers to build AI-assisted workflows that automate investigations and incident response.",
+        "one_liner": "Open-source Tines/Splunk SOAR alternative for security engineers."
+    },
+    {
+        "name": "Kabilah",
+        "description": "Kabilah enhances patient handoff by providing nurses with AI-powered patient advocates. It offers up-to-date patient histories, customizable displays, and automated handoff notes to improve efficiency and reduce errors.",
+        "one_liner": "Simplifying patient handoff for nurses."
+    },
+    {
+        "name": "Sonia",
+        "description": "Sonia is an AI therapist offering therapy sessions via voice and text through an app. It provides affordable mental health support, developed by MIT researchers with expertise in AI.",
+        "one_liner": "AI therapy for mental health."
+    },
+    {
+        "name": "Aedilic",
+        "description": "Aedilic operates gpudeploy.com, a marketplace for high-performance GPU instances, allowing users to rent or lease idle GPU capacity at competitive prices.",
+        "one_liner": "Aedilic is building gpudeploy.com."
+    },
+    {
+        "name": "Resonance",
+        "description": "Resonance maximizes Net Revenue Retention (NRR) by intelligently targeting marketing campaigns within product environments.",
+        "one_liner": "Optimize NRR within your product."
+    },
+    {
+        "name": "Guide Labs",
+        "description": "Guide Labs develops interpretable AI systems across various data modalities, providing reliable explanations and user-friendly controls. Models are accessible through an API.",
+        "one_liner": "Interpretable AI systems."
+    },
+    {
+        "name": "Zaymo",
+        "description": "Zaymo enables Shopify brands to create interactive, website-like emails that reduce friction and boost conversion rates by embedding fully interactive content directly in email.",
+        "one_liner": "Interactive email builder for ecommerce brands."
+    },
+    {
+        "name": "CloudCruise",
+        "description": "CloudCruise provides an API that enables user-permissioned workflows across SaaS applications, with a developer-friendly environment and secure authentication infrastructure.",
+        "one_liner": "An API to trigger workflows in the browser."
+    },
+    {
+        "name": "Selera Medical",
+        "description": "Selera Medical offers a minimally invasive device-based solution for heart failure, leveraging the body's natural fluid management to reduce fluid buildup and improve patient outcomes.",
+        "one_liner": "One-time, device-based treatment for heart failure."
+    },
+    {
+        "name": "Tusk",
+        "description": "Tusk is an AI coding assistant that fixes customer-reported bugs and improves UI/UX for frontend applications. Integrated with Linear, Jira, Notion, and GitHub, Tusk creates pull requests and conducts testing with minimal intervention.",
+        "one_liner": "AI agent that fixes customers' bugs instantly."
+    },
+    {
+        "name": "Copper Health",
+        "description": "Copper Health is an all-in-one RTM platform for physical therapy, powered by AI to enhance patient engagement and therapeutic monitoring.",
+        "one_liner": "Modern patient engagement and remote therapeutic monitoring platform."
+    },
+    {
+        "name": "Verse Therapy",
+        "description": "Verse Therapy supports speech-language pathologists in establishing independent practices by handling administrative tasks and connecting them with clients through AI-enabled back-office tools.",
+        "one_liner": "Connecting all ages with speech language pathologists."
+    },
+    {
+        "name": "Just Words",
+        "description": "Just Words is an AI-driven marketing tech platform that enables enterprises to auto-refresh and personalize content for growth channels, enhancing engagement and experimentation speeds.",
+        "one_liner": "Scale hyper-personalized messaging with AI."
+    },
+    {
+        "name": "Risotto",
+        "description": "Risotto applies AI to streamline IT helpdesk tasks, such as software access provisioning and support requests, using natural language within chat (ChatOps) for faster resolution and improved security.",
+        "one_liner": "Risotto auto-solves IT support requests using AI."
+    },
+    {
+        "name": "Lumina",
+        "description": "Lumina is an AI search engine and API that delivers research results 5x more relevant than Google Scholar. It features a database of over 100M research objects, covering 16 source types, 12.5K journals, and 65K concepts. Free to use with an API for LLM applications.",
+        "one_liner": "AI Search Engine for Research"
+    },
+    {
+        "name": "EdgeTrace",
+        "description": "EdgeTrace provides a platform and API for video data accessibility and actionable insights, offering advanced capabilities like semantic search, automated annotations, and analytics for critical industries.",
+        "one_liner": "Real-world video understanding models"
+    },
+    {
+        "name": "Opencall.ai",
+        "description": "Opencall offers automated phone answering services for businesses. Its AI answers questions, books appointments, and integrates seamlessly, requiring no code or setup flowcharts.",
+        "one_liner": "AI call centers for any business"
+    },
+    {
+        "name": "Shiboleth",
+        "description": "Shiboleth automates consumer lending compliance for financial institutions using AI, saving months of manual work in audits and reporting. Used by banks like Cross River Bank to streamline back-office compliance.",
+        "one_liner": "Automates lending compliance for financial institutions"
+    },
+    {
+        "name": "Aftercare",
+        "description": "Aftercare provides AI-powered, conversational post-purchase surveys for e-commerce, helping capture detailed customer feedback and improve marketing attribution.",
+        "one_liner": "Conversational post-purchase surveys using AI"
+    },
+    {
+        "name": "Soundry AI",
+        "description": "Soundry AI is a text-to-sound generator for musicians and sound designers, enabling the creation of personalized samples and sound effects for music, film, and video games.",
+        "one_liner": "Professional Quality AI Music Creation"
+    },
+    {
+        "name": "Elodin",
+        "description": "Elodin is a platform for the rapid design, testing, and simulation of drones, satellites, and aerospace control systems.",
+        "one_liner": "The future of aerospace software"
+    },
+    {
+        "name": "Toma",
+        "description": "Toma provides an AI-powered software suite for automotive dealerships, focusing on voice AI for service, sales, and finance, generating significant revenue through automated calls.",
+        "one_liner": "AI for auto dealerships"
+    },
+    {
+        "name": "Bilanc",
+        "description": "Bilanc provides AI-powered summaries of data in GitHub and Jira and intelligent surveys for visibility into engineering efficiency, requiring only 5 minutes to set up.",
+        "one_liner": "Analytics for Data-Driven Engineering Management"
+    },
+    {
+        "name": "Astro Mechanica",
+        "description": "Astro Mechanica has developed the Electric Adaptive Engine, a new kind of jet engine that is efficient at every speed, enabling cheaper orbital payload launches and faster passenger travel.",
+        "one_liner": "New jet engines for the new Jet Age"
+    },
+    {
+        "name": "Draftaid",
+        "description": "DraftAid is a generative AI tool for CAD manufacturing drawings, drastically reducing the time needed for drawing creation and saving teams millions in costs.",
+        "one_liner": "Go from 3D models to CAD drawings using AI"
+    },
+    {
+        "name": "Metofico",
+        "description": "Metofico is a no-code data analysis tool for life sciences, simplifying complex data processing for researchers without advanced programming skills, from brain activity analysis to animal tracking.",
+        "one_liner": "No Code Data Analysis for Life Science Research"
+    },
+    {
+        "name": "Junction Bioscience",
+        "description": "Junction Bioscience develops an AI-driven scientific hypothesis engine for molecular discovery, focusing on neuroinflammation and immunology to create transformative medicines.",
+        "one_liner": "AI Hypothesis Engine for Molecular Discovery"
+    },
+    {
+        "name": "Ryse",
+        "description": "Ryse is a secondary market for real estate leases, connecting investors who want to buy leases with real estate operators who want to sell.",
+        "one_liner": "The secondary market for real estate leases"
+    },
+    {
+        "name": "Veles",
+        "description": "Veles is a sales calculator for pricing, deal definition, and performance analytics, integrating with CPQs and CRMs to maximize deal size and align sales strategies.",
+        "one_liner": "The Sales Calculator"
+    },
+    {
+        "name": "xPay",
+        "description": "xPay provides an international billing solution for SaaS companies, managing invoicing, reconciliation, sales tax, and payments for businesses with overseas customers.",
+        "one_liner": "International Billing Ops, Sales Tax and Payments for SaaS businesses"
+    },
+    {
+        "name": "DeepNight",
+        "description": "DeepNight develops next-generation night vision devices using AI for enhanced visibility in low-light conditions.",
+        "one_liner": "Building The Next Generation of Night Vision Devices"
+    },
+    {
+        "name": "Retell AI",
+        "description": "Retell AI builds and manages AI voice agents for contact centers, transforming and optimizing phone-based customer interactions.",
+        "one_liner": "Supercharge Your Contact Center Operations with AI Phone Agents"
+    },
+    {
+        "name": "Titan",
+        "description": "Titan is an open-source toolkit for data compliance, trusted by data engineering teams for simplified access management, compliance assurance, and risk minimization.",
+        "one_liner": "Open-source toolkit for data compliance"
+    },
+    {
+        "name": "Hatchet",
+        "description": "Hatchet is a task orchestration platform for background tasks, providing infrastructure for managing task queues, retries, and workflow chaining with comprehensive visibility.",
+        "one_liner": "Background task orchestration and visibility"
+    },
+    {
+        "name": "BiteSight",
+        "description": "BiteSight is a video-first food delivery app, combining high-quality food recommendations with delivery services, creating a personalized experience akin to TikTok meets DoorDash.",
+        "one_liner": "The video-first food delivery app"
+    },
+    {
+        "name": "Openmart",
+        "description": "Openmart is a GTM platform for local business data, allowing sales professionals to query data from government filings, websites, reviews, and more.",
+        "one_liner": "GTM platform for reaching local businesses"
+    },
+    {
+        "name": "Amber AI",
+        "description": "Amber AI is a super app for kids, offering mentorship, social connections, browsing, and gaming, transforming screens into a productive learning environment.",
+        "one_liner": "Super app for kids"
+    },
+    {
+        "name": "PocketPod",
+        "description": "PocketPod creates AI-generated podcasts tailored to users' interests, providing a cost-effective solution for high-quality audio content production.",
+        "one_liner": "AI generated podcasts tailored to your interests"
+    },
+    {
+        "name": "Comfy Deploy",
+        "description": "Comfy Deploy is a unified platform for building and deploying workflows with models like Stable Diffusion, offering managed GPU infrastructure and customizable configurations.",
+        "one_liner": "Vercel for Gen AI applications"
+    },
+    {
+        "name": "Saphira AI",
+        "description": "Saphira AI simplifies safety certification for hardware products, enabling faster market entry for items like industrial robots and heavy machinery.",
+        "one_liner": "Vanta for Hardware"
+    },
+    {
+        "name": "Cheers",
+        "description": "Cheers is a super-app for in-person businesses, using NFC-enabled badges to gather customer feedback, manage payments, and optimize workforce operations.",
+        "one_liner": "The super-app for in-person businesses"
+    },
+    {
+        "name": "Ceejay",
+        "description": "Ceejay is an AI-powered executive assistant that manages emails and calendars, offering users increased responsiveness without sacrificing focus.",
+        "one_liner": "An expert assistant"
+    },
+    {
+        "name": "Domu Technology Inc.",
+        "description": "Domu automates debt collection calls for banks using generative AI, with clients including BBVA, BNP Paribas, and Skandia.",
+        "one_liner": "Automating debt collection calls for banks"
+    },
+    {
+        "name": "Spherecast",
+        "description": "Spherecast is an AI-powered inventory management software for e-commerce, optimizing demand planning, inventory, and supplier communication.",
+        "one_liner": "AI Supply Chain Manager for Ecommerce"
+    },
+    {
+        "name": "ParcelBio",
+        "description": "ParcelBio develops nanoparticle-free technology for targeted mRNA delivery to diverse cell types, enabling customizable mRNA medicines.",
+        "one_liner": "Next-generation mRNA medicines"
+    },
+    {
+        "name": "K-Scale Labs",
+        "description": "K-Scale Labs is building open-source humanoid robots capable of walking, talking, and object manipulation.",
+        "one_liner": "Open-source humanoid robots"
+    },
+    {
+        "name": "Million",
+        "description": "Million is an APM that automatically detects website performance issues and generates fixes to improve speed.",
+        "one_liner": "Make websites fast, automatically"
+    },
+    {
+        "name": "Reprompt",
+        "description": "Reprompt builds AI data agents that intelligently extract, combine, validate, and error-correct structured data from complex documents and websites. Used by enterprises for tasks like identifying closed or relocated business listings by querying across web and public datasets.",
+        "one_liner": "AI Data Agents for reading complex documents and websites"
+    },
+    {
+        "name": "CrowdVolt",
+        "description": "CrowdVolt is a live event marketplace for secondary tickets, featuring a bid-ask style platform similar to StockX, with fully automated order fulfillment.",
+        "one_liner": "Bid/ask style ticket exchange powered by automated order fulfillment"
+    },
+    {
+        "name": "Dragoneye",
+        "description": "Dragoneye provides developers with powerful tools for image and video analysis, offering high-accuracy object recognition out of the box without the need for annotated training data.",
+        "one_liner": "Helping devs build computer vision models automatically"
+    },
+    {
+        "name": "Konstructly",
+        "description": "Konstructly connects construction payments to work approvals, preventing overspend by linking invoicing and payments to quality checks and progress tracking on-site.",
+        "one_liner": "The Modern Operating System for Construction"
+    },
+    {
+        "name": "Pico",
+        "description": "Pico organizes iPhone screenshots, linking related information like plane tickets and hotel listings, and makes actionable recommendations from saved screenshots.",
+        "one_liner": "Pico organizes and takes action on your iPhone screenshots"
+    },
+    {
+        "name": "Granza Bio",
+        "description": "Granza Bio develops cancer therapeutics modeled after immune system cells, using engineered 'attack particles' that target cancer cells with high precision, minimizing toxicity.",
+        "one_liner": "Cancer targeting attack particles"
+    },
+    {
+        "name": "Haplotype Labs",
+        "description": "HaploHub is a platform for genetic testing labs to predict disease risk, securely manage genetic data, and run common inference algorithms without code.",
+        "one_liner": "Personalized prevention using genetics and AI"
+    },
+    {
+        "name": "Passage",
+        "description": "Passage is an AI co-pilot for customs brokering, automating data entry and correspondence, reducing time spent on compliance for customs teams.",
+        "one_liner": "Clear goods through customs, with AI"
+    },
+    {
+        "name": "Driftly",
+        "description": "Driftly is an AI-native EHR system for home health agencies, starting with clinician scheduling, which reduces travel time and cuts costs significantly.",
+        "one_liner": "AI-native EHR for home health agencies"
+    },
+    {
+        "name": "Offstream",
+        "description": "Offstream simplifies carbon compliance for infrastructure projects by using AI to parse regulations and manage extensive project data, cutting compliance time by 90%.",
+        "one_liner": "Vanta for carbon compliance"
+    },
+    {
+        "name": "reworks",
+        "description": "reworks enables fast integration with external software for AI companies, providing browser-based API solutions that don't break easily.",
+        "one_liner": "Turn external software into APIs that don’t break"
+    },
+    {
+        "name": "Aviary",
+        "description": "Aviary provides scalable video intelligence, enabling analysis of vast amounts of video content quickly and accurately.",
+        "one_liner": "Video Intelligence"
+    },
+    {
+        "name": "Unbound Security",
+        "description": "Unbound Security allows employees to use AI tools securely without risking data loss.",
+        "one_liner": "Allow employees to use AI tools without fear of data loss"
+    },
+    {
+        "name": "Decisional AI",
+        "description": "Decisional AI provides an AI Financial Analyst for private market investors, automating data analysis and spreadsheet modeling.",
+        "one_liner": "AI Financial Analyst for Private Market Investors"
+    },
+    {
+        "name": "Moonglow",
+        "description": "Moonglow connects local Jupyter notebooks to cloud compute, streamlining the process for ML researchers to scale up experiments efficiently.",
+        "one_liner": "Connecting local Jupyter notebooks to remote cloud compute"
+    },
+    {
+        "name": "ideate.xyz",
+        "description": "ideate.xyz automates marketing graphics design at scale, providing APIs for programmatically generating design assets.",
+        "one_liner": "Automate marketing graphics design at scale"
+    },
+    {
+        "name": "Sorcerer",
+        "description": "Sorcerer develops weather balloons that collect significantly more data than traditional systems, with partnerships in place with multiple government agencies.",
+        "one_liner": "We build weather balloons that collect 1000x more data"
+    },
+    {
+        "name": "Wordware",
+        "description": "Wordware is a collaborative IDE with a new programming language that merges English with coding concepts, designed for developing AI agents.",
+        "one_liner": "IDE to develop, iterate and deploy AI Agents"
+    },
+    {
+        "name": "Corgi",
+        "description": "Corgi is creating the first full-stack AI insurance carrier, targeting the insurance industry's large market with AI-driven solutions.",
+        "one_liner": "Corgi is building an AI insurance company"
+    },
+    {
+        "name": "Clara",
+        "description": "Clara is a payroll, tax, and insurance platform for in-home senior care, allowing families to manage caregivers directly and efficiently.",
+        "one_liner": "Helping families discover, hire, and manage in-home caregivers"
+    },
+    {
+        "name": "Stack Auth",
+        "description": "Stack Auth provides an open-source platform for authentication and user management, offering managed or self-hosted options for quick, scalable setup.",
+        "one_liner": "The open-source Auth0 alternative"
+    },
+    {
+        "name": "Tabular",
+        "description": "Tabular uses AI to streamline accounting workflows for firms, focusing on automating ledger entries and transaction reconciliation.",
+        "one_liner": "AI Copilot for accounting firms in Europe"
+    },
+    {
+        "name": "Flyflow",
+        "description": "Flyflow helps companies find high-quality sales leads using AI workflows, simplifying prospect research and integration of various sales tools.",
+        "one_liner": "The easiest way to find high-quality sales leads"
+    },
+    {
+        "name": "Codes Health",
+        "description": "Codes Health automates the collection and organization of patient records, preparing comprehensive histories for healthcare providers before appointments.",
+        "one_liner": "Perfect medical histories prior to care"
+    },
+    {
+        "name": "ProhostAI",
+        "description": "ProhostAI provides an AI-powered property manager for short-term rental hosts, optimizing tasks like pricing and guest communications.",
+        "one_liner": "AI Property Manager for Airbnb & Short-Term Rental Hosts"
+    },
+    {
+        "name": "Drillbit",
+        "description": "Drillbit automates office tasks for residential contractors, including job management, scheduling, and payment collection.",
+        "one_liner": "Automating Office Work for Residential Contractors"
+    },
+    {
+        "name": "Lumenary",
+        "description": "Lumenary accelerates financial research with automated AI workflows, making complex analysis of financial documents more efficient.",
+        "one_liner": "AI-powered research for financial service professionals"
+    },
+    {
+        "name": "Redouble AI",
+        "description": "Redouble AI enables scalable human-in-the-loop workflows for regulated industries, helping clients reduce costs and improve quality control.",
+        "one_liner": "Scale human-in-the-loop for AI workflows in regulated industries"
+    },
+    {
+        "name": "Focal",
+        "description": "Focal helps financial institutions automate compliance and risk operations with AI, streamlining traditionally manual workflows.",
+        "one_liner": "AI-powered compliance operations for banks and fintechs"
+    },
+    {
+        "name": "ReactWise",
+        "description": "ReactWise optimizes chemical process development with AI-driven experimental design, reducing time and cost in drug manufacturing.",
+        "one_liner": "AI Co-Pilot for Chemical Process Optimization"
+    },
+    {
+        "name": "Clearly AI",
+        "description": "Clearly AI automates security and privacy reviews, reducing the time spent on reviews from days to minutes for companies like electric automakers.",
+        "one_liner": "Automate security and privacy reviews"
+    },
+    {
+        "name": "expand.ai",
+        "description": "expand.ai turns websites into reliable APIs, handling bot protection and data extraction to provide clean, verified data.",
+        "one_liner": "Turn any website into an API"
+    },
+    {
+        "name": "Overstand Labs",
+        "description": "Overstand Labs offers AI-driven tools for identifying cross-sell and upsell opportunities by mapping customer interests to product features.",
+        "one_liner": "The cross-selling engine for enterprise software companies"
+    },
+    {
+        "name": "Fortress",
+        "description": "Fortress is a Postgres developer platform for global data distribution, simplifying latency reduction and compliance with sovereignty regulations.",
+        "one_liner": "Globally replicated and sharded Postgres"
+    },
+    {
+        "name": "Panora",
+        "description": "Panora provides developers with data connectors and transformers for integrating business data into AI models.",
+        "one_liner": "Data Connectors for LLMs"
+    },
+    {
+        "name": "Conveo",
+        "description": "Conveo is an AI-powered platform for conducting and analyzing qualitative research through video and voice interviews, enabling marketing, insights, product, and design teams to gather customer insights 100x faster at a fraction of the cost.",
+        "one_liner": "Qualitative Research Conducted and Analyzed by AI"
+    },
+    {
+        "name": "TaxGPT",
+        "description": "TaxGPT is an AI co-pilot for accountants and tax professionals, boosting productivity by automating tax research, client communication, onboarding, and secure document collection.",
+        "one_liner": "AI Co-Pilot for Accountants"
+    },
+    {
+        "name": "Mito Health",
+        "description": "Mito Health uses blood work and scans to provide personalized health advice, helping customers prevent disease and detect early signs of serious conditions like cancer and heart disease.",
+        "one_liner": "AI Preventive Health Provider"
+    },
+    {
+        "name": "dmodel",
+        "description": "dmodel enables companies to view and adjust an AI model's thought process in real-time, allowing quick fine-tuning of AI-driven customer service platforms for accuracy and brand alignment without retraining.",
+        "one_liner": "Look inside the model"
+    },
+    {
+        "name": "LedgerUp",
+        "description": "LedgerUp simplifies bookkeeping for small to medium-sized businesses, automating financial tasks and offering real-time insights with accurate categorization and effortless reporting.",
+        "one_liner": "Your first and only finance hire"
+    },
+    {
+        "name": "Plume",
+        "description": "Plume assists real estate agents and contractors with energy audits and renovation planning, using thermodynamic models, housing data, satellite imagery, and AI for remote energy assessments.",
+        "one_liner": "Home energy renovation copilot"
+    },
+    {
+        "name": "stormy.ai",
+        "description": "Stormy is an AI layer for MacOS that understands screen context, learning from user activity to enhance productivity and automate repetitive tasks.",
+        "one_liner": "AI layer on top of MacOS that knows you on an unparalleled level"
+    },
+    {
+        "name": "Merse",
+        "description": "Merse offers visual stories like comics but with voices and sound effects, creating a new medium to rival platforms like YouTube, TikTok, and Netflix.",
+        "one_liner": "Visual stories like comics, but with immersive audio effects."
+    },
+    {
+        "name": "Gauge",
+        "description": "Gauge provides tools to help enterprises modularize monolithic codebases into microservices, enhancing scalability without losing the simplicity of monolithic development.",
+        "one_liner": "Solving the monolith/microservices dilemma."
+    },
+    {
+        "name": "AnswerGrid",
+        "description": "AnswerGrid builds AI agents to accelerate research and knowledge discovery for strategy consultants and investment analysts.",
+        "one_liner": "AI research agents for Strategy Consultants and Investment Analysts"
+    },
+    {
+        "name": "camfer",
+        "description": "Camfer is the first AI mechanical engineer, designed to assist with end-to-end design tasks and iterate 3D models within CAD platforms through conversational interactions.",
+        "one_liner": "Building the world’s first AI mechanical engineer."
+    },
+    {
+        "name": "Thyme",
+        "description": "Thyme provides an OS for financial advisors, automating meeting notes, client management, and offering a client portal for asset tracking and task management.",
+        "one_liner": "The OS for financial advisors"
+    },
+    {
+        "name": "Rescript",
+        "description": "Rescript is an AI regulatory analyst that tracks legal developments for compliance teams, intelligently filtering and syncing with internal policies to ensure compliance.",
+        "one_liner": "AI Regulatory Analyst for Enterprises"
+    },
+    {
+        "name": "Zigma - by NextUI",
+        "description": "Zigma is a frontend-as-a-service platform that helps teams connect design files to production code quickly, building on NextUI’s React library for accessible interfaces.",
+        "one_liner": "We connect your design files to production code in minutes"
+    },
+    {
+        "name": "Haystack Software",
+        "description": "Haystack is a canvas-based IDE that automates mechanical coding tasks, providing an infinite canvas for code navigation and editing.",
+        "one_liner": "Visualize and edit your codebase on an infinite canvas"
+    },
+    {
+        "name": "RiskAngle",
+        "description": "RiskAngle aids insurance underwriters by summarizing medical records, reducing the time needed to make underwriting decisions and enabling quicker policy issuance.",
+        "one_liner": "Medical record summary in minutes"
+    },
+    {
+        "name": "Paasa",
+        "description": "Paasa is a global investing platform for aspiring high-net-worth individuals (HNIs) in emerging markets, simplifying international wealth diversification.",
+        "one_liner": "Simplifying global investing for HNIs in emerging markets"
+    },
+    {
+        "name": "Simple AI",
+        "description": "Simple AI enhances Siri-like functions, making it easier to perform tasks like shopping on Amazon, calling Ubers, and booking reservations.",
+        "one_liner": "Better Siri"
+    },
+    {
+        "name": "Guardian RF",
+        "description": "Guardian RF offers cost-effective drone detection and signal intelligence solutions tailored for modern peacekeeping and defense.",
+        "one_liner": "Drone detection and signal intelligence for US defense."
+    },
+    {
+        "name": "SchemeFlow",
+        "description": "SchemeFlow automates government approval processes for construction projects using AI-driven report generation and regulatory parsing.",
+        "one_liner": "Automating Government Approvals for Construction Projects"
+    },
+    {
+        "name": "Mineflow",
+        "description": "Mineflow is an AI platform that predicts the shape and location of mineral deposits, providing high-precision exploration insights for mining companies.",
+        "one_liner": "Mineflow predicts the shape and location of mineral deposits"
+    },
+    {
+        "name": "Soff",
+        "description": "Soff is a supply chain operating system for manufacturing companies, unifying supply chain data and automating workflows like data entry, quote requests, quote comparisons, and purchase orders. It saves customers dozens of hours weekly on repetitive tasks."
+    },
+    {
+        "name": "Parley",
+        "description": "Parley automates flat-fee legal work, initially focusing on visa applications for immigration lawyers. The platform handles document preparation, reading, and writing, which comprises 80% of the visa application process, significantly reducing time and labor."
+    },
+    {
+        "name": "David AI",
+        "description": "David AI provides structured data and insights tailored for audio-based artificial intelligence applications."
+    },
+    {
+        "name": "Guardian AI",
+        "description": "Guardian AI is a platform helping healthcare providers, including hospitals and physician groups, detect reimbursement patterns and automate claim resolution, reducing unpaid claims and denials to save significant time and revenue."
+    },
+    {
+        "name": "Stempad",
+        "description": "Stempad is a digital collaboration tool for science, combining the functionality of a whiteboard with technical visualization, enabling real-time collaboration, data storage, note-taking, and presentation creation for scientists and students."
+    },
+    {
+        "name": "Conductor Quantum",
+        "description": "Conductor Quantum is developing AI software to automate the scaling of silicon-based quantum computers, aiming to streamline qubit production by removing manual chip setup processes and facilitating quantum technology expansion."
+    },
+    {
+        "name": "Autumn Labs",
+        "description": "Autumn Labs provides a developer-friendly platform for monitoring manufacturing lines, integrating with robotic stations and offering live data monitoring, traceability, and secure data transport to enhance production quality and prevent disruptions."
+    },
+    {
+        "name": "Opslane",
+        "description": "Opslane accelerates incident resolution by integrating logs, metrics, traces, and other relevant context for on-call engineers, streamlining the troubleshooting process and reducing incident response time."
+    },
+    {
+        "name": "Melty",
+        "description": "Melty is the first chat-based code editor, acting as a pair programmer by creating git commits with each chat message to maintain synchronization, currently one of the fastest-growing open-source repositories on GitHub."
+    },
+    {
+        "name": "Kairo Health",
+        "description": "Kairo Health builds AI agents to support healthcare providers by automating tasks such as patient follow-up calls, emergency scheduling, and filling late appointment slots, reducing labor costs and addressing staff shortages."
+    },
+    {
+        "name": "Midship",
+        "description": "Midship extracts structured data from documents for non-technical users, allowing clients like commercial real estate firms to populate underwriting spreadsheets quickly from multiple data sources."
+    },
+    {
+        "name": "Freestyle",
+        "description": "Freestyle builds infrastructure using JavaScript, inspired by the founders' experiences as senior engineers at Apple, aimed at simplifying technical complexities."
+    },
+    {
+        "name": "Arva AI",
+        "description": "Arva AI automates the 'Know Your Business' verification process for banks and fintechs, replacing manual KYB analysts with AI agents to handle document verification in seconds, reducing operational costs."
+    },
+    {
+        "name": "OrgOrg",
+        "description": "OrgOrg offers a suite of productivity tools for organizations, including link naming, goal tracking, Q&A for team meetings, and smart groups, to streamline communication and productivity within large teams."
+    },
+    {
+        "name": "Formula Insight",
+        "description": "Formula Insight provides institutional investors with a repository of financial models to track forecast changes, quantify projection accuracy, and systematize the investment decision-making process."
+    },
+    {
+        "name": "Kart AI",
+        "description": "Kart AI offers an AI-powered shopping assistant for e-commerce retailers, similar to Amazon's Rufus, enabling personalized, conversational shopping experiences across online stores."
+    },
+    {
+        "name": "Anglera",
+        "description": "Anglera provides AI agents for e-commerce companies, helping with product data management, reducing processing time, and automating workflows based on prior experience with Uber Eats."
+    },
+    {
+        "name": "XTraffic",
+        "description": "XTraffic delivers affordable, intelligent traffic light systems for cities by leveraging advancements in sensor technology, currently operational in multiple pilot locations to reduce traffic and improve safety."
+    },
+    {
+        "name": "Felafax",
+        "description": "Felafax is building an AI infrastructure stack optimized for non-NVIDIA GPUs, providing a more cost-effective alternative to traditional AI computing hardware."
+    },
+    {
+        "name": "Hey Revia",
+        "description": "Hey Revia is a voice AI service for healthcare providers, automating complex phone tasks like provider verification and insurance updates, offered through web, mobile, and API options."
+    },
+    {
+        "name": "Pipeshift",
+        "description": "Pipeshift is a platform for fine-tuning, distilling, and deploying open-source LLMs, aimed at companies needing high-frequency model calls with optimized performance and ownership of AI models."
+    },
+    {
+        "name": "Vera Health",
+        "description": "Vera Health provides AI-powered clinical decision support, offering instant access to evidence-based medical answers for healthcare providers, improving speed and quality of patient care."
+    },
+    {
+        "name": "Pharos",
+        "description": "Pharos automates hospital quality reporting, extracting data from medical records to save on labor costs and identify areas of preventable patient harm."
+    },
+    {
+        "name": "et al.",
+        "description": "et al. is an app that aggregates newsletters, research papers, and articles, using LLMs to deliver concise insights from each source, helping users stay informed efficiently."
+    },
+    {
+        "name": "Terra",
+        "description": "Terra is a platform connecting product creators with suppliers, expediting sample requests, and enabling real-time production tracking to simplify overseas manufacturing."
+    },
+    {
+        "name": "Diode Computers, Inc.",
+        "description": "Diode automates hardware design, simulating the role of a senior electronic engineer to create and manufacture custom printed circuit boards in minutes using generative AI models.",
+        "one_liner": "Automate circuit board design using AI."
+    },
+    {
+        "name": "Usul",
+        "description": "Usul supports companies in winning defense contracts by providing AI-based collaboration tools for US companies and allies to develop and market next-generation military technology.",
+        "one_liner": "Win Defense Contracts with AI."
+    },
+    {
+        "name": "Saldor",
+        "description": "Saldor leverages formal verification to guide large language models (LLMs) to achieve correctness in output, combining symbolic and neural methods.",
+        "one_liner": "Neurosymbolic AI."
+    },
+    {
+        "name": "Bucket Robotics",
+        "description": "Bucket Robotics improves defect detection in manufacturing, providing user-friendly, integrated robotic solutions to reduce waste and enhance quality assurance using experience from the self-driving industry.",
+        "one_liner": "Defect detection for manufacturing built from CAD and synthetic data."
+    },
+    {
+        "name": "Elayne",
+        "description": "Elayne automates estate planning and settlements, providing a unified platform to support families in wealth transfers and reducing the burden of manual, time-intensive estate management.",
+        "one_liner": "AI family estate planning & settlements after death."
+    },
+    {
+        "name": "Blaze",
+        "description": "Blaze is a cross-border peer-to-peer payments app that uses USDC to facilitate quick, affordable payments worldwide, available for iOS and Android.",
+        "one_liner": "Global Venmo for cross-border payments."
+    },
+    {
+        "name": "pap!",
+        "description": "pap! automatically claims refunds, compensation, and unclaimed funds for consumers from email receipts, ensuring they don’t miss out on eligible earnings.",
+        "one_liner": "Agents that earn consumers dollars when they shop, travel, and live."
+    },
+    {
+        "name": "Mindely",
+        "description": "Mindely is an AI interviewer designed for skill assessment in high-volume hiring, offering adaptive and unbiased interviews tailored to specific job roles.",
+        "one_liner": "The first GenAI interviewer for skills assessment interviews."
+    },
+    {
+        "name": "TradeFlow",
+        "description": "TradeFlow uses AI to streamline the financial securities settlement process, reducing reliance on manual communication and disparate systems.",
+        "one_liner": "AI-powered settlement for financial securities."
+    },
+    {
+        "name": "Voker",
+        "description": "Voker is a no-code platform enabling product teams to build AI features independently, making it easier to improve customer experience without heavy engineering resources.",
+        "one_liner": "No-Code AI Builder."
+    },
+    {
+        "name": "Quetzal",
+        "description": "Quetzal is a language model-powered translation and internationalization suite that enables companies to deliver software and content in multiple languages instantly.",
+        "one_liner": "Simple, LLM-first translation and internationalization for software."
+    },
+    {
+        "name": "Weavel",
+        "description": "Weavel automates prompt and LLM engineering, delivering optimal prompts and algorithms faster and more efficiently than manual methods.",
+        "one_liner": "Automate prompt & LLM engineering, 50x faster than a human."
+    },
+    {
+        "name": "Moreta",
+        "description": "Moreta simplifies payments for international travelers by allowing them to pay local merchants using a mobile wallet, eliminating the need for cash or bank accounts abroad.",
+        "one_liner": "Payments made easy for international travelers."
+    },
+    {
+        "name": "HYBRD",
+        "description": "HYBRD is a comprehensive tracking app for elite hybrid athletes, integrating data from wearables to provide insights across both cardio and strength training.",
+        "one_liner": "Strava for elite athletes."
+    },
+    {
+        "name": "Codebuff",
+        "description": "Codebuff is a command-line interface (CLI) tool that allows developers to chat with an AI that can directly edit and manage code files in a project.",
+        "one_liner": "Code with AI from our CLI."
+    },
+    {
+        "name": "Luthor",
+        "description": "Luthor combines AI-generated content with expert human editing to produce high-quality, on-brand content for businesses.",
+        "one_liner": "AI-powered content, expertly refined by humans who know your brand."
+    },
+    {
+        "name": "issen",
+        "description": "issen is an AI conversational language tutor that adapts lessons to users' interests, helping them achieve fluency through personalized, on-demand voice interaction.",
+        "one_liner": "Your conversational AI foreign language tutor."
+    },
+    {
+        "name": "Protegee",
+        "description": "Protegee enables AI voice agents to securely handle payments over the phone, managing compliance and fraud prevention in the agentic economy.",
+        "one_liner": "Payments API for AI agents."
+    },
+    {
+        "name": "Lightscreen AI",
+        "description": "Lightscreen provides interactive AI-driven technical interviews, helping engineering teams assess candidates’ skills with unbiased, automated screening.",
+        "one_liner": "Uncheatable, unbiased automated technical interviews."
+    },
+    {
+        "name": "Rulebase",
+        "description": "Rulebase builds fraud detection models to prevent account takeovers and voice phishing, providing voice phishing simulations to train employees against threats.",
+        "one_liner": "The AI voice fraud defense system for financial services."
+    },
+    {
+        "name": "Encore",
+        "description": "Encore is a conversational search engine for online shopping, particularly in resale, allowing users to discover unique items across multiple platforms.",
+        "one_liner": "Perplexity for online shopping."
+    },
+    {
+        "name": "Docflow",
+        "description": "Docflow offers automated scheduling software tailored for hospital administrators, simplifying compliance and reducing manual scheduling work.",
+        "one_liner": "Automated scheduling software for hospitals."
+    },
+    {
+        "name": "Galini",
+        "description": "Galini provides compliance guardrails for AI applications, making it easy to deploy policies and reduce costs related to in-house build compliance.",
+        "one_liner": "Compliance guardrails for AI apps."
+    },
+    {
+        "name": "Andoria",
+        "description": "Andoria customizes onboarding experiences using AI to engage users, providing activation from day one with minimal setup required.",
+        "one_liner": "AI customer onboarding manager."
+    },
+    {
+        "name": "Outerport",
+        "description": "Outerport optimizes GPU use by enabling multiple AI models on a single GPU, reducing hardware needs and costs for companies.",
+        "one_liner": "VMware for GPUs."
+    },
+    {
+        "name": "Friday",
+        "description": "Friday is an AI-powered email assistant that handles routine emails, helping users focus on important messages while automating the rest.",
+        "one_liner": "An assistant that understands your emails and handles them for you."
+    },
+    {
+        "name": "Ryvn",
+        "description": "Ryvn manages infrastructure for applications, enabling deployment, monitoring, and management across customer clouds with ease.",
+        "one_liner": "Deploy, monitor, and manage applications in customer clouds."
+    },
+    {
+        "name": "Fix AI",
+        "description": "Fix AI automates frontend QA testing by simulating user interactions, identifying bugs with natural language prompts.",
+        "one_liner": "AI agents that navigate websites like real users to find bugs."
+    },
+    {
+        "name": "Forerunner AI",
+        "description": "Forerunner is an AI co-pilot for aerospace and defense engineering, accelerating workflows for rocket, munition, and satellite production.",
+        "one_liner": "Copilot for aerospace engineers making rockets, munitions, satellites."
+    }
+]
