@@ -62,7 +62,7 @@ mdurl==0.1.2
 mkl-fft 
 mkl-random 
 mkl-service
-ml_dtypes==0.5.0
+ml_dtypes
 mpmath 
 multidict 
 multiprocess==0.70.16
