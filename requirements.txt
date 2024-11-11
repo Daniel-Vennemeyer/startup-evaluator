@@ -108,7 +108,7 @@ smogn==0.1.2
 soupsieve==2.6
 sympy 
 tensorboard 
-tensorboard-plugin-wit==1.6.0
+tensorboard-plugin-wit
 tensorboard_data_server 
 tensorflow 
 tensorflow-estimator 
