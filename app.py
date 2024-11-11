@@ -5,14 +5,23 @@ from transformers import RobertaTokenizer, RobertaForSequenceClassification
 import google.generativeai as genai
 import os
 from dotenv import load_dotenv
+# Import the main function from model.py to train the model if needed
+from model import main as train_model
 
 # Load environment variables from .env file (optional)
 load_dotenv()
 
 app = Flask(__name__)
 
-# Load the fine-tuned model and tokenizer
+# Define the model path
 model_path = "./augmented_fine_tuned_roberta_model"
+
+# Check if model exists, and if not, train the model
+if not os.path.exists(model_path):
+    print("Model not found. Running model training script...")
+    train_model()  # Fine-tunes the model
+
+# Load the fine-tuned model and tokenizer
 tokenizer = RobertaTokenizer.from_pretrained(model_path)
 model = RobertaForSequenceClassification.from_pretrained(model_path)
 model.eval()  # Set model to evaluation mode
