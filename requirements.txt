@@ -69,13 +69,13 @@ multiprocess==0.70.16
 namex==0.0.8
 networkx 
 numexpr 
-numpy==1.23.5
+numpy
 oauthlib 
 opt-einsum 
 optree==0.12.1
 packaging 
 pandas 
-pillow 
+pillow
 proto-plus==1.25.0
 protobuf==5.28.3
 psutil==6.1.0
